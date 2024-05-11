@@ -91,9 +91,9 @@ if __name__ == "__main__":
     results = []
     filenames = []
 
-    # Iterate over each file in the benchmarks/m=2 folder
-    for filename in os.listdir("benchmarks/m=2"):
-        filepath = os.path.join("benchmarks/m=2", filename)
+    # Iterate over each file in the benchmarks/n=20/m=2 folder
+    for filename in os.listdir("benchmarks/n=20/m=2"):
+        filepath = os.path.join("benchmarks/n=20/m=2", filename)
 
         filenames.append(filename)
 
@@ -134,8 +134,7 @@ if __name__ == "__main__":
                 completion_time += job.process_time
                 tardiness = max(0, completion_time - job.due_date)
                 total_tardiness += tardiness
-
-        print(f"Total tardiness: {total_tardiness}")
+            
         results.append(total_tardiness)
     
     for i, filename in enumerate(filenames):
