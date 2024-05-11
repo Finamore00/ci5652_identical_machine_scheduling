@@ -1,215 +1,186 @@
 #include <iostream>
 #include <vector>
-#include <algorithm>
 #include <climits>
+#include <utility>
+#include <string>
+#include <filesystem>
+#include "Job.h"
+#include "utilities.h"
 
 using namespace std;
 
-struct Job {
-    int id;
-    int ptime;
-    int dDate;
-};
-
-bool compare_jobs(Job a, Job b) {
-    return a.dDate - a.ptime < b.dDate - b.ptime;
+/* 
+    Calculate the minimum due date (MDD) for a given task.
+    Args:
+        - C is the completion time of the previous task
+        - p is the processing time of the current task
+        - d is the due date of the current task
+    Returns:
+        MDD = max{C + p, d}
+*/
+long long mdd(long long processed, Job task) {
+    return max(processed + task.ptime, task.dDate);
 }
 
-int calculateTardiness(vector<Job>& jobs, vector<vector<Job>>& schedules, int numMachines) {
-    int totalTardiness = 0;
-    vector<int> machineCompletionTimes(numMachines, 0);
-    
-    for (int i = 0; i < numMachines; i++) {
-        int completionTime = 0;
-        for (Job job : schedules[i]) {
-            completionTime += job.ptime;
-            int tardiness = max(0, completionTime - job.dDate);
-            totalTardiness += tardiness;
+
+/*
+    Partition unscheduled jobs into two sets for a machine based on due dates.
+    Args:
+        - unscheduled_jobs is a list of unscheduled jobs
+        - processed is the sum of processing times of the jobs that have already been scheduled on the machine
+        - u1 contains jobs that cannot be completed by their due date
+        - u2 contains jobs that can be completed by their due date
+
+*/
+void partition_jobs(vector<Job> unscheduled_jobs, long long processed, vector<Job>& u1, vector<Job>& u2) {
+    for (int i = 0; i < unscheduled_jobs.size(); i++)
+        if (processed + unscheduled_jobs[i].ptime > unscheduled_jobs[i].dDate)
+            u1.push_back(unscheduled_jobs[i]);
+        else
+            u2.push_back(unscheduled_jobs[i]);
+}
+
+/*
+    For a machine, find the job with the minimum MDD value from the unscheduled jobs.
+    Args:
+        - unscheduled_jobs is a list of unscheduled jobs
+        - processed is the sum of processing times of the jobs that have already been scheduled on the machine
+    Returns:
+        - min_mdd_job is the job with the minimum MDD value
+        - min_mdd is the minimum MDD value
+
+*/
+pair<Job, long long> find_min_mdd_job(vector<Job> unscheduled_jobs, long long processed) {
+    /*
+        Find the job with the minimum MDD value from the unscheduled jobs.
+    */
+    long long min_mdd = LLONG_MAX; 
+    Job min_mdd_job;
+
+    for (int i = 0; i < unscheduled_jobs.size(); i++) {
+        int mdd2 = mdd(processed, unscheduled_jobs[i]);
+        if (mdd2 < min_mdd) {
+            min_mdd = mdd2;
+            min_mdd_job = unscheduled_jobs[i];
         }
     }
-    
-    return totalTardiness;
+
+    return make_pair(min_mdd_job, min_mdd);
 }
 
-// jobs: list of the unscheduled jobs U = {1, 2, ..., n} 
-// numMachines: number of machines m
+/*
+    Implementation of the MDD algorithm for the TT (Total Tardiness) problem with multiple identical machines.
+    Args:
+        - jobs is a list of all jobs
+        - numMachines is the number of machines
+    Returns:
+        - schedules is a list of schedules for each machine
+
+*/
 vector<vector<Job>> mddScheduling(vector<Job> jobs, int numMachines) {
-    // list of schedules for each machine
-    vector<vector<Job>> schedules(numMachines);
+    vector<long long> completion_times(numMachines, 0);  // Initialize completion times for all machines
 
-    // Let C_j for j = 1, ..., m be the sum of processing times of the jobs that have already been scheduled on machine j
-    vector<int> C(numMachines, 0);
+    vector<vector<Job>> schedules(numMachines);  // Initialize schedules for all machines
 
-    // while U is not empty
+    // While there are unscheduled jobs
     while (!jobs.empty()) {
+        long long min_delta = LLONG_MAX;
+        int min_delta_machine = -1;
+        Job min_delta_job;
 
-        // Divide U into Uj1 and Uj2 such that 
-        // Uj1 = {i in U | Cj + pi > di} (the set of jobs that cannot be completed by their due date on machine j)
-        // Uj2 = {i in U | Cj + pi <= di} = U - Uj1 (the set of jobs that can be completed by their due date on machine j)
-        vector<vector<Job>> U1(numMachines);
-        vector<vector<Job>> U2(numMachines);
+        for (int machine = 0; machine < numMachines; machine++) {
+            vector<Job> u1, u2; // Initialize u1 and u2
+            partition_jobs(jobs, completion_times[machine], u1, u2);
 
-        for (int j = 0; j < numMachines; j++) {
-            for (Job job : jobs) {
-                if (C[j] + job.ptime > job.dDate) {
-                    U1[j].push_back(job);
-                } else {
-                    U2[j].push_back(job);
-                }
+            // find the minimum processing time and due date for u1 and u2, respectively
+            long long min_process_time = LLONG_MAX;
+            long long min_due_date = LLONG_MAX;
+
+            for (Job job : u1)
+                min_process_time = min(min_process_time, job.ptime);
+
+            for (Job job : u2)
+                min_due_date = min(min_due_date, job.dDate);
+
+            vector<Job> gamma_lambda;
+            for (Job job : u1) 
+                if (job.ptime == min_process_time)
+                    gamma_lambda.push_back(job);
+
+            for (Job job : u2) 
+                if (job.dDate == min_due_date) 
+                    gamma_lambda.push_back(job);
+            
+            // find the job with the minimum MDD value from gamma and lambda
+            pair<Job, long long> min_mdd_job = find_min_mdd_job(gamma_lambda, completion_times[machine]);
+
+            if (min_mdd_job.second < min_delta) {
+                min_delta = min_mdd_job.second;
+                min_delta_machine = machine;
+                min_delta_job = min_mdd_job.first;
             }
+            
         }
 
-        // print U1 and U2 for each machine
-        for (int j = 0; j < numMachines; j++) {
-            cout << "U1[" << j << "]: ";
-            for (Job job : U1[j]) {
-                cout << job.id << " ";
-            }
-            cout << "\n";
+        // schedule the job with the minimum MDD value on the machine with the minimum delta
+        schedules[min_delta_machine].push_back(min_delta_job);
+        // update the completion time of the machine
+        completion_times[min_delta_machine] += min_delta_job.ptime;
 
-            cout << "U2[" << j << "]: ";
-            for (Job job : U2[j]) {
-                cout << job.id << " ";
-            }
-            cout << "\n";
-        }
-
-        // For each machine j, find two sets s1j and s2j of jobs such that
-        // s1j = {i in Uj1 | pi = min{p in Uj1}} (the set of jobs in Uj1 with the smallest processing time)
-        // s2j = {i in Uj2 | di = min{d in Uj2}} (the set of jobs in Uj2 with the smallest due date)
-
-        vector<vector<Job>> s1j(numMachines);
-        vector<vector<Job>> s2j(numMachines);
-
-        for (int j = 0; j < numMachines; j++) {
-            if (!U1[j].empty()) {
-                // Find the minimum processing time in U1[j]
-                int minptime = INT_MAX;
-                for (Job job : U1[j]) {
-                    if (job.ptime < minptime) {
-                        minptime = job.ptime;
-                    }
-                }
-
-                // Add jobs with minimum processing time to s1j[j]
-                for (Job job : U1[j]) {
-                    if (job.ptime == minptime) {
-                        s1j[j].push_back(job);
-                    }
-                }
-            }
-
-            if (!U2[j].empty()) {
-                // Find the minimum due date in U2[j]
-                int mindDate = INT_MAX;
-                for (Job job : U2[j]) {
-                    if (job.dDate < mindDate) {
-                        mindDate = job.dDate;
-                    }
-                }
-
-                // Add jobs with minimum due date to s2j[j]
-                for (Job job : U2[j]) {
-                    if (job.dDate == mindDate) {
-                        s2j[j].push_back(job);
-                    }
-                }
+        // erase the job from the list of unscheduled jobs with its id
+        for (int i = 0; i < jobs.size(); i++) {
+            if (jobs[i].id == min_delta_job.id) {
+                jobs.erase(jobs.begin() + i);
+                break;
             }
         }
-
-        // print s1j and s2j for each machine
-        for (int j = 0; j < numMachines; j++) {
-            cout << "s1j[" << j << "]: ";
-            for (Job job : s1j[j]) {
-                cout << job.id << " ";
-            }
-            cout << "\n";
-
-            cout << "s2j[" << j << "]: ";
-            for (Job job : s2j[j]) {
-                cout << job.id << " ";
-            }
-            cout << "\n";
-        }
-
-        break;
-        /*
-
-        // Let aj be any job from s1j and bj be any job from s2j
-        // choose job gj in {aj, bj} that satisfies the following conditions:
-        // delta_gj = min(Cj + p_aj, d_bj) for j = 1, ..., m 
-
-        vector<Job> g(numMachines);
-        for (int j = 0; j < numMachines; j++) {
-            if (!s1j[j].empty() && !s2j[j].empty()) {
-                int deltaAj = C[j] + s1j[j].back().ptime;
-                int deltaBj = s2j[j].back().dDate;
-                g[j] = deltaAj < deltaBj ? s1j[j].back() : s2j[j].back();
-            } else if (!s1j[j].empty()) {
-                g[j] = s1j[j].back();
-            } else {
-                g[j] = s2j[j].back();
-            }
-        }
-
-        // Schedule job gl on machine l such that
-        // delta_gl = min{delta_gj} for j = 1, ..., m
-        // and put job gl in the last position of machile l.
-        // Remove job gl from setU
-
-        int minDelta = INT_MAX;
-        for (int j = 0; j < numMachines; j++) {
-            if (g[j].ptime + C[j] < g[j].dDate) {
-                if (g[j].ptime + C[j] < minDelta) {
-                    minDelta = g[j].ptime + C[j];
-                }
-            } else {
-                if (g[j].dDate < minDelta) {
-                    minDelta = g[j].dDate;
-                }
-            }
-        }
-
-        for (int j = 0; j < numMachines; j++) {
-            if (g[j].ptime + C[j] == minDelta || g[j].dDate == minDelta) {
-                schedules[j].push_back(g[j]);
-                C[j] += g[j].ptime;
-                jobs.erase(find(jobs.begin(), jobs.end(), g[j]));
-            }
-        }
-        */
     }
 
     return schedules;
-}
+} 
 
 int main() {
-    int numJobs, numMachines;
-    cout << "Enter the number of jobs: ";
-    cin >> numJobs;
-    cout << "Enter the number of machines: ";
-    cin >> numMachines;
+    // for each file of benchmarks (n=20, m=2), read the file and run the MDD algorithm
+    string path = "benchmarks/n=20/m=2/";
     
-    vector<Job> jobs(numJobs);
-    for (int i = 0; i < numJobs; i++) {
-        cout << "Enter processing time and due date for job " << i + 1 << ": ";
-        cin >> jobs[i].ptime >> jobs[i].dDate;
-        jobs[i].id = i + 1;
-    }
-    
-    vector<vector<Job>> schedules = mddScheduling(jobs, numMachines);
-    int totalTardiness = calculateTardiness(jobs, schedules, numMachines);
-    
-    cout << "Schedules:\n";
-    for (int i = 0; i < numMachines; i++) {
-        cout << "Machine " << i + 1 << ": ";
-        for (Job job : schedules[i]) {
-            cout << job.id << " ";
+    for (const auto & entry : filesystem::directory_iterator(path)) {
+        // store the information of the file
+        int n, m;
+        vector<Job> jobs;
+        int flag = read_fileinput(entry.path(), jobs, n, m);
+
+        if (flag == -1) {
+            cout << "Error reading the file " << entry.path() << endl;
+            return -1;
         }
-        cout << "\n";
-    }
+
+        // Run the MDD algorithm for the TT problem with n jobs and m machines
+        vector<vector<Job>> schedules = mddScheduling(jobs, m);
+
     
-    cout << "Total tardiness: " << totalTardiness << "\n";
+        // print the schedule
+        for (int i = 0; i < m; i++) {
+            cout << "Machine " << i + 1 << ": ";
+            for (Job job : schedules[i]) {
+                cout << job.id << " ";
+            }
+            cout << endl;
+        }
+        
+        // calculate total tardiness
+        long long total_tardiness = 0;
+        for (int i = 0; i < m; i++) {
+            long long completion_time = 0;
+            for (Job job : schedules[i]) {
+                completion_time += job.ptime;
+                long long tardiness = max(0LL, completion_time - job.dDate);
+                total_tardiness += tardiness;
+            }
+        } 
+
+        cout << "Total Tardiness: " << total_tardiness << endl;
+
+    }
     
     return 0;
 }
