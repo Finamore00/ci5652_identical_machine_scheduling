@@ -13,9 +13,9 @@ El programa está implementado en C++ y consta de los siguientes archivos:
 
 📂 En la carpeta `benchmarks` se encuentran los casos de pruebas que se utilizaran para medir y comparar el rendimiento de diferentes algoritmos para solucionar el problema descrito.
 
-## Implementación de una solución exacta para el problema
+## 👌 Implementación de una solución exacta para el problema
 
-## Implementación de una heurística para el problema
+## 🧠 Implementación de una heurística para el problema
 El algoritmo MDD (Minimum Due Date) es un enfoque heurístico, el cual funciona de la siguiente manera:
 
 1. Se tiene una lista de tareas no programadas `U`.
@@ -32,7 +32,7 @@ El algoritmo MDD (Minimum Due Date) es un enfoque heurístico, el cual funciona 
 6. Eliminar la tarea `gl` de la lista `U` de trabajos no programados.
 7. Repetir los pasos 2-6 hasta que no queden trabajos por programar.
 
-## Definición de una estructura de vecindad e implementación de la búsqueda local para el problema
+## 🏘️ Definición de una estructura de vecindad e implementación de la búsqueda local para el problema
 
 ## 🚀 Uso
 
