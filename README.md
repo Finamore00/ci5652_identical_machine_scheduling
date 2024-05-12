@@ -16,7 +16,7 @@ El programa está implementado en C++ y consta de los siguientes archivos:
 ## 👌 Implementación de una solución exacta para el problema
 
 ## 🧠 Implementación de una heurística para el problema
-El algoritmo MDD (Minimum Due Date) es un enfoque heurístico, el cual funciona de la siguiente manera:
+El algoritmo MDD (Modified Due Date) es un enfoque heurístico, el cual funciona de la siguiente manera:
 
 1. Se tiene una lista de tareas no programadas `U`.
 2. Para cada máquina `j`, dividir `U` en dos subconjuntos `U1j` y `U2j` para `j` = 1, 2, ..., `m`.
@@ -24,7 +24,7 @@ El algoritmo MDD (Minimum Due Date) es un enfoque heurístico, el cual funciona 
 
     > `U2j` contiene las tareas que sí se pueden completar antes de su fecha de vencimiento en la máquina `j`.
 3. De `U1j` y `U2j`, encontrar los subconjuntos `γj` y `λj` que contienen las tareas con el tiempo de procesamiento mínimo y la fecha de vencimiento mínima, respectivamente.
-4. Seleccionar una tarea `gj` de `γj` o `λj` que minimice el valor de MDD (Minimum Due Date) en la máquina `j`. El valor de MDD en la máquina `j` de una tarea `i` está dada por `MDD = max(Cj + pi, di)` 
+4. Seleccionar una tarea `gj` de `γj` o `λj` que minimice el valor de MDD en la máquina `j`. El valor de MDD en la máquina `j` de una tarea `i` está dada por `MDD = max(Cj + pi, di)` 
     > `Cj` es la suma del procesamiento de tiempo de las tareas que ya han sido programados en la máquina `j`.
 
     > `pi` es el tiempo de procesamiento de la tarea `i` con su fecha de vencimiento `di`.
