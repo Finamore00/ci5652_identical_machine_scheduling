@@ -34,7 +34,7 @@ El algoritmo MDD (Minimum Due Date) es un enfoque heurístico, el cual funciona 
 
 ## Definición de una estructura de vecindad e implementación de la búsqueda local para el problema
 
-## Uso
+## 🚀 Uso
 
 Para compilar un `.cpp` y correr el programa, usa el siguiente comando:
 
