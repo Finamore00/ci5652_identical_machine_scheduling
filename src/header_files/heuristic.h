@@ -1,8 +1,16 @@
-#include "Job.h"
-#include <vector>
-
 #ifndef HEURISTIC_H
     #define HEURISTIC_H
+
+    #include "Job.h"
+    #include <vector>
+    #include <iostream>
+    #include <vector>
+    #include <climits>
+    #include <utility>
+    #include <string>
+    #include <filesystem>
+    #include "../header_files/Job.h"
+    #include "../header_files/utilities.h"
 
     using namespace std;
 
