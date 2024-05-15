@@ -10,7 +10,7 @@
 
 int main() {
     // for each file of benchmarks (n=20, m=2), read the file and run the MDD algorithm
-    string path = "benchmarks/n=20/m=2/";
+    string path = "../benchmarks/n=20/m=2/";
     
     for (const auto & entry : filesystem::directory_iterator(path)) {
         // store the information of the file
