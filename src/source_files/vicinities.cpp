@@ -9,6 +9,8 @@
 #include <vector>
 #include <random>
 #include <algorithm>
+#include <ctime>
+#include <cstdlib>
 
 using namespace std;
 
@@ -34,6 +36,8 @@ long long machine_tardiness(vector<Job> machine_schedule) {
  * same machine.
 */
 vector<vector<Job>> shift_neighborhood(vector<vector<Job>> schedule, int tardiest_machine) {
+    srand((unsigned) time(0));
+    
     vector<Job> machine = schedule[tardiest_machine];
 
     int remove_pos = rand() % machine.size();
@@ -55,6 +59,8 @@ vector<vector<Job>> shift_neighborhood(vector<vector<Job>> schedule, int tardies
  * schedule.
 */
 vector<vector<Job>> switch_neighborhood(vector<vector<Job>> schedule, int tardiest_machine) {
+    srand((unsigned) time(0));
+
     vector<Job> machine = schedule[tardiest_machine];
 
     int pos_1 = rand() % machine.size();
@@ -71,8 +77,10 @@ vector<vector<Job>> switch_neighborhood(vector<vector<Job>> schedule, int tardie
  * two, respecting the position each job had within their respective machine
 */
 vector<vector<Job>> direct_swap_neighborhood(vector<vector<Job>> schedule, int tardiest_machine) {
-    vector<Job> &machine = schedule[tardiest_machine];
+    srand((unsigned) time(0));
 
+    vector<Job> &machine = schedule[tardiest_machine];
+    
     int second_machine_pos = rand() % schedule.size();
     while (second_machine_pos == tardiest_machine) {
         second_machine_pos = rand() % schedule.size();
@@ -99,6 +107,8 @@ vector<vector<Job>> two_shift_neighborhood(vector<vector<Job>> schedule, int tar
  * The extracted jobs are then inserted in a random position in the opposite machine.
 */
 vector<vector<Job>> task_move_neighborhood(vector<vector<Job>> schedule, int tardiest_machine) {
+    srand((unsigned) time(0));
+
     vector<Job> &first_machine = schedule[tardiest_machine];
     vector<Job> &second_machine = schedule[rand() % schedule.size()];
 
