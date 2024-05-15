@@ -3,9 +3,10 @@ CC = g++
 TARGET_DIR = target
 SRC_FILE_DIR = src/source_files
 HDR_FILE_DIR = src/header_files
+OBJECTS := $(wildcard $(TARGET_DIR)/*.o)
 
 all: target_dir heuristic.o utilities.o vicinities.o
-	$(CC) $(SRC_FILE_DIR)/main.cpp $(TARGET_DIR)/{utilities.o,heuristic.o,vicinities.o} -o $(TARGET_DIR)/LocalSearch
+	$(CC) $(SRC_FILE_DIR)/main.cpp $(OBJECTS) -o $(TARGET_DIR)/LocalSearch
 
 heuristic.o: target_dir utilities.o
 	$(CC) $(SRC_FILE_DIR)/heuristic.cpp -c -o $(TARGET_DIR)/heuristic.o
@@ -21,3 +22,5 @@ target_dir:
 
 clean:
 	rm -f $(TARGET_DIR)/*
+
+	
