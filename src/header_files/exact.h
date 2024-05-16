@@ -1,5 +1,5 @@
-#ifndef VICINITIES_H
-    #define VICINITIES_H
+#ifndef EXACT_H
+    #define EXACT_H
 
     #include "../header_files/Job.h"
     #include <vector>
