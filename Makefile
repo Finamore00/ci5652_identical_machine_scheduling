@@ -5,7 +5,7 @@ SRC_FILE_DIR = src/source_files
 HDR_FILE_DIR = src/header_files
 OBJECTS := $(wildcard $(TARGET_DIR)/*.o)
 
-all: target_dir heuristic.o utilities.o vicinities.o
+all: target_dir heuristic.o utilities.o vicinities.o exact.o
 	$(CC) $(SRC_FILE_DIR)/main.cpp $(OBJECTS) -o $(TARGET_DIR)/LocalSearch
 
 heuristic.o: target_dir utilities.o
@@ -16,6 +16,9 @@ utilities.o: target_dir
 
 vicinities.o: target_dir heuristic.o
 	$(CC) $(SRC_FILE_DIR)/vicinities.cpp -c -o $(TARGET_DIR)/vicinities.o
+
+exact.o: target_dir
+	$(CC) $(SRC_FILE_DIR)/exact.cpp -c -o $(TARGET_DIR)/exact.o
 
 target_dir:
 	mkdir -p ./target
