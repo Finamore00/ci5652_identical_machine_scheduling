@@ -126,3 +126,28 @@ vector<vector<Job>> task_move_neighborhood(vector<vector<Job>> schedule, int tar
 
     return schedule;
 }
+
+/**
+ * Function that generates a neighbor for the inputted solution state using
+ * a random vicinity function. 
+*/
+vector<vector<Job>> generate_neighbor(vector<vector<Job>> schedule, int tardiest_machine) {
+    srand((unsigned)time(0));
+
+    int chosen_function = rand() % 5;
+
+    switch (chosen_function) {
+        case 0:
+            return shift_neighborhood(schedule, tardiest_machine);
+        case 1:
+            return switch_neighborhood(schedule, tardiest_machine);
+        case 2:
+            return direct_swap_neighborhood(schedule, tardiest_machine);
+        case 3:
+            return two_shift_neighborhood(schedule, tardiest_machine);
+        case 4:
+            return task_move_neighborhood(schedule, tardiest_machine);
+        default:
+            exit(1); //If switch statement doesn't work as intended then something is terribly wrong.
+    }
+}

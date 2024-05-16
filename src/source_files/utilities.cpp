@@ -88,3 +88,13 @@ int read_fileinput(filesystem::path path, vector<Job>& jobs, int& num_jobs, int&
 
     return 1; // sucess
 }
+
+void print_schedule(vector<vector<Job>> &schedule, int machine_count) {
+    for (int i = 0; i < machine_count; i++) {
+        cout << "\nMachine " << i + 1 << ": ";
+        for (Job job : schedule[i]) {
+            cout << job.id << " ";
+        }
+        cout << endl;
+    }
+}

@@ -8,6 +8,7 @@
 #include "../header_files/utilities.h"
 #include "../header_files/heuristic.h"
 #include "../header_files/exact.h"
+#include "../header_files/local_search.h"
 
 
 int main() {
@@ -26,56 +27,31 @@ int main() {
         }
 
         // Run the MDD algorithm for the TT problem with n jobs and m machines
-        vector<vector<Job>> schedules = mddScheduling(jobs, m);
-        vector<vector<Job>> exact_schedules = exact_solution(jobs, m);
+        vector<vector<Job>> heuristic_schedule = mddScheduling(jobs, m);
+        // vector<vector<Job>> exact_schedules = exact_solution(jobs, m);
+        vector<vector<Job>> local_search_schedule = local_search(jobs, m, 25000);
 
         cout << "Heuristic Schedule" << endl;
-        // print the schedule
-        for (int i = 0; i < m; i++) {
-            cout << "\nMachine " << i + 1 << ": ";
-            for (Job job : schedules[i]) {
-                cout << job.id << " ";
-            }
-            cout << endl;
-        }
-        
-        // calculate total tardiness
-        long long total_tardiness = 0;
-        for (int i = 0; i < m; i++) {
-            long long completion_time = 0;
-            for (Job job : schedules[i]) {
-                completion_time += job.ptime;
-                long long tardiness = max(0LL, completion_time - job.dDate);
-                total_tardiness += tardiness;
-            }
-        } 
-
-        cout << "\nTotal Tardiness: " << total_tardiness << endl;
-
-        cout << "Exact Schedule" << endl;
-        // print the schedule
-        for (int i = 0; i < m; i++) {
-            cout << "\nMachine " << i + 1 << ": ";
-            for (Job job : exact_schedules[i]) {
-                cout << job.id << " ";
-            }
-            cout << endl;
-        }
+        print_schedule(heuristic_schedule, m);
 
         // calculate total tardiness
-        long long exact_total_tardiness = 0;
-        for (int i = 0; i < m; i++) {
-            long long completion_time = 0;
-            for (Job job : exact_schedules[i]) {
-                completion_time += job.ptime;
-                long long tardiness = max(0LL, completion_time - job.dDate);
-                exact_total_tardiness += tardiness;
-            }
-        }
+        long long total_tardiness_heuristic = total_tardiness(heuristic_schedule);
+        cout << "\nTotal Tardiness: " << total_tardiness_heuristic << endl;
 
-        cout << "\nTotal Tardiness: " << exact_total_tardiness << endl;
+        // cout << "Exact Schedule" << endl;
+        // print_schedule(exact_schedules, m);
 
+        // // calculate total tardiness
+        // long long exact_total_tardiness = total_tardiness(exact_schedules);
+        // cout << "\nTotal Tardiness: " << exact_total_tardiness << endl;
+
+        cout << "Local Search Schedule" << endl;
+        print_schedule(local_search_schedule, m);
+
+        //calculate total tardiness
+        long long local_search_total_tardiness = total_tardiness(local_search_schedule);
+        cout << "\nTotal Tardiness: " << local_search_total_tardiness << endl;
     }
-    
+
     return 0;
 }
