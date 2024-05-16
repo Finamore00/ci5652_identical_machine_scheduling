@@ -2,7 +2,6 @@
     #define VICINITIES_H
 
     #include "../header_files/Job.h"
-    #include "../header_files/vicinities.h"
     #include <vector>
     #include <climits>
     #include <algorithm>
