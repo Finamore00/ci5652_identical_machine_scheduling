@@ -27,22 +27,18 @@ long long total_tardiness(vector<vector<Job>> schedule) {
  * each job to a schedule and calculates the total tardiness of all schedules.
  * The function returns a pair containing the minimum total tardiness and the corresponding schedule.
  */
-pair<long long, vector<vector<Job>>> backtrack(vector<Job> jobs, vector<vector<Job>> schedules, long long mask) {
-    if (mask == 1 << jobs.size()) {
-        long long tardiness = 0;
-        for (vector<Job> machine : schedules) {
-            tardiness += machine_tardiness(machine);
-        }
-        return {tardiness, schedules};
+vector<vector<Job>> backtrack(vector<Job> jobs, vector<vector<Job>> schedules, long long mask) {
+    if (mask == (1 << jobs.size())-1) {
+        return schedules;
     }
     
-    pair<long long, vector<vector<Job>>> sol = {LLONG_MAX, {}};
+    vector<vector<Job>> sol = {};
     for (int i = 0; i < jobs.size(); i++) {
         if (!(mask & (1 << i))) {
             for (int j = 0; j < schedules.size(); j++) {
                 schedules[j].push_back(jobs[i]);
-                pair<long long, vector<vector<Job>>> curr = backtrack(jobs, schedules, mask | (1 << i));
-                if (curr.first < sol.first) {
+                vector<vector<Job>> curr = backtrack(jobs, schedules, mask | (1 << i));
+                if (total_tardiness(curr) < total_tardiness(sol)) {
                     sol = curr;
                 }
                 schedules[j].pop_back();
@@ -59,7 +55,7 @@ pair<long long, vector<vector<Job>>> backtrack(vector<Job> jobs, vector<vector<J
  * and then calls the backtrack function to assign each job to a schedule.
  * The function returns a pair containing the minimum total tardiness and the corresponding schedule.
  */
-pair<long long, vector<vector<Job>>> exact_solution(vector<Job> jobs, int machines) {
+vector<vector<Job>> exact_solution(vector<Job> jobs, int machines) {
     vector<vector<Job>> schedules(machines);
     return backtrack(jobs, schedules, 0);
 }

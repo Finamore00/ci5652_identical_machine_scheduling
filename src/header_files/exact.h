@@ -9,7 +9,7 @@
 
     using namespace std;
 
-    pair<long long, vector<vector<Job>>> backtrack(vector<Job> jobs, vector<vector<Job>> schedules, long long mask);
-    pair<long long, vector<vector<Job>>>exact_solution(vector<Job> jobs, int machines);
+    vector<vector<Job>> backtrack(vector<Job> jobs, vector<vector<Job>> schedules, long long mask);
+    vector<vector<Job>> exact_solution(vector<Job> jobs, int machines);
 
 #endif
