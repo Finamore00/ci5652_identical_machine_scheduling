@@ -38,7 +38,7 @@ vector<vector<Job>> backtrack(vector<Job> jobs, vector<vector<Job>> schedules, l
             for (int j = 0; j < schedules.size(); j++) {
                 schedules[j].push_back(jobs[i]);
                 vector<vector<Job>> curr = backtrack(jobs, schedules, mask | (1 << i));
-                if (total_tardiness(curr) < total_tardiness(sol)) {
+                if (sol.size() == 0 || total_tardiness(curr) < total_tardiness(sol)) {
                     sol = curr;
                 }
                 schedules[j].pop_back();
