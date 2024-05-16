@@ -1,0 +1,2375 @@
+❤️ Heuristic Schedule
+
+Machine 1: 24 2 21 6 19 
+
+Machine 2: 3 9 22 23 25 
+
+Machine 3: 5 11 13 
+
+Machine 4: 14 20 7 17 
+
+Machine 5: 1 12 4 
+
+Machine 6: 18 8 
+
+Machine 7: 16 10 15 
+
+Total Tardiness: 197
+Time taken by heuristic: 0.00033091 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 12 2 22 8 15 
+
+Machine 2: 11 5 3 10 25 
+
+Machine 3: 14 17 21 
+
+Machine 4: 20 4 13 
+
+Machine 5: 18 6 16 
+
+Machine 6: 24 1 
+
+Machine 7: 23 19 9 
+
+Total Tardiness: 177
+Time taken by heuristic: 0.000335558 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 16 12 14 19 11 
+
+Machine 2: 10 20 21 15 
+
+Machine 3: 7 9 2 
+
+Machine 4: 6 5 13 
+
+Machine 5: 3 8 22 
+
+Machine 6: 24 23 17 
+
+Machine 7: 4 1 25 
+
+Total Tardiness: 175
+Time taken by heuristic: 0.000308798 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 11 14 6 3 7 8 13 23 
+
+Machine 2: 1 9 18 22 
+
+Machine 3: 2 16 4 15 
+
+Machine 4: 12 5 
+
+Machine 5: 19 24 
+
+Machine 6: 10 25 
+
+Machine 7: 21 17 
+
+Total Tardiness: 164
+Time taken by heuristic: 0.000316232 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 11 23 21 10 22 
+
+Machine 2: 3 19 12 7 14 
+
+Machine 3: 15 17 18 16 9 
+
+Machine 4: 8 5 2 
+
+Machine 5: 24 13 
+
+Machine 6: 4 25 6 
+
+Machine 7: 1 20 
+
+Total Tardiness: 208
+Time taken by heuristic: 0.000394648 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 24 2 21 6 22 23 
+
+Machine 2: 3 9 17 
+
+Machine 3: 5 11 7 
+
+Machine 4: 20 14 19 25 13 
+
+Machine 5: 1 12 4 
+
+Machine 6: 18 8 
+
+Machine 7: 16 10 15 
+
+Total Tardiness: 111
+Time taken by heuristic: 0.00109454 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 12 2 22 8 15 10 
+
+Machine 2: 11 5 6 
+
+Machine 3: 14 17 3 
+
+Machine 4: 20 4 13 
+
+Machine 5: 18 1 16 
+
+Machine 6: 24 23 25 
+
+Machine 7: 19 9 21 
+
+Total Tardiness: 126
+Time taken by heuristic: 0.000312976 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 16 12 21 5 2 22 
+
+Machine 2: 10 14 7 19 15 
+
+Machine 3: 20 8 1 
+
+Machine 4: 9 24 17 
+
+Machine 5: 6 23 25 
+
+Machine 6: 3 13 
+
+Machine 7: 11 4 
+
+Total Tardiness: 108
+Time taken by heuristic: 0.000311813 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 11 14 6 3 7 8 18 22 23 
+
+Machine 2: 2 9 13 4 
+
+Machine 3: 1 16 5 
+
+Machine 4: 12 25 
+
+Machine 5: 19 15 
+
+Machine 6: 10 17 
+
+Machine 7: 21 24 
+
+Total Tardiness: 90
+Time taken by heuristic: 0.000377937 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 11 23 19 10 7 14 
+
+Machine 2: 3 21 12 25 
+
+Machine 3: 15 17 18 16 2 
+
+Machine 4: 8 5 6 
+
+Machine 5: 24 13 9 
+
+Machine 6: 4 20 
+
+Machine 7: 1 22 
+
+Total Tardiness: 143
+Time taken by heuristic: 0.000408835 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 24 9 21 6 22 7 
+
+Machine 2: 3 12 19 23 25 
+
+Machine 3: 2 20 11 13 
+
+Machine 4: 5 10 15 
+
+Machine 5: 14 1 4 
+
+Machine 6: 18 8 
+
+Machine 7: 16 17 
+
+Total Tardiness: 71
+Time taken by heuristic: 0.000723404 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 12 2 22 8 6 10 
+
+Machine 2: 11 14 17 16 
+
+Machine 3: 5 4 
+
+Machine 4: 20 18 3 
+
+Machine 5: 24 15 23 
+
+Machine 6: 1 19 9 21 
+
+Machine 7: 13 25 
+
+Total Tardiness: 29
+Time taken by heuristic: 0.00030445 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 16 12 21 5 19 15 
+
+Machine 2: 10 14 9 2 22 
+
+Machine 3: 20 8 1 
+
+Machine 4: 7 24 
+
+Machine 5: 6 23 17 
+
+Machine 6: 3 13 25 
+
+Machine 7: 11 4 
+
+Total Tardiness: 57
+Time taken by heuristic: 0.000318907 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 11 14 6 3 7 16 18 13 22 4 23 
+
+Machine 2: 2 8 5 
+
+Machine 3: 1 9 
+
+Machine 4: 12 25 
+
+Machine 5: 19 15 
+
+Machine 6: 10 17 
+
+Machine 7: 21 24 
+
+Total Tardiness: 50
+Time taken by heuristic: 0.000440304 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 11 21 19 12 10 7 25 
+
+Machine 2: 23 15 18 14 
+
+Machine 3: 3 17 16 6 
+
+Machine 4: 8 5 2 
+
+Machine 5: 24 13 9 
+
+Machine 6: 4 22 
+
+Machine 7: 1 20 
+
+Total Tardiness: 101
+Time taken by heuristic: 0.000317845 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 24 9 21 6 22 7 19 
+
+Machine 2: 3 12 23 25 13 
+
+Machine 3: 2 20 11 
+
+Machine 4: 5 10 4 
+
+Machine 5: 14 18 17 
+
+Machine 6: 1 8 
+
+Machine 7: 16 15 
+
+Total Tardiness: 1
+Time taken by heuristic: 0.000322374 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 20 17 3 10 
+
+Machine 2: 12 6 15 
+
+Machine 3: 5 4 
+
+Machine 4: 14 18 
+
+Machine 5: 24 1 9 
+
+Machine 6: 23 19 13 
+
+Machine 7: 25 21 16 
+
+Total Tardiness: 0
+Time taken by heuristic: 0.000301474 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 16 14 21 5 19 2 15 
+
+Machine 2: 12 10 8 23 22 
+
+Machine 3: 20 11 
+
+Machine 4: 7 24 1 
+
+Machine 5: 9 4 
+
+Machine 6: 6 13 17 
+
+Machine 7: 3 25 
+
+Total Tardiness: 0
+Time taken by heuristic: 0.000324257 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 11 14 6 3 7 8 18 13 22 4 23 
+
+Machine 2: 2 16 5 
+
+Machine 3: 1 9 
+
+Machine 4: 12 25 
+
+Machine 5: 19 15 
+
+Machine 6: 10 24 
+
+Machine 7: 21 17 
+
+Total Tardiness: 11
+Time taken by heuristic: 0.000413003 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 11 21 19 12 10 7 16 14 
+
+Machine 2: 23 17 18 25 2 
+
+Machine 3: 3 5 6 
+
+Machine 4: 15 1 
+
+Machine 5: 8 13 9 
+
+Machine 6: 24 22 
+
+Machine 7: 4 20 
+
+Total Tardiness: 58
+Time taken by heuristic: 0.000452267 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 3 9 21 6 17 19 23 
+
+Machine 2: 2 20 11 22 7 25 
+
+Machine 3: 24 12 13 
+
+Machine 4: 5 8 
+
+Machine 5: 14 18 4 
+
+Machine 6: 1 10 
+
+Machine 7: 16 15 
+
+Total Tardiness: 15
+Time taken by heuristic: 0.000326461 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 20 17 3 10 
+
+Machine 2: 12 4 16 
+
+Machine 3: 14 18 9 
+
+Machine 4: 5 6 15 23 
+
+Machine 5: 24 1 19 
+
+Machine 6: 13 25 
+
+Machine 7: 21 
+
+Total Tardiness: 5
+Time taken by heuristic: 0.000306193 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 12 21 5 19 2 15 22 1 
+
+Machine 2: 16 10 14 8 23 
+
+Machine 3: 20 24 
+
+Machine 4: 7 11 13 
+
+Machine 5: 9 4 17 
+
+Machine 6: 6 25 
+
+Machine 7: 3 
+
+Total Tardiness: 7
+Time taken by heuristic: 0.000310912 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 1 14 6 3 7 16 18 13 22 4 23 
+
+Machine 2: 11 9 8 
+
+Machine 3: 2 21 
+
+Machine 4: 12 5 
+
+Machine 5: 19 25 
+
+Machine 6: 10 24 
+
+Machine 7: 17 15 
+
+Total Tardiness: 3
+Time taken by heuristic: 0.000316041 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 11 21 19 12 10 16 25 14 
+
+Machine 2: 23 7 17 18 20 6 
+
+Machine 3: 3 5 
+
+Machine 4: 15 1 
+
+Machine 5: 8 13 9 
+
+Machine 6: 24 22 
+
+Machine 7: 4 2 
+
+Total Tardiness: 39
+Time taken by heuristic: 0.000344435 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 24 21 6 19 8 
+
+Machine 2: 3 22 23 4 
+
+Machine 3: 2 9 7 25 16 
+
+Machine 4: 5 13 15 
+
+Machine 5: 14 11 17 
+
+Machine 6: 20 10 18 
+
+Machine 7: 1 12 
+
+Total Tardiness: 496
+Time taken by heuristic: 0.000313186 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 17 15 24 
+
+Machine 2: 12 10 16 
+
+Machine 3: 14 3 21 
+
+Machine 4: 5 19 
+
+Machine 5: 20 6 1 
+
+Machine 6: 4 23 13 
+
+Machine 7: 18 9 25 
+
+Total Tardiness: 413
+Time taken by heuristic: 0.000328254 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 16 14 15 24 
+
+Machine 2: 12 10 21 5 19 22 25 
+
+Machine 3: 20 2 4 
+
+Machine 4: 7 8 17 
+
+Machine 5: 9 23 11 
+
+Machine 6: 6 13 
+
+Machine 7: 3 1 
+
+Total Tardiness: 418
+Time taken by heuristic: 0.000601115 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 11 14 6 7 13 23 15 
+
+Machine 2: 1 3 8 22 
+
+Machine 3: 2 16 17 
+
+Machine 4: 9 18 4 5 
+
+Machine 5: 12 25 
+
+Machine 6: 19 24 
+
+Machine 7: 10 21 
+
+Total Tardiness: 375
+Time taken by heuristic: 0.000323626 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 11 21 19 10 14 9 
+
+Machine 2: 23 12 7 25 2 
+
+Machine 3: 3 18 22 
+
+Machine 4: 15 17 20 
+
+Machine 5: 8 16 5 
+
+Machine 6: 24 6 1 
+
+Machine 7: 4 13 
+
+Total Tardiness: 517
+Time taken by heuristic: 0.00030479 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 24 21 6 22 19 15 
+
+Machine 2: 3 7 23 25 
+
+Machine 3: 2 9 10 4 
+
+Machine 4: 5 13 16 
+
+Machine 5: 20 11 18 
+
+Machine 6: 14 12 8 
+
+Machine 7: 1 17 
+
+Total Tardiness: 429
+Time taken by heuristic: 0.000468677 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 17 15 10 13 
+
+Machine 2: 5 3 21 
+
+Machine 3: 14 9 
+
+Machine 4: 12 19 
+
+Machine 5: 20 6 16 
+
+Machine 6: 4 1 24 
+
+Machine 7: 18 23 25 
+
+Total Tardiness: 328
+Time taken by heuristic: 0.000316572 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 16 21 5 2 4 
+
+Machine 2: 12 10 19 15 22 24 
+
+Machine 3: 14 9 13 25 
+
+Machine 4: 7 8 11 
+
+Machine 5: 20 23 
+
+Machine 6: 6 1 
+
+Machine 7: 3 17 
+
+Total Tardiness: 350
+Time taken by heuristic: 0.000326631 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 11 14 7 18 13 22 23 
+
+Machine 2: 1 6 3 4 17 
+
+Machine 3: 2 8 24 
+
+Machine 4: 9 16 5 
+
+Machine 5: 12 25 
+
+Machine 6: 19 15 
+
+Machine 7: 10 21 
+
+Total Tardiness: 295
+Time taken by heuristic: 0.000327052 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 11 21 19 10 14 9 
+
+Machine 2: 23 12 7 16 2 
+
+Machine 3: 3 25 5 
+
+Machine 4: 15 17 20 
+
+Machine 5: 8 18 22 
+
+Machine 6: 24 6 1 
+
+Machine 7: 4 13 
+
+Total Tardiness: 462
+Time taken by heuristic: 0.000311904 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 2 9 21 6 22 7 25 
+
+Machine 2: 3 10 19 15 
+
+Machine 3: 24 17 23 
+
+Machine 4: 20 11 13 16 
+
+Machine 5: 14 12 4 
+
+Machine 6: 5 8 
+
+Machine 7: 1 18 
+
+Total Tardiness: 396
+Time taken by heuristic: 0.00035277 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 17 6 10 25 
+
+Machine 2: 5 15 13 
+
+Machine 3: 14 3 16 
+
+Machine 4: 12 9 
+
+Machine 5: 20 1 24 
+
+Machine 6: 4 23 21 
+
+Machine 7: 18 19 
+
+Total Tardiness: 259
+Time taken by heuristic: 0.000327403 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 14 21 5 19 15 25 
+
+Machine 2: 16 12 8 2 22 
+
+Machine 3: 10 24 11 
+
+Machine 4: 7 23 3 
+
+Machine 5: 9 13 4 
+
+Machine 6: 6 1 
+
+Machine 7: 20 17 
+
+Total Tardiness: 330
+Time taken by heuristic: 0.000386914 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 9 7 18 13 22 4 23 
+
+Machine 2: 11 16 8 24 
+
+Machine 3: 1 5 
+
+Machine 4: 2 25 
+
+Machine 5: 12 21 
+
+Machine 6: 19 15 
+
+Machine 7: 10 17 
+
+Total Tardiness: 228
+Time taken by heuristic: 0.00101085 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 23 21 19 10 7 25 2 
+
+Machine 2: 11 12 18 14 9 
+
+Machine 3: 15 17 16 6 
+
+Machine 4: 3 20 
+
+Machine 5: 8 13 1 
+
+Machine 6: 24 22 
+
+Machine 7: 4 5 
+
+Total Tardiness: 414
+Time taken by heuristic: 0.000330469 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 2 9 21 6 17 19 
+
+Machine 2: 3 10 22 23 
+
+Machine 3: 20 11 7 25 
+
+Machine 4: 24 18 15 
+
+Machine 5: 14 12 13 4 
+
+Machine 6: 5 16 
+
+Machine 7: 1 8 
+
+Total Tardiness: 377
+Time taken by heuristic: 0.000343623 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 17 6 3 10 
+
+Machine 2: 14 15 9 
+
+Machine 3: 5 23 25 
+
+Machine 4: 20 1 16 
+
+Machine 5: 12 19 
+
+Machine 6: 4 24 
+
+Machine 7: 18 21 13 
+
+Total Tardiness: 192
+Time taken by heuristic: 0.000337652 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 21 5 19 2 15 22 25 
+
+Machine 2: 16 14 8 13 
+
+Machine 3: 12 3 4 
+
+Machine 4: 10 20 17 
+
+Machine 5: 7 23 1 
+
+Machine 6: 9 24 
+
+Machine 7: 6 11 
+
+Total Tardiness: 299
+Time taken by heuristic: 0.000355696 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 9 7 18 13 22 4 23 
+
+Machine 2: 11 8 16 24 
+
+Machine 3: 1 5 
+
+Machine 4: 2 25 
+
+Machine 5: 12 21 
+
+Machine 6: 19 15 
+
+Machine 7: 10 17 
+
+Total Tardiness: 205
+Time taken by heuristic: 0.000568494 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 23 19 12 10 16 14 4 
+
+Machine 2: 11 7 18 25 6 
+
+Machine 3: 21 17 5 9 
+
+Machine 4: 15 13 1 
+
+Machine 5: 8 20 
+
+Machine 6: 3 22 
+
+Machine 7: 24 2 
+
+Total Tardiness: 406
+Time taken by heuristic: 0.000335047 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 2 9 21 6 17 19 23 25 
+
+Machine 2: 20 11 22 7 
+
+Machine 3: 14 12 13 15 
+
+Machine 4: 3 10 4 
+
+Machine 5: 24 18 
+
+Machine 6: 5 16 
+
+Machine 7: 1 8 
+
+Total Tardiness: 369
+Time taken by heuristic: 0.000421098 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 17 15 3 10 16 
+
+Machine 2: 14 6 9 
+
+Machine 3: 5 1 
+
+Machine 4: 20 24 
+
+Machine 5: 12 23 25 
+
+Machine 6: 4 19 21 
+
+Machine 7: 18 13 
+
+Total Tardiness: 141
+Time taken by heuristic: 0.000334546 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 16 21 5 19 8 2 22 
+
+Machine 2: 12 3 15 
+
+Machine 3: 18 24 1 
+
+Machine 4: 10 20 17 
+
+Machine 5: 14 6 13 
+
+Machine 6: 9 11 25 
+
+Machine 7: 7 23 4 
+
+Total Tardiness: 289
+Time taken by heuristic: 0.000337481 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 9 7 18 13 22 4 23 
+
+Machine 2: 11 16 8 24 
+
+Machine 3: 1 5 
+
+Machine 4: 2 25 
+
+Machine 5: 12 21 
+
+Machine 6: 19 15 
+
+Machine 7: 10 17 
+
+Total Tardiness: 190
+Time taken by heuristic: 0.000752197 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 23 19 12 10 16 25 14 
+
+Machine 2: 21 7 17 18 2 
+
+Machine 3: 11 5 6 
+
+Machine 4: 15 13 1 
+
+Machine 5: 8 22 4 
+
+Machine 6: 3 20 
+
+Machine 7: 24 9 
+
+Total Tardiness: 406
+Time taken by heuristic: 0.000691294 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 2 21 6 22 4 
+
+Machine 2: 9 11 23 24 
+
+Machine 3: 14 7 8 
+
+Machine 4: 20 19 25 1 
+
+Machine 5: 18 10 16 
+
+Machine 6: 12 13 5 
+
+Machine 7: 3 17 15 
+
+Total Tardiness: 933
+Time taken by heuristic: 0.000322273 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 15 10 13 
+
+Machine 2: 20 19 25 
+
+Machine 3: 17 6 21 
+
+Machine 4: 4 16 12 
+
+Machine 5: 18 5 
+
+Machine 6: 1 3 14 
+
+Machine 7: 23 9 24 
+
+Total Tardiness: 794
+Time taken by heuristic: 0.000369452 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 18 21 19 23 25 
+
+Machine 2: 16 10 15 11 
+
+Machine 3: 12 14 2 6 
+
+Machine 4: 9 22 17 
+
+Machine 5: 7 1 3 
+
+Machine 6: 5 8 13 4 
+
+Machine 7: 24 20 
+
+Total Tardiness: 823
+Time taken by heuristic: 0.00032589 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 7 13 18 22 23 15 
+
+Machine 2: 11 4 24 
+
+Machine 3: 9 12 
+
+Machine 4: 1 17 
+
+Machine 5: 8 16 2 19 
+
+Machine 6: 5 10 
+
+Machine 7: 25 21 
+
+Total Tardiness: 703
+Time taken by heuristic: 0.000342481 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 23 19 10 22 4 
+
+Machine 2: 11 14 9 
+
+Machine 3: 21 12 7 6 1 
+
+Machine 4: 15 2 
+
+Machine 5: 17 18 25 8 
+
+Machine 6: 5 20 24 
+
+Machine 7: 13 16 3 
+
+Total Tardiness: 957
+Time taken by heuristic: 0.000315801 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 2 21 6 22 19 1 
+
+Machine 2: 9 11 23 25 5 
+
+Machine 3: 14 7 4 
+
+Machine 4: 20 13 24 
+
+Machine 5: 18 17 15 
+
+Machine 6: 12 10 16 
+
+Machine 7: 3 8 
+
+Total Tardiness: 912
+Time taken by heuristic: 0.000330178 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 6 10 13 
+
+Machine 2: 20 3 5 
+
+Machine 3: 17 15 9 25 
+
+Machine 4: 4 19 12 
+
+Machine 5: 18 16 
+
+Machine 6: 14 21 
+
+Machine 7: 1 23 24 
+
+Total Tardiness: 710
+Time taken by heuristic: 0.000731409 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 16 21 5 19 22 4 
+
+Machine 2: 18 2 15 20 
+
+Machine 3: 12 8 11 
+
+Machine 4: 10 23 6 
+
+Machine 5: 14 13 24 
+
+Machine 6: 9 1 3 
+
+Machine 7: 7 17 25 
+
+Total Tardiness: 774
+Time taken by heuristic: 0.00033175 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 7 8 13 22 23 15 
+
+Machine 2: 11 18 4 19 
+
+Machine 3: 9 16 25 
+
+Machine 4: 1 5 
+
+Machine 5: 2 21 
+
+Machine 6: 12 17 
+
+Machine 7: 10 24 
+
+Total Tardiness: 624
+Time taken by heuristic: 0.000870669 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 23 19 10 14 9 
+
+Machine 2: 21 12 7 25 3 
+
+Machine 3: 11 6 1 
+
+Machine 4: 15 20 4 
+
+Machine 5: 17 18 16 2 
+
+Machine 6: 8 22 
+
+Machine 7: 5 13 24 
+
+Total Tardiness: 961
+Time taken by heuristic: 0.000393797 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 2 21 6 22 19 23 5 
+
+Machine 2: 14 10 25 16 
+
+Machine 3: 9 11 7 1 
+
+Machine 4: 20 17 15 
+
+Machine 5: 18 13 24 
+
+Machine 6: 12 8 
+
+Machine 7: 3 4 
+
+Total Tardiness: 905
+Time taken by heuristic: 0.000328585 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 6 10 21 
+
+Machine 2: 20 3 16 
+
+Machine 3: 17 15 23 24 
+
+Machine 4: 14 1 
+
+Machine 5: 4 9 25 
+
+Machine 6: 18 19 12 
+
+Machine 7: 5 13 
+
+Total Tardiness: 648
+Time taken by heuristic: 0.000338423 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 16 21 5 19 15 22 3 
+
+Machine 2: 12 8 6 
+
+Machine 3: 10 2 13 4 
+
+Machine 4: 14 23 11 
+
+Machine 5: 18 1 20 
+
+Machine 6: 9 17 25 
+
+Machine 7: 7 24 
+
+Total Tardiness: 768
+Time taken by heuristic: 0.000335568 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 7 16 18 13 22 23 19 
+
+Machine 2: 11 4 21 
+
+Machine 3: 9 8 25 
+
+Machine 4: 1 5 
+
+Machine 5: 2 17 
+
+Machine 6: 12 24 
+
+Machine 7: 10 15 
+
+Total Tardiness: 578
+Time taken by heuristic: 0.000353191 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 19 12 10 16 9 
+
+Machine 2: 23 7 25 3 
+
+Machine 3: 11 14 2 
+
+Machine 4: 15 6 24 
+
+Machine 5: 17 18 13 1 
+
+Machine 6: 8 22 
+
+Machine 7: 5 20 4 
+
+Total Tardiness: 973
+Time taken by heuristic: 0.000453599 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 2 21 6 22 7 23 16 
+
+Machine 2: 9 11 19 25 13 
+
+Machine 3: 14 10 1 
+
+Machine 4: 20 17 5 
+
+Machine 5: 18 4 
+
+Machine 6: 12 8 15 
+
+Machine 7: 3 24 
+
+Total Tardiness: 923
+Time taken by heuristic: 0.000351368 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 6 3 10 24 
+
+Machine 2: 20 15 13 
+
+Machine 3: 17 1 21 
+
+Machine 4: 14 19 
+
+Machine 5: 5 16 
+
+Machine 6: 4 23 25 
+
+Machine 7: 18 9 12 
+
+Total Tardiness: 552
+Time taken by heuristic: 0.00033169 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 14 21 5 19 2 22 4 
+
+Machine 2: 16 8 15 20 
+
+Machine 3: 10 23 1 
+
+Machine 4: 12 24 3 
+
+Machine 5: 18 13 6 
+
+Machine 6: 9 17 25 
+
+Machine 7: 7 11 
+
+Total Tardiness: 797
+Time taken by heuristic: 0.000348472 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 7 16 18 13 22 4 23 19 
+
+Machine 2: 9 8 21 
+
+Machine 3: 11 5 
+
+Machine 4: 1 25 
+
+Machine 5: 2 17 
+
+Machine 6: 12 24 
+
+Machine 7: 10 15 
+
+Total Tardiness: 536
+Time taken by heuristic: 0.000338113 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 19 10 7 16 14 3 
+
+Machine 2: 23 25 6 4 
+
+Machine 3: 12 17 13 1 
+
+Machine 4: 11 20 24 
+
+Machine 5: 15 22 
+
+Machine 6: 18 5 9 
+
+Machine 7: 8 2 
+
+Total Tardiness: 1004
+Time taken by heuristic: 0.00032587 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 2 21 6 17 19 23 
+
+Machine 2: 9 11 22 7 25 
+
+Machine 3: 14 10 13 16 
+
+Machine 4: 20 12 5 
+
+Machine 5: 18 8 15 
+
+Machine 6: 3 1 
+
+Machine 7: 24 4 
+
+Total Tardiness: 789
+Time taken by heuristic: 0.000348743 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 17 3 10 13 
+
+Machine 2: 20 15 9 
+
+Machine 3: 14 23 24 
+
+Machine 4: 5 19 
+
+Machine 5: 12 21 
+
+Machine 6: 4 6 16 
+
+Machine 7: 18 1 25 
+
+Total Tardiness: 409
+Time taken by heuristic: 0.000353852 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 14 21 5 19 2 15 22 25 
+
+Machine 2: 16 8 13 3 
+
+Machine 3: 10 24 20 
+
+Machine 4: 12 11 4 
+
+Machine 5: 18 23 1 
+
+Machine 6: 9 6 
+
+Machine 7: 7 17 
+
+Total Tardiness: 691
+Time taken by heuristic: 0.000350266 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 7 8 18 13 22 4 23 
+
+Machine 2: 11 16 24 
+
+Machine 3: 1 5 
+
+Machine 4: 9 25 19 
+
+Machine 5: 2 21 
+
+Machine 6: 12 17 
+
+Machine 7: 10 15 
+
+Total Tardiness: 437
+Time taken by heuristic: 0.000443339 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 19 12 10 16 14 9 
+
+Machine 2: 23 7 25 6 
+
+Machine 3: 11 20 24 
+
+Machine 4: 15 22 4 
+
+Machine 5: 8 5 
+
+Machine 6: 17 18 13 1 
+
+Machine 7: 3 2 
+
+Total Tardiness: 870
+Time taken by heuristic: 0.000339325 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 9 21 19 20 24 
+
+Machine 2: 6 22 12 1 
+
+Machine 3: 2 10 4 
+
+Machine 4: 11 17 5 
+
+Machine 5: 7 23 18 16 
+
+Machine 6: 14 8 15 
+
+Machine 7: 13 25 3 
+
+Total Tardiness: 1577
+Time taken by heuristic: 0.000306594 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 22 8 3 4 25 
+
+Machine 2: 11 10 1 5 
+
+Machine 3: 17 21 24 
+
+Machine 4: 6 16 13 
+
+Machine 5: 15 19 14 
+
+Machine 6: 23 20 12 
+
+Machine 7: 9 18 
+
+Total Tardiness: 1272
+Time taken by heuristic: 0.00101072 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 14 15 9 3 
+
+Machine 2: 21 5 22 23 20 
+
+Machine 3: 16 8 24 
+
+Machine 4: 10 13 11 
+
+Machine 5: 12 1 6 
+
+Machine 6: 19 2 17 4 
+
+Machine 7: 18 7 25 
+
+Total Tardiness: 1372
+Time taken by heuristic: 0.000302346 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 7 13 23 2 19 
+
+Machine 2: 6 3 18 22 12 
+
+Machine 3: 8 4 1 15 
+
+Machine 4: 16 25 24 
+
+Machine 5: 9 10 
+
+Machine 6: 5 21 
+
+Machine 7: 11 17 
+
+Total Tardiness: 1120
+Time taken by heuristic: 0.000322062 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 19 6 2 
+
+Machine 2: 12 10 20 9 
+
+Machine 3: 7 25 22 1 
+
+Machine 4: 17 11 3 
+
+Machine 5: 18 14 5 24 
+
+Machine 6: 16 13 8 
+
+Machine 7: 23 15 4 
+
+Total Tardiness: 1563
+Time taken by heuristic: 0.000301154 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 6 22 19 8 15 
+
+Machine 2: 9 7 3 
+
+Machine 3: 2 23 25 4 
+
+Machine 4: 11 13 24 
+
+Machine 5: 14 12 1 
+
+Machine 6: 10 17 5 
+
+Machine 7: 20 18 16 
+
+Total Tardiness: 1569
+Time taken by heuristic: 0.000320399 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 22 8 3 10 20 12 
+
+Machine 2: 11 9 14 
+
+Machine 3: 17 21 24 
+
+Machine 4: 6 16 13 
+
+Machine 5: 15 19 5 
+
+Machine 6: 1 18 
+
+Machine 7: 23 4 25 
+
+Total Tardiness: 1186
+Time taken by heuristic: 0.000317434 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 5 2 9 3 
+
+Machine 2: 14 15 22 7 25 
+
+Machine 3: 16 13 11 
+
+Machine 4: 10 1 6 
+
+Machine 5: 12 23 20 
+
+Machine 6: 19 8 24 
+
+Machine 7: 18 17 4 
+
+Total Tardiness: 1381
+Time taken by heuristic: 0.000317975 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 6 3 7 18 22 23 12 
+
+Machine 2: 14 8 13 4 21 
+
+Machine 3: 16 1 15 
+
+Machine 4: 9 2 19 
+
+Machine 5: 5 10 
+
+Machine 6: 11 17 
+
+Machine 7: 25 24 
+
+Total Tardiness: 1050
+Time taken by heuristic: 0.000323446 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 10 14 5 24 
+
+Machine 2: 19 7 25 15 4 
+
+Machine 3: 12 13 8 
+
+Machine 4: 17 11 3 
+
+Machine 5: 18 6 2 
+
+Machine 6: 23 22 1 
+
+Machine 7: 16 20 9 
+
+Total Tardiness: 1580
+Time taken by heuristic: 0.000324998 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 9 21 22 19 23 4 
+
+Machine 2: 2 7 25 1 
+
+Machine 3: 6 12 3 
+
+Machine 4: 11 13 24 
+
+Machine 5: 14 17 5 
+
+Machine 6: 10 18 16 
+
+Machine 7: 20 8 15 
+
+Total Tardiness: 1376
+Time taken by heuristic: 0.000322163 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 22 8 6 10 18 
+
+Machine 2: 11 15 19 24 
+
+Machine 3: 17 3 21 12 
+
+Machine 4: 1 16 25 
+
+Machine 5: 4 14 
+
+Machine 6: 20 5 
+
+Machine 7: 23 9 13 
+
+Total Tardiness: 1011
+Time taken by heuristic: 0.000760934 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 5 19 15 24 
+
+Machine 2: 14 2 22 7 25 
+
+Machine 3: 16 13 11 
+
+Machine 4: 10 23 6 
+
+Machine 5: 12 1 20 
+
+Machine 6: 18 17 4 
+
+Machine 7: 8 9 3 
+
+Total Tardiness: 1219
+Time taken by heuristic: 0.00032067 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 7 18 13 22 4 23 24 
+
+Machine 2: 6 3 8 2 19 
+
+Machine 3: 16 25 15 
+
+Machine 4: 9 12 
+
+Machine 5: 11 21 
+
+Machine 6: 1 17 
+
+Machine 7: 5 10 
+
+Total Tardiness: 927
+Time taken by heuristic: 0.00032572 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 10 16 5 24 
+
+Machine 2: 19 12 25 22 1 
+
+Machine 3: 7 18 14 2 
+
+Machine 4: 17 6 9 
+
+Machine 5: 23 20 3 
+
+Machine 6: 13 15 4 
+
+Machine 7: 11 8 
+
+Total Tardiness: 1449
+Time taken by heuristic: 0.00104632 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 9 21 6 22 19 23 1 
+
+Machine 2: 2 7 25 24 
+
+Machine 3: 14 13 4 
+
+Machine 4: 11 10 5 
+
+Machine 5: 20 17 16 
+
+Machine 6: 12 8 15 
+
+Machine 7: 18 3 
+
+Total Tardiness: 1230
+Time taken by heuristic: 0.000340898 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 22 8 17 10 21 
+
+Machine 2: 11 6 3 13 
+
+Machine 3: 20 19 25 
+
+Machine 4: 4 16 12 
+
+Machine 5: 15 23 14 
+
+Machine 6: 18 5 
+
+Machine 7: 1 9 24 
+
+Total Tardiness: 859
+Time taken by heuristic: 0.000348382 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 14 5 19 15 11 
+
+Machine 2: 21 8 22 24 
+
+Machine 3: 16 2 1 3 
+
+Machine 4: 10 23 20 
+
+Machine 5: 12 13 6 
+
+Machine 6: 18 17 4 
+
+Machine 7: 9 7 25 
+
+Total Tardiness: 1059
+Time taken by heuristic: 0.000330458 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 7 18 13 22 4 23 15 
+
+Machine 2: 3 8 16 25 
+
+Machine 3: 9 5 19 
+
+Machine 4: 11 10 
+
+Machine 5: 1 21 
+
+Machine 6: 2 17 
+
+Machine 7: 12 24 
+
+Total Tardiness: 792
+Time taken by heuristic: 0.000352039 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 19 10 16 14 9 
+
+Machine 2: 12 7 25 2 
+
+Machine 3: 23 6 1 
+
+Machine 4: 17 20 3 
+
+Machine 5: 18 13 8 
+
+Machine 6: 11 22 24 
+
+Machine 7: 5 15 4 
+
+Total Tardiness: 1269
+Time taken by heuristic: 0.000332522 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 9 21 6 22 7 25 16 
+
+Machine 2: 2 10 19 1 
+
+Machine 3: 14 23 13 24 
+
+Machine 4: 20 8 15 
+
+Machine 5: 12 3 
+
+Machine 6: 11 17 5 
+
+Machine 7: 18 4 
+
+Total Tardiness: 1079
+Time taken by heuristic: 0.000334296 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 11 22 8 6 10 21 
+
+Machine 2: 20 3 16 
+
+Machine 3: 17 15 23 24 
+
+Machine 4: 4 9 25 
+
+Machine 5: 18 19 12 
+
+Machine 6: 14 1 
+
+Machine 7: 5 13 
+
+Total Tardiness: 715
+Time taken by heuristic: 0.000326791 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 14 5 19 2 22 20 
+
+Machine 2: 16 8 15 4 
+
+Machine 3: 10 23 6 
+
+Machine 4: 21 7 24 
+
+Machine 5: 12 13 11 
+
+Machine 6: 18 1 3 
+
+Machine 7: 9 17 25 
+
+Total Tardiness: 917
+Time taken by heuristic: 0.000334296 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 6 3 7 18 13 22 4 23 15 
+
+Machine 2: 9 25 
+
+Machine 3: 11 10 
+
+Machine 4: 1 21 
+
+Machine 5: 8 16 5 19 
+
+Machine 6: 2 17 
+
+Machine 7: 12 24 
+
+Total Tardiness: 662
+Time taken by heuristic: 0.000345717 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 19 10 7 16 14 3 
+
+Machine 2: 12 17 25 8 
+
+Machine 3: 23 20 24 
+
+Machine 4: 11 6 1 
+
+Machine 5: 18 13 9 
+
+Machine 6: 15 2 
+
+Machine 7: 5 22 4 
+
+Total Tardiness: 1115
+Time taken by heuristic: 0.000346999 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 23 2 18 16 
+
+Machine 2: 19 13 17 5 
+
+Machine 3: 25 11 8 15 
+
+Machine 4: 6 14 3 
+
+Machine 5: 22 10 4 
+
+Machine 6: 9 20 24 
+
+Machine 7: 7 12 1 
+
+Total Tardiness: 2140
+Time taken by heuristic: 0.000288119 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 10 9 18 
+
+Machine 2: 8 22 17 4 25 
+
+Machine 3: 2 23 20 12 
+
+Machine 4: 3 19 14 
+
+Machine 5: 11 1 5 
+
+Machine 6: 15 16 13 
+
+Machine 7: 6 21 24 
+
+Total Tardiness: 1835
+Time taken by heuristic: 0.000283901 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 16 23 20 
+
+Machine 2: 22 10 17 4 
+
+Machine 3: 5 12 9 3 
+
+Machine 4: 19 18 7 25 
+
+Machine 5: 15 8 24 
+
+Machine 6: 2 13 11 
+
+Machine 7: 14 1 6 
+
+Total Tardiness: 1962
+Time taken by heuristic: 0.000271788 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 13 23 5 21 
+
+Machine 2: 6 8 2 19 
+
+Machine 3: 7 14 1 15 
+
+Machine 4: 3 9 10 
+
+Machine 5: 18 11 17 
+
+Machine 6: 22 16 12 
+
+Machine 7: 4 25 24 
+
+Total Tardiness: 1532
+Time taken by heuristic: 0.000295463 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 19 25 11 3 
+
+Machine 2: 10 16 22 1 
+
+Machine 3: 7 17 5 24 
+
+Machine 4: 14 6 15 4 
+
+Machine 5: 21 23 2 
+
+Machine 6: 18 13 8 
+
+Machine 7: 12 20 9 
+
+Total Tardiness: 2175
+Time taken by heuristic: 0.000277009 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 22 11 8 15 
+
+Machine 2: 6 23 20 24 
+
+Machine 3: 9 14 3 
+
+Machine 4: 19 25 10 4 
+
+Machine 5: 7 12 1 
+
+Machine 6: 13 17 5 
+
+Machine 7: 2 18 16 
+
+Total Tardiness: 1922
+Time taken by heuristic: 0.000293429 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 22 8 10 19 14 
+
+Machine 2: 2 23 20 12 
+
+Machine 3: 11 1 5 
+
+Machine 4: 3 9 18 
+
+Machine 5: 15 16 13 
+
+Machine 6: 6 21 24 
+
+Machine 7: 17 4 25 
+
+Total Tardiness: 1588
+Time taken by heuristic: 0.00029902 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 22 1 6 
+
+Machine 2: 5 10 17 4 
+
+Machine 3: 19 12 9 3 
+
+Machine 4: 14 13 11 
+
+Machine 5: 2 8 24 
+
+Machine 6: 15 18 7 25 
+
+Machine 7: 16 23 20 
+
+Total Tardiness: 1762
+Time taken by heuristic: 0.000292096 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 7 13 23 25 24 
+
+Machine 2: 6 18 1 15 
+
+Machine 3: 3 22 11 17 
+
+Machine 4: 14 5 21 
+
+Machine 5: 8 2 19 
+
+Machine 6: 16 12 
+
+Machine 7: 4 9 10 
+
+Total Tardiness: 1358
+Time taken by heuristic: 0.000306022 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 19 10 14 22 1 
+
+Machine 2: 7 17 5 24 
+
+Machine 3: 21 6 15 4 
+
+Machine 4: 18 23 2 
+
+Machine 5: 12 13 8 
+
+Machine 6: 25 20 9 
+
+Machine 7: 16 11 3 
+
+Total Tardiness: 1952
+Time taken by heuristic: 0.000285715 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 6 19 23 18 16 
+
+Machine 2: 9 25 12 1 
+
+Machine 3: 2 20 24 
+
+Machine 4: 22 13 3 
+
+Machine 5: 7 10 4 
+
+Machine 6: 11 17 5 
+
+Machine 7: 14 8 15 
+
+Total Tardiness: 1747
+Time taken by heuristic: 0.000301214 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 22 8 3 10 4 25 
+
+Machine 2: 2 15 16 13 
+
+Machine 3: 11 19 14 
+
+Machine 4: 6 1 5 
+
+Machine 5: 17 21 24 
+
+Machine 6: 23 20 12 
+
+Machine 7: 9 18 
+
+Total Tardiness: 1363
+Time taken by heuristic: 0.000711111 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 19 22 9 3 
+
+Machine 2: 5 15 17 4 
+
+Machine 3: 14 8 24 
+
+Machine 4: 16 13 11 
+
+Machine 5: 10 1 6 
+
+Machine 6: 12 23 20 
+
+Machine 7: 2 18 7 25 
+
+Total Tardiness: 1565
+Time taken by heuristic: 0.000296876 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 6 7 18 23 12 
+
+Machine 2: 14 13 22 2 19 
+
+Machine 3: 3 4 1 15 
+
+Machine 4: 8 11 17 
+
+Machine 5: 16 25 24 
+
+Machine 6: 9 10 
+
+Machine 7: 5 21 
+
+Total Tardiness: 1208
+Time taken by heuristic: 0.000312415 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 19 10 25 22 1 
+
+Machine 2: 21 14 5 24 
+
+Machine 3: 12 13 8 
+
+Machine 4: 7 6 15 4 
+
+Machine 5: 18 23 2 
+
+Machine 6: 17 11 3 
+
+Machine 7: 16 20 9 
+
+Total Tardiness: 1751
+Time taken by heuristic: 0.000297928 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 6 22 19 8 15 
+
+Machine 2: 9 7 3 
+
+Machine 3: 2 23 25 4 
+
+Machine 4: 11 13 24 
+
+Machine 5: 14 12 1 
+
+Machine 6: 10 17 5 
+
+Machine 7: 20 18 16 
+
+Total Tardiness: 1569
+Time taken by heuristic: 0.000686835 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 22 8 3 10 20 12 
+
+Machine 2: 11 9 14 
+
+Machine 3: 17 21 24 
+
+Machine 4: 6 16 13 
+
+Machine 5: 15 19 5 
+
+Machine 6: 1 18 
+
+Machine 7: 23 4 25 
+
+Total Tardiness: 1186
+Time taken by heuristic: 0.000317825 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 5 2 9 3 
+
+Machine 2: 14 15 22 7 25 
+
+Machine 3: 16 13 11 
+
+Machine 4: 10 1 6 
+
+Machine 5: 12 23 20 
+
+Machine 6: 19 8 24 
+
+Machine 7: 18 17 4 
+
+Total Tardiness: 1381
+Time taken by heuristic: 0.000325178 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 6 3 7 18 22 23 12 
+
+Machine 2: 14 8 13 4 21 
+
+Machine 3: 16 1 15 
+
+Machine 4: 9 2 19 
+
+Machine 5: 5 10 
+
+Machine 6: 11 17 
+
+Machine 7: 25 24 
+
+Total Tardiness: 1050
+Time taken by heuristic: 0.000340166 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 10 14 5 24 
+
+Machine 2: 19 7 25 15 4 
+
+Machine 3: 12 13 8 
+
+Machine 4: 17 11 3 
+
+Machine 5: 18 6 2 
+
+Machine 6: 23 22 1 
+
+Machine 7: 16 20 9 
+
+Total Tardiness: 1580
+Time taken by heuristic: 0.000561932 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 9 21 22 19 23 4 
+
+Machine 2: 2 7 25 1 
+
+Machine 3: 6 12 3 
+
+Machine 4: 11 13 24 
+
+Machine 5: 14 17 5 
+
+Machine 6: 10 18 16 
+
+Machine 7: 20 8 15 
+
+Total Tardiness: 1376
+Time taken by heuristic: 0.000326121 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 7 2 22 8 6 10 18 
+
+Machine 2: 11 15 19 24 
+
+Machine 3: 17 3 21 12 
+
+Machine 4: 1 16 25 
+
+Machine 5: 4 14 
+
+Machine 6: 20 5 
+
+Machine 7: 23 9 13 
+
+Total Tardiness: 1011
+Time taken by heuristic: 0.000330799 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 5 19 15 24 
+
+Machine 2: 14 2 22 7 25 
+
+Machine 3: 16 13 11 
+
+Machine 4: 10 23 6 
+
+Machine 5: 12 1 20 
+
+Machine 6: 18 17 4 
+
+Machine 7: 8 9 3 
+
+Total Tardiness: 1219
+Time taken by heuristic: 0.000320289 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 20 14 7 18 13 22 4 23 24 
+
+Machine 2: 6 3 8 2 19 
+
+Machine 3: 16 25 15 
+
+Machine 4: 9 12 
+
+Machine 5: 11 21 
+
+Machine 6: 1 17 
+
+Machine 7: 5 10 
+
+Total Tardiness: 927
+Time taken by heuristic: 0.000337782 seconds
+
+❤️ Heuristic Schedule
+
+Machine 1: 21 10 16 5 24 
+
+Machine 2: 19 12 25 22 1 
+
+Machine 3: 7 18 14 2 
+
+Machine 4: 17 6 9 
+
+Machine 5: 23 20 3 
+
+Machine 6: 13 15 4 
+
+Machine 7: 11 8 
+
+Total Tardiness: 1449
+Time taken by heuristic: 0.000485098 seconds
+
