@@ -14,9 +14,22 @@
 using namespace std::chrono;
 
 int main(int argc, char *argv[]) {
-    // for each file of benchmarks (n=20, m=2), read the file and run the MDD algorithm
+    if (argc != 3) {
+        cout << "Usage: ./LocalSearch <path_to_benchmarks> <algorithm>" << endl;
+        return -1;
+    } 
     string path = argv[1];
-    
+    int algorithm = stoi(argv[2]);
+
+    if (algorithm != 1 && algorithm != 2 && algorithm != 3) {
+        cout << "Usage: ./LocalSearch <path_to_benchmarks> <algorithm>" << endl;
+        cout << " <algorithm> must be one of the following:" << endl;
+        cout << "\t1: Heuristic Algorithm" << endl;
+        cout << "\t2: Local Search Algorithm" << endl;
+        cout << "\t3: Exact Algorithm" << endl;
+        return -1;
+    }
+
     for (const auto & entry : filesystem::directory_iterator(path)) {
         // store the information of the file
         int n, m;
@@ -28,47 +41,43 @@ int main(int argc, char *argv[]) {
             return -1;
         }
 
-        // Run the MDD algorithm for the TT problem with n jobs and m machines
+        high_resolution_clock::time_point start, end;
+        vector<vector<Job>> schedule;
+        string algorithm_name;
 
-        // auto start = high_resolution_clock::now();
-        // vector<vector<Job>> heuristic_schedule = mddScheduling(jobs, m);
-        // auto end = high_resolution_clock::now();
-        // std::chrono::duration<double>  duration_h = std::chrono::duration_cast<std::chrono::duration<double>>(end - start);
-        
-        // start = high_resolution_clock::now(); 
-        // vector<vector<Job>> exact_schedules = exact_solution(jobs, m);
-        // end = high_resolution_clock::now();
-        // std::chrono::duration<double>  duration_e = std::chrono::duration_cast<std::chrono::duration<double>>(end - start);
+        switch (algorithm)
+        {
+        case 1:
+            cout << "❤️ Heuristic Algorithm" << endl;
+            algorithm_name = "Heuristic";
+            start = high_resolution_clock::now();
+            schedule = mddScheduling(jobs, m);
+            end = high_resolution_clock::now();
+            break;
+        case 2:
+            cout << "✨ Local Search Algorithm" << endl;
+            algorithm_name = "Local Search";
+            start = high_resolution_clock::now();
+            schedule = local_search(jobs, m, 25000);
+            end = high_resolution_clock::now();
+            break;
+        case 3:
+            cout << "🙈 Exact Algorithm" << endl;
+            algorithm_name = "Exact";
+            start = high_resolution_clock::now();
+            schedule = exact_solution(jobs, m);
+            end = high_resolution_clock::now();
+            break;
+        }
+        duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
 
-        auto start = high_resolution_clock::now();
-        vector<vector<Job>> local_search_schedule = local_search(jobs, m, 25000);
-        auto end = high_resolution_clock::now();
-        std::chrono::duration<double> duration_ls = std::chrono::duration_cast<std::chrono::duration<double>>(end - start);
-
-
-        // cout << "❤️ Heuristic Schedule" << endl;
-        // print_schedule(heuristic_schedule, m);
-
-        // calculate total tardiness
-        // long long total_tardiness_heuristic = total_tardiness(heuristic_schedule);
-        // cout << "\nTotal Tardiness: " << total_tardiness_heuristic << endl;
-        // cout << "Time taken by heuristic: " << duration_h.count() << " seconds\n" << endl;
-
-        // cout << "🙈 Exact Schedule" << endl;
-        // print_schedule(exact_schedules, m);
-
-        // calculate total tardiness
-        // long long exact_total_tardiness = total_tardiness(exact_schedules);
-        // cout << "\nTotal Tardiness: " << exact_total_tardiness << endl;
-        // cout << "Time taken by exact algorithm: " << duration_e.count() << " seconds\n" << endl;
-
-        cout << "✨ Local Search Schedule" << endl;
-        print_schedule(local_search_schedule, m);
+        cout << algorithm_name << " Schedule" << endl;
+        print_schedule(schedule, m);
 
         // calculate total tardiness
-        long long local_search_total_tardiness = total_tardiness(local_search_schedule);
-        cout << "\nTotal Tardiness: " << local_search_total_tardiness << endl;
-        cout << "Time taken by local search: " << duration_ls.count() << " seconds\n\n" << endl;
+        long long tardiness = total_tardiness(schedule);
+        cout << "\nTotal Tardiness: " << tardiness << endl;
+        cout << "Time taken by local search: " << duration.count() << " seconds\n" << endl;
     }
 
     return 0;
