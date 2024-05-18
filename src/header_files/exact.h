@@ -8,8 +8,8 @@
 
     using namespace std;
 
-    vector<vector<Job>> backtrack(vector<Job> jobs, vector<vector<Job>> schedules, long long mask);
-    vector<vector<Job>> exact_solution(vector<Job> jobs, int machines);
-    long long total_tardiness(vector<vector<Job>> schedule);
+    vector<vector<Job*>> backtrack(vector<Job*> jobs, vector<vector<Job*>> schedules, long long mask);
+    vector<vector<Job*>> exact_solution(vector<Job*> jobs, int machines);
+    long long total_tardiness(vector<vector<Job*>> schedule);
 
 #endif

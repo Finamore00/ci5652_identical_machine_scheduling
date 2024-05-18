@@ -33,16 +33,16 @@ int main(int argc, char *argv[]) {
     for (const auto & entry : filesystem::directory_iterator(path)) {
         // store the information of the file
         int n, m;
-        vector<Job> jobs;
+        vector<Job*> jobs;
         int flag = read_fileinput(entry.path(), jobs, n, m);
 
         if (flag == -1) {
             cout << "Error reading the file " << entry.path() << endl;
             return -1;
         }
-
+        
         high_resolution_clock::time_point start, end;
-        vector<vector<Job>> schedule;
+        vector<vector<Job*>> schedule;
         string algorithm_name;
 
         switch (algorithm)

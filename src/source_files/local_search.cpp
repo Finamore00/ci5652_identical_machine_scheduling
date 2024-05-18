@@ -7,9 +7,19 @@
 
 using namespace std;
 
-vector<vector<Job>> generate_random_solution(vector<Job> jobs, int machine_count) {
+void prints(vector<vector<Job*>> &schedule, int machine_count) {
+    for (int i = 0; i < machine_count; i++) {
+        cout << "\nMachine " << i + 1 << ": ";
+        for (Job* job : schedule[i]) {
+            cout << job->id << " ";
+        }
+        cout << endl;
+    }
+}
+
+vector<vector<Job*>> generate_random_solution(vector<Job*> jobs, int machine_count) {
     srand((unsigned)time(0));
-    vector<vector<Job>> schedule(machine_count);
+    vector<vector<Job*>> schedule(machine_count);
 
     for (int i = 0; i < machine_count; i++) {
         schedule[i].resize(0);
@@ -26,9 +36,9 @@ vector<vector<Job>> generate_random_solution(vector<Job> jobs, int machine_count
  * Implementation of local search algorithm for optimizing minimum total tardiness
  * in the parallel identical machine scheduling problem.
 */
-vector<vector<Job>> local_search(vector<Job> jobs, int machine_count, unsigned int max_iter) {
+vector<vector<Job*>> local_search(vector<Job*> jobs, int machine_count, unsigned int max_iter) {
     //Generate initial solution using heuristic algorithm
-    vector<vector<Job>> curr_solution = mddScheduling(jobs, machine_count);
+    vector<vector<Job*>> curr_solution = mddScheduling(jobs, machine_count);
     unsigned int iter_counter = 0;
 
     while (iter_counter++ < max_iter) {
@@ -43,7 +53,8 @@ vector<vector<Job>> local_search(vector<Job> jobs, int machine_count, unsigned i
             }
         }
 
-        vector<vector<Job>> neighbor = generate_neighbor(curr_solution, tardiest_machine);
+        vector<vector<Job*>> neighbor = generate_neighbor(curr_solution, tardiest_machine);
+        prints(neighbor, machine_count);
         if (total_tardiness(neighbor) < curr_total_tardiness) {
             curr_solution = neighbor;
             iter_counter = 0;

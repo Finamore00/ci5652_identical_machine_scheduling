@@ -48,7 +48,7 @@ vector<int> splitstring(string str)
         - 1 if the file is read successfully
         - -1 if the file is not found
 */
-int read_fileinput(filesystem::path path, vector<Job>& jobs, int& num_jobs, int& num_machines) {
+int read_fileinput(filesystem::path path, vector<Job*>& jobs, int& num_jobs, int& num_machines) {
     ifstream file(path);
     // check if the file is found
     if (!file) {
@@ -79,7 +79,10 @@ int read_fileinput(filesystem::path path, vector<Job>& jobs, int& num_jobs, int&
             else {
                 // store the job id, processing time, and due date
                 idjob = v[0]; process_time = v[1]; due_date = v[2];
-                Job job = {idjob, process_time, due_date};
+                Job *job = new Job();
+                job->id = idjob;
+                job->ptime = process_time;
+                job->dDate = due_date;
                 jobs.push_back(job);
             }
         }
@@ -89,11 +92,11 @@ int read_fileinput(filesystem::path path, vector<Job>& jobs, int& num_jobs, int&
     return 1; // sucess
 }
 
-void print_schedule(vector<vector<Job>> &schedule, int machine_count) {
+void print_schedule(vector<vector<Job*>> schedule, int machine_count) {
     for (int i = 0; i < machine_count; i++) {
         cout << "\nMachine " << i + 1 << ": ";
-        for (Job job : schedule[i]) {
-            cout << job.id << " ";
+        for (Job *job : schedule[i]) {
+            cout << job->id << " ";
         }
         cout << endl;
     }
