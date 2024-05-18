@@ -10,11 +10,11 @@
     using namespace std;
 
     long long machine_tardiness(vector<Job*> machine_schedule);
-    vector<vector<Job*>> shift_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine);
-    vector<vector<Job*>> switch_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine);
-    vector<vector<Job*>> direct_swap_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine);
-    vector<vector<Job*>> two_shift_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine);
-    vector<vector<Job*>> task_move_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine);
-    vector<vector<Job*>> generate_neighbor(vector<vector<Job*>> &schedule, int tardiest_machine);
+    vector<vector<Job*>> shift_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine);
+    vector<vector<Job*>> switch_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine);
+    vector<vector<Job*>> direct_swap_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine);
+    vector<vector<Job*>> two_shift_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine);
+    vector<vector<Job*>> task_move_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine);
+    vector<vector<Job*>> generate_neighbor(vector<vector<Job*>> schedule, int tardiest_machine);
 
 #endif

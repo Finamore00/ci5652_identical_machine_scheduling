@@ -47,30 +47,21 @@ void imprimir(vector<vector<Job*>> &schedule, int machine_count) {
  * with the highest tardiness and relocating it to a random position in the
  * same machine.
 */
-vector<vector<Job*>> shift_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine) {
+vector<vector<Job*>> shift_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine) {
+
     if (schedule[tardiest_machine].size() < 2) {
         return schedule;
     }
-
-    auto now = high_resolution_clock::now();
-	auto timeMillis = duration_cast<chrono::milliseconds>(now.time_since_epoch()).count();
-	srand(timeMillis);
 
     //Select a random job from the machine
     int first_pos = rand() % schedule[tardiest_machine].size();
     Job* selected_job = schedule[tardiest_machine][first_pos];
 
-    // Choose a random position for the job to be inserted within the tardiest machine
-    // Ensuring that the job is not inserted in the same position it was extracted from
-    int second_pos = rand() % schedule[tardiest_machine].size();
-    while (second_pos == first_pos) {
-        second_pos = rand() % schedule[tardiest_machine].size();
-    }
-
     schedule[tardiest_machine].erase(schedule[tardiest_machine].begin() + first_pos);
-    
-    schedule[tardiest_machine].insert(schedule[tardiest_machine].begin() + second_pos, selected_job);
 
+    // Choose a random position for the job to be inserted within the tardiest machine
+    int second_pos = rand() % schedule[tardiest_machine].size();
+    schedule[tardiest_machine].insert(schedule[tardiest_machine].begin() + second_pos, selected_job);
 
     return schedule;
 }
@@ -80,10 +71,7 @@ vector<vector<Job*>> shift_neighborhood(vector<vector<Job*>> &schedule, int tard
  * the tardiest machine and swapping their positions within the machine
  * schedule.
 */
-vector<vector<Job*>> switch_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine) {
-    auto now = high_resolution_clock::now();
-	auto timeMillis = duration_cast<chrono::milliseconds>(now.time_since_epoch()).count();
-	srand(timeMillis);
+vector<vector<Job*>> switch_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine) {
 
     vector<Job*> &machine = schedule[tardiest_machine];
     //If machine is empty don't do anything
@@ -106,10 +94,7 @@ vector<vector<Job*>> switch_neighborhood(vector<vector<Job*>> &schedule, int tar
  * from the tardiest machine, and then exchanging two random jobs between the
  * two, respecting the position each job had within their respective machine
 */
-vector<vector<Job*>> direct_swap_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine) {
-    auto now = high_resolution_clock::now();
-	auto timeMillis = duration_cast<chrono::milliseconds>(now.time_since_epoch()).count();
-	srand(timeMillis);
+vector<vector<Job*>> direct_swap_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine) {
 
     vector<Job*> &target_machine = schedule[tardiest_machine];
     vector<Job*> &aux_machine = schedule[rand() % schedule.size()];
@@ -134,7 +119,7 @@ vector<vector<Job*>> direct_swap_neighborhood(vector<vector<Job*>> &schedule, in
  * a given machine. It's basically equivalent to a double application of the shift
  * neighborhood function
 */
-vector<vector<Job*>> two_shift_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine) {
+vector<vector<Job*>> two_shift_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine) {
     vector<vector<Job*>> first_shift = shift_neighborhood(schedule, tardiest_machine);
     return shift_neighborhood(first_shift, tardiest_machine);
 }
@@ -144,34 +129,33 @@ vector<vector<Job*>> two_shift_neighborhood(vector<vector<Job*>> &schedule, int 
  * different from the tardiest machine and extracting a randomly chosen job from each one.
  * The extracted jobs are then inserted in a random position in the opposite machine.
 */
-vector<vector<Job*>> task_move_neighborhood(vector<vector<Job*>> &schedule, int tardiest_machine) {
-    auto now = high_resolution_clock::now();
-	auto timeMillis = duration_cast<chrono::milliseconds>(now.time_since_epoch()).count();
-	srand(timeMillis);
+vector<vector<Job*>> task_move_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine) {
 
     vector<Job*> &target_machine = schedule[tardiest_machine];
-    vector<Job*> &aux_machine = schedule[rand() % schedule.size()];
+    int aux_machine_idx = rand() % schedule.size();
+    vector<Job *> &aux_machine = schedule[rand() % schedule.size()];
 
     //If either machine is empty do nothing.
-    if (target_machine.empty() || aux_machine.empty()) {
+    if (target_machine.empty() || aux_machine.empty() || aux_machine == target_machine) {
         return schedule;
     }
 
-    //Choose random position for each machine
+    //Choose a job for each machine, store it and delete it from vector
     int target_machine_pos = rand() % target_machine.size();
-    int aux_machine_pos = rand() % aux_machine.size();
-
-    //Extract the chosen jobs
-    Job* target_machine_job = target_machine[target_machine_pos];
-    Job* aux_machine_job = aux_machine[aux_machine_pos];
-
-    //Delete them from each machine
+    Job *target_machine_job = target_machine[target_machine_pos];
     target_machine.erase(target_machine.begin() + target_machine_pos);
+
+    int aux_machine_pos = aux_machine.empty() ? 0 : rand() % aux_machine.size();
+    Job* aux_machine_job = aux_machine[aux_machine_pos];
     aux_machine.erase(aux_machine.begin() + aux_machine_pos);
 
+    //Get new insertion possitions
+    int target_machine_insert_pos = target_machine.empty() ? 0 : rand() % target_machine.size();
+    int aux_machine_insert_pos = aux_machine.empty() ? 0 : rand() % aux_machine.size();
+
     //Reinsert the jobs in random position of the opposite machine
-    target_machine.insert(target_machine.begin() + (rand() % target_machine.size()), aux_machine_job);
-    aux_machine.insert(aux_machine.begin() + (rand() % aux_machine.size()), target_machine_job);
+    target_machine.insert(target_machine.begin() + target_machine_insert_pos, aux_machine_job);
+    aux_machine.insert(aux_machine.begin() + aux_machine_insert_pos, target_machine_job);
 
     return schedule;
 }
@@ -180,26 +164,20 @@ vector<vector<Job*>> task_move_neighborhood(vector<vector<Job*>> &schedule, int 
  * Function that generates a neighbor for the inputted solution state using
  * a random vicinity function. 
 */
-vector<vector<Job*>> generate_neighbor(vector<vector<Job*>> &schedule, int tardiest_machine) {
-    srand((unsigned)time(0));
+vector<vector<Job*>> generate_neighbor(vector<vector<Job*>> schedule, int tardiest_machine) {
 
-    int chosen_function = 0;
+    int chosen_function = rand() % 5;
 
     switch (chosen_function) {
         case 0:
-            cout << "Shift neighborhood" << endl;
             return shift_neighborhood(schedule, tardiest_machine);
         case 1:
-            cout << "Switch neighborhood" << endl;
             return switch_neighborhood(schedule, tardiest_machine);
         case 2:
-            cout << "Direct swap neighborhood" << endl;
             return direct_swap_neighborhood(schedule, tardiest_machine);
         case 3:
-            cout << "Two shift neighborhood" << endl;
             return two_shift_neighborhood(schedule, tardiest_machine);
         case 4:
-            cout << "Task move neighborhood" << endl;
             return task_move_neighborhood(schedule, tardiest_machine);
         default:
             exit(1); //If switch statement doesn't work as intended then something is terribly wrong.

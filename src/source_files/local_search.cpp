@@ -43,6 +43,10 @@ vector<vector<Job*>> local_search(vector<Job*> jobs, int machine_count, unsigned
 
     while (iter_counter++ < max_iter) {
         long long curr_total_tardiness = total_tardiness(curr_solution);
+        //If solution has been found don't keep going
+        if (curr_total_tardiness == 0) {
+            break;
+        }
         
         // Find tardiest machine in the solution
         int tardiest_machine = -1;
@@ -54,12 +58,10 @@ vector<vector<Job*>> local_search(vector<Job*> jobs, int machine_count, unsigned
         }
 
         vector<vector<Job*>> neighbor = generate_neighbor(curr_solution, tardiest_machine);
-        prints(neighbor, machine_count);
         if (total_tardiness(neighbor) < curr_total_tardiness) {
             curr_solution = neighbor;
             iter_counter = 0;
         }
-
     }
 
     return curr_solution;

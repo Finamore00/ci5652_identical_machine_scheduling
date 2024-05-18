@@ -30,6 +30,10 @@ int main(int argc, char *argv[]) {
         return -1;
     }
 
+    auto now = high_resolution_clock::now();
+	auto timeMillis = duration_cast<chrono::milliseconds>(now.time_since_epoch()).count();
+	srand(timeMillis);
+
     for (const auto & entry : filesystem::directory_iterator(path)) {
         // store the information of the file
         int n, m;
