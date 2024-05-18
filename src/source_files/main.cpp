@@ -58,7 +58,7 @@ int main(int argc, char *argv[]) {
             cout << "✨ Local Search Algorithm" << endl;
             algorithm_name = "Local Search";
             start = high_resolution_clock::now();
-            schedule = local_search(jobs, m, 25000);
+            schedule = local_search(jobs, m, 65000);
             end = high_resolution_clock::now();
             break;
         case 3:

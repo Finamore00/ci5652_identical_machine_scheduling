@@ -37,19 +37,30 @@ long long machine_tardiness(vector<Job> machine_schedule) {
 */
 vector<vector<Job>> shift_neighborhood(vector<vector<Job>> schedule, int tardiest_machine) {
     srand((unsigned) time(0));
-    
-    vector<Job> machine = schedule[tardiest_machine];
 
-    int remove_pos = rand() % machine.size();
-    Job chosen_job = machine[remove_pos];
-    machine.erase(machine.begin() + remove_pos);
+    vector<Job> &machine = schedule[tardiest_machine];
 
-    int insert_pos = rand() % machine.size();
-    while (insert_pos == remove_pos) {
-        insert_pos = rand() % machine.size();
+    //If machine is empty don't do anything
+    if (machine.empty()) {
+        return schedule;
     }
 
-    machine.insert(machine.begin() + insert_pos, chosen_job);
+    //Select two random jobs from the machine
+    int first_pos = rand() % machine.size();
+    int second_pos = rand() % machine.size();
+
+    //Make sure second_pos is different from first_pos
+    while (second_pos == first_pos && machine.size() > 1) {
+        second_pos = rand() % machine.size();
+    }
+
+    //Remove the job from the machine
+    Job selected_job = machine[first_pos];
+    machine.erase(machine.begin() + first_pos);
+
+    //Reinsert it
+    machine.insert(machine.begin() + second_pos, selected_job);
+
     return schedule;
 }
 
@@ -61,12 +72,18 @@ vector<vector<Job>> shift_neighborhood(vector<vector<Job>> schedule, int tardies
 vector<vector<Job>> switch_neighborhood(vector<vector<Job>> schedule, int tardiest_machine) {
     srand((unsigned) time(0));
 
-    vector<Job> machine = schedule[tardiest_machine];
+    vector<Job> &machine = schedule[tardiest_machine];
+    //If machine is empty don't do anything
+    if (machine.empty()) {
+        return schedule;
+    }
 
-    int pos_1 = rand() % machine.size();
-    int pos_2 = rand() % machine.size();
+    //Choose two random positions within the machine
+    int first_pos = rand() % machine.size();
+    int second_pos = rand() % machine.size();
 
-    iter_swap(machine.begin() + pos_1, machine.begin() + pos_2);
+    //Swap their values
+    std::swap(machine[first_pos], machine[second_pos]);
 
     return schedule;
 }
@@ -79,15 +96,20 @@ vector<vector<Job>> switch_neighborhood(vector<vector<Job>> schedule, int tardie
 vector<vector<Job>> direct_swap_neighborhood(vector<vector<Job>> schedule, int tardiest_machine) {
     srand((unsigned) time(0));
 
-    vector<Job> &machine = schedule[tardiest_machine];
-    
-    int second_machine_pos = rand() % schedule.size();
-    while (second_machine_pos == tardiest_machine) {
-        second_machine_pos = rand() % schedule.size();
+    vector<Job> &target_machine = schedule[tardiest_machine];
+    vector<Job> &aux_machine = schedule[rand() % schedule.size()];
+
+    //If either machine is empty do nothing.
+    if (target_machine.empty() || aux_machine.empty()) {
+        return schedule;
     }
 
-    vector<Job> &second_machine = schedule[second_machine_pos];
-    iter_swap(machine.begin() + rand() % machine.size(), second_machine.begin() + rand() % second_machine.size());
+    //Select one position in each machine
+    int target_machine_pos = rand() % target_machine.size();
+    int aux_machine_pos = rand() % aux_machine.size();
+
+    //Swap both job values
+    std::swap(target_machine[target_machine_pos], aux_machine[aux_machine_pos]);
 
     return schedule;
 }
@@ -109,20 +131,29 @@ vector<vector<Job>> two_shift_neighborhood(vector<vector<Job>> schedule, int tar
 vector<vector<Job>> task_move_neighborhood(vector<vector<Job>> schedule, int tardiest_machine) {
     srand((unsigned) time(0));
 
-    vector<Job> &first_machine = schedule[tardiest_machine];
-    vector<Job> &second_machine = schedule[rand() % schedule.size()];
+    vector<Job> &target_machine = schedule[tardiest_machine];
+    vector<Job> &aux_machine = schedule[rand() % schedule.size()];
 
-    int first_machine_job_pos = rand() % first_machine.size();
-    int second_machine_job_pos = rand() % second_machine.size();
+    //If either machine is empty do nothing.
+    if (target_machine.empty() || aux_machine.empty()) {
+        return schedule;
+    }
 
-    Job first_job = first_machine[first_machine_job_pos];
-    Job second_job = second_machine[second_machine_job_pos];
+    //Choose random position for each machine
+    int target_machine_pos = rand() % target_machine.size();
+    int aux_machine_pos = rand() % aux_machine.size();
 
-    first_machine.erase(first_machine.begin() + first_machine_job_pos);
-    second_machine.erase(second_machine.begin() + second_machine_job_pos);
+    //Extract the chosen jobs
+    Job target_machine_job = target_machine[target_machine_pos];
+    Job aux_machine_job = aux_machine[aux_machine_pos];
 
-    first_machine.insert(first_machine.begin() + (rand() % first_machine.size()), second_job);
-    second_machine.insert(second_machine.begin() + (rand() % second_machine.size()), first_job);
+    //Delete them from each machine
+    target_machine.erase(target_machine.begin() + target_machine_pos);
+    aux_machine.erase(aux_machine.begin() + aux_machine_pos);
+
+    //Reinsert the jobs in random position of the opposite machine
+    target_machine.insert(target_machine.begin() + (rand() % target_machine.size()), aux_machine_job);
+    aux_machine.insert(aux_machine.begin() + (rand() % aux_machine.size()), target_machine_job);
 
     return schedule;
 }

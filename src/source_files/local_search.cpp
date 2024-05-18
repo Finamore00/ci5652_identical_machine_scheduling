@@ -28,7 +28,7 @@ vector<vector<Job>> generate_random_solution(vector<Job> jobs, int machine_count
 */
 vector<vector<Job>> local_search(vector<Job> jobs, int machine_count, unsigned int max_iter) {
     //Generate initial solution using heuristic algorithm
-    vector<vector<Job>> curr_solution = mddScheduling(jobs, machine_count);
+    vector<vector<Job>> curr_solution = generate_random_solution(jobs, machine_count);
     unsigned int iter_counter = 0;
 
     while (iter_counter++ < max_iter) {
