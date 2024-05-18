@@ -47,16 +47,17 @@ vector<vector<Job>> shift_neighborhood(vector<vector<Job>> schedule, int tardies
 
     //Select two random jobs from the machine
     int first_pos = rand() % machine.size();
+
+    //Remove the job from the machine
+    Job selected_job = machine[first_pos];
+    machine.erase(machine.begin() + first_pos);
+
     int second_pos = rand() % machine.size();
 
     //Make sure second_pos is different from first_pos
     while (second_pos == first_pos && machine.size() > 1) {
         second_pos = rand() % machine.size();
     }
-
-    //Remove the job from the machine
-    Job selected_job = machine[first_pos];
-    machine.erase(machine.begin() + first_pos);
 
     //Reinsert it
     machine.insert(machine.begin() + second_pos, selected_job);
