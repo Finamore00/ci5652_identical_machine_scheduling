@@ -99,26 +99,26 @@ Los resultados obtenidos al ejecutar el programa con los casos de prueba en la c
 
 A modo de resumen y para facilitar la visualización de los resultados, se presentan las tablas comparativas resumidas a continuación:
 
-|   n  |  m  | Promedio de diferencia de tardanza para el algoritmo heuristica  vs la tardanza óptima | Promedio de diferencia de tardanza para el algoritmo ls con solución inicial heuristica  vs la tardanza óptima | Promedio de diferencia de tardanza para el algoritmo ls  con solución inicial aleatoria  vs la tardanza óptima |
-|:----:|:---:|:-----------:|:-------------------:|:--------------:|
-|  20  |  2  |    14,784   |        6,008        |       23       |
-|  20  |  3  |    18,544   |        10,28        |       86       |
-|  20  |  4  |    20,936   |        13,264       |      114       |
-|  20  |  5  |    21,512   |        15,616       |      439,5     |
-|  20  |  6  |     20,6    |        15,208       |       61       |
-|  20  |  7  |    20,688   |        17,008       |      227,5     |
-|  20  |  8  |    20,016   |        15,424       |      333       |
-|  20  |  9  |    17,944   |        15,152       |      141       |
-|  20  | 10  |    16,176   |        14,056       |      33,5      |
-|  25  |  2  |     25,88   |        10,52        |      18,5      |
-|  25  |  3  |    23,176   |        13,136       |       34       |
-|  25  |  4  |    22,064   |        15,128       |       15       |
-|  25  |  5  |    23,528   |        16,36        |       69       |
-|  25  |  6  |    23,024   |        17,112       |      315,5     |
-|  25  |  7  |    22,656   |        17,08        |       77       |
-|  25  |  8  |    21,528   |        16,84        |      298       |
-|  25  |  9  |    21,416   |        16,664       |      112       |
-|  25  | 10  |    22,896   |        18,216       |      144       |
+|   n  |  m  | Promedio de diferencia de tardanza para el algoritmo heuristica  vs la tardanza óptima | Promedio de diferencia de tardanza para el algoritmo ls con solución inicial heuristica  vs la tardanza óptima | Promedio de diferencia de tardanza para el algoritmo ls  con solución inicial aleatoria  vs la tardanza óptima  |
+|:----:|:---:|:-----------:|:-------------------:|:-----------------:|
+|  20  |  2  |    14,784   |        6,32         |       36,42       |
+|  20  |  3  |    18,544   |        9,2          |       62,184      |
+|  20  |  4  |    20,936   |        10,704       |       115,04      |
+|  20  |  5  |    21,512   |        11,92        |       105,824     |
+|  20  |  6  |     20,6    |        10,256       |       122,864     |
+|  20  |  7  |    20,688   |        11,744       |      143,536      |
+|  20  |  8  |    20,016   |        10,8         |      153,896      |
+|  20  |  9  |    17,944   |        8,904        |      148,736      |
+|  20  | 10  |    16,176   |        8,992        |      166,864      |
+|  25  |  2  |     25,88   |        10,464       |      27,624       |
+|  25  |  3  |    23,176   |        12,416       |      52,584       |
+|  25  |  4  |    22,064   |        13,056       |      63,36        |
+|  25  |  5  |    23,528   |        11,92        |      88,68        |
+|  25  |  6  |    23,024   |        10,256       |      114,272      |
+|  25  |  7  |    22,656   |        11,744       |      122,384      |
+|  25  |  8  |    21,528   |        10,8         |      137,136      |
+|  25  |  9  |    21,416   |        8,904        |      148,912      |
+|  25  | 10  |    22,896   |        8,992        |      149,896      |
 
 |   n  |  m  | Promedio de tiempo para el algoritmo heuristica (s) | Promedio de tiempo para el algoritmo ls con solución inicial heuristica (s) | Promedio de tiempo para el algoritmo ls con solución inicial aleatoria (s) |
 |:----:|:---:|:---------------------------------------------------------------:|:-------------------------------------------------------------------:|:----------------------------------------------------------------:|
