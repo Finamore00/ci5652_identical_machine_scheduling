@@ -53,6 +53,7 @@ vector<vector<Job*>> local_search(vector<Job*> jobs, int machine_count, unsigned
         long long max_tardiness = LLONG_MIN;
         for (int i = 0; i < machine_count; i++) {
             if (machine_tardiness(curr_solution[i]) > max_tardiness) {
+                max_tardiness = machine_tardiness(curr_solution[i]);
                 tardiest_machine = i;
             }
         }
