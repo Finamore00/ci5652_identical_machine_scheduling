@@ -81,7 +81,23 @@ int main(int argc, char *argv[]) {
         // calculate total tardiness
         long long tardiness = total_tardiness(schedule);
         cout << "\nTotal Tardiness: " << tardiness << endl;
-        cout << "Time taken by local search: " << duration.count() << " seconds\n" << endl;
+
+        cout << "Time taken by ";
+        switch (algorithm)
+        {
+        case 1:
+            cout << "heuristic: ";
+            break;
+        case 2:
+            cout << "local search: ";
+            break;
+        case 3:
+            cout << "exact algorithm: ";
+            break;
+        default:
+            break;
+        }
+        cout << duration.count() << " seconds\n" << endl;
     }
 
     return 0;

@@ -10,7 +10,7 @@ Machine 3: 10 14 17 11 12
 Machine 4: 16 13 15 18 
 
 Total Tardiness: 157
-Time taken by local search: 0.000183614 seconds
+Time taken by heuristic: 0.000305101 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -24,7 +24,7 @@ Machine 3: 10 16 3 2
 Machine 4: 8 4 
 
 Total Tardiness: 130
-Time taken by local search: 0.000154379 seconds
+Time taken by heuristic: 0.000306364 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -38,7 +38,7 @@ Machine 3: 10 18 8 6
 Machine 4: 13 1 9 11 20 
 
 Total Tardiness: 157
-Time taken by local search: 0.000146785 seconds
+Time taken by heuristic: 0.000310732 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -52,7 +52,7 @@ Machine 3: 18 6 8
 Machine 4: 4 11 9 10 
 
 Total Tardiness: 134
-Time taken by local search: 0.000137598 seconds
+Time taken by heuristic: 0.000292988 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -66,7 +66,7 @@ Machine 3: 2 11 18
 Machine 4: 14 5 20 
 
 Total Tardiness: 138
-Time taken by local search: 0.000141865 seconds
+Time taken by heuristic: 0.000301535 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -80,7 +80,7 @@ Machine 3: 5 14 17 13 18
 Machine 4: 16 15 20 4 
 
 Total Tardiness: 85
-Time taken by local search: 0.000131176 seconds
+Time taken by heuristic: 0.00040057 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -94,7 +94,7 @@ Machine 3: 10 8 2
 Machine 4: 4 3 14 
 
 Total Tardiness: 82
-Time taken by local search: 0.00015459 seconds
+Time taken by heuristic: 0.000326071 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -108,7 +108,7 @@ Machine 3: 10 12 18 9 4
 Machine 4: 8 1 11 20 
 
 Total Tardiness: 64
-Time taken by local search: 0.000136575 seconds
+Time taken by heuristic: 0.000366517 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -122,7 +122,7 @@ Machine 3: 5 4 8 20
 Machine 4: 6 9 7 
 
 Total Tardiness: 77
-Time taken by local search: 0.000130153 seconds
+Time taken by heuristic: 0.000292097 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -136,7 +136,7 @@ Machine 3: 2 11 20
 Machine 4: 14 5 19 
 
 Total Tardiness: 67
-Time taken by local search: 0.000137618 seconds
+Time taken by heuristic: 0.000292968 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -150,7 +150,7 @@ Machine 3: 5 2 14 11 4
 Machine 4: 16 15 20 
 
 Total Tardiness: 20
-Time taken by local search: 0.000303919 seconds
+Time taken by heuristic: 0.000443891 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -164,7 +164,7 @@ Machine 3: 10 8 2
 Machine 4: 4 14 15 
 
 Total Tardiness: 11
-Time taken by local search: 0.000320941 seconds
+Time taken by heuristic: 0.000371856 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -178,7 +178,7 @@ Machine 3: 10 12 18 11
 Machine 4: 8 13 1 4 
 
 Total Tardiness: 8
-Time taken by local search: 0.000128922 seconds
+Time taken by heuristic: 0.000335599 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -192,7 +192,7 @@ Machine 3: 5 9 7
 Machine 4: 18 6 20 
 
 Total Tardiness: 28
-Time taken by local search: 0.000294772 seconds
+Time taken by heuristic: 0.000289793 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -206,7 +206,7 @@ Machine 3: 2 11 20
 Machine 4: 14 5 
 
 Total Tardiness: 30
-Time taken by local search: 0.000130144 seconds
+Time taken by heuristic: 0.000293129 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -220,7 +220,7 @@ Machine 3: 3 17 16 18
 Machine 4: 5 15 4 
 
 Total Tardiness: 0
-Time taken by local search: 0.000139441 seconds
+Time taken by heuristic: 0.000384681 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -234,7 +234,7 @@ Machine 3: 10 8 3
 Machine 4: 15 14 2 
 
 Total Tardiness: 0
-Time taken by local search: 0.00014408 seconds
+Time taken by heuristic: 0.000274404 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -248,7 +248,7 @@ Machine 3: 16 12 18 11
 Machine 4: 8 1 4 
 
 Total Tardiness: 0
-Time taken by local search: 0.000134432 seconds
+Time taken by heuristic: 0.000295994 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -262,7 +262,7 @@ Machine 3: 13 18 9
 Machine 4: 5 7 20 
 
 Total Tardiness: 26
-Time taken by local search: 0.000132498 seconds
+Time taken by heuristic: 0.000338133 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -276,7 +276,7 @@ Machine 3: 2 11 20
 Machine 4: 14 5 
 
 Total Tardiness: 11
-Time taken by local search: 0.00014972 seconds
+Time taken by heuristic: 0.000289142 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -290,7 +290,7 @@ Machine 3: 3 14 16 12
 Machine 4: 5 15 
 
 Total Tardiness: 0
-Time taken by local search: 0.000282399 seconds
+Time taken by heuristic: 0.000276828 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -304,7 +304,7 @@ Machine 3: 10 8 14
 Machine 4: 15 2 
 
 Total Tardiness: 0
-Time taken by local search: 0.000146905 seconds
+Time taken by heuristic: 0.000270707 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -318,7 +318,7 @@ Machine 3: 16 10 1 11
 Machine 4: 12 8 4 
 
 Total Tardiness: 0
-Time taken by local search: 0.000150272 seconds
+Time taken by heuristic: 0.000311444 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -332,7 +332,7 @@ Machine 3: 13 18 9
 Machine 4: 5 7 20 
 
 Total Tardiness: 53
-Time taken by local search: 0.000128902 seconds
+Time taken by heuristic: 0.000295564 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -346,7 +346,7 @@ Machine 3: 2 11 19
 Machine 4: 14 5 
 
 Total Tardiness: 0
-Time taken by local search: 0.000153417 seconds
+Time taken by heuristic: 0.000279193 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -360,7 +360,7 @@ Machine 3: 5 10 19 20 16
 Machine 4: 14 6 17 11 12 15 
 
 Total Tardiness: 512
-Time taken by local search: 0.000161172 seconds
+Time taken by heuristic: 0.000394458 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -374,7 +374,7 @@ Machine 3: 11 19 16 2
 Machine 4: 10 14 8 
 
 Total Tardiness: 305
-Time taken by local search: 0.000135634 seconds
+Time taken by heuristic: 0.000365043 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -388,7 +388,7 @@ Machine 3: 16 10 9 4
 Machine 4: 12 18 17 6 8 
 
 Total Tardiness: 543
-Time taken by local search: 0.000299681 seconds
+Time taken by heuristic: 0.000312495 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -402,7 +402,7 @@ Machine 3: 13 18 10 6
 Machine 4: 5 11 8 20 
 
 Total Tardiness: 396
-Time taken by local search: 0.000286637 seconds
+Time taken by heuristic: 0.000297968 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -416,7 +416,7 @@ Machine 3: 7 18 20
 Machine 4: 2 11 14 
 
 Total Tardiness: 357
-Time taken by local search: 0.000143369 seconds
+Time taken by heuristic: 0.000330018 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -430,7 +430,7 @@ Machine 3: 3 2 11 12 15
 Machine 4: 5 14 20 4 
 
 Total Tardiness: 395
-Time taken by local search: 0.000135434 seconds
+Time taken by heuristic: 0.000359734 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -444,7 +444,7 @@ Machine 3: 6 19 16 2
 Machine 4: 10 14 15 
 
 Total Tardiness: 234
-Time taken by local search: 0.000227747 seconds
+Time taken by heuristic: 0.000284452 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -458,7 +458,7 @@ Machine 3: 16 10 1 8
 Machine 4: 12 18 13 4 
 
 Total Tardiness: 443
-Time taken by local search: 0.000136105 seconds
+Time taken by heuristic: 0.000355396 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -472,7 +472,7 @@ Machine 3: 13 18 7
 Machine 4: 5 11 8 9 
 
 Total Tardiness: 368
-Time taken by local search: 0.000508032 seconds
+Time taken by heuristic: 0.000301464 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -486,7 +486,7 @@ Machine 3: 1 7 18
 Machine 4: 2 11 19 
 
 Total Tardiness: 299
-Time taken by local search: 0.000144631 seconds
+Time taken by heuristic: 0.000311103 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -500,7 +500,7 @@ Machine 3: 3 10 11 4
 Machine 4: 5 14 20 18 
 
 Total Tardiness: 324
-Time taken by local search: 0.000149661 seconds
+Time taken by heuristic: 0.000464991 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -514,7 +514,7 @@ Machine 3: 6 19 8 2
 Machine 4: 10 4 
 
 Total Tardiness: 142
-Time taken by local search: 0.000151524 seconds
+Time taken by heuristic: 0.000282158 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -528,7 +528,7 @@ Machine 3: 14 12 1 8
 Machine 4: 16 18 9 4 
 
 Total Tardiness: 353
-Time taken by local search: 0.000285345 seconds
+Time taken by heuristic: 0.000298459 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -542,7 +542,7 @@ Machine 3: 13 14 18 7
 Machine 4: 5 9 20 
 
 Total Tardiness: 343
-Time taken by local search: 0.000322855 seconds
+Time taken by heuristic: 0.000339456 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -556,7 +556,7 @@ Machine 3: 1 7 20
 Machine 4: 2 11 19 
 
 Total Tardiness: 237
-Time taken by local search: 0.000139722 seconds
+Time taken by heuristic: 0.000301775 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -570,7 +570,7 @@ Machine 3: 7 10 17 20 18
 Machine 4: 3 14 16 15 
 
 Total Tardiness: 332
-Time taken by local search: 0.000140262 seconds
+Time taken by heuristic: 0.000342481 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -584,7 +584,7 @@ Machine 3: 6 19 8 2
 Machine 4: 10 4 15 
 
 Total Tardiness: 76
-Time taken by local search: 0.000131998 seconds
+Time taken by heuristic: 0.000345076 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -598,7 +598,7 @@ Machine 3: 15 10 1 9 20
 Machine 4: 14 18 7 16 11 
 
 Total Tardiness: 327
-Time taken by local search: 0.0001926 seconds
+Time taken by heuristic: 0.000309229 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -612,7 +612,7 @@ Machine 3: 13 4 7
 Machine 4: 16 6 20 
 
 Total Tardiness: 374
-Time taken by local search: 0.000184996 seconds
+Time taken by heuristic: 0.000317635 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -626,7 +626,7 @@ Machine 3: 9 14 20
 Machine 4: 2 11 18 
 
 Total Tardiness: 187
-Time taken by local search: 0.000163947 seconds
+Time taken by heuristic: 0.000415569 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -640,7 +640,7 @@ Machine 3: 3 14 16 4
 Machine 4: 1 17 15 18 
 
 Total Tardiness: 350
-Time taken by local search: 0.000146665 seconds
+Time taken by heuristic: 0.000356417 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -654,7 +654,7 @@ Machine 3: 11 10 15
 Machine 4: 8 4 2 
 
 Total Tardiness: 8
-Time taken by local search: 0.000166742 seconds
+Time taken by heuristic: 0.0002884 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -668,7 +668,7 @@ Machine 3: 15 10 1 9 20
 Machine 4: 14 18 16 4 
 
 Total Tardiness: 249
-Time taken by local search: 0.000371596 seconds
+Time taken by heuristic: 0.000362038 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -682,7 +682,7 @@ Machine 3: 13 6 7
 Machine 4: 16 5 9 
 
 Total Tardiness: 391
-Time taken by local search: 0.000324688 seconds
+Time taken by heuristic: 0.000316292 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -696,7 +696,7 @@ Machine 3: 9 14 19
 Machine 4: 2 11 20 
 
 Total Tardiness: 114
-Time taken by local search: 0.000183754 seconds
+Time taken by heuristic: 0.000308017 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -710,7 +710,7 @@ Machine 3: 7 10 13 20 4
 Machine 4: 3 2 14 18 15 
 
 Total Tardiness: 1110
-Time taken by local search: 0.000132899 seconds
+Time taken by heuristic: 0.000301244 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -724,7 +724,7 @@ Machine 3: 7 16 4
 Machine 4: 11 19 2 10 
 
 Total Tardiness: 630
-Time taken by local search: 0.000167083 seconds
+Time taken by heuristic: 0.000378639 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -738,7 +738,7 @@ Machine 3: 15 10 7 1 20
 Machine 4: 14 17 6 18 16 
 
 Total Tardiness: 1161
-Time taken by local search: 0.000138109 seconds
+Time taken by heuristic: 0.000285555 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -752,7 +752,7 @@ Machine 3: 13 11 12 9 5
 Machine 4: 14 4 8 18 
 
 Total Tardiness: 803
-Time taken by local search: 0.000442268 seconds
+Time taken by heuristic: 0.000300733 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -766,7 +766,7 @@ Machine 3: 9 2 14
 Machine 4: 7 18 19 
 
 Total Tardiness: 722
-Time taken by local search: 0.000478536 seconds
+Time taken by heuristic: 0.000351087 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -780,7 +780,7 @@ Machine 3: 3 11 20 4
 Machine 4: 1 14 12 5 
 
 Total Tardiness: 1083
-Time taken by local search: 0.000176751 seconds
+Time taken by heuristic: 0.000303268 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -794,7 +794,7 @@ Machine 3: 7 16 4
 Machine 4: 11 19 2 10 
 
 Total Tardiness: 509
-Time taken by local search: 0.000153838 seconds
+Time taken by heuristic: 0.00032555 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -808,7 +808,7 @@ Machine 3: 15 12 1 4 11
 Machine 4: 14 13 10 20 
 
 Total Tardiness: 1122
-Time taken by local search: 0.000134171 seconds
+Time taken by heuristic: 0.000302106 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -822,7 +822,7 @@ Machine 3: 13 7 18
 Machine 4: 16 10 9 6 
 
 Total Tardiness: 835
-Time taken by local search: 0.00016028 seconds
+Time taken by heuristic: 0.000316493 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -836,7 +836,7 @@ Machine 3: 9 20 5
 Machine 4: 7 2 14 
 
 Total Tardiness: 658
-Time taken by local search: 0.000155521 seconds
+Time taken by heuristic: 0.000310261 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -850,7 +850,7 @@ Machine 3: 2 14 13 18 5
 Machine 4: 8 3 4 15 
 
 Total Tardiness: 1059
-Time taken by local search: 0.0003364 seconds
+Time taken by heuristic: 0.000302386 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -864,7 +864,7 @@ Machine 3: 7 14 8
 Machine 4: 11 19 2 10 
 
 Total Tardiness: 414
-Time taken by local search: 0.000139431 seconds
+Time taken by heuristic: 0.000307586 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -878,7 +878,7 @@ Machine 3: 5 17 10 20
 Machine 4: 14 9 1 8 
 
 Total Tardiness: 1156
-Time taken by local search: 0.000313888 seconds
+Time taken by heuristic: 0.000351107 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -892,7 +892,7 @@ Machine 3: 3 9 7 5
 Machine 4: 13 4 20 
 
 Total Tardiness: 870
-Time taken by local search: 0.000178384 seconds
+Time taken by heuristic: 0.000321612 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -906,7 +906,7 @@ Machine 3: 1 11 19
 Machine 4: 9 20 5 
 
 Total Tardiness: 632
-Time taken by local search: 0.000145793 seconds
+Time taken by heuristic: 0.000314809 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -920,7 +920,7 @@ Machine 3: 2 8 4 1
 Machine 4: 14 17 13 18 15 
 
 Total Tardiness: 1087
-Time taken by local search: 0.000147506 seconds
+Time taken by heuristic: 0.000351228 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -934,7 +934,7 @@ Machine 3: 7 4 10
 Machine 4: 11 19 2 
 
 Total Tardiness: 355
-Time taken by local search: 0.000142837 seconds
+Time taken by heuristic: 0.000311223 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -948,7 +948,7 @@ Machine 3: 19 1 5 8
 Machine 4: 10 18 4 11 
 
 Total Tardiness: 1105
-Time taken by local search: 0.000143308 seconds
+Time taken by heuristic: 0.00032035 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -962,7 +962,7 @@ Machine 3: 14 15 4 7 5
 Machine 4: 3 9 20 
 
 Total Tardiness: 907
-Time taken by local search: 0.00014911 seconds
+Time taken by heuristic: 0.000321762 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -976,7 +976,7 @@ Machine 3: 1 11 18
 Machine 4: 9 20 5 
 
 Total Tardiness: 569
-Time taken by local search: 0.000182272 seconds
+Time taken by heuristic: 0.000327754 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -990,7 +990,7 @@ Machine 3: 2 14 1 5
 Machine 4: 8 3 4 16 
 
 Total Tardiness: 962
-Time taken by local search: 0.00032611 seconds
+Time taken by heuristic: 0.000438962 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1004,7 +1004,7 @@ Machine 3: 7 8 15
 Machine 4: 6 10 14 
 
 Total Tardiness: 177
-Time taken by local search: 0.000142387 seconds
+Time taken by heuristic: 0.000329798 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1018,7 +1018,7 @@ Machine 3: 10 1 14 4
 Machine 4: 5 18 8 16 
 
 Total Tardiness: 883
-Time taken by local search: 0.000351669 seconds
+Time taken by heuristic: 0.000318467 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1032,7 +1032,7 @@ Machine 3: 14 18 7 6
 Machine 4: 3 4 20 
 
 Total Tardiness: 789
-Time taken by local search: 0.00015997 seconds
+Time taken by heuristic: 0.000355606 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1046,7 +1046,7 @@ Machine 3: 9 20 5
 Machine 4: 7 11 14 
 
 Total Tardiness: 445
-Time taken by local search: 0.000168666 seconds
+Time taken by heuristic: 0.000323486 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1060,7 +1060,7 @@ Machine 3: 19 6 11 17 4 15
 Machine 4: 14 10 18 1 
 
 Total Tardiness: 1879
-Time taken by local search: 0.000355095 seconds
+Time taken by heuristic: 0.000288039 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1074,7 +1074,7 @@ Machine 3: 6 3 2 8
 Machine 4: 1 11 4 
 
 Total Tardiness: 1123
-Time taken by local search: 0.000168025 seconds
+Time taken by heuristic: 0.000303689 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1088,7 +1088,7 @@ Machine 3: 12 9 19 4 11
 Machine 4: 13 3 18 8 
 
 Total Tardiness: 2034
-Time taken by local search: 0.000311183 seconds
+Time taken by heuristic: 0.000311994 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1102,7 +1102,7 @@ Machine 3: 3 8 9 6
 Machine 4: 11 12 7 4 
 
 Total Tardiness: 1386
-Time taken by local search: 0.000180869 seconds
+Time taken by heuristic: 0.00029395 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1116,7 +1116,7 @@ Machine 3: 15 20 14
 Machine 4: 16 17 18 7 9 
 
 Total Tardiness: 1206
-Time taken by local search: 0.000169147 seconds
+Time taken by heuristic: 0.000303288 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1130,7 +1130,7 @@ Machine 3: 2 10 17 4 15
 Machine 4: 14 20 8 5 
 
 Total Tardiness: 1926
-Time taken by local search: 0.000141314 seconds
+Time taken by heuristic: 0.000328375 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1144,7 +1144,7 @@ Machine 3: 13 19 11 4
 Machine 4: 6 3 2 8 
 
 Total Tardiness: 1024
-Time taken by local search: 0.000161372 seconds
+Time taken by heuristic: 0.000322664 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1158,7 +1158,7 @@ Machine 3: 12 6 19 4 11
 Machine 4: 13 3 18 8 
 
 Total Tardiness: 2058
-Time taken by local search: 0.000173996 seconds
+Time taken by heuristic: 0.000296485 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1172,7 +1172,7 @@ Machine 3: 14 8 7 4
 Machine 4: 3 13 20 5 
 
 Total Tardiness: 1432
-Time taken by local search: 0.000231884 seconds
+Time taken by heuristic: 0.000305402 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1186,7 +1186,7 @@ Machine 3: 15 11 5
 Machine 4: 16 18 20 14 
 
 Total Tardiness: 1186
-Time taken by local search: 0.000325019 seconds
+Time taken by heuristic: 0.000413995 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1200,7 +1200,7 @@ Machine 3: 19 10 12 3 16
 Machine 4: 14 20 18 1 
 
 Total Tardiness: 1687
-Time taken by local search: 0.000154729 seconds
+Time taken by heuristic: 0.00030436 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1214,7 +1214,7 @@ Machine 3: 1 19 4
 Machine 4: 11 3 7 10 
 
 Total Tardiness: 823
-Time taken by local search: 0.000353301 seconds
+Time taken by heuristic: 0.000305602 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1228,7 +1228,7 @@ Machine 3: 12 9 19 4 11
 Machine 4: 10 7 1 14 16 
 
 Total Tardiness: 1816
-Time taken by local search: 0.000150532 seconds
+Time taken by heuristic: 0.000309129 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1242,7 +1242,7 @@ Machine 3: 14 8 12 9 6
 Machine 4: 3 7 4 
 
 Total Tardiness: 1299
-Time taken by local search: 0.000144831 seconds
+Time taken by heuristic: 0.000311813 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1256,7 +1256,7 @@ Machine 3: 15 20 14
 Machine 4: 2 11 5 
 
 Total Tardiness: 1019
-Time taken by local search: 0.000145682 seconds
+Time taken by heuristic: 0.000340978 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1270,7 +1270,7 @@ Machine 3: 14 17 18 5
 Machine 4: 10 8 3 16 
 
 Total Tardiness: 1462
-Time taken by local search: 0.000142647 seconds
+Time taken by heuristic: 0.000396613 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1284,7 +1284,7 @@ Machine 3: 1 3 2 8
 Machine 4: 11 14 15 
 
 Total Tardiness: 680
-Time taken by local search: 0.000182792 seconds
+Time taken by heuristic: 0.00030972 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1298,7 +1298,7 @@ Machine 3: 12 9 18 4 11
 Machine 4: 10 13 3 8 
 
 Total Tardiness: 1586
-Time taken by local search: 0.000147676 seconds
+Time taken by heuristic: 0.000376244 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1312,7 +1312,7 @@ Machine 3: 14 16 10 4
 Machine 4: 3 8 9 6 
 
 Total Tardiness: 1169
-Time taken by local search: 0.000520134 seconds
+Time taken by heuristic: 0.000313968 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1326,7 +1326,7 @@ Machine 3: 15 20 14
 Machine 4: 2 11 5 
 
 Total Tardiness: 892
-Time taken by local search: 0.000143659 seconds
+Time taken by heuristic: 0.000371907 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1340,7 +1340,7 @@ Machine 3: 10 11 3 1
 Machine 4: 14 8 18 16 
 
 Total Tardiness: 1276
-Time taken by local search: 0.000253625 seconds
+Time taken by heuristic: 0.000317454 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1354,7 +1354,7 @@ Machine 3: 7 14 8
 Machine 4: 11 19 2 10 
 
 Total Tardiness: 463
-Time taken by local search: 0.000146124 seconds
+Time taken by heuristic: 0.000462176 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1368,7 +1368,7 @@ Machine 3: 10 1 14 16
 Machine 4: 19 9 18 4 11 
 
 Total Tardiness: 1332
-Time taken by local search: 0.000142486 seconds
+Time taken by heuristic: 0.000346319 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1382,7 +1382,7 @@ Machine 3: 14 16 12 9 5
 Machine 4: 3 11 7 6 
 
 Total Tardiness: 1036
-Time taken by local search: 0.000150161 seconds
+Time taken by heuristic: 0.000320501 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1396,7 +1396,7 @@ Machine 3: 1 20 14
 Machine 4: 7 11 9 
 
 Total Tardiness: 716
-Time taken by local search: 0.000151013 seconds
+Time taken by heuristic: 0.000391363 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1410,7 +1410,7 @@ Machine 3: 9 11 12 3 16
 Machine 4: 7 14 17 4 15 
 
 Total Tardiness: 2641
-Time taken by local search: 0.000164598 seconds
+Time taken by heuristic: 0.000268492 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1424,7 +1424,7 @@ Machine 3: 12 16 1 7 10
 Machine 4: 9 5 19 2 8 
 
 Total Tardiness: 1691
-Time taken by local search: 0.000127078 seconds
+Time taken by heuristic: 0.000312105 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1438,7 +1438,7 @@ Machine 3: 6 3 10 14 16
 Machine 4: 9 12 19 4 11 
 
 Total Tardiness: 2856
-Time taken by local search: 0.000141204 seconds
+Time taken by heuristic: 0.000262221 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1452,7 +1452,7 @@ Machine 3: 15 14 3 9 6
 Machine 4: 19 11 13 20 5 
 
 Total Tardiness: 1930
-Time taken by local search: 0.000140162 seconds
+Time taken by heuristic: 0.000319768 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1466,7 +1466,7 @@ Machine 3: 8 17 15 7 9
 Machine 4: 16 18 20 14 
 
 Total Tardiness: 1713
-Time taken by local search: 0.00013364 seconds
+Time taken by heuristic: 0.000284794 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1480,7 +1480,7 @@ Machine 3: 7 11 12 3 16
 Machine 4: 13 14 17 4 15 
 
 Total Tardiness: 2392
-Time taken by local search: 0.000130264 seconds
+Time taken by heuristic: 0.000321762 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1494,7 +1494,7 @@ Machine 3: 13 6 11 4
 Machine 4: 5 19 2 8 
 
 Total Tardiness: 1451
-Time taken by local search: 0.000150131 seconds
+Time taken by heuristic: 0.000287478 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1508,7 +1508,7 @@ Machine 3: 9 6 1 5 20
 Machine 4: 15 13 18 8 
 
 Total Tardiness: 2568
-Time taken by local search: 0.00012813 seconds
+Time taken by heuristic: 0.000326612 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1522,7 +1522,7 @@ Machine 3: 19 11 13 20 5
 Machine 4: 14 10 7 4 
 
 Total Tardiness: 1737
-Time taken by local search: 0.000132498 seconds
+Time taken by heuristic: 0.000307917 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1536,7 +1536,7 @@ Machine 3: 16 17 15 7 9
 Machine 4: 18 2 19 
 
 Total Tardiness: 1522
-Time taken by local search: 0.0001437 seconds
+Time taken by heuristic: 0.00033631 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1550,7 +1550,7 @@ Machine 3: 2 9 20 8 5
 Machine 4: 11 10 18 1 
 
 Total Tardiness: 2150
-Time taken by local search: 0.000222126 seconds
+Time taken by heuristic: 0.000400019 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1564,7 +1564,7 @@ Machine 3: 13 16 11 4
 Machine 4: 6 1 7 10 
 
 Total Tardiness: 1221
-Time taken by local search: 0.00013906 seconds
+Time taken by heuristic: 0.000292388 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1578,7 +1578,7 @@ Machine 3: 17 7 1 5 20
 Machine 4: 12 13 18 8 
 
 Total Tardiness: 2301
-Time taken by local search: 0.000147296 seconds
+Time taken by heuristic: 0.000286306 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1592,7 +1592,7 @@ Machine 3: 14 8 13 20 5
 Machine 4: 11 3 9 6 
 
 Total Tardiness: 1583
-Time taken by local search: 0.000171421 seconds
+Time taken by heuristic: 0.000345827 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1606,7 +1606,7 @@ Machine 3: 1 2 19
 Machine 4: 15 20 14 
 
 Total Tardiness: 1343
-Time taken by local search: 0.000141885 seconds
+Time taken by heuristic: 0.000307376 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1620,7 +1620,7 @@ Machine 3: 2 10 17 4 15
 Machine 4: 14 20 8 5 
 
 Total Tardiness: 1926
-Time taken by local search: 0.000511959 seconds
+Time taken by heuristic: 0.000354524 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1634,7 +1634,7 @@ Machine 3: 13 19 11 4
 Machine 4: 6 3 2 8 
 
 Total Tardiness: 1024
-Time taken by local search: 0.000308117 seconds
+Time taken by heuristic: 0.000316563 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1648,7 +1648,7 @@ Machine 3: 12 6 19 4 11
 Machine 4: 13 3 18 8 
 
 Total Tardiness: 2058
-Time taken by local search: 0.000136726 seconds
+Time taken by heuristic: 0.000361456 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1662,7 +1662,7 @@ Machine 3: 14 8 7 4
 Machine 4: 3 13 20 5 
 
 Total Tardiness: 1432
-Time taken by local search: 0.000147025 seconds
+Time taken by heuristic: 0.000369092 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1676,7 +1676,7 @@ Machine 3: 15 11 5
 Machine 4: 16 18 20 14 
 
 Total Tardiness: 1186
-Time taken by local search: 0.000185928 seconds
+Time taken by heuristic: 0.000310802 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1690,7 +1690,7 @@ Machine 3: 19 10 12 3 16
 Machine 4: 14 20 18 1 
 
 Total Tardiness: 1687
-Time taken by local search: 0.000179807 seconds
+Time taken by heuristic: 0.000308808 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1704,7 +1704,7 @@ Machine 3: 1 19 4
 Machine 4: 11 3 7 10 
 
 Total Tardiness: 823
-Time taken by local search: 0.000179335 seconds
+Time taken by heuristic: 0.000339035 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1718,7 +1718,7 @@ Machine 3: 12 9 19 4 11
 Machine 4: 10 7 1 14 16 
 
 Total Tardiness: 1816
-Time taken by local search: 0.000146775 seconds
+Time taken by heuristic: 0.000313447 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1732,7 +1732,7 @@ Machine 3: 14 8 12 9 6
 Machine 4: 3 7 4 
 
 Total Tardiness: 1299
-Time taken by local search: 0.000187872 seconds
+Time taken by heuristic: 0.000316723 seconds
 
 ❤️ Heuristic Algorithm
 Heuristic Schedule
@@ -1746,5 +1746,5 @@ Machine 3: 15 20 14
 Machine 4: 2 11 5 
 
 Total Tardiness: 1019
-Time taken by local search: 0.000152866 seconds
+Time taken by heuristic: 0.000312826 seconds
 
