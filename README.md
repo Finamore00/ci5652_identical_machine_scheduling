@@ -7,7 +7,10 @@ Dado un conjunto de `n` tareas y `m` máquinas idénticas, el objetivo es asigna
 # 📋 INFORME DEL PROYECTO - PRIMER CORTE
 El programa está implementado en C++ y consta de los siguientes archivos:
 
+- `exact.cpp`: Archivo principal del programa que contiene la implementación de una solución exacta para el problema.
 - `heuristic.cpp`: Archivo principal del programa que contiene la implementación de una heurística para el problema.
+- `vicinities.cpp`: Archivo del programa que contiene la implementación de la estructura de vecindad para el problema.
+- `local_search.cpp`: Archivo principal del programa que contiene la implementación de la búsqueda local para el problema.
 - `Job.h`: Archivo de encabezado que define la estructura `Job`.
 - `utilities.h`: Archivo de encabezado que contiene funciones utilitarias para leer archivos de entrada y manipulación de cadenas.
 
