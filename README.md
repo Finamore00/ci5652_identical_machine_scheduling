@@ -40,6 +40,8 @@ Finalmente, después de haber probado todas las asignaciones posibles, devuelve 
 
 Este algoritmo garantiza encontrar la solución óptima porque genera y verifica todas las asignaciones posibles de trabajos a las maquinas. Sin embargo, su tiempo de ejecución es exponencial en el número de trabajos, por lo que solo es práctico para problemas de tamaño pequeño.
 
+Y este algoritmo toma un tiempo de complejidad $ O(m*n*m^n) = O(n*m^{n+1}) $
+
 ## 🧠 Implementación de una heurística para el problema
 El algoritmo MDD (Modified Due Date) es un enfoque heurístico, el cual funciona de la siguiente manera:
 
@@ -56,6 +58,8 @@ El algoritmo MDD (Modified Due Date) es un enfoque heurístico, el cual funciona
 5. Programar la tarea `gl` en la máquina `l` que produzca el valor MDD mínimo. 
 6. Eliminar la tarea `gl` de la lista `U` de trabajos no programados.
 7. Repetir los pasos 2-6 hasta que no queden trabajos por programar.
+
+El algoritmo MDD tiene un tiempo de complejidad $ O(n^2*m) $
 
 ## 🏘️ Definición de una estructura de vecindad e implementación de la búsqueda local para el problema
 
