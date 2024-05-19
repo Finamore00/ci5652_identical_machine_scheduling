@@ -1,32 +1,32 @@
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 24 3 2 5 20 9 14 21 18 6 22 19 23 15 
+Machine 1: 24 3 2 5 20 9 14 21 18 6 7 19 25 17 
 
-Machine 2: 1 12 11 16 8 10 17 7 25 13 4 
+Machine 2: 1 12 11 16 8 10 15 22 23 13 4 
 
 Total Tardiness: 163
-Time taken by local search: 0.59221 seconds
+Time taken by local search: 0.855131 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 12 2 14 5 22 20 8 17 4 3 10 21 16 
+Machine 1: 13 7 12 2 11 5 22 20 8 4 3 10 19 21 
 
-Machine 2: 18 6 15 24 1 23 11 19 13 9 25 
+Machine 2: 18 6 15 24 14 1 23 17 9 16 25 
 
-Total Tardiness: 142
-Time taken by local search: 0.636388 seconds
+Total Tardiness: 146
+Time taken by local search: 0.980586 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 16 12 10 14 20 7 13 9 21 3 15 2 22 17 
+Machine 1: 18 16 12 10 14 20 9 21 6 24 2 15 22 17 
 
-Machine 2: 5 6 8 24 18 11 23 19 4 1 25 
+Machine 2: 7 5 19 3 8 11 23 4 13 1 25 
 
-Total Tardiness: 139
-Time taken by local search: 0.604362 seconds
+Total Tardiness: 138
+Time taken by local search: 0.77966 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -36,47 +36,47 @@ Machine 1: 20 11 2 1 14 6 3 9 12 7 8 16 18 13 5 23 15
 Machine 2: 19 10 21 25 22 24 4 17 
 
 Total Tardiness: 126
-Time taken by local search: 0.587992 seconds
+Time taken by local search: 0.732367 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 22 23 3 18 7 8 12 24 5 10 16 14 2 
+Machine 1: 11 23 3 21 22 7 25 8 10 1 16 14 2 
 
-Machine 2: 19 4 17 21 1 13 11 15 25 20 6 9 
+Machine 2: 19 4 17 24 18 5 12 13 15 20 6 9 
 
 Total Tardiness: 195
-Time taken by local search: 0.611042 seconds
+Time taken by local search: 0.810702 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 3 2 5 18 20 14 9 21 12 6 17 7 19 13 
+Machine 1: 1 3 2 5 20 14 9 21 12 6 17 7 19 25 
 
-Machine 2: 1 11 24 16 8 10 15 22 23 25 4 
+Machine 2: 18 24 11 16 8 10 15 22 23 13 4 
 
-Total Tardiness: 8
-Time taken by local search: 0.593249 seconds
+Total Tardiness: 14
+Time taken by local search: 0.783122 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 12 2 11 14 24 22 8 20 17 4 15 3 10 21 
+Machine 1: 7 12 2 11 14 22 8 20 17 4 15 25 3 10 21 
 
-Machine 2: 18 5 6 1 23 19 9 13 25 16 
+Machine 2: 18 24 6 5 1 23 19 9 13 16 
 
 Total Tardiness: 29
-Time taken by local search: 0.591899 seconds
+Time taken by local search: 0.780904 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 18 16 12 2 14 20 7 21 10 5 19 8 24 15 22 25 
+Machine 1: 18 16 12 10 14 1 7 21 9 5 19 8 24 15 22 25 
 
-Machine 2: 6 3 9 11 23 4 13 1 17 
+Machine 2: 20 6 3 2 11 23 4 13 17 
 
 Total Tardiness: 21
-Time taken by local search: 0.656288 seconds
+Time taken by local search: 0.816983 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -86,17 +86,17 @@ Machine 1: 20 11 2 1 14 6 3 9 25 7 8 16 18 13 5 22 4 23 15
 Machine 2: 19 10 21 12 24 17 
 
 Total Tardiness: 32
-Time taken by local search: 0.61656 seconds
+Time taken by local search: 0.745318 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 13 3 19 21 15 18 8 4 5 16 25 14 6 
+Machine 1: 23 1 21 15 19 8 12 24 2 16 25 14 6 
 
-Machine 2: 10 12 7 24 17 23 1 11 22 20 2 9 
+Machine 2: 10 7 4 17 18 11 3 5 13 22 20 9 
 
 Total Tardiness: 56
-Time taken by local search: 0.66873 seconds
+Time taken by local search: 0.782987 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -106,7 +106,7 @@ Machine 1: 24 3 2 5 20 14 9 21 12 6 10 17 19 23 25 13
 Machine 2: 1 18 11 16 8 15 22 7 4 
 
 Total Tardiness: 0
-Time taken by local search: 0.000197511 seconds
+Time taken by local search: 0.000239905 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -116,7 +116,7 @@ Machine 1: 7 12 2 11 14 5 22 20 8 17 4 6 15 3 10 9
 Machine 2: 18 24 1 23 19 13 25 21 16 
 
 Total Tardiness: 0
-Time taken by local search: 0.000194368 seconds
+Time taken by local search: 0.000254781 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -126,7 +126,7 @@ Machine 1: 18 16 12 10 14 20 7 21 9 5 19 8 24 2 15 22 1
 Machine 2: 6 3 11 23 4 13 17 25 
 
 Total Tardiness: 0
-Time taken by local search: 0.000329232 seconds
+Time taken by local search: 0.000237601 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -136,7 +136,7 @@ Machine 1: 20 11 2 1 14 6 3 9 12 7 16 8 10 18 13 22 4 23
 Machine 2: 19 21 5 25 24 17 15 
 
 Total Tardiness: 0
-Time taken by local search: 0.000194159 seconds
+Time taken by local search: 0.00025052 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -146,7 +146,7 @@ Machine 1: 11 23 3 21 15 19 8 12 10 7 17 18 5 16 14 6
 Machine 2: 24 4 1 13 22 25 20 2 9 
 
 Total Tardiness: 0
-Time taken by local search: 0.000213086 seconds
+Time taken by local search: 0.000235854 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -156,7 +156,7 @@ Machine 1: 24 3 2 5 20 14 21 12 6 11 10 17 22 19 23 25 13
 Machine 2: 9 1 18 16 8 15 7 4 
 
 Total Tardiness: 0
-Time taken by local search: 0.000191156 seconds
+Time taken by local search: 0.000252685 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -166,7 +166,7 @@ Machine 1: 7 12 2 11 14 5 22 8 20 17 4 18 3 23 10 21
 Machine 2: 24 6 15 1 19 9 13 25 16 
 
 Total Tardiness: 0
-Time taken by local search: 0.000192343 seconds
+Time taken by local search: 0.000236832 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -176,7 +176,7 @@ Machine 1: 18 16 12 10 14 20 7 21 5 3 19 8 24 15 13 22 1
 Machine 2: 9 6 2 11 23 4 17 25 
 
 Total Tardiness: 0
-Time taken by local search: 0.000205473 seconds
+Time taken by local search: 0.00025059 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -186,7 +186,7 @@ Machine 1: 20 11 2 1 14 6 3 9 12 7 16 8 10 18 13 5 22 4 23
 Machine 2: 19 21 25 24 17 15 
 
 Total Tardiness: 0
-Time taken by local search: 0.00018501 seconds
+Time taken by local search: 0.000245911 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -196,7 +196,7 @@ Machine 1: 11 23 3 21 15 19 8 12 10 7 18 17 5 16 25 14 6
 Machine 2: 24 4 1 13 22 20 2 9 
 
 Total Tardiness: 0
-Time taken by local search: 0.000189898 seconds
+Time taken by local search: 0.00023299 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -206,7 +206,7 @@ Machine 1: 24 3 2 5 20 9 21 18 12 6 10 17 22 7 19 23 25 13
 Machine 2: 14 1 11 16 8 15 4 
 
 Total Tardiness: 0
-Time taken by local search: 0.00018934 seconds
+Time taken by local search: 0.000234667 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -216,7 +216,7 @@ Machine 1: 7 12 2 11 14 5 22 20 8 17 4 18 15 3 23 10 9 16
 Machine 2: 24 6 1 19 13 25 21 
 
 Total Tardiness: 0
-Time taken by local search: 0.000190387 seconds
+Time taken by local search: 0.000232292 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -226,7 +226,7 @@ Machine 1: 18 16 12 10 14 20 7 21 5 19 8 24 2 11 23 15 22 1 17
 Machine 2: 9 6 3 4 13 25 
 
 Total Tardiness: 0
-Time taken by local search: 0.000208197 seconds
+Time taken by local search: 0.000235784 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -236,7 +236,7 @@ Machine 1: 20 11 2 1 14 6 3 9 12 7 16 8 19 18 13 5 22 4 23 15
 Machine 2: 10 21 25 24 17 
 
 Total Tardiness: 0
-Time taken by local search: 0.00018899 seconds
+Time taken by local search: 0.000233549 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -246,7 +246,7 @@ Machine 1: 11 23 3 21 15 19 8 12 10 7 18 17 5 16 25 14 9 6
 Machine 2: 24 4 1 13 22 20 2 
 
 Total Tardiness: 0
-Time taken by local search: 0.00018934 seconds
+Time taken by local search: 0.000234737 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -256,57 +256,57 @@ Machine 1: 24 3 2 5 20 21 6 17 23 7 8 16
 Machine 2: 9 14 1 18 12 11 10 22 19 25 13 4 15 
 
 Total Tardiness: 837
-Time taken by local search: 0.595811 seconds
+Time taken by local search: 0.742606 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 15 7 18 2 14 4 22 8 17 6 10 19 9 13 25 
+Machine 1: 7 12 15 2 11 5 22 8 1 17 19 10 21 13 25 
 
-Machine 2: 20 5 12 11 23 3 1 16 21 24 
+Machine 2: 20 6 4 14 3 18 23 9 16 24 
 
 Total Tardiness: 689
-Time taken by local search: 0.623616 seconds
+Time taken by local search: 0.79211 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 18 3 16 12 10 14 7 21 5 19 2 15 22 1 17 4 
+Machine 1: 18 9 16 12 10 14 3 21 5 19 2 15 22 17 24 4 
 
-Machine 2: 9 20 6 8 24 13 23 11 25 
+Machine 2: 6 20 8 7 13 23 1 11 25 
 
-Total Tardiness: 722
-Time taken by local search: 0.597188 seconds
+Total Tardiness: 709
+Time taken by local search: 0.799711 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 11 1 14 6 3 9 10 7 8 16 18 13 22 4 23 21 24 
+Machine 1: 20 11 10 1 14 6 3 9 7 8 16 18 13 22 4 23 21 24 
 
-Machine 2: 12 2 19 25 5 17 15 
+Machine 2: 12 19 2 25 5 17 15 
 
 Total Tardiness: 536
-Time taken by local search: 0.603499 seconds
+Time taken by local search: 0.781451 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 13 23 21 24 5 19 17 10 7 18 16 14 20 2 4 
+Machine 1: 23 3 15 19 12 10 5 7 18 17 16 14 20 9 4 
 
-Machine 2: 11 8 15 3 12 22 25 6 9 1 
+Machine 2: 11 25 13 8 21 24 22 6 2 1 
 
-Total Tardiness: 902
-Time taken by local search: 0.860084 seconds
+Total Tardiness: 908
+Time taken by local search: 0.797302 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 24 1 3 2 9 21 12 10 22 7 23 4 15 
+Machine 1: 24 18 2 5 9 21 12 10 22 7 23 4 15 
 
-Machine 2: 5 20 14 18 6 11 8 17 19 25 13 16 
+Machine 2: 20 3 14 1 6 11 8 17 19 25 13 16 
 
 Total Tardiness: 560
-Time taken by local search: 0.636065 seconds
+Time taken by local search: 0.838772 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -316,37 +316,37 @@ Machine 1: 7 12 2 11 4 5 22 8 17 15 3 23 9 21 25
 Machine 2: 20 14 18 24 6 1 10 19 16 13 
 
 Total Tardiness: 409
-Time taken by local search: 0.599089 seconds
+Time taken by local search: 0.740295 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 2 18 16 12 14 6 21 5 19 8 24 15 22 1 17 25 
+Machine 1: 18 8 16 12 2 14 6 21 5 19 24 15 22 1 17 25 
 
-Machine 2: 10 7 9 20 3 23 13 11 4 
+Machine 2: 7 9 10 20 3 23 13 11 4 
 
 Total Tardiness: 458
-Time taken by local search: 0.651022 seconds
+Time taken by local search: 0.800245 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 11 22 10 1 14 13 3 9 7 8 16 18 5 4 23 24 
+Machine 1: 20 11 10 1 14 6 22 3 9 13 8 16 18 5 4 23 24 
 
-Machine 2: 12 19 2 6 21 25 17 15 
+Machine 2: 7 12 19 2 21 25 17 15 
 
 Total Tardiness: 338
-Time taken by local search: 0.615526 seconds
+Time taken by local search: 0.80244 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 13 23 3 21 15 19 12 10 18 17 16 25 14 6 2 9 
+Machine 1: 23 24 13 21 15 19 12 10 7 17 16 25 14 6 2 1 
 
-Machine 2: 8 24 11 4 7 5 20 22 1 
+Machine 2: 8 11 3 4 18 5 20 22 9 
 
 Total Tardiness: 736
-Time taken by local search: 0.710161 seconds
+Time taken by local search: 0.765774 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -356,17 +356,17 @@ Machine 1: 24 3 2 20 14 21 12 6 10 17 7 23 4
 Machine 2: 5 9 1 18 11 16 8 22 19 25 13 15 
 
 Total Tardiness: 312
-Time taken by local search: 0.608682 seconds
+Time taken by local search: 0.806599 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 12 2 11 20 5 22 8 17 6 15 3 23 10 16 25 
+Machine 1: 7 12 2 11 14 4 22 8 6 19 15 3 23 10 16 25 
 
-Machine 2: 14 4 18 24 1 19 9 21 13 
+Machine 2: 20 5 18 17 24 1 9 21 13 
 
 Total Tardiness: 197
-Time taken by local search: 0.592771 seconds
+Time taken by local search: 0.740277 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -376,37 +376,37 @@ Machine 1: 18 16 12 10 14 20 21 5 19 8 11 2 15 22 1 4
 Machine 2: 7 9 6 3 24 23 13 17 25 
 
 Total Tardiness: 231
-Time taken by local search: 0.714083 seconds
+Time taken by local search: 0.752557 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 11 2 14 6 3 7 16 10 8 18 13 5 25 22 4 23 24 
+Machine 1: 20 2 1 14 6 3 9 7 16 10 8 18 13 25 22 4 23 24 
 
-Machine 2: 9 1 12 19 21 17 15 
+Machine 2: 19 11 12 21 5 17 15 
 
 Total Tardiness: 160
-Time taken by local search: 0.602281 seconds
+Time taken by local search: 0.757282 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
 Machine 1: 11 23 3 12 19 8 10 7 17 13 16 25 14 6 9 
 
-Machine 2: 15 21 24 5 18 4 22 20 2 1 
+Machine 2: 4 15 21 24 5 18 22 20 2 1 
 
 Total Tardiness: 515
-Time taken by local search: 0.642274 seconds
+Time taken by local search: 0.929886 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
 Machine 1: 24 3 2 9 18 21 12 6 8 17 22 7 19 23 25 13 
 
-Machine 2: 5 14 11 20 1 16 10 15 4 
+Machine 2: 5 14 20 1 11 16 10 15 4 
 
 Total Tardiness: 99
-Time taken by local search: 1.04641 seconds
+Time taken by local search: 0.854505 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -416,17 +416,17 @@ Machine 1: 7 12 2 11 14 22 8 20 17 4 6 15 3 10 21 16
 Machine 2: 5 18 24 1 23 9 13 19 25 
 
 Total Tardiness: 66
-Time taken by local search: 0.643716 seconds
+Time taken by local search: 0.807597 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 18 16 12 10 14 7 21 5 19 8 15 24 2 11 22 25 
+Machine 1: 18 16 12 10 14 7 21 5 19 8 24 2 11 15 22 25 
 
 Machine 2: 20 9 6 3 23 4 13 1 17 
 
-Total Tardiness: 84
-Time taken by local search: 0.777031 seconds
+Total Tardiness: 78
+Time taken by local search: 0.872082 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -436,17 +436,17 @@ Machine 1: 20 11 2 14 6 3 9 12 7 16 8 18 13 5 25 4 23 15
 Machine 2: 1 19 10 21 22 24 17 
 
 Total Tardiness: 58
-Time taken by local search: 0.606153 seconds
+Time taken by local search: 0.751853 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 11 23 21 15 12 19 4 10 7 18 5 16 20 14 6 9 
+Machine 1: 11 23 21 15 19 12 24 10 7 18 5 16 20 14 6 9 
 
-Machine 2: 3 24 8 17 1 13 25 22 2 
+Machine 2: 3 17 4 8 1 13 25 22 2 
 
 Total Tardiness: 369
-Time taken by local search: 0.617988 seconds
+Time taken by local search: 0.875557 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -456,7 +456,7 @@ Machine 1: 24 2 20 14 9 21 12 6 11 8 17 22 7 19 23 25 13
 Machine 2: 3 5 1 18 16 10 15 4 
 
 Total Tardiness: 4
-Time taken by local search: 0.60098 seconds
+Time taken by local search: 0.798318 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -466,7 +466,7 @@ Machine 1: 7 12 2 11 14 22 20 8 17 4 15 6 3 23 10 19 16
 Machine 2: 5 18 24 1 9 13 25 21 
 
 Total Tardiness: 0
-Time taken by local search: 0.000193181 seconds
+Time taken by local search: 0.000241093 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -476,7 +476,7 @@ Machine 1: 18 16 12 10 14 21 6 5 19 8 24 2 11 15 22 1 17
 Machine 2: 20 7 9 3 23 4 13 25 
 
 Total Tardiness: 26
-Time taken by local search: 0.623125 seconds
+Time taken by local search: 0.992859 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -486,57 +486,57 @@ Machine 1: 20 11 2 14 6 3 9 12 7 16 8 10 18 13 5 22 4 23
 Machine 2: 1 19 21 25 24 17 15 
 
 Total Tardiness: 0
-Time taken by local search: 0.000192064 seconds
+Time taken by local search: 0.000253804 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 11 21 15 19 8 12 10 7 18 17 5 13 16 25 2 14 
+Machine 1: 11 21 15 19 8 12 10 7 18 17 5 13 16 25 14 9 
 
-Machine 2: 23 3 24 4 1 22 20 9 6 
+Machine 2: 23 3 24 4 1 22 20 2 6 
 
-Total Tardiness: 165
-Time taken by local search: 1.05669 seconds
-
-✨ Local Search Algorithm
-Local Search Schedule
-
-Machine 1: 24 3 2 11 21 23 19 7 25 18 4 5 16 
-
-Machine 2: 20 14 12 9 6 10 22 13 17 8 1 15 
-
-Total Tardiness: 2045
-Time taken by local search: 0.633052 seconds
+Total Tardiness: 172
+Time taken by local search: 0.800317 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 12 2 11 17 22 8 6 10 3 19 21 5 14 25 
+Machine 1: 14 2 9 3 21 6 10 7 25 12 4 1 16 
 
-Machine 2: 20 1 23 4 15 9 16 18 13 24 
+Machine 2: 18 24 20 11 22 19 23 13 17 8 5 15 
 
-Total Tardiness: 1691
-Time taken by local search: 0.615458 seconds
-
-✨ Local Search Algorithm
-Local Search Schedule
-
-Machine 1: 18 16 21 10 14 9 15 5 19 2 1 23 24 4 25 
-
-Machine 2: 20 7 12 8 13 22 17 11 6 3 
-
-Total Tardiness: 1719
-Time taken by local search: 1.16322 seconds
+Total Tardiness: 2035
+Time taken by local search: 1.27651 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 2 1 14 6 3 7 8 16 18 13 22 4 23 10 17 15 
+Machine 1: 7 2 11 5 22 8 15 1 6 10 9 16 4 13 25 
 
-Machine 2: 9 11 12 5 25 21 24 19 
+Machine 2: 14 20 17 3 23 19 21 18 24 12 
+
+Total Tardiness: 1677
+Time taken by local search: 0.819449 seconds
+
+✨ Local Search Algorithm
+Local Search Schedule
+
+Machine 1: 16 14 12 10 19 9 21 8 2 22 13 17 11 4 25 
+
+Machine 2: 20 18 7 5 23 15 1 24 6 3 
+
+Total Tardiness: 1720
+Time taken by local search: 0.85669 seconds
+
+✨ Local Search Algorithm
+Local Search Schedule
+
+Machine 1: 20 1 2 14 6 3 7 8 16 18 13 22 4 23 10 17 15 
+
+Machine 2: 11 9 12 5 25 21 24 19 
 
 Total Tardiness: 1260
-Time taken by local search: 0.60114 seconds
+Time taken by local search: 0.793336 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -546,7 +546,7 @@ Machine 1: 11 23 3 19 12 10 16 14 13 22 2 1 4
 Machine 2: 21 15 8 7 17 18 25 6 20 5 9 24 
 
 Total Tardiness: 2102
-Time taken by local search: 0.597296 seconds
+Time taken by local search: 0.740139 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -556,27 +556,27 @@ Machine 1: 24 3 9 21 14 6 10 22 19 23 17 8 1 15
 Machine 2: 2 5 20 12 11 7 25 13 18 4 16 
 
 Total Tardiness: 1847
-Time taken by local search: 0.60859 seconds
+Time taken by local search: 0.763721 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 5 2 11 22 8 20 17 15 3 10 9 1 21 13 25 
+Machine 1: 7 2 11 22 8 5 20 17 15 3 10 9 1 21 13 25 
 
 Machine 2: 12 14 4 6 23 19 16 18 24 
 
 Total Tardiness: 1327
-Time taken by local search: 0.838436 seconds
+Time taken by local search: 0.764128 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 16 12 10 14 21 9 5 19 8 2 15 22 13 1 11 4 25 
+Machine 1: 16 12 10 14 7 21 5 19 8 2 15 22 13 1 11 4 25 
 
-Machine 2: 20 18 7 24 23 17 6 3 
+Machine 2: 18 20 9 24 23 17 6 3 
 
 Total Tardiness: 1525
-Time taken by local search: 0.629263 seconds
+Time taken by local search: 0.805378 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -586,17 +586,17 @@ Machine 1: 20 11 2 14 6 3 7 16 8 18 13 5 4 23 21 24 19
 Machine 2: 1 9 12 10 22 25 17 15 
 
 Total Tardiness: 996
-Time taken by local search: 0.607672 seconds
+Time taken by local search: 0.747693 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 11 15 21 19 12 10 7 17 18 16 25 14 6 5 9 24 
+Machine 1: 3 23 21 19 12 10 7 17 18 16 25 14 22 5 9 24 
 
-Machine 2: 3 23 8 13 20 22 2 1 4 
+Machine 2: 11 15 8 13 20 6 2 1 4 
 
-Total Tardiness: 1876
-Time taken by local search: 0.677907 seconds
+Total Tardiness: 1886
+Time taken by local search: 0.787972 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -606,37 +606,37 @@ Machine 1: 24 5 9 21 12 10 17 7 25 8 1 15
 Machine 2: 3 2 20 14 6 11 18 22 19 23 13 4 16 
 
 Total Tardiness: 1643
-Time taken by local search: 0.605622 seconds
+Time taken by local search: 0.755472 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 12 2 11 22 20 8 17 15 3 23 10 9 18 21 24 
+Machine 1: 7 5 2 11 22 20 8 17 6 15 3 10 19 21 18 24 
 
-Machine 2: 14 5 4 6 1 19 16 13 25 
+Machine 2: 12 14 4 1 23 9 16 13 25 
 
-Total Tardiness: 964
-Time taken by local search: 0.602428 seconds
-
-✨ Local Search Algorithm
-Local Search Schedule
-
-Machine 1: 18 16 10 14 9 5 19 8 2 23 22 1 17 4 25 
-
-Machine 2: 12 20 21 7 6 15 13 24 11 3 
-
-Total Tardiness: 1340
-Time taken by local search: 0.753598 seconds
+Total Tardiness: 940
+Time taken by local search: 0.793589 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 11 1 14 6 3 7 16 8 18 13 21 22 4 23 17 15 
+Machine 1: 14 18 12 10 21 7 19 8 2 23 22 1 17 4 25 
 
-Machine 2: 2 9 12 10 5 25 24 19 
+Machine 2: 16 20 9 5 6 15 13 24 11 3 
 
-Total Tardiness: 772
-Time taken by local search: 0.616289 seconds
+Total Tardiness: 1345
+Time taken by local search: 1.43213 seconds
+
+✨ Local Search Algorithm
+Local Search Schedule
+
+Machine 1: 11 1 14 6 3 7 16 8 10 18 13 22 4 23 5 17 15 
+
+Machine 2: 20 2 9 12 21 25 24 19 
+
+Total Tardiness: 763
+Time taken by local search: 1.67238 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -646,27 +646,27 @@ Machine 1: 11 21 15 19 12 10 7 17 13 16 14 22 2 1 4
 Machine 2: 23 3 8 18 5 25 20 6 9 24 
 
 Total Tardiness: 1717
-Time taken by local search: 0.609272 seconds
+Time taken by local search: 0.756132 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 2 3 9 21 18 6 11 10 22 17 19 23 25 13 5 15 
+Machine 1: 2 3 9 21 18 6 11 10 17 22 19 23 25 13 4 15 
 
-Machine 2: 24 20 14 12 8 1 7 4 16 
+Machine 2: 24 20 14 12 8 1 7 5 16 
 
-Total Tardiness: 1551
-Time taken by local search: 0.652598 seconds
+Total Tardiness: 1531
+Time taken by local search: 0.878801 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 12 2 11 22 8 20 6 4 15 23 10 9 16 24 
+Machine 1: 7 12 2 11 22 8 20 17 18 3 23 10 9 16 24 
 
-Machine 2: 14 5 18 17 1 3 19 21 13 25 
+Machine 2: 14 5 4 6 15 1 19 21 13 25 
 
-Total Tardiness: 596
-Time taken by local search: 0.631205 seconds
+Total Tardiness: 597
+Time taken by local search: 0.822396 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -676,7 +676,7 @@ Machine 1: 16 12 14 21 7 5 19 20 2 23 13 1 17 3
 Machine 2: 18 10 9 6 8 24 15 22 11 4 25 
 
 Total Tardiness: 1224
-Time taken by local search: 0.623096 seconds
+Time taken by local search: 0.777709 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -686,27 +686,27 @@ Machine 1: 20 1 14 6 3 9 12 7 16 18 13 21 22 4 23 25 24
 Machine 2: 11 2 8 19 10 5 17 15 
 
 Total Tardiness: 603
-Time taken by local search: 0.608584 seconds
+Time taken by local search: 0.811364 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 11 21 12 19 8 10 17 5 16 25 20 14 6 1 4 
+Machine 1: 11 21 19 3 10 7 17 18 13 16 20 14 6 1 4 
 
-Machine 2: 23 15 3 7 18 13 22 2 9 24 
+Machine 2: 23 15 12 8 5 22 25 2 9 24 
 
-Total Tardiness: 1728
-Time taken by local search: 1.40925 seconds
+Total Tardiness: 1732
+Time taken by local search: 1.16798 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 2 24 14 1 6 11 10 17 22 7 23 19 25 13 4 
+Machine 1: 2 24 14 21 1 6 11 10 8 7 19 23 25 13 4 
 
-Machine 2: 3 20 21 9 18 12 8 5 16 15 
+Machine 2: 3 20 9 18 12 5 17 22 16 15 
 
-Total Tardiness: 1026
-Time taken by local search: 1.45454 seconds
+Total Tardiness: 1031
+Time taken by local search: 0.872854 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -716,17 +716,17 @@ Machine 1: 7 5 2 11 22 20 8 17 4 15 6 3 23 10 9 16 25
 Machine 2: 12 14 18 24 1 19 21 13 
 
 Total Tardiness: 246
-Time taken by local search: 0.654071 seconds
+Time taken by local search: 0.758864 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 16 12 10 21 9 5 20 19 8 2 23 13 22 1 4 
+Machine 1: 16 12 10 21 9 5 20 19 8 2 23 15 22 11 4 
 
-Machine 2: 18 14 7 6 3 24 15 11 17 25 
+Machine 2: 18 14 7 6 3 24 13 1 17 25 
 
-Total Tardiness: 776
-Time taken by local search: 0.703392 seconds
+Total Tardiness: 784
+Time taken by local search: 0.798198 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -736,47 +736,47 @@ Machine 1: 20 2 14 6 3 9 10 7 16 8 18 13 5 22 25 4 23 24
 Machine 2: 11 1 12 19 21 17 15 
 
 Total Tardiness: 282
-Time taken by local search: 0.739512 seconds
+Time taken by local search: 0.869496 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 11 21 3 19 12 10 7 18 17 5 16 25 22 14 6 1 
+Machine 1: 23 21 3 19 12 10 7 18 17 5 25 20 22 14 6 1 
 
-Machine 2: 23 15 8 24 13 20 2 9 4 
+Machine 2: 11 15 8 24 13 16 2 9 4 
 
-Total Tardiness: 1257
-Time taken by local search: 0.634491 seconds
+Total Tardiness: 1292
+Time taken by local search: 0.886753 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 3 9 21 6 19 22 25 23 20 17 18 4 1 16 
+Machine 1: 3 9 21 6 22 19 23 25 20 17 18 4 1 16 
 
 Machine 2: 2 14 11 7 13 10 12 8 24 5 15 
 
-Total Tardiness: 3834
-Time taken by local search: 0.683335 seconds
+Total Tardiness: 3830
+Time taken by local search: 1.55751 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 2 11 22 20 8 15 3 10 9 16 4 14 13 24 
+Machine 1: 7 2 11 22 20 8 15 10 3 19 21 18 14 13 24 
 
-Machine 2: 17 6 1 23 19 21 18 5 25 12 
+Machine 2: 17 1 6 23 9 16 4 5 25 12 
 
-Total Tardiness: 3059
-Time taken by local search: 0.745192 seconds
+Total Tardiness: 3063
+Time taken by local search: 0.811832 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 18 10 21 5 19 15 13 1 17 7 11 20 3 
+Machine 1: 18 10 21 5 19 2 15 1 17 7 11 20 3 
 
-Machine 2: 12 16 14 8 2 22 23 9 24 6 4 25 
+Machine 2: 12 16 14 8 22 13 23 9 24 6 4 25 
 
-Total Tardiness: 3252
-Time taken by local search: 0.768997 seconds
+Total Tardiness: 3257
+Time taken by local search: 0.798876 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -786,17 +786,17 @@ Machine 1: 20 11 14 6 3 7 8 18 22 23 5 2 10 17 15
 Machine 2: 1 9 16 13 4 25 12 21 24 19 
 
 Total Tardiness: 2417
-Time taken by local search: 0.633891 seconds
+Time taken by local search: 0.80815 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 11 12 19 10 7 16 6 13 22 15 8 3 24 
+Machine 1: 11 21 19 10 18 16 14 13 22 15 8 3 24 
 
-Machine 2: 23 21 17 18 25 14 20 5 2 9 1 4 
+Machine 2: 23 12 17 7 25 6 20 5 2 9 1 4 
 
-Total Tardiness: 3802
-Time taken by local search: 0.632198 seconds
+Total Tardiness: 3803
+Time taken by local search: 0.758347 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -806,37 +806,37 @@ Machine 1: 2 9 21 12 11 22 19 23 25 17 8 4 1 16
 Machine 2: 20 14 6 10 7 13 18 3 24 5 15 
 
 Total Tardiness: 3700
-Time taken by local search: 0.650358 seconds
+Time taken by local search: 0.828965 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 2 11 22 8 20 15 23 10 19 1 21 18 13 25 
+Machine 1: 7 2 11 22 8 20 15 10 23 9 1 21 18 13 25 
 
-Machine 2: 14 17 6 3 9 16 4 5 24 12 
+Machine 2: 14 17 6 3 19 16 4 5 24 12 
 
 Total Tardiness: 2737
-Time taken by local search: 0.641204 seconds
+Time taken by local search: 0.805097 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 16 14 21 5 18 8 22 23 17 24 6 4 25 
+Machine 1: 16 10 14 5 19 8 15 23 17 24 6 4 25 
 
-Machine 2: 12 10 9 19 2 15 13 1 7 11 20 3 
+Machine 2: 12 21 18 9 2 22 13 1 7 11 20 3 
 
-Total Tardiness: 3223
-Time taken by local search: 1.06312 seconds
+Total Tardiness: 3222
+Time taken by local search: 1.10071 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 14 6 3 9 7 8 16 18 13 22 23 5 2 10 17 15 
+Machine 1: 20 14 6 3 9 7 8 16 18 23 13 22 5 2 10 17 15 
 
 Machine 2: 11 1 25 4 12 21 24 19 
 
 Total Tardiness: 2266
-Time taken by local search: 0.761262 seconds
+Time taken by local search: 1.33665 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -846,7 +846,7 @@ Machine 1: 21 19 12 10 7 17 18 16 25 14 6 5 2 9 1 4
 Machine 2: 23 11 13 20 22 15 8 3 24 
 
 Total Tardiness: 3866
-Time taken by local search: 0.653691 seconds
+Time taken by local search: 0.804817 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -856,7 +856,7 @@ Machine 1: 2 14 21 20 6 10 22 19 23 25 13 8 24 5 15
 Machine 2: 3 9 12 11 7 17 18 4 1 16 
 
 Total Tardiness: 3171
-Time taken by local search: 0.681658 seconds
+Time taken by local search: 0.772008 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -866,7 +866,7 @@ Machine 1: 7 2 11 22 14 8 17 6 3 10 23 19 21 18 13 25
 Machine 2: 5 20 15 1 9 16 4 24 12 
 
 Total Tardiness: 2196
-Time taken by local search: 0.661207 seconds
+Time taken by local search: 0.85108 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -876,47 +876,47 @@ Machine 1: 16 14 21 5 9 19 8 15 22 13 17 11 20 3
 Machine 2: 12 10 18 7 2 23 1 24 6 4 25 
 
 Total Tardiness: 2654
-Time taken by local search: 0.682506 seconds
+Time taken by local search: 0.864457 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 1 14 6 3 7 16 8 18 13 25 22 4 23 10 17 19 
+Machine 1: 20 1 14 6 3 7 16 8 18 13 5 22 23 12 21 24 19 
 
-Machine 2: 11 9 2 5 12 21 24 15 
+Machine 2: 11 9 2 25 4 10 17 15 
 
-Total Tardiness: 1788
-Time taken by local search: 0.710439 seconds
-
-✨ Local Search Algorithm
-Local Search Schedule
-
-Machine 1: 23 21 12 19 7 17 18 16 25 14 22 5 8 3 24 
-
-Machine 2: 11 15 10 13 20 6 2 9 1 4 
-
-Total Tardiness: 3272
-Time taken by local search: 1.31518 seconds
+Total Tardiness: 1785
+Time taken by local search: 0.86604 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 2 20 21 14 6 11 10 22 19 23 8 4 1 16 
+Machine 1: 21 11 19 12 10 17 18 16 25 14 6 5 8 3 24 
 
-Machine 2: 3 9 18 12 17 7 25 13 24 5 15 
+Machine 2: 23 15 7 13 20 22 2 9 1 4 
 
-Total Tardiness: 2603
-Time taken by local search: 0.699687 seconds
+Total Tardiness: 3268
+Time taken by local search: 0.865296 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 2 11 14 22 8 4 15 6 23 16 21 5 24 
+Machine 1: 2 20 14 6 11 10 22 7 19 23 13 4 1 16 
 
-Machine 2: 12 20 17 1 3 10 9 19 18 13 25 
+Machine 2: 3 9 21 18 12 17 25 8 24 5 15 
 
-Total Tardiness: 1609
-Time taken by local search: 0.738286 seconds
+Total Tardiness: 2598
+Time taken by local search: 0.941026 seconds
+
+✨ Local Search Algorithm
+Local Search Schedule
+
+Machine 1: 7 2 11 14 22 8 4 1 3 23 9 16 5 24 
+
+Machine 2: 12 20 17 15 6 10 19 21 18 13 25 
+
+Total Tardiness: 1617
+Time taken by local search: 1.00635 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -926,37 +926,37 @@ Machine 1: 16 10 12 5 7 19 2 23 15 22 17 11 20 3
 Machine 2: 18 14 21 9 8 24 13 1 6 4 25 
 
 Total Tardiness: 2155
-Time taken by local search: 0.698943 seconds
+Time taken by local search: 0.776713 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 1 14 6 3 9 7 16 8 13 18 5 23 4 10 17 15 
+Machine 1: 20 1 14 6 3 9 16 13 8 18 5 22 4 23 10 17 15 
 
-Machine 2: 11 2 12 22 25 21 24 19 
+Machine 2: 11 2 7 12 25 21 24 19 
 
-Total Tardiness: 1310
-Time taken by local search: 0.74479 seconds
-
-✨ Local Search Algorithm
-Local Search Schedule
-
-Machine 1: 23 21 19 12 10 7 16 18 13 25 14 22 6 9 1 4 
-
-Machine 2: 11 15 17 5 20 2 8 3 24 
-
-Total Tardiness: 2769
-Time taken by local search: 0.734024 seconds
+Total Tardiness: 1316
+Time taken by local search: 1.73934 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 2 3 9 21 18 12 8 7 19 23 25 13 1 16 
+Machine 1: 23 21 19 12 10 7 17 18 13 25 14 16 6 9 1 4 
 
-Machine 2: 24 14 20 6 11 10 22 17 4 5 15 
+Machine 2: 11 15 5 22 20 2 8 3 24 
 
-Total Tardiness: 2072
-Time taken by local search: 0.73087 seconds
+Total Tardiness: 2765
+Time taken by local search: 0.833212 seconds
+
+✨ Local Search Algorithm
+Local Search Schedule
+
+Machine 1: 2 3 9 21 18 6 12 17 7 23 25 13 1 16 
+
+Machine 2: 24 14 20 11 10 8 22 19 4 5 15 
+
+Total Tardiness: 2062
+Time taken by local search: 1.29938 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -966,37 +966,37 @@ Machine 1: 7 2 11 14 22 8 20 17 15 1 10 19 16 18 24
 Machine 2: 12 5 4 6 3 23 9 21 13 25 
 
 Total Tardiness: 1066
-Time taken by local search: 0.685869 seconds
+Time taken by local search: 0.772764 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 16 12 14 7 5 19 8 24 15 22 11 20 3 
+Machine 1: 16 12 14 21 7 19 8 24 15 22 11 20 3 
 
-Machine 2: 18 10 21 9 6 2 23 13 1 17 4 25 
+Machine 2: 18 10 9 5 6 2 23 13 1 17 4 25 
 
-Total Tardiness: 1689
-Time taken by local search: 0.945975 seconds
-
-✨ Local Search Algorithm
-Local Search Schedule
-
-Machine 1: 20 2 14 6 3 9 13 16 7 10 18 5 23 4 17 15 
-
-Machine 2: 11 1 12 8 21 22 25 24 19 
-
-Total Tardiness: 915
-Time taken by local search: 0.779324 seconds
+Total Tardiness: 1691
+Time taken by local search: 0.779538 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 23 19 21 8 7 10 18 13 16 22 14 6 1 4 
+Machine 1: 20 1 14 6 3 9 7 18 16 10 13 22 5 4 17 15 
 
-Machine 2: 11 15 12 17 5 25 20 2 9 3 24 
+Machine 2: 11 2 12 8 21 23 25 24 19 
 
-Total Tardiness: 2227
-Time taken by local search: 1.59682 seconds
+Total Tardiness: 927
+Time taken by local search: 0.837189 seconds
+
+✨ Local Search Algorithm
+Local Search Schedule
+
+Machine 1: 23 10 21 8 7 18 13 16 25 14 20 6 1 4 
+
+Machine 2: 11 15 19 12 17 5 22 2 9 3 24 
+
+Total Tardiness: 2234
+Time taken by local search: 0.986937 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1006,7 +1006,7 @@ Machine 1: 21 6 22 23 13 11 10 12 18 3 24 5 15
 Machine 2: 9 19 25 7 2 14 20 17 8 4 1 16 
 
 Total Tardiness: 5664
-Time taken by local search: 0.688193 seconds
+Time taken by local search: 0.749239 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1016,7 +1016,7 @@ Machine 1: 7 2 22 8 3 10 6 23 19 16 4 18 5 24 12
 Machine 2: 11 15 17 9 1 21 20 14 13 25 
 
 Total Tardiness: 4715
-Time taken by local search: 0.740113 seconds
+Time taken by local search: 0.777746 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1026,7 +1026,7 @@ Machine 1: 21 5 15 2 10 18 13 23 9 24 6 4 25
 Machine 2: 14 19 22 16 12 8 1 17 7 11 20 3 
 
 Total Tardiness: 5123
-Time taken by local search: 0.698495 seconds
+Time taken by local search: 0.788064 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1036,7 +1036,7 @@ Machine 1: 20 6 3 18 22 23 4 9 11 1 12 21 24 19
 Machine 2: 14 7 13 8 16 5 25 2 10 17 15 
 
 Total Tardiness: 3782
-Time taken by local search: 0.728714 seconds
+Time taken by local search: 0.774422 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1046,7 +1046,7 @@ Machine 1: 19 10 7 14 25 17 23 20 22 15 8 3 24
 Machine 2: 21 18 12 16 6 13 11 5 2 9 1 4 
 
 Total Tardiness: 5759
-Time taken by local search: 0.67535 seconds
+Time taken by local search: 0.812086 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1056,17 +1056,17 @@ Machine 1: 9 21 6 14 19 25 13 20 17 8 4 1 16
 Machine 2: 2 11 22 23 7 10 12 18 3 24 5 15 
 
 Total Tardiness: 4996
-Time taken by local search: 0.743784 seconds
+Time taken by local search: 0.815405 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 2 11 22 8 15 10 3 9 1 21 18 5 24 12 
+Machine 1: 7 2 11 22 8 15 10 3 9 1 21 20 14 24 12 
 
-Machine 2: 6 17 23 19 16 20 4 14 13 25 
+Machine 2: 6 17 23 19 16 4 18 5 13 25 
 
 Total Tardiness: 3970
-Time taken by local search: 0.68726 seconds
+Time taken by local search: 0.830471 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1076,7 +1076,7 @@ Machine 1: 14 21 10 2 22 18 13 23 9 24 6 4 25
 Machine 2: 16 5 19 12 15 8 1 17 7 11 20 3 
 
 Total Tardiness: 4442
-Time taken by local search: 0.750716 seconds
+Time taken by local search: 0.759048 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1086,7 +1086,7 @@ Machine 1: 20 14 6 3 7 8 18 22 23 11 1 12 21 24 19
 Machine 2: 9 16 13 4 5 25 2 10 17 15 
 
 Total Tardiness: 3220
-Time taken by local search: 0.700166 seconds
+Time taken by local search: 0.767319 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1096,17 +1096,17 @@ Machine 1: 21 19 10 7 18 25 6 13 11 5 2 9 1 4
 Machine 2: 12 17 16 14 23 20 22 15 8 3 24 
 
 Total Tardiness: 5044
-Time taken by local search: 0.709009 seconds
+Time taken by local search: 0.746512 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 2 9 21 6 22 23 7 13 12 18 3 24 5 15 
+Machine 1: 2 9 21 6 22 23 7 13 20 17 3 24 5 15 
 
-Machine 2: 14 11 10 19 25 20 17 8 4 1 16 
+Machine 2: 14 11 10 19 25 12 18 8 4 1 16 
 
 Total Tardiness: 4330
-Time taken by local search: 1.11438 seconds
+Time taken by local search: 1.81061 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1116,27 +1116,27 @@ Machine 1: 7 2 11 22 8 17 6 10 9 1 21 18 5 24 12
 Machine 2: 20 15 3 23 19 16 4 14 13 25 
 
 Total Tardiness: 3315
-Time taken by local search: 0.700414 seconds
+Time taken by local search: 0.747896 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 16 14 5 18 2 15 22 1 17 7 11 20 3 
+Machine 1: 12 21 5 18 2 15 22 1 17 7 11 20 3 
 
-Machine 2: 10 21 12 19 8 13 23 9 24 6 4 25 
+Machine 2: 16 14 10 19 8 13 23 9 24 6 4 25 
 
-Total Tardiness: 3803
-Time taken by local search: 0.690866 seconds
+Total Tardiness: 3802
+Time taken by local search: 0.810872 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 14 6 9 7 8 18 13 22 4 25 2 10 17 15 
+Machine 1: 20 14 6 9 18 8 22 13 4 23 25 2 10 17 15 
 
-Machine 2: 11 3 16 5 23 1 12 21 24 19 
+Machine 2: 11 3 7 16 5 1 12 21 24 19 
 
-Total Tardiness: 2718
-Time taken by local search: 0.956957 seconds
+Total Tardiness: 2731
+Time taken by local search: 0.874285 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1146,7 +1146,7 @@ Machine 1: 21 19 12 10 7 18 16 14 6 11 5 2 9 1 4
 Machine 2: 23 17 25 13 20 22 15 8 3 24 
 
 Total Tardiness: 4425
-Time taken by local search: 0.694242 seconds
+Time taken by local search: 0.759233 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1156,17 +1156,17 @@ Machine 1: 2 9 21 12 11 22 19 23 25 17 8 4 1 16
 Machine 2: 20 14 6 10 7 13 18 3 24 5 15 
 
 Total Tardiness: 3700
-Time taken by local search: 0.720517 seconds
+Time taken by local search: 0.829875 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 7 2 11 22 8 20 3 6 10 9 1 21 18 13 25 
+Machine 1: 7 2 11 22 8 20 15 23 10 19 1 21 18 13 25 
 
-Machine 2: 14 17 15 23 19 16 4 5 24 12 
+Machine 2: 14 17 6 3 9 16 4 5 24 12 
 
 Total Tardiness: 2737
-Time taken by local search: 0.713194 seconds
+Time taken by local search: 0.80631 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1176,17 +1176,17 @@ Machine 1: 16 10 21 5 19 8 2 15 22 1 17 24 6 4 25
 Machine 2: 12 14 18 9 13 23 7 11 20 3 
 
 Total Tardiness: 3199
-Time taken by local search: 0.689707 seconds
+Time taken by local search: 0.831558 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 14 6 3 9 7 8 23 16 13 18 22 5 2 10 17 15 
+Machine 1: 20 14 6 3 1 7 8 18 13 22 4 23 5 2 10 17 15 
 
-Machine 2: 11 1 25 4 12 21 24 19 
+Machine 2: 11 9 16 25 12 21 24 19 
 
-Total Tardiness: 2267
-Time taken by local search: 0.900619 seconds
+Total Tardiness: 2258
+Time taken by local search: 0.906926 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1196,7 +1196,7 @@ Machine 1: 21 19 12 10 7 17 18 16 25 14 6 5 2 9 1 4
 Machine 2: 23 11 13 20 22 15 8 3 24 
 
 Total Tardiness: 3866
-Time taken by local search: 0.692319 seconds
+Time taken by local search: 0.814659 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1206,7 +1206,7 @@ Machine 1: 2 14 21 20 6 10 22 19 23 25 13 8 24 5 15
 Machine 2: 3 9 12 11 7 17 18 4 1 16 
 
 Total Tardiness: 3171
-Time taken by local search: 0.721831 seconds
+Time taken by local search: 0.767126 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1216,7 +1216,7 @@ Machine 1: 7 2 11 22 14 8 17 6 3 10 23 19 21 18 13 25
 Machine 2: 5 20 15 1 9 16 4 24 12 
 
 Total Tardiness: 2196
-Time taken by local search: 0.702298 seconds
+Time taken by local search: 0.816599 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
@@ -1226,25 +1226,25 @@ Machine 1: 16 14 21 5 9 19 8 15 22 13 17 11 20 3
 Machine 2: 12 10 18 7 2 23 1 24 6 4 25 
 
 Total Tardiness: 2654
-Time taken by local search: 0.712751 seconds
+Time taken by local search: 0.831166 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 20 1 14 3 7 6 16 8 18 13 5 22 23 12 21 24 19 
+Machine 1: 20 1 14 6 3 7 16 8 18 13 5 22 23 12 21 24 19 
 
 Machine 2: 11 9 2 25 4 10 17 15 
 
-Total Tardiness: 1796
-Time taken by local search: 0.763485 seconds
+Total Tardiness: 1785
+Time taken by local search: 1.12419 seconds
 
 ✨ Local Search Algorithm
 Local Search Schedule
 
-Machine 1: 23 21 12 10 7 17 18 16 25 14 22 5 8 3 24 
+Machine 1: 23 21 19 12 7 17 18 16 25 14 22 5 8 3 24 
 
-Machine 2: 11 19 15 13 20 6 2 9 1 4 
+Machine 2: 11 15 10 13 20 6 2 9 1 4 
 
-Total Tardiness: 3275
-Time taken by local search: 1.16849 seconds
+Total Tardiness: 3267
+Time taken by local search: 0.830857 seconds
 
