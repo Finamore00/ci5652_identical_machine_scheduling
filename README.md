@@ -64,19 +64,19 @@ g++ -std=c++17 program archivo.cpp
 
 A continuación se presenta el análisis de los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks`.
 
-Para analizar los resultados, se utilizaron las siguientes métricas:
 
 ### 📊 Métricas Comparativas
 
 Las métricas claves en el análisis incluyen:
 
 - **Tardanza Total (Total Tardiness)**: La suma de las tardanzas de todas las tareas.
-- **Tiempo de Ejecución (Execution Time)**: El tiempo que tarda el algoritmo en encontrar la solución.
 - **Diferencia con la Solución Óptima (Optimal Solution Difference)**: La diferencia entre la solución obtenida y la solución óptima.
 
 ### 📈 Resultados
 
-A continuación se presenta un resumen de los resultados obtenidos al ejecutar los algoritmos con los casos de prueba en la carpeta `benchmarks`.
+Los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks` se encuentran en el directorio `results`, sin embargo, debido a la cantidad de datos obtenidos, se almacenó los datos más relevantes en el siguiente enlace: [Resultados](https://docs.google.com/spreadsheets/d/1nE2hubPLtpBfe2wIpuzA0SgOXGMpi-NJaMEHRL38QYM/edit?usp=sharing)
+
+A modo de resumen y para facilitar la visualización de los resultados, se presentan las tablas comparativas resumidas a continuación:
 
 |   n  |  m  | Promedio de diferencia de tardanza para el algoritmo heuristica | Promedio de diferencia de tardanza para el algoritmo ls con solución inicial heuristica | Promedio de diferencia de tardanza para el algoritmo ls  con solución inicial aleatoria |
 |:----:|:---:|:-----------:|:-------------------:|:--------------:|
