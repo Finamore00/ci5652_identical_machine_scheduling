@@ -53,16 +53,29 @@ El algoritmo MDD (Modified Due Date) es un enfoque heurístico, el cual funciona
 
 ## 🚀 Uso
 
-Para compilar un `.cpp` y correr el programa, usa el siguiente comando:
+Para compilar y ejecutar el programa, se debe ejecutar los siguientes comandos en la terminal:
 
 ```bash
-g++ -std=c++17 program archivo.cpp
-./program
+make
 ```
+
+```bash
+cd target
+```
+
+```bash
+./LocalSearch <path_to_benchmarks> <algorithm>
+```
+
+Donde `<path_to_benchmarks>` es la ruta a la carpeta que contiene los casos de prueba y `<algorithm>` es el número del algoritmo a ejecutar:
+
+1. Algoritmo Exacto
+2. Heurística
+3. Búsqueda Local
 
 ## 📄 Analisis de resultados
 
-A continuación se presenta el análisis de los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks`.
+A continuación se presenta el análisis de los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks`. Se tomará en cuenta los valores de tardanza óptima obtenidos del paper de referencia de donde se obtuvo el `benchmark` para comparar los resultados obtenidos con los algoritmos implementados.
 
 
 ### 📊 Métricas Comparativas
@@ -78,7 +91,7 @@ Los resultados obtenidos al ejecutar el programa con los casos de prueba en la c
 
 A modo de resumen y para facilitar la visualización de los resultados, se presentan las tablas comparativas resumidas a continuación:
 
-|   n  |  m  | Promedio de diferencia de tardanza para el algoritmo heuristica | Promedio de diferencia de tardanza para el algoritmo ls con solución inicial heuristica | Promedio de diferencia de tardanza para el algoritmo ls  con solución inicial aleatoria |
+|   n  |  m  | Promedio de diferencia de tardanza para el algoritmo heuristica  vs la tardanza óptima | Promedio de diferencia de tardanza para el algoritmo ls con solución inicial heuristica  vs la tardanza óptima | Promedio de diferencia de tardanza para el algoritmo ls  con solución inicial aleatoria  vs la tardanza óptima |
 |:----:|:---:|:-----------:|:-------------------:|:--------------:|
 |  20  |  2  |    14,784   |        6,008        |       23       |
 |  20  |  3  |    18,544   |        10,28        |       86       |
@@ -133,12 +146,16 @@ bajos en comparación con el algoritmo de búsqueda local con heurística. En pr
 
     La razón de este comportamiento radica en la calidad de la solución inicial. Al utilizar una solución inicial aleatoria, el algoritmo de búsqueda local se enfrenta a un espacio de búsqueda que en promedio llevará a cuencas de atracción que no son favorables, lo que dificulta la convergencia hacia una solución óptima. Por otro lado, el algoritmo de búsqueda local con heurística logra obtener una solución inicial de mayor calidad, lo que facilita la convergencia hacia una solución óptima. En general, se observa que la calidad de la solución inicial juega un papel crucial en el rendimiento del algoritmo de búsqueda local.
 
-## 📚 Conclusiones
+## 📌 Conclusiones
 
 En este proyecto, se ha abordado el problema de Identical Machine Scheduling, el cual consiste en asignar un conjunto de tareas a un conjunto de máquinas idénticas de manera que se minimice la tardanza total. Para resolver este problema, se han implementado diferentes algoritmos, incluyendo un algoritmo exacto, un algoritmo heurístico y un algoritmo de búsqueda local. 
 
 Para el caso del algoritmo exacto, se observó que su complejidad exponencial lo hace inviable para instancias de gran tamaño, como es el caso de los benchmarks propuestos. A pesar de no haber obtenido una solución en un tiempo razonable, se anticipa que el algoritmo exacto pueda proporcionar la solución óptima para instancias de tamaño pequeño. 
 
 Por otra parte, el análisis derivado de los resultados obtenidos con el algoritmo heurístico, el algoritmo de búsqueda local con solución inicial de la heurística y el algoritmo de búsqueda local con solución inicial aleatoria, permitió concluir que el algoritmo de búsqueda local con solución inicial de la heurística es la mejor opción para obtener una solución aproximada al problema de Identical Machine Scheduling. A pesar de que el algoritmo de búsqueda local con solución inicial aleatoria no logró mejorar la solución obtenida por el algoritmo heurístico, se observó que la calidad de la solución inicial juega un papel crucial en el rendimiento del algoritmo de búsqueda local.
+
+## 📚 Referencias
+
+1. [Google](https://www.google.com)
 
 
