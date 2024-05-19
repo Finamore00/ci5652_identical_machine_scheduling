@@ -77,9 +77,9 @@ cd target
 
 Donde `<path_to_benchmarks>` es la ruta a la carpeta que contiene los casos de prueba y `<algorithm>` es el número del algoritmo a ejecutar:
 
-1. Algoritmo Exacto
-2. Heurística
-3. Búsqueda Local
+1. Heurística
+2. Búsqueda Local
+3. Algoritmo Exacto
 
 ## 📄 Analisis de resultados
 
