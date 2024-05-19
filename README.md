@@ -14,6 +14,23 @@ El programa está implementado en C++ y consta de los siguientes archivos:
 📂 En la carpeta `benchmarks` se encuentran los casos de pruebas que se utilizaran para medir y comparar el rendimiento de diferentes algoritmos para solucionar el problema descrito.
 
 ## 👌 Implementación de una solución exacta para el problema
+El algoritmo exacto para el problema de Identical Machine Scheduling es un algoritmo de fuerza bruta que genera todas las permutaciones posibles de las tareas y calcula la tardanza total para cada permutación. El algoritmo selecciona la permutación que minimiza la tardanza total y devuelve la secuencia de tareas correspondiente.
+
+Este algoritmo utiliza backtracking + bitmask para encontrar la solución exacta al problema de programación de trabajos en máquinas idénticas. El objetivo es minimizar la tardanza total.
+
+El algoritmo propuesto toma una lista de trabajos, la distribución de trabajos por cada máquina y una máscara que representa los trabajos que ya han sido asignados. La máscara es un número binario donde cada bit representa si un trabajo ha sido asignado o no.
+
+El algoritmo de backtracking funciona de la siguiente manera:
+
+Si todos los trabajos han sido asignados (es decir, la máscara es igual a (1 << jobs.size())-1), entonces devuelve la distribución de trabajos por cada máquina.
+
+De lo contrario, para cada trabajo que aún no ha sido asignado (es decir, !(mask & (1 << i)) es verdadero), intenta asignarlo a cada programación y realiza una llamada recursiva a la misma función con el trabajo asignado.
+
+Después de cada llamada recursiva, compara la tardanza total de la solución actual con la tardanza total de la mejor solución encontrada hasta ahora. Si la solución actual es mejor, entonces la guarda como la mejor solución.
+
+Finalmente, después de haber probado todas las asignaciones posibles, devuelve la mejor solución encontrada.
+
+Este algoritmo garantiza encontrar la solución óptima porque genera y verifica todas las asignaciones posibles de trabajos a las maquinas. Sin embargo, su tiempo de ejecución es exponencial en el número de trabajos, por lo que solo es práctico para problemas de tamaño pequeño.
 
 ## 🧠 Implementación de una heurística para el problema
 El algoritmo MDD (Modified Due Date) es un enfoque heurístico, el cual funciona de la siguiente manera:
