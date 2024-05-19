@@ -164,6 +164,8 @@ Por otra parte, el análisis derivado de los resultados obtenidos con el algorit
 
 ## 📚 Referencias
 
-1. [Google](https://www.google.com)
+1. [S. Tanaka and M. Araki. A branch-and-bound algorithm with Lagrangian relaxation to minimize total tardiness on identical parallel machines. International Journal of Production Economics 113(5), p. 446-458, 2008. ](https://www.sciencedirect.com/science/article/abs/pii/S0925527307003027?via%3Dihub)
+
+2. [S. Tanaka and M. Araki. Benchmark for Identical Parallel Machine Scheduling with Total Tardiness](https://sites.google.com/site/shunjitanaka/pmtt)
 
 
