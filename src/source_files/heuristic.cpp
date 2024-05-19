@@ -64,7 +64,7 @@ pair<Job*, long long> find_min_mdd_job(vector<Job*> unscheduled_jobs, long long 
 }
 
 /*
-    Find the machine with the minimum delta value.
+    Find the job of all machines with the minimum delta value.
     Args:
         - jobs is a list of all unscheduled jobs
         - numMachines is the number of machines
