@@ -40,7 +40,7 @@ Finalmente, después de haber probado todas las asignaciones posibles, devuelve 
 
 Este algoritmo garantiza encontrar la solución óptima porque genera y verifica todas las asignaciones posibles de trabajos a las maquinas. Sin embargo, su tiempo de ejecución es exponencial en el número de trabajos, por lo que solo es práctico para problemas de tamaño pequeño.
 
-Y este algoritmo toma un tiempo de complejidad  $`O(m\*n\*m^n) = O(n\*m^{n+1})`$ ya que se considera las posibles combinaciones de repartir las n tareas entre las m máquinas (cada tarea se tiene m elecciones) y además en cada posible combinación se calcula la tardanza total, que toma tiempo \(O(n\*m)\). 
+Y este algoritmo toma un tiempo de complejidad  $`O(m*n*m^n) = O(n*m^{n+1})`$ ya que se considera las posibles combinaciones de repartir las n tareas entre las m máquinas (cada tarea se tiene m elecciones) y además en cada posible combinación se calcula la tardanza total, que toma tiempo $`O(n*m)`$. 
 
 ## 🧠 Implementación de una heurística para el problema
 El algoritmo MDD (Modified Due Date) es un enfoque heurístico creada en 1982 por Baker y Bertrand,  utilizada para resolver el problema de tardanza ponderada total de una sola máquina. Más tarde, en 1997,  Alidaee y Rosa extendieron este algoritmo MDD para el caso de máquinas paralelas como se describe a continuación:
@@ -59,7 +59,7 @@ El algoritmo MDD (Modified Due Date) es un enfoque heurístico creada en 1982 po
 6. Eliminar la tarea `gl` de la lista `U` de trabajos no programados.
 7. Repetir los pasos 2-6 hasta que no queden trabajos por programar.
 
-El algoritmo MDD tiene un tiempo de complejidad $ O(n^2*m) $
+El algoritmo MDD tiene un tiempo de complejidad $`O(n^2*m)`$
 
 ## 🏘️ Definición de una estructura de vecindad e implementación de la búsqueda local para el problema
 
