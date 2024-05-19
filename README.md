@@ -22,9 +22,9 @@ El algoritmo propuesto toma una lista de trabajos, la distribución de trabajos 
 
 El algoritmo de backtracking funciona de la siguiente manera:
 
-Si todos los trabajos han sido asignados (es decir, la máscara es igual a (1 << jobs.size())-1), entonces devuelve la distribución de trabajos por cada máquina.
+Si todos los trabajos han sido asignados (es decir, la máscara es igual a `(1 << jobs.size()-1)`), entonces devuelve la distribución de trabajos por cada máquina.
 
-De lo contrario, para cada trabajo que aún no ha sido asignado (es decir, !(mask & (1 << i)) es verdadero), intenta asignarlo a cada programación y realiza una llamada recursiva a la misma función con el trabajo asignado.
+De lo contrario, para cada trabajo que aún no ha sido asignado (es decir, `!(mask & (1 << i))` es verdadero), intenta asignarlo a cada programación y realiza una llamada recursiva a la misma función con el trabajo asignado.
 
 Después de cada llamada recursiva, compara la tardanza total de la solución actual con la tardanza total de la mejor solución encontrada hasta ahora. Si la solución actual es mejor, entonces la guarda como la mejor solución.
 
