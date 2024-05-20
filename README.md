@@ -69,6 +69,21 @@ El algoritmo MDD (Modified Due Date) es un enfoque heurístico creada en 1982 po
 
 ## 🏘️ Definición de una estructura de vecindad e implementación de la búsqueda local para el problema
 
+Tras ser implementada las versiones heurística y exacta de la solución el problema se procedió a efectuar la implementación de la metaheurística de búsqueda local para obtener soluciones aproximadas y medir su desempeño en contraste a las otras dos soluciones proveídas.
+
+El aspecto fundamental de la metaheurística de búsqueda local radica en la selección de las estructuras de vecindad para el problema a resolver. Para el caso de IMS se optó por una estructura de vecindad que gira alrededor de 6 modificaciones básicas que se le pueden efectuar a cualquier estado dado de la solución del problema:
+
+- **Shift**: Un vecino en la vecindad *Shift* es generado re-agendando un trabajo de la máquina objetivo `m_x` en alguna posición aleatoria dentro de la misma máquina.
+- **Switch**: Un vecino en la vecindad *Switch* es generado intercambiando las posiciones de dos trabajos aleatoriamente seleccionados dentro de la máquina objetivo.
+- **Task Move**: Un vecino en la vecindad *Task Move* es generado escogiendo aleatoriamente un trabajo dentro de la máquina objetivo `m_x` y re-agendándolo aleatoriamente en una segunda máquina, `m_y`, seleccionada al azar.
+- **Swap**: Un vecino en la vecindad *Swap* es generado intercambiando dos trabajos aleatoriamente seleccionados entre dos máquinas: la máquina objetivo `m_x`, y otra máquina elegida al azar, `m_y`. Los trabajos transferidos son insertados en posiciones aleatorias dentro de cada máquina correspondiente.
+- **Two-Shift**: Un vecino en la vecindad *Two-Shift* es generado cambiando aleatoriamente la posición de dos trabajos dentro de la máquina objetivo `m_x`. Efectivamente, es equivalente a dos aplicaciones consecutivas de la vecindad *Shift*.
+- **Direct-Swap**: Un vecino en la vecindad *Direct-Swap* es generado intercambiando dos trabajos entre dos máquinas `m_x` y `m_y`, respetando la posición que tenía el trabajo contrario dentro del cronograma de su máquina correspondiente antes de ser removido (Si los trabajos son `j_x` y `j_y`, `j_x` será insertado en `m_y` en la misma posición que tenía `j_y` antes de ser removido, y viceversa).
+
+De esta manera la generación de un vecino a partir de un estado de la solución consiste en la selección aleatoria y posterior ejecución de alguna de estas 6 operaciones. Como puede intuirse, la inclusión de varias estructuras de vecindad distintas traen como consecuencia una explosión en tamaño del conjunto de vecindades de cualquier estado dado, además, al ser la selección de vecindades realizada de manera aleatoria, termina siendo complicado estructurar mecanismos que permitan explorar la vecindad de un estado de manera ordenada eficientemente. Por estos motivos el algoritmo de búsqueda local implementado no garantiza el agotamiento de todos los vecinos de un estado antes de culminar su ejecución, optando más bien por la definición de un número máximo de iteraciones en las que *no se presente una mejora en el resultado* (Esto es, en caso de encontrar una mejor solución, se toma la nueva solución candiadata y el contador de iteraciones vuelve a 0). Para la ejecución de los *benchmarks* el número máximo de iteraciones permitidas al programa se definió en 65,000. La elección de este número fue tomada empíricamente tras experimentar con distintos valores, con 65,000 iteraciones presentando un razonable punto medio entre calidad de resultados y tiempo razonable de ejecución.
+
+El algoritmo de búsqueda local implementado no hace uso de políticas de intensificación ni diversificación. Además, no se optó por implementar búsqueda guiada, tabú u otras variaciones de la meta-heurística básica de Búsqueda Local.
+
 ## 🚀 Uso
 
 Para compilar y ejecutar el programa, se debe ejecutar los siguientes comandos en la terminal:
@@ -178,4 +193,5 @@ Por otra parte, el análisis derivado de los resultados obtenidos con el algorit
 
 2. [S. Tanaka and M. Araki. Benchmark for Identical Parallel Machine Scheduling with Total Tardiness](https://sites.google.com/site/shunjitanaka/pmtt)
 
-
+3. [H. Santos, T. Toffolo, C. Silva and G. Vanden Berghe. Analysis of stochastic local search methods for the unrelated
+parallel machine scheduling problem. Intl. Trans. in Op. Res. 00 (2016) 1–18](http://www.decom.ufop.br/haroldo/papers/Santos2019.pdf)
