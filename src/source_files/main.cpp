@@ -76,9 +76,23 @@ int main(int argc, char *argv[]) {
         case 4:
             cout << "🙌 GRASP" << endl;
             algorithm_name = "GRASP";
-            start = high_resolution_clock::now();
-            schedule = grasp(jobs, m, 100);
-            end = high_resolution_clock::now();
+            {
+                float alphas[] = {0.25, 0.5, 0.75, 1};
+                int iters[] = {30, 60, 100};
+                for (int i = 0; i < 4; i++) {
+                    for (int j = 0; j < 3; j++) {
+                        start = high_resolution_clock::now();
+                        schedule = grasp(jobs, m, iters[j], alphas[i]);
+                        end = high_resolution_clock::now();
+                        cout << "GRASP Schedule with alpha = " << alphas[i] << " and iterations = " << iters[j] << endl;
+                        print_schedule(schedule, m);
+                        long long tardiness = total_tardiness(schedule);
+                        cout << "\nTotal Tardiness: " << tardiness << endl;
+                        duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
+                        cout << "Time taken by GRASP: " << duration.count() << " seconds\n" << endl;
+                    }
+                }
+            }
             break;
         case 5:
             cout << "🧬 Genetic Algorithm" << endl;
@@ -88,6 +102,8 @@ int main(int argc, char *argv[]) {
             end = high_resolution_clock::now();
             break;
         }
+        if (algorithm == 4) continue;
+
         duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
 
         cout << algorithm_name << " Schedule" << endl;
