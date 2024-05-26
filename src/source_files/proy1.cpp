@@ -7,27 +7,26 @@
 #include <chrono>
 #include "../header_files/Job.h"
 #include "../header_files/utilities.h"
+#include "../header_files/heuristic.h"
 #include "../header_files/exact.h"
-#include "../header_files/grasp.h"
+#include "../header_files/local_search.h"
 
 using namespace std::chrono;
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
-        cout << "Usage: ./PROY2 <path_to_benchmarks> <algorithm>" << endl;
+        cout << "Usage: ./LocalSearch <path_to_benchmarks> <algorithm>" << endl;
         return -1;
     } 
     string path = argv[1];
     int algorithm = stoi(argv[2]);
 
-    if (algorithm != 1 && algorithm != 2 && algorithm != 3 && algorithm != 4 && algorithm != 5) {
-        cout << "Usage: ./PROY2 <path_to_benchmarks> <algorithm>" << endl;
+    if (algorithm != 1 && algorithm != 2 && algorithm != 3) {
+        cout << "Usage: ./LocalSearch <path_to_benchmarks> <algorithm>" << endl;
         cout << " <algorithm> must be one of the following:" << endl;
-        cout << "\t1: Iterative Local Search (ILS)" << endl;
-        cout << "\t2: Tabu Search" << endl;
-        cout << "\t3: Simulated Annealing" << endl;
-        cout << "\t4: Greedy Randomized Adaptive Search Procedure (GRASP)" << endl;
-        cout << "\t5: Genetic Algorithm" << endl;
+        cout << "\t1: Heuristic Algorithm" << endl;
+        cout << "\t2: Local Search Algorithm" << endl;
+        cout << "\t3: Exact Algorithm" << endl;
         return -1;
     }
 
@@ -53,38 +52,24 @@ int main(int argc, char *argv[]) {
         switch (algorithm)
         {
         case 1:
-            cout << "🔁 ILS" << endl;
-            algorithm_name = "ILS";
+            cout << "❤️ Heuristic Algorithm" << endl;
+            algorithm_name = "Heuristic";
             start = high_resolution_clock::now();
-            // schedule = ils(jobs, m,...)
+            schedule = mddScheduling(jobs, m);
             end = high_resolution_clock::now();
             break;
         case 2:
-            cout << "🙊 Tabu Search" << endl;
-            algorithm_name = "Tabu Search";
+            cout << "✨ Local Search Algorithm" << endl;
+            algorithm_name = "Local Search";
             start = high_resolution_clock::now();
-            // schedule = tabu_search(jobs, m,...)
+            schedule = local_search(jobs, m, 65000);
             end = high_resolution_clock::now();
             break;
         case 3:
-            cout << "❄️ Simulated Annealing" << endl;
-            algorithm_name = "Simulated Annealing";
+            cout << "🙈 Exact Algorithm" << endl;
+            algorithm_name = "Exact";
             start = high_resolution_clock::now();
-            // schedule = simulated_annealing(jobs, m,...)
-            end = high_resolution_clock::now();
-            break;
-        case 4:
-            cout << "🙌 GRASP" << endl;
-            algorithm_name = "GRASP";
-            start = high_resolution_clock::now();
-            schedule = grasp(jobs, m, 100);
-            end = high_resolution_clock::now();
-            break;
-        case 5:
-            cout << "🧬 Genetic Algorithm" << endl;
-            algorithm_name = "Genetic Algorithm";
-            start = high_resolution_clock::now();
-            // schedule = genetic_algorithm(jobs, m, ...)
+            schedule = exact_solution(jobs, m);
             end = high_resolution_clock::now();
             break;
         }
@@ -101,19 +86,13 @@ int main(int argc, char *argv[]) {
         switch (algorithm)
         {
         case 1:
-            cout << "ILS: ";
+            cout << "heuristic: ";
             break;
         case 2:
-            cout << "tabu search: ";
+            cout << "local search: ";
             break;
         case 3:
-            cout << "simulated annealing: ";
-            break;
-        case 4:
-            cout << "GRASP: ";
-            break;
-        case 5:
-            cout << "genetic algorithm: ";
+            cout << "exact algorithm: ";
             break;
         default:
             break;

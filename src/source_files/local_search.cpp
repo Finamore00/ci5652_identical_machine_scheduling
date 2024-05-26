@@ -32,15 +32,9 @@ vector<vector<Job*>> generate_random_solution(vector<Job*> jobs, int machine_cou
     return schedule;
 }
 
-/**
- * Implementation of local search algorithm for optimizing minimum total tardiness
- * in the parallel identical machine scheduling problem.
-*/
-vector<vector<Job*>> local_search(vector<Job*> jobs, int machine_count, unsigned int max_iter) {
-    //Generate initial solution using heuristic algorithm
-    vector<vector<Job*>> curr_solution = mddScheduling(jobs, machine_count);
-    unsigned int iter_counter = 0;
 
+vector<vector<Job*>> improve_solution_by_ls(vector<vector<Job*>> &curr_solution, int machine_count, unsigned int max_iter) {
+    unsigned int iter_counter = 0;
     while (iter_counter++ < max_iter) {
         long long curr_total_tardiness = total_tardiness(curr_solution);
         //If solution has been found don't keep going
@@ -66,4 +60,14 @@ vector<vector<Job*>> local_search(vector<Job*> jobs, int machine_count, unsigned
     }
 
     return curr_solution;
+}
+
+/**
+ * Implementation of local search algorithm for optimizing minimum total tardiness
+ * in the parallel identical machine scheduling problem.
+*/
+vector<vector<Job*>> local_search(vector<Job*> jobs, int machine_count, unsigned int max_iter) {
+    //Generate initial solution using heuristic algorithm
+    vector<vector<Job*>> curr_solution = mddScheduling(jobs, machine_count);
+    return improve_solution_by_ls(curr_solution, machine_count, max_iter);
 }
