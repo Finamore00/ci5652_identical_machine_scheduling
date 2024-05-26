@@ -4,7 +4,11 @@
 #include "../header_files/local_search.h"
 #include "../header_files/exact.h"
 #include "../header_files/heuristic.h"
+#include <chrono>
+#include <utility>
+
 using namespace std;
+using namespace std::chrono;
 
 vector<pair<Job *, int>> RCL(vector<Job *> jobs, int numMachines, vector<long long> completion_times, int &selected_machine, Job* &selected_job, float alpha) {
     long long max_delta = -1;
@@ -74,13 +78,17 @@ vector<vector<Job*>> random_greedy_construction(vector<Job*> jobs, int numMachin
     return schedule;
 }       
 
-
-vector<vector<Job*>> grasp(vector<Job *> jobs, int numMachines, int max_iters) {
+vector<pair<vector<vector<Job *>>, duration<double>>> grasp(vector<Job *> jobs, int numMachines, int max_iters, float alpha) {
+    high_resolution_clock::time_point start, end;
+    start = high_resolution_clock::now();
+    // Generate a random solution
     vector<vector<Job*>> curr_solution = generate_random_solution(jobs, numMachines);
     long long curr_tt = total_tardiness(curr_solution);
-    while(max_iters-- && curr_tt > 0) {
-        // alpha between 0 and 1
-        float alpha = (rand() % 100) / 100.0;
+
+    vector<pair<vector<vector<Job *>>, duration<double>>> best_solutions;
+
+    unsigned int i = 0;
+    while (i < max_iters && curr_tt > 0) {
         vector<vector<Job*>> new_solution = random_greedy_construction(jobs, numMachines, alpha);
         new_solution = improve_solution_by_ls(new_solution, numMachines, 65000);
 
@@ -89,6 +97,13 @@ vector<vector<Job*>> grasp(vector<Job *> jobs, int numMachines, int max_iters) {
             curr_solution = new_solution;
             curr_tt = new_tt;
         }
+
+        i++;
+        if (i == 30 || i == 60 || i == 100) {
+            end = high_resolution_clock::now();
+            duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
+            best_solutions.push_back(make_pair(curr_solution, duration));
+        }
     }
-    return curr_solution;
+    return best_solutions;
 }

@@ -77,17 +77,19 @@ int main(int argc, char *argv[]) {
             cout << "🙌 GRASP" << endl;
             algorithm_name = "GRASP";
             {
+                float alphas[] = {0.25, 0.5, 0.75, 1};
                 int iters[] = {30, 60, 100};
-               for (int j = 0; j < 3; j++) {
-                    start = high_resolution_clock::now();
-                    schedule = grasp(jobs, m, iters[j]);
-                    end = high_resolution_clock::now();
-                    cout << "🦙 GRASP Schedule with iterations = " << iters[j] << endl;
-                    print_schedule(schedule, m);
-                    long long tardiness = total_tardiness(schedule);
-                    cout << "\nTotal Tardiness: " << tardiness << endl;
-                    duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
-                    cout << "Time taken by GRASP: " << duration.count() << " seconds\n" << endl;
+                for (int j = 0; j < 3; j++)
+                {
+                    vector<pair<vector<vector<Job *>>, duration<double>>> best_solutions = grasp(jobs, m, 100, alphas[j]);
+                    for (int i = 0; i < best_solutions.size(); i++)
+                    {
+                        cout << "🦙 GRASP Schedule with alpha = " << alphas[j] << " and iterations = " << iters[i] << endl;
+                        print_schedule(best_solutions[i].first, m);
+                        long long tardiness = total_tardiness(best_solutions[i].first);
+                        cout << "\nTotal Tardiness: " << tardiness << endl;
+                        cout << "Time taken by GRASP: " << best_solutions[i].second.count() << " seconds\n" << endl;
+                    }
                 }
             }
             break;
@@ -121,9 +123,6 @@ int main(int argc, char *argv[]) {
             break;
         case 3:
             cout << "simulated annealing: ";
-            break;
-        case 4:
-            cout << "GRASP: ";
             break;
         case 5:
             cout << "genetic algorithm: ";
