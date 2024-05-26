@@ -77,20 +77,17 @@ int main(int argc, char *argv[]) {
             cout << "🙌 GRASP" << endl;
             algorithm_name = "GRASP";
             {
-                float alphas[] = {0.25, 0.5, 0.75, 1};
                 int iters[] = {30, 60, 100};
-                for (int i = 0; i < 4; i++) {
-                    for (int j = 0; j < 3; j++) {
-                        start = high_resolution_clock::now();
-                        schedule = grasp(jobs, m, iters[j], alphas[i]);
-                        end = high_resolution_clock::now();
-                        cout << "🦙 GRASP Schedule with alpha = " << alphas[i] << " and iterations = " << iters[j] << endl;
-                        print_schedule(schedule, m);
-                        long long tardiness = total_tardiness(schedule);
-                        cout << "\nTotal Tardiness: " << tardiness << endl;
-                        duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
-                        cout << "Time taken by GRASP: " << duration.count() << " seconds\n" << endl;
-                    }
+               for (int j = 0; j < 3; j++) {
+                    start = high_resolution_clock::now();
+                    schedule = grasp(jobs, m, iters[j]);
+                    end = high_resolution_clock::now();
+                    cout << "🦙 GRASP Schedule with iterations = " << iters[j] << endl;
+                    print_schedule(schedule, m);
+                    long long tardiness = total_tardiness(schedule);
+                    cout << "\nTotal Tardiness: " << tardiness << endl;
+                    duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
+                    cout << "Time taken by GRASP: " << duration.count() << " seconds\n" << endl;
                 }
             }
             break;

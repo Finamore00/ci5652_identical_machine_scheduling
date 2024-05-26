@@ -11,6 +11,6 @@
 
     vector<pair<Job *, int>> RCL(vector<Job *> jobs, int numMachines, vector<long long> completion_times, int &selected_machine, Job *&selected_job, float alpha);
     vector<vector<Job*>> random_greedy_construction(vector<Job*> jobs, int numMachines, float alpha);
-    vector<vector<Job *>> grasp(vector<Job *> jobs, int numMachines, int max_iters, float alpha);
+    vector<vector<Job *>> grasp(vector<Job *> jobs, int numMachines, int max_iters);
 
 #endif

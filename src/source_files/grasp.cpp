@@ -75,10 +75,12 @@ vector<vector<Job*>> random_greedy_construction(vector<Job*> jobs, int numMachin
 }       
 
 
-vector<vector<Job*>> grasp(vector<Job *> jobs, int numMachines, int max_iters, float alpha) {
+vector<vector<Job*>> grasp(vector<Job *> jobs, int numMachines, int max_iters) {
     vector<vector<Job*>> curr_solution = generate_random_solution(jobs, numMachines);
     long long curr_tt = total_tardiness(curr_solution);
     while(max_iters-- && curr_tt > 0) {
+        // alpha between 0 and 1
+        float alpha = (rand() % 100) / 100.0;
         vector<vector<Job*>> new_solution = random_greedy_construction(jobs, numMachines, alpha);
         new_solution = improve_solution_by_ls(new_solution, numMachines, 65000);
 
