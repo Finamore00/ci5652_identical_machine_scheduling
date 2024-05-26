@@ -84,7 +84,7 @@ int main(int argc, char *argv[]) {
                         start = high_resolution_clock::now();
                         schedule = grasp(jobs, m, iters[j], alphas[i]);
                         end = high_resolution_clock::now();
-                        cout << "GRASP Schedule with alpha = " << alphas[i] << " and iterations = " << iters[j] << endl;
+                        cout << "🦙 GRASP Schedule with alpha = " << alphas[i] << " and iterations = " << iters[j] << endl;
                         print_schedule(schedule, m);
                         long long tardiness = total_tardiness(schedule);
                         cout << "\nTotal Tardiness: " << tardiness << endl;
