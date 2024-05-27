@@ -90,7 +90,7 @@ vector<pair<vector<vector<Job *>>, duration<double>>> grasp(vector<Job *> jobs, 
     unsigned int i = 0;
     while (i < max_iters && curr_tt > 0) {
         vector<vector<Job*>> new_solution = random_greedy_construction(jobs, numMachines, alpha);
-        new_solution = improve_solution_by_ls(new_solution, numMachines, 65000);
+        new_solution = improve_solution_by_ls(new_solution, numMachines, 1000);
 
         long long new_tt = total_tardiness(new_solution);
         if (new_tt < curr_tt) {
