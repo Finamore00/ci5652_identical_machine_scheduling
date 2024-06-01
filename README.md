@@ -50,10 +50,15 @@ La implementación del algoritmo GRASP recibe la información de las `n` tareas,
 
 1. El algoritmo empieza a generar una solución inicial aleatoria `S`. Por ahora, se tiene que `S` es la mejor solución que se tiene para el problema.
 2. Ahora, para cada iteración, se construye una solución voraz aleatoria `S'`, el cual: 
+
     2.1. Se considera las tareas que aún no han sido programadas y se aplica el enfoque heurístico para la Lista Restringida de Candidatos (RCL). 
+
     2.2. De esta lista RCL, se escoge aleatoriamente un elemento: `<g, l>`. 
+
     2.3. Luego, de la tupla seleccionada `<g, l>`, se le asigna la tarea `g` en la máquina `l`. 
+
     2.4. Se elimina la tarea `g` de la lista de tareas sin programar en esta solución parcial construida `S'`.
+
     2.5. Se repite los pasos 2.1 a 2.4 hasta que no queden tareas sin programar.
 3. Se reemplaza `S` por `S'` si el retraso total o total tardiness de las tareas en la solución `S` es mayor que el de `S'`, en caso contrario, no se hace nada.
 4. Se repite el paso 2 y 3 hasta que se acaben las iteraciones.
