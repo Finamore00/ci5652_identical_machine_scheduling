@@ -55,7 +55,7 @@ La implementación del algoritmo GRASP recibe la información de las `n` tareas,
 
     2.2. De esta lista RCL, se escoge aleatoriamente un elemento: `<g, l>`. 
 
-    2.3. Luego, de la tupla seleccionada `<g, l>`, se le asigna la tarea `g` en la máquina `l`. 
+    2.3. Luego, del elemento seleccionado `<g, l>`, se le asigna la tarea `g` a la máquina `l`. 
 
     2.4. Se elimina la tarea `g` de la lista de tareas sin programar en esta solución parcial construida `S'`.
 
