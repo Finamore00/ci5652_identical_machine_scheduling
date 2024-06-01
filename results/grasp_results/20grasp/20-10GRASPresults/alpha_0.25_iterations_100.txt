@@ -1,0 +1,750 @@
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 18 
+Machine 2:  17 19 20 
+Total Tardiness:  198
+Time taken by GRASP: 3.39422 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 15 
+Machine 2:  6 10 
+Total Tardiness:  136
+Time taken by GRASP: 3.55183 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 20 
+Machine 2:  18 4 
+Total Tardiness:  210
+Time taken by GRASP: 3.21869 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  11 6 
+Machine 2:  1 17 20 
+Total Tardiness:  180
+Time taken by GRASP: 3.81219 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  15 3 18 
+Machine 2:  5 
+Total Tardiness:  158
+Time taken by GRASP: 3.57021 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  8 12 
+Machine 2:  3 13 
+Total Tardiness:  174
+Time taken by GRASP: 3.15477 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 4 
+Machine 2:  20 15 
+Total Tardiness:  85
+Time taken by GRASP: 3.34489 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  16 6 
+Machine 2:  5 7 
+Total Tardiness:  154
+Time taken by GRASP: 3.29059 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  16 12 
+Machine 2:  3 8 
+Total Tardiness:  165
+Time taken by GRASP: 3.66261 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  13 7 
+Machine 2:  11 12 
+Total Tardiness:  110
+Time taken by GRASP: 3.39135 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  5 9 
+Machine 2:  19 16 
+Total Tardiness:  171
+Time taken by GRASP: 3.25018 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 
+Machine 2:  6 19 
+Total Tardiness:  40
+Time taken by GRASP: 3.11518 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  8 7 
+Machine 2:  15 1 
+Total Tardiness:  123
+Time taken by GRASP: 3.1651 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  3 19 12 
+Machine 2:  18 2 
+Total Tardiness:  169
+Time taken by GRASP: 3.07236 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  11 
+Machine 2:  6 20 
+Total Tardiness:  88
+Time taken by GRASP: 3.24532 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  3 12 
+Machine 2:  1 13 
+Total Tardiness:  177
+Time taken by GRASP: 3.11064 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 
+Machine 2:  6 14 
+Total Tardiness:  24
+Time taken by GRASP: 2.73427 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 11 
+Machine 2:  14 3 
+Total Tardiness:  120
+Time taken by GRASP: 3.16688 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  1 19 11 8 
+Machine 2:  17 9 
+Total Tardiness:  176
+Time taken by GRASP: 2.90202 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  1 16 17 
+Machine 2:  14 
+Total Tardiness:  78
+Time taken by GRASP: 2.77866 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  5 
+Machine 2:  1 13 
+Total Tardiness:  179
+Time taken by GRASP: 3.02343 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 2 
+Machine 2:  11 3 
+Total Tardiness:  26
+Time taken by GRASP: 2.66187 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  15 11 
+Machine 2:  14 7 
+Total Tardiness:  120
+Time taken by GRASP: 3.33359 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 9 
+Machine 2:  5 
+Total Tardiness:  212
+Time taken by GRASP: 2.903 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 19 
+Machine 2:  9 
+Total Tardiness:  83
+Time taken by GRASP: 2.6227 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  19 16 
+Machine 2:  8 20 
+Total Tardiness:  476
+Time taken by GRASP: 3.28982 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 
+Machine 2:  6 16 
+Total Tardiness:  330
+Time taken by GRASP: 3.3176 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 3 
+Machine 2:  17 16 
+Total Tardiness:  495
+Time taken by GRASP: 3.16457 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  3 10 
+Machine 2:  5 
+Total Tardiness:  400
+Time taken by GRASP: 3.35477 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  4 12 7 
+Machine 2:  13 19 
+Total Tardiness:  377
+Time taken by GRASP: 3.11682 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  14 20 
+Machine 2:  15 
+Total Tardiness:  465
+Time taken by GRASP: 3.12496 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 
+Machine 2:  9 18 8 
+Total Tardiness:  277
+Time taken by GRASP: 3.61366 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 4 
+Machine 2:  1 5 
+Total Tardiness:  481
+Time taken by GRASP: 3.24853 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  19 15 6 
+Machine 2:  13 7 
+Total Tardiness:  401
+Time taken by GRASP: 3.47755 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 
+Machine 2:  9 
+Total Tardiness:  350
+Time taken by GRASP: 3.23052 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  3 9 
+Machine 2:  15 
+Total Tardiness:  458
+Time taken by GRASP: 3.01308 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 15 
+Machine 2:  7 
+Total Tardiness:  231
+Time taken by GRASP: 3.62805 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  15 16 
+Machine 2:  14 
+Total Tardiness:  463
+Time taken by GRASP: 3.1788 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  15 11 18 
+Machine 2:  16 
+Total Tardiness:  415
+Time taken by GRASP: 3.33686 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  11 
+Machine 2:  20 10 
+Total Tardiness:  322
+Time taken by GRASP: 3.45058 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  11 12 
+Machine 2:  14 4 
+Total Tardiness:  464
+Time taken by GRASP: 3.06046 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  5 20 14 
+Machine 2:  13 19 18 
+Total Tardiness:  190
+Time taken by GRASP: 3.37851 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  18 6 
+Machine 2:  2 17 8 
+Total Tardiness:  450
+Time taken by GRASP: 3.03856 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  9 
+Machine 2:  14 6 
+Total Tardiness:  424
+Time taken by GRASP: 3.34496 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  14 
+Machine 2:  11 10 
+Total Tardiness:  303
+Time taken by GRASP: 3.79219 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 6 16 
+Machine 2:  3 
+Total Tardiness:  482
+Time taken by GRASP: 3.2065 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 
+Machine 2:  10 
+Total Tardiness:  139
+Time taken by GRASP: 3.03445 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  19 9 
+Machine 2:  12 20 
+Total Tardiness:  459
+Time taken by GRASP: 3.69317 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  9 2 
+Machine 2:  13 12 
+Total Tardiness:  437
+Time taken by GRASP: 3.87924 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  8 19 
+Machine 2:  6 20 
+Total Tardiness:  276
+Time taken by GRASP: 3.32405 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 18 
+Machine 2:  14 8 
+Total Tardiness:  763
+Time taken by GRASP: 3.19922 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 19 
+Machine 2:  6 4 
+Total Tardiness:  531
+Time taken by GRASP: 2.95548 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 
+Machine 2:  13 11 
+Total Tardiness:  832
+Time taken by GRASP: 2.77432 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 18 
+Machine 2:  3 
+Total Tardiness:  619
+Time taken by GRASP: 2.9414 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  13 16 7 
+Machine 2:  20 
+Total Tardiness:  586
+Time taken by GRASP: 2.72699 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 3 
+Machine 2:  14 4 
+Total Tardiness:  779
+Time taken by GRASP: 2.69402 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  20 9 10 
+Machine 2:  2 
+Total Tardiness:  488
+Time taken by GRASP: 2.84047 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  1 11 
+Machine 2:  13 20 
+Total Tardiness:  861
+Time taken by GRASP: 2.61809 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  11 4 
+Machine 2:  8 6 
+Total Tardiness:  640
+Time taken by GRASP: 2.76513 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  16 11 
+Machine 2:  15 
+Total Tardiness:  580
+Time taken by GRASP: 2.69987 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  8 
+Machine 2:  13 5 
+Total Tardiness:  799
+Time taken by GRASP: 2.88421 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 18 16 15 
+Machine 2:  17 20 10 
+Total Tardiness:  449
+Time taken by GRASP: 3.05127 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  15 16 
+Machine 2:  10 11 
+Total Tardiness:  866
+Time taken by GRASP: 2.73252 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  14 18 
+Machine 2:  19 9 
+Total Tardiness:  657
+Time taken by GRASP: 2.85244 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 7 
+Machine 2:  3 17 11 
+Total Tardiness:  572
+Time taken by GRASP: 2.8801 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 12 
+Machine 2:  7 18 
+Total Tardiness:  815
+Time taken by GRASP: 2.77889 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  20 13 3 
+Machine 2:  12 10 
+Total Tardiness:  412
+Time taken by GRASP: 3.20459 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  5 
+Machine 2:  13 6 
+Total Tardiness:  862
+Time taken by GRASP: 3.00938 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  19 12 5 
+Machine 2:  13 2 
+Total Tardiness:  684
+Time taken by GRASP: 3.01 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 13 19 
+Machine 2:  2 
+Total Tardiness:  551
+Time taken by GRASP: 3.08423 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 15 
+Machine 2:  17 16 
+Total Tardiness:  732
+Time taken by GRASP: 3.04909 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  5 4 
+Machine 2:  1 16 
+Total Tardiness:  335
+Time taken by GRASP: 3.30683 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  15 7 20 
+Machine 2:  1 4 
+Total Tardiness:  758
+Time taken by GRASP: 3.12359 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  5 
+Machine 2:  14 4 
+Total Tardiness:  632
+Time taken by GRASP: 3.39249 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  8 19 
+Machine 2:  2 10 
+Total Tardiness:  477
+Time taken by GRASP: 3.55623 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  9 8 
+Machine 2:  13 18 
+Total Tardiness:  1153
+Time taken by GRASP: 2.61751 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 18 4 
+Machine 2:  6 15 
+Total Tardiness:  776
+Time taken by GRASP: 3.22543 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 4 
+Machine 2:  7 19 
+Total Tardiness:  1225
+Time taken by GRASP: 2.51893 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 20 
+Machine 2:  10 5 
+Total Tardiness:  865
+Time taken by GRASP: 2.59838 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  16 7 
+Machine 2:  3 8 9 
+Total Tardiness:  808
+Time taken by GRASP: 2.7899 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  14 1 
+Machine 2:  6 12 
+Total Tardiness:  1170
+Time taken by GRASP: 2.63066 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 8 
+Machine 2:  16 4 
+Total Tardiness:  742
+Time taken by GRASP: 3.18789 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  1 11 
+Machine 2:  17 18 
+Total Tardiness:  1239
+Time taken by GRASP: 2.63898 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 6 
+Machine 2:  17 13 
+Total Tardiness:  891
+Time taken by GRASP: 2.69891 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 11 
+Machine 2:  1 
+Total Tardiness:  794
+Time taken by GRASP: 2.71208 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  9 1 
+Machine 2:  2 4 
+Total Tardiness:  1079
+Time taken by GRASP: 2.69405 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  2 
+Machine 2:  20 9 10 
+Total Tardiness:  658
+Time taken by GRASP: 4.31143 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 8 
+Machine 2:  9 20 
+Total Tardiness:  1144
+Time taken by GRASP: 3.3726 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  11 4 
+Machine 2:  14 18 
+Total Tardiness:  844
+Time taken by GRASP: 2.87027 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 
+Machine 2:  8 2 
+Total Tardiness:  739
+Time taken by GRASP: 2.65358 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 3 
+Machine 2:  6 18 
+Total Tardiness:  989
+Time taken by GRASP: 2.66277 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  9 17 10 
+Machine 2:  12 18 3 
+Total Tardiness:  570
+Time taken by GRASP: 1.27369 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 14 
+Machine 2:  9 18 
+Total Tardiness:  1062
+Time taken by GRASP: 1.23446 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  8 5 
+Machine 2:  11 4 
+Total Tardiness:  793
+Time taken by GRASP: 1.17806 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  8 15 
+Machine 2:  6 13 19 
+Total Tardiness:  682
+Time taken by GRASP: 1.15616 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 3 
+Machine 2:  17 15 
+Total Tardiness:  897
+Time taken by GRASP: 1.1754 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  5 18 8 
+Machine 2:  1 
+Total Tardiness:  493
+Time taken by GRASP: 1.30709 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  10 6 
+Machine 2:  15 11 
+Total Tardiness:  963
+Time taken by GRASP: 1.1173 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  20 
+Machine 2:  9 
+Total Tardiness:  739
+Time taken by GRASP: 1.1964 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  1 18 
+Machine 2:  8 20 
+Total Tardiness:  623
+Time taken by GRASP: 1.16982 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  14 3 
+Machine 2:  11 16 
+Total Tardiness:  1483
+Time taken by GRASP: 1.05174 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  13 2 
+Machine 2:  18 19 
+Total Tardiness:  1028
+Time taken by GRASP: 1.23661 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  2 18 
+Machine 2:  6 19 
+Total Tardiness:  1598
+Time taken by GRASP: 1.067 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  14 5 
+Machine 2:  2 3 
+Total Tardiness:  1123
+Time taken by GRASP: 1.04701 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 7 
+Machine 2:  17 9 
+Total Tardiness:  1028
+Time taken by GRASP: 1.07386 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  13 8 
+Machine 2:  6 12 
+Total Tardiness:  1371
+Time taken by GRASP: 1.07041 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  5 4 
+Machine 2:  9 18 11 
+Total Tardiness:  931
+Time taken by GRASP: 1.37988 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  3 11 
+Machine 2:  1 16 
+Total Tardiness:  1471
+Time taken by GRASP: 1.05339 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 7 
+Machine 2:  15 4 
+Total Tardiness:  1038
+Time taken by GRASP: 1.0646 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  18 9 
+Machine 2:  19 
+Total Tardiness:  937
+Time taken by GRASP: 1.08082 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  9 17 
+Machine 2:  20 1 
+Total Tardiness:  1272
+Time taken by GRASP: 1.09069 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  16 8 
+Machine 2:  6 15 
+Total Tardiness:  832
+Time taken by GRASP: 1.34067 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 10 
+Machine 2:  2 18 
+Total Tardiness:  1344
+Time taken by GRASP: 1.13085 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  8 5 
+Machine 2:  17 2 9 
+Total Tardiness:  958
+Time taken by GRASP: 1.07146 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 11 
+Machine 2:  4 10 14 
+Total Tardiness:  864
+Time taken by GRASP: 1.12327 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  11 3 
+Machine 2:  9 5 
+Total Tardiness:  1170
+Time taken by GRASP: 1.08156 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  12 19 
+Machine 2:  3 15 
+Total Tardiness:  742
+Time taken by GRASP: 1.26937 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  17 8 
+Machine 2:  15 14 
+Total Tardiness:  1239
+Time taken by GRASP: 1.06855 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  15 13 
+Machine 2:  14 5 
+Total Tardiness:  891
+Time taken by GRASP: 1.09024 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  18 9 
+Machine 2:  4 13 11 
+Total Tardiness:  794
+Time taken by GRASP: 1.11261 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  19 17 
+Machine 2:  20 5 
+Total Tardiness:  1079
+Time taken by GRASP: 1.12821 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  14 
+Machine 2:  19 
+Total Tardiness:  658
+Time taken by GRASP: 1.28957 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  7 19 
+Machine 2:  3 18 
+Total Tardiness:  1144
+Time taken by GRASP: 1.12867 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  1 2 18 
+Machine 2:  17 3 
+Total Tardiness:  844
+Time taken by GRASP: 1.24265 seconds
+-----------------------------
+Alpha: 0.25, Iterations: 100
+Machine 1:  6 7 
+Machine 2:  3 2 
+Total Tardiness:  739
+Time taken by GRASP: 1.13171 seconds
+-----------------------------
