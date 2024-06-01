@@ -39,7 +39,7 @@ Para la definición del RCL en este problema, se utilizó el enfoque heurístico
     > `Cj` es la suma del procesamiento de tiempo de las tareas que ya han sido programados en la máquina `j`.
 
     > `pi` es el tiempo de procesamiento de la tarea `i` con su fecha de vencimiento `di`.
-6. Luego, sea `C` el conjunto resultante de tener cada par `<g, l>` (la tarea `g` es la tarea que produce el menor valor MDD en la máquina `l`).
+6. Luego, sea `C` el conjunto resultante de tener cada par `<g, l>`, donde cada una de estos pares representa que la tarea `g` es la tarea que produce el menor valor MDD en la máquina `l`).
 7. Se puede definir el costo de la función de un elemento `<g, l>` en `C` como `c(<g, l>) = MDD(g, l)`.
 8. También se define `c_min = min{ c(<g, l>) | <g, l> ∈ C}` y `c_max = max{ c(<g, l>) | <g, l> ∈ C}`.
 9. Entonces, el `RCL = { <g, l> ∈ C | c(<g, l>) <= c_min + α(c_max - c_min)}`
