@@ -46,7 +46,7 @@ Para la definición del RCL en este problema, se utilizó el enfoque heurístico
 
 ### 🎰 GRASP
 
-La implementación del algoritmo GRASP recibe la información de las `n` tareas, la cantidad de las `m` máquinas, el `alpha` para el RCL y `el máximo número de iteraciones`, y a continuación se describen los pasos de la implementación: 
+La implementación del algoritmo GRASP recibe la información de las `n` tareas, la cantidad de las `m` máquinas, el `alpha` para el RCL y `el máximo número de iteraciones`. A continuación se describen los pasos de la implementación: 
 
 1. El algoritmo empieza a generar una solución inicial aleatoria `S`. Por ahora, se tiene que `S` es la mejor solución que se tiene para el problema.
 2. Ahora, para cada iteración, se construye una solución voraz aleatoria `S'`, el cual: 
