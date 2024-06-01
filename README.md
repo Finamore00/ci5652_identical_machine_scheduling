@@ -26,7 +26,7 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
 ### 👨‍⚖️ Método de construción para una RCL
 
-Para la definición del RCL en este problema, se utilizó el enfoque heurístico Modified Due Date (MDD) explicado en el primer corte del proyecto, el cual:
+Para la definición del RCL en este problema, se utilizó el enfoque heurístico Modified Due Date (MDD) explicado en el primer corte del proyecto:
 
 1. Sea `S` una solución parcialmente construida.
 2. Se tiene una lista de tareas no programadas `U` en la solución `S`.
