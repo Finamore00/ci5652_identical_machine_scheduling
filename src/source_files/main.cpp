@@ -9,6 +9,7 @@
 #include "../header_files/utilities.h"
 #include "../header_files/exact.h"
 #include "../header_files/grasp.h"
+#include "../header_files/evolution.h"
 
 using namespace std::chrono;
 
@@ -97,7 +98,7 @@ int main(int argc, char *argv[]) {
             cout << "🧬 Genetic Algorithm" << endl;
             algorithm_name = "Genetic Algorithm";
             start = high_resolution_clock::now();
-            // schedule = genetic_algorithm(jobs, m, ...)
+            schedule = genetic_algorithm(jobs, m, 50, 0.05, 4000);
             end = high_resolution_clock::now();
             break;
         }

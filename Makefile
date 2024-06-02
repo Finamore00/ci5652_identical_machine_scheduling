@@ -5,7 +5,7 @@ SRC_FILE_DIR = src/source_files
 HDR_FILE_DIR = src/header_files
 OBJECTS := $(wildcard $(TARGET_DIR)/*.o)
 
-all: target_dir grasp.o
+all: target_dir grasp.o evolution.o
 	$(CC) $(TARGET_DIR)/*.o $(SRC_FILE_DIR)/main.cpp -o $(TARGET_DIR)/PROY2
 
 grasp.o: target_dir local_search.o heuristic.o exact.o
@@ -28,6 +28,9 @@ local_search.o: target_dir heuristic.o vicinities.o exact.o
 
 target_dir:
 	mkdir -p ./target
+
+evolution.o: target_dir vicinities.o local_search.o
+	$(CC) $(SRC_FILE_DIR)/evolution.cpp -c -o $(TARGET_DIR)/evolution.o
 
 clean:
 	rm -f $(TARGET_DIR)/*
