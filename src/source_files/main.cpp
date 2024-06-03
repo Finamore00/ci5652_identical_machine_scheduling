@@ -73,7 +73,7 @@ int main(int argc, char *argv[]) {
             cout << "❄️ Simulated Annealing" << endl;
             algorithm_name = "Simulated Annealing";
             start = high_resolution_clock::now();
-            schedule = simulated_annealing(jobs, m, 1500.0, 0.95, 150, 100000, 200, 100);
+            schedule = simulated_annealing(jobs, m, 2500.0, 0.95, 500, 1000000, 2000, 1000);
             end = high_resolution_clock::now();
             break;
         case 4:
