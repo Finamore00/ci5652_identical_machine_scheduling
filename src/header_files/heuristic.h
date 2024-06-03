@@ -5,6 +5,7 @@
     #include <vector>
     #include <iostream>
     #include <vector>
+    #include <algorithm>
     #include <climits>
     #include <utility>
     #include "../header_files/Job.h"
@@ -16,5 +17,8 @@
     void partition_jobs(vector<Job*> unscheduled_jobs, long long processed, vector<Job*> &u1, vector<Job*> &u2);
     pair<Job*, long long> find_min_mdd_job(vector<Job*> unscheduled_jobs, long long processed);
     vector<vector<Job*>> mddScheduling(vector<Job*> jobs, int numMachines);
+    vector<vector<Job*>> edd(vector<Job*> jobs,int machines);
+    vector<vector<Job*>> mst(vector<Job*> jobs,int machines);
+    vector<vector<Job*>> spt(vector<Job*> jobs,int machines);
 
 #endif
