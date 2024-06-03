@@ -1,17 +1,19 @@
 #include <iostream>
+#include <filesystem>
 #include <vector>
 #include <climits>
 #include <utility>
 #include <string>
-#include <filesystem>
 #include <chrono>
 #include "../header_files/Job.h"
 #include "../header_files/utilities.h"
 #include "../header_files/exact.h"
 #include "../header_files/grasp.h"
 #include "../header_files/evolution.h"
+#include "../header_files/simulated_annealing.h"
 
-using namespace std::chrono;
+using namespace std;
+using namespace chrono;
 
 int main(int argc, char *argv[]) {
     if (argc != 3) {
@@ -71,7 +73,7 @@ int main(int argc, char *argv[]) {
             cout << "❄️ Simulated Annealing" << endl;
             algorithm_name = "Simulated Annealing";
             start = high_resolution_clock::now();
-            // schedule = simulated_annealing(jobs, m,...)
+            schedule = simulated_annealing(jobs, m, 1500.0, 0.95, 150, 100000, 200, 100);
             end = high_resolution_clock::now();
             break;
         case 4:
