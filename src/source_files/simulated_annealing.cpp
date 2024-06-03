@@ -7,34 +7,13 @@ using namespace std;
 
 
 vector<vector<Job*>> simulated_annealing(vector<Job*> jobs, int machines, float T, int Tstep, int MaxP, int MaxIt, int MaxN, int MaxNe) {
-    vector<vector<Job*>> machines_edd = edd(jobs, machines);
-    vector<vector<Job*>> machines_mst = mst(jobs, machines);
-    vector<vector<Job*>> machines_spt = spt(jobs, machines);
-    vector<vector<Job*>> machines_mdd = mddScheduling(jobs, machines);
-
-    long long tardiness_edd = total_tardiness(machines_edd);
-    long long tardiness_mst = total_tardiness(machines_mst);
-    long long tardiness_spt = total_tardiness(machines_spt);
-    long long tardiness_mdd = total_tardiness(machines_mdd);
-
-    vector<vector<Job*>> best_schedule;
-    long long min_tardiness = min({tardiness_edd, tardiness_mst, tardiness_spt});
-
-    if (min_tardiness == tardiness_edd) {
-        best_schedule = machines_edd;
-    } else if (min_tardiness == tardiness_mst) {
-        best_schedule = machines_mst;
-    } else if (min_tardiness == tardiness_spt) {
-        best_schedule = machines_spt;
-    } else {
-        best_schedule = machines_mdd;
-    }
+    vector<vector<Job*>> best_schedule = mddScheduling(jobs, machines);
 
     int it = 0, it_p = 0, nb_p = 0, nb_ne = 0;
     bool test = false;
     int test_id = 0;
     vector<vector<Job*>> neighbor;
-    long long new_tardiness, current_tardiness = min_tardiness;
+    long long new_tardiness, current_tardiness = total_tardiness(best_schedule);
 
     random_device rd;
     mt19937 gen(rd());
