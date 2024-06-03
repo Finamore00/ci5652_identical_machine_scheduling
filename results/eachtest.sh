@@ -1,69 +1,49 @@
 #!/bin/bash
 
-# ls heuristic
-echo "n = 20" 
-echo "Procesando archivos de resultados de ls heuristic"
-for file in ./n=20/*results_lsheuristic.txt
+# Genetic algorithm
+echo "Procesando archivos de resultados genetic algorithm"
+echo "n=20"
+for file in ./genetic_results/n=20/*results_genetic.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttLSH$filename.txt
-        ./timels.sh $file > timeLSH$filename.txt
-    done
-
-# ls random
-echo "Procesando archivos de resultados de ls random"
-for file in ./n=20/*results_lsrandom.txt
-    do
-        filename="${file##*/}"
-        filename="${filename%.*}"
-        echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttLSrandom$filename.txt
-        ./timels.sh $file > timeLSrandom$filename.txt
-    done
-
-# heuristic
-echo "Procesando archivos de resultados de heuristic"
-for file in ./n=20/*hresults.txt
-    do
-        filename="${file##*/}"
-        filename="${filename%.*}"
-        echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttH$filename.txt
-        ./timeh.sh $file > timeH$filename.txt
+        ./total_tardiness.sh $file > ttGA$filename.txt
+        ./timeGA.sh $file > timeGA$filename.txt
     done
 
 echo "/n"
-echo "n = 25" 
-echo "Procesando archivos de resultados de ls heuristic"
-for file in ./n=25/*results_lsheuristic.txt
+echo "n=25"
+for file in ./genetic_results/n=25/*results_genetic.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttLSH$filename.txt
-        ./timels.sh $file > timeLSH$filename.txt
+        ./total_tardiness.sh $file > ttGA$filename.txt
+        ./timeGA.sh $file > timeGA$filename.txt
     done
 
-# ls random
-echo "Procesando archivos de resultados de ls random"
-for file in ./n=25/*results_lsrandom.txt
+
+# Simulated annealing prueba 1
+echo "Procesando archivos de resultados simulated annealing"
+echo "n=20"
+for file in ./simulated_annealing_results_1/n=20/*results_simulated_annealing.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttLSrandom$filename.txt
-        ./timels.sh $file > timeLSrandom$filename.txt
+        ./total_tardiness.sh $file > ttSA$filename.txt
+        ./timeSA.sh $file > timeSA$filename.txt
     done
 
-# heuristic
-echo "Procesando archivos de resultados de heuristic"
-for file in ./n=25/*hresults.txt
+echo "/n"
+echo "n=25"
+for file in ./simulated_annealing_results_1/n=25/*results_simulated_annealing.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttH$filename.txt
-        ./timeh.sh $file > timeH$filename.txt
+        ./total_tardiness.sh $file > ttSA$filename.txt
+        ./timeSA.sh $file > timeSA$filename.txt
     done
+
