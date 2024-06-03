@@ -32,8 +32,8 @@ for file in ./simulated_annealing_results_1/n=20/*results_simulated_annealing.tx
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttSA$filename.txt
-        ./timeSA.sh $file > timeSA$filename.txt
+        ./total_tardiness.sh $file > ttSA1$filename.txt
+        ./timeSA.sh $file > timeSA1$filename.txt
     done
 
 echo "/n"
@@ -43,7 +43,53 @@ for file in ./simulated_annealing_results_1/n=25/*results_simulated_annealing.tx
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttSA$filename.txt
-        ./timeSA.sh $file > timeSA$filename.txt
+        ./total_tardiness.sh $file > ttSA1$filename.txt
+        ./timeSA.sh $file > timeSA1$filename.txt
     done
 
+# Simulated annealing prueba 2
+echo "Procesando archivos de resultados simulated annealing"
+echo "n=20"
+for file in ./simulated_annealing_results_2/n=20/*results_simulated_annealing.txt
+    do
+        filename="${file##*/}"
+        filename="${filename%.*}"
+        echo "Procesando archivo: $filename"
+        ./total_tardiness.sh $file > ttSA2$filename.txt
+        ./timeSA.sh $file > timeSA2$filename.txt
+    done
+
+echo "/n"
+echo "n=25"
+for file in ./simulated_annealing_results_2/n=25/*results_simulated_annealing.txt
+    do
+        filename="${file##*/}"
+        filename="${filename%.*}"
+        echo "Procesando archivo: $filename"
+        ./total_tardiness.sh $file > ttSA2$filename.txt
+        ./timeSA.sh $file > timeSA2$filename.txt
+    done
+
+
+# Simulated annealing prueba 3
+echo "Procesando archivos de resultados simulated annealing"
+echo "n=20"
+for file in ./simulated_annealing_results_3/n=20/*results_simulated_annealing.txt
+    do
+        filename="${file##*/}"
+        filename="${filename%.*}"
+        echo "Procesando archivo: $filename"
+        ./total_tardiness.sh $file > ttSA3$filename.txt
+        ./timeSA.sh $file > timeSA3$filename.txt
+    done
+
+echo "/n"
+echo "n=25"
+for file in ./simulated_annealing_results_3/n=25/*results_simulated_annealing.txt
+    do
+        filename="${file##*/}"
+        filename="${filename%.*}"
+        echo "Procesando archivo: $filename"
+        ./total_tardiness.sh $file > ttSA3$filename.txt
+        ./timeSA.sh $file > timeSA3$filename.txt
+    done
