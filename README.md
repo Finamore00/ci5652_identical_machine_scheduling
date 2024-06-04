@@ -18,9 +18,91 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
 ## Definición de una perturbación e implementación de una búsqueda local iterada (ILS).
 
+### 🔄 ILS
+
+La implementación del algoritmo de Búsqueda Local Iterada (ILS) recibe la información de las `n` tareas, la cantidad de `m` máquinas, y varios parámetros que controlan el proceso de búsqueda, como el número máximo de iteraciones y la fuerza de perturbación inicial. A continuación se describen los pasos de la implementación:
+
+1. **Inicialización:** 
+    - El algoritmo empieza creando una solución inicial `S` utilizando el método `mddScheduling`. 
+    - Luego, aplica el algoritmo `RNA` a esta solución inicial para obtener una solución mejorada `S`.
+    - Esta solución `S` es considerada la mejor solución conocida hasta el momento (`best_schedule`).
+
+2. **Iteraciones principales:** 
+    - Para cada iteración, se realiza una perturbación a la solución actual `current_schedule` aplicando un número `p` de movimientos aleatorios.
+    - Después de la perturbación, se aplica el algoritmo `RNA` para mejorar la solución perturbada.
+
+3. **Evaluación de soluciones:** 
+    - Si la solución mejorada tiene una tardanza total (`total_tardiness`) menor que la mejor solución conocida, se actualiza la mejor solución y se restablece la fuerza de perturbación `p` a su valor inicial.
+    - Si no mejora, se incrementa un contador `i`.
+
+4. **Ajuste de la perturbación:** 
+    - Si el contador `i` alcanza el límite `itermax`, se incrementa la fuerza de perturbación `p`. Si `p` excede un valor máximo `pmax`, se restablece a su valor inicial.
+
+5. **Repetición:** 
+    - Se repiten los pasos 2-4 hasta que se agoten las iteraciones.
+
+El algoritmo `ILS` busca explorar el espacio de soluciones mediante la combinación de perturbaciones y optimización local, ayudando a escapar de óptimos locales y encontrar soluciones mejores.
+
 ## Definición de reglas para movimientos que han de ser tabús e implementación de una búsqueda tabú.
 
-## Definición de un proceso de enfriado progresivo e implementación de un reconocido simulado.
+### 🚫 Tabu Search
+
+La implementación del algoritmo de Búsqueda Tabú recibe la información de las `n` tareas, la cantidad de `m` máquinas, y varios parámetros que controlan el proceso de búsqueda, como el número máximo de iteraciones y la tenencia de la lista tabú. A continuación se describen los pasos de la implementación:
+
+1. **Inicialización:** 
+    - El algoritmo empieza creando una solución inicial `S` utilizando el método `mddScheduling`. 
+    - Esta solución `S` es considerada la mejor solución conocida hasta el momento (`best_schedule`).
+
+2. **Lista Tabú:** 
+    - Se inicializa una lista tabú para almacenar los movimientos que están prohibidos temporalmente.
+
+3. **Iteraciones principales:** 
+    - Para cada iteración, se identifica la máquina con mayor tardanza (`tardiest_machine`).
+    - Se generan múltiples vecinos de la solución actual mediante movimientos aleatorios en la máquina con mayor tardanza.
+    - Se selecciona el mejor vecino que no esté en la lista tabú o que mejora la mejor solución conocida.
+
+4. **Actualización de la lista Tabú:** 
+    - Si el mejor vecino no está en la lista tabú o mejora la mejor solución conocida, se actualiza la solución actual y se añade el movimiento a la lista tabú.
+    - Si la lista tabú excede su tamaño máximo (`tabu_tenure`), se elimina el movimiento más antiguo.
+
+5. **Actualización de la mejor solución:** 
+    - Si el vecino seleccionado mejora la mejor solución conocida, se actualiza la mejor solución.
+
+6. **Repetición:** 
+    - Se repiten los pasos 3-5 hasta que se agoten las iteraciones.
+
+El algoritmo `Tabu Search` busca explorar el espacio de soluciones evitando ciclos y escapando de óptimos locales mediante el uso de una lista tabú que prohíbe ciertos movimientos temporalmente.
+
+## Definición de un proceso de enfriado progresivo e implementación de un recocido simulado.
+
+### ❄️ Simulated Annealing
+
+La implementación del algoritmo de Recocido Simulado (Simulated Annealing) recibe la información de las `n` tareas, la cantidad de `m` máquinas, y varios parámetros que controlan el proceso de búsqueda, como la temperatura inicial y el factor de reducción de temperatura. A continuación se describen los pasos de la implementación:
+
+1. **Inicialización:** 
+    - El algoritmo empieza creando una solución inicial `S` utilizando el método `mddScheduling`. 
+    - Esta solución `S` es considerada la mejor solución conocida hasta el momento (`best_schedule`).
+    - Se inicializa la temperatura `t` con un valor inicial `t0`.
+
+2. **Iteraciones principales:** 
+    - Para cada iteración, se generan múltiples vecinos de la solución actual mediante movimientos aleatorios.
+    - Se calcula la diferencia de tardanza (`delta`) entre el vecino y la solución actual.
+
+3. **Criterio de aceptación:** 
+    - Si el vecino tiene una tardanza menor o igual, se acepta.
+    - Si el vecino tiene una tardanza mayor, se acepta con una probabilidad `exp(-delta / t)`.
+
+4. **Actualización de la mejor solución:** 
+    - Si la solución actual mejorada tiene una tardanza menor que la mejor solución conocida, se actualiza la mejor solución.
+
+5. **Reducción de la temperatura:** 
+    - Después de un número fijo de iteraciones, se reduce la temperatura multiplicándola por un factor `t_step`.
+    - Si la temperatura cae por debajo de un umbral `epsilon`, se restablece a su valor inicial `t0`.
+
+6. **Repetición:** 
+    - Se repiten los pasos 2-5 hasta que se agoten las iteraciones.
+
+El algoritmo `Simulated Annealing` busca explorar el espacio de soluciones permitiendo peores soluciones con una probabilidad decreciente, lo que ayuda a escapar de óptimos locales y encontrar mejores soluciones globales.
 
 ## 🎲 Definición de un método de construción para una RCL e implementación de GRASP.
 
