@@ -71,7 +71,7 @@ for file in ./genetic_results3/n=25/*results_genetic.txt
 # Genetic algorithm prueba 4
 echo "Procesando archivos de resultados genetic algorithm"
 echo "n=20"
-for file in ./genetic_results3/n=20/*results_genetic.txt
+for file in ./genetic_results4/n=20/*results_genetic.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
@@ -81,7 +81,7 @@ for file in ./genetic_results3/n=20/*results_genetic.txt
     done
 echo "/n"
 echo "n=25"
-for file in ./genetic_results3/n=25/*results_genetic.txt
+for file in ./genetic_results4/n=25/*results_genetic.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
