@@ -62,7 +62,7 @@ La implementación del algoritmo de Búsqueda Tabú recibe la información de la
     - Se selecciona el mejor vecino que no esté en la lista tabú o que mejora la mejor solución conocida.
 
 4. **Actualización de la lista Tabú:** 
-    - Si el mejor vecino no está en la lista tabú o mejora la mejor solución conocida, se actualiza la solución actual y se añade el movimiento a la lista tabú.
+    - Si el mejor vecino no está en la lista tabú o mejora la mejor solución conocida, se actualiza la solución actual y se añade uno de los índices de los trabajos restantes de la maquina con más tardiness a la lista tabú, esto para asegurar que no se extraigan varias veces elementos de la misma maquina, evitando así ciclos.
     - Si la lista tabú excede su tamaño máximo (`tabu_tenure`), se elimina el movimiento más antiguo.
 
 5. **Actualización de la mejor solución:** 
