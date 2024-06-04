@@ -183,3 +183,15 @@ vector<vector<Job*>> generate_neighbor(vector<vector<Job*>> schedule, int tardie
             exit(1); //If switch statement doesn't work as intended then something is terribly wrong.
     }
 }
+
+int index_tardiest_machine(vector<vector<Job*>> schedule) {
+    int tardiest_machine = -1;
+    long long max_tardiness = LLONG_MIN;
+    for (size_t j = 0; j < schedule.size(); j++) {
+        if (machine_tardiness(schedule[j]) > max_tardiness) {
+                max_tardiness = machine_tardiness(schedule[j]);
+                tardiest_machine = j;
+        }
+    }
+    return tardiest_machine;
+}

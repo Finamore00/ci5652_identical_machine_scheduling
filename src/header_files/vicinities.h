@@ -16,5 +16,6 @@
     vector<vector<Job*>> two_shift_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine);
     vector<vector<Job*>> task_move_neighborhood(vector<vector<Job*>> schedule, int tardiest_machine);
     vector<vector<Job*>> generate_neighbor(vector<vector<Job*>> schedule, int tardiest_machine);
+    int index_tardiest_machine(vector<vector<Job*>> schedule);
 
 #endif
