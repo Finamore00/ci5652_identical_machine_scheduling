@@ -180,6 +180,16 @@ pair<Individual, Individual> choose_parents(Population &population, vector<long 
 }
 
 //TO-DO
+/**
+ * Applies a genetic algorithm to solve the job scheduling problem.
+ *
+ * @param jobs The list of jobs to be scheduled.
+ * @param machine_count The number of machines available for scheduling.
+ * @param population_size The size of the population for the genetic algorithm.
+ * @param mutation_rate The rate at which mutations occur during the genetic algorithm.
+ * @param max_iter The maximum number of iterations for the genetic algorithm.
+ * @return The best fenotype (job scheduling) solution found by the genetic algorithm.
+ */
 Fenotype genetic_algorithm(vector<Job*> jobs, int machine_count, int population_size, float mutation_rate, int max_iter) {
     Population population = generate_population(jobs, machine_count, population_size);
     int generation = 0;
