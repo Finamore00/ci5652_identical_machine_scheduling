@@ -102,7 +102,7 @@ int main(int argc, char *argv[]) {
             cout << "🧬 Genetic Algorithm" << endl;
             algorithm_name = "Genetic Algorithm";
             start = high_resolution_clock::now();
-            schedule = genetic_algorithm(jobs, m, 50, 0.1, 4000);
+            schedule = genetic_algorithm(jobs, m, 100, 0.05, 8000);
             end = high_resolution_clock::now();
             break;
         }
