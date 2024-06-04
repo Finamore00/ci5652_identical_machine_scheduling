@@ -8,5 +8,5 @@
 
     using namespace std;
     
-    vector<vector<Job*>> simulated_annealing(vector<Job*> jobs, int machines, float T, int Tstep, int MaxP, int MaxIt, int MaxN, int MaxNe);
+    vector<vector<Job*>> simulated_annealing(vector<Job*> jobs, int machines, float t0, int t_step, int max_iter_t_step, int max_iter);
 #endif
