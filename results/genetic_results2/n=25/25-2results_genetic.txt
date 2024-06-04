@@ -1,0 +1,1250 @@
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 24 12 1 4 20 6 10 17 16 
+
+Machine 2: 19 9 18 22 23 14 2 8 21 7 13 3 5 25 15 
+
+Total Tardiness: 299
+Time taken by genetic algorithm: 15.6707 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 19 11 23 3 18 10 2 9 24 7 14 4 25 
+
+Machine 2: 8 15 5 20 22 6 12 21 13 17 16 1 
+
+Total Tardiness: 198
+Time taken by genetic algorithm: 15.404 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 22 5 14 16 18 23 6 7 19 1 13 10 4 25 
+
+Machine 2: 12 3 2 20 21 24 15 9 8 11 17 
+
+Total Tardiness: 180
+Time taken by genetic algorithm: 15.9785 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 9 16 24 20 12 14 7 11 17 22 21 
+
+Machine 2: 1 13 18 8 6 10 23 3 2 4 25 19 5 15 
+
+Total Tardiness: 167
+Time taken by genetic algorithm: 16.1261 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 25 6 19 22 20 8 3 12 24 1 
+
+Machine 2: 15 11 14 16 2 18 13 7 21 17 23 5 9 4 
+
+Total Tardiness: 315
+Time taken by genetic algorithm: 17.2851 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 6 9 7 14 22 3 24 15 13 19 17 10 8 
+
+Machine 2: 20 5 1 25 23 18 21 2 12 11 16 4 
+
+Total Tardiness: 170
+Time taken by genetic algorithm: 15.1404 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 22 4 10 16 20 5 23 1 13 21 9 
+
+Machine 2: 6 17 7 8 18 19 2 15 14 11 3 24 25 
+
+Total Tardiness: 111
+Time taken by genetic algorithm: 15.3508 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 6 18 7 21 1 2 20 5 23 8 4 
+
+Machine 2: 22 12 14 11 9 16 13 15 24 3 19 17 25 
+
+Total Tardiness: 76
+Time taken by genetic algorithm: 15.8542 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 3 8 23 13 18 7 1 15 9 14 25 22 19 5 
+
+Machine 2: 11 20 16 2 17 24 6 10 21 4 
+
+Total Tardiness: 137
+Time taken by genetic algorithm: 16.0074 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 3 17 2 8 21 22 12 25 15 1 9 
+
+Machine 2: 19 11 20 18 7 4 23 16 5 10 24 13 6 14 
+
+Total Tardiness: 200
+Time taken by genetic algorithm: 17.1251 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 18 15 19 2 22 11 5 6 21 14 16 25 17 
+
+Machine 2: 10 3 8 7 20 24 9 1 23 12 13 4 
+
+Total Tardiness: 115
+Time taken by genetic algorithm: 17.1285 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 7 19 15 18 14 6 20 5 25 23 16 
+
+Machine 2: 12 21 24 4 17 2 13 22 8 9 10 3 1 
+
+Total Tardiness: 29
+Time taken by genetic algorithm: 16.0352 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 16 10 22 6 14 8 21 20 18 24 4 15 
+
+Machine 2: 11 12 7 19 5 9 17 1 13 25 2 3 23 
+
+Total Tardiness: 323
+Time taken by genetic algorithm: 17.028 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 3 2 20 21 4 22 19 8 17 18 15 
+
+Machine 2: 25 1 7 6 14 13 9 16 5 23 10 12 24 
+
+Total Tardiness: 0
+Time taken by genetic algorithm: 0.733709 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 17 24 11 19 3 5 14 15 18 6 10 7 2 9 
+
+Machine 2: 8 12 23 22 16 20 25 21 4 1 13 
+
+Total Tardiness: 183
+Time taken by genetic algorithm: 16.9739 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 24 18 16 11 15 6 14 21 8 10 23 22 4 
+
+Machine 2: 12 2 5 3 25 13 9 1 17 7 20 19 
+
+Total Tardiness: 235
+Time taken by genetic algorithm: 16.9978 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 15 9 7 10 21 13 2 20 11 18 8 16 24 
+
+Machine 2: 19 22 5 12 14 6 17 1 23 4 3 25 
+
+Total Tardiness: 1
+Time taken by genetic algorithm: 15.1915 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 12 24 17 22 14 21 9 16 18 23 15 8 5 25 4 
+
+Machine 2: 2 19 6 7 13 20 3 11 1 
+
+Total Tardiness: 281
+Time taken by genetic algorithm: 17.1896 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 7 18 25 20 22 19 12 8 16 24 15 
+
+Machine 2: 1 5 6 11 9 3 14 2 23 21 4 13 17 
+
+Total Tardiness: 36
+Time taken by genetic algorithm: 16.1977 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 15 16 12 8 21 3 9 14 13 7 20 6 2 
+
+Machine 2: 4 24 19 23 10 17 11 18 25 5 22 1 
+
+Total Tardiness: 224
+Time taken by genetic algorithm: 16.7097 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 21 2 9 12 24 20 25 18 1 16 15 22 23 
+
+Machine 2: 5 13 6 14 19 7 3 17 11 4 8 10 
+
+Total Tardiness: 90
+Time taken by genetic algorithm: 15.2938 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 19 11 10 2 12 14 6 20 22 3 25 13 
+
+Machine 2: 23 7 8 9 17 4 5 18 24 1 16 15 21 
+
+Total Tardiness: 0
+Time taken by genetic algorithm: 0.128436 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 6 10 16 14 18 22 20 2 19 4 5 24 15 23 25 
+
+Machine 2: 12 21 17 7 3 13 1 11 8 9 
+
+Total Tardiness: 266
+Time taken by genetic algorithm: 18.217 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 10 20 9 17 4 12 25 16 23 19 24 
+
+Machine 2: 2 21 5 14 18 7 3 1 13 6 15 8 22 
+
+Total Tardiness: 94
+Time taken by genetic algorithm: 15.5042 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 18 12 11 8 15 13 19 6 4 7 5 25 
+
+Machine 2: 2 23 10 3 14 21 22 1 16 17 24 20 9 
+
+Total Tardiness: 116
+Time taken by genetic algorithm: 16.167 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 3 18 24 23 22 5 7 25 16 1 
+
+Machine 2: 14 2 6 12 11 21 17 9 10 19 4 15 13 8 
+
+Total Tardiness: 1057
+Time taken by genetic algorithm: 20.0755 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 19 3 1 9 17 4 23 15 13 25 
+
+Machine 2: 6 22 10 24 20 16 2 11 8 7 18 21 5 14 
+
+Total Tardiness: 818
+Time taken by genetic algorithm: 18.0473 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 22 19 18 5 4 20 9 13 23 17 25 3 
+
+Machine 2: 14 8 15 12 16 2 21 7 24 10 6 1 11 
+
+Total Tardiness: 888
+Time taken by genetic algorithm: 20.8208 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 1 24 8 4 25 11 18 13 17 23 10 
+
+Machine 2: 7 12 3 16 5 20 6 2 22 14 9 21 19 15 
+
+Total Tardiness: 691
+Time taken by genetic algorithm: 17.7715 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 7 11 6 17 14 16 20 24 10 8 5 13 9 
+
+Machine 2: 23 22 19 15 18 3 25 21 12 2 1 4 
+
+Total Tardiness: 1084
+Time taken by genetic algorithm: 20.5958 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 5 21 3 2 16 25 14 12 18 17 1 
+
+Machine 2: 20 22 9 11 24 6 7 19 10 23 8 13 4 15 
+
+Total Tardiness: 872
+Time taken by genetic algorithm: 19.1264 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 15 16 9 17 22 18 8 10 6 21 24 4 
+
+Machine 2: 23 2 14 5 20 7 11 19 1 3 13 25 
+
+Total Tardiness: 592
+Time taken by genetic algorithm: 19.5116 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 23 12 6 13 15 9 10 5 17 8 11 4 
+
+Machine 2: 3 19 22 21 18 16 24 14 7 1 2 25 20 
+
+Total Tardiness: 852
+Time taken by genetic algorithm: 20.4695 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 19 1 14 7 21 22 3 9 4 12 25 24 
+
+Machine 2: 5 16 6 23 20 8 2 11 10 15 13 18 17 
+
+Total Tardiness: 561
+Time taken by genetic algorithm: 18.7627 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 4 17 21 18 15 14 5 7 25 6 9 16 2 1 
+
+Machine 2: 3 19 11 20 23 10 13 12 22 8 24 
+
+Total Tardiness: 1031
+Time taken by genetic algorithm: 20.1984 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 25 2 24 3 5 11 17 7 13 22 15 4 
+
+Machine 2: 12 23 9 14 16 20 21 18 8 6 19 1 
+
+Total Tardiness: 814
+Time taken by genetic algorithm: 19.4602 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 19 12 7 8 3 9 11 21 23 18 10 13 16 25 
+
+Machine 2: 15 6 14 5 20 2 4 22 17 1 24 
+
+Total Tardiness: 427
+Time taken by genetic algorithm: 16.6337 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 23 7 14 9 15 25 3 2 11 17 
+
+Machine 2: 5 13 10 18 20 16 12 22 21 8 19 24 6 1 4 
+
+Total Tardiness: 782
+Time taken by genetic algorithm: 20.1085 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 8 21 22 4 12 23 24 5 17 
+
+Machine 2: 11 13 7 2 16 1 6 3 9 14 10 18 25 15 19 
+
+Total Tardiness: 429
+Time taken by genetic algorithm: 18.163 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 3 23 24 7 16 1 9 2 4 
+
+Machine 2: 18 12 11 15 10 17 8 20 21 5 19 25 6 13 14 22 
+
+Total Tardiness: 1124
+Time taken by genetic algorithm: 17.6601 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 9 23 3 24 8 21 20 18 16 4 19 
+
+Machine 2: 1 6 25 22 2 5 12 14 11 10 7 17 13 15 
+
+Total Tardiness: 685
+Time taken by genetic algorithm: 18.7832 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 22 7 18 2 8 17 9 16 15 4 24 3 23 19 21 
+
+Machine 2: 12 20 25 5 13 10 6 1 14 
+
+Total Tardiness: 496
+Time taken by genetic algorithm: 16.9577 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 18 21 16 7 6 13 5 11 25 19 1 
+
+Machine 2: 14 2 22 8 12 15 9 10 24 23 4 3 17 
+
+Total Tardiness: 687
+Time taken by genetic algorithm: 19.332 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 22 16 1 14 19 4 10 15 21 
+
+Machine 2: 18 20 11 2 9 25 7 3 8 6 12 13 23 24 17 5 
+
+Total Tardiness: 329
+Time taken by genetic algorithm: 16.3571 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 8 24 11 25 20 10 7 4 1 9 
+
+Machine 2: 21 15 23 12 17 18 13 2 19 5 3 6 22 16 14 
+
+Total Tardiness: 1252
+Time taken by genetic algorithm: 19.0981 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 3 12 5 18 9 25 21 16 10 15 
+
+Machine 2: 14 6 19 20 24 23 2 8 22 11 7 13 1 17 4 
+
+Total Tardiness: 807
+Time taken by genetic algorithm: 18.1383 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 2 18 5 14 19 25 13 10 
+
+Machine 2: 7 8 16 23 20 17 15 11 6 3 22 4 1 24 21 9 
+
+Total Tardiness: 203
+Time taken by genetic algorithm: 15.61 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 2 10 16 14 1 21 20 8 3 9 17 
+
+Machine 2: 22 18 12 7 24 19 11 5 6 23 13 4 25 15 
+
+Total Tardiness: 993
+Time taken by genetic algorithm: 19.7158 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 7 18 23 12 20 11 15 8 13 25 5 
+
+Machine 2: 14 3 2 1 4 22 19 9 16 6 21 24 17 
+
+Total Tardiness: 478
+Time taken by genetic algorithm: 21.6991 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 15 19 12 25 21 20 13 6 8 5 9 24 2 
+
+Machine 2: 3 23 17 18 7 4 14 10 22 1 16 
+
+Total Tardiness: 1087
+Time taken by genetic algorithm: 20.1268 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 11 18 2 23 22 6 17 14 4 8 
+
+Machine 2: 21 20 24 3 9 25 19 13 7 12 1 16 5 15 
+
+Total Tardiness: 2329
+Time taken by genetic algorithm: 19.3408 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 2 19 14 22 18 15 6 4 16 5 13 
+
+Machine 2: 9 17 7 1 11 20 8 3 10 23 21 24 25 12 
+
+Total Tardiness: 1740
+Time taken by genetic algorithm: 20.0815 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 16 19 18 6 2 5 14 13 23 11 24 4 
+
+Machine 2: 7 8 10 17 21 9 15 22 1 3 20 25 
+
+Total Tardiness: 1908
+Time taken by genetic algorithm: 20.845 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 14 11 8 1 9 22 6 3 7 16 13 4 24 21 15 
+
+Machine 2: 18 19 23 20 2 12 25 5 10 17 
+
+Total Tardiness: 1466
+Time taken by genetic algorithm: 18.5778 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 21 19 18 9 17 7 13 16 22 5 15 2 1 
+
+Machine 2: 25 11 14 12 23 20 10 6 8 4 3 24 
+
+Total Tardiness: 2312
+Time taken by genetic algorithm: 16.4207 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 21 19 2 18 20 6 23 22 9 17 4 8 11 5 15 
+
+Machine 2: 3 14 24 12 10 7 25 1 13 16 
+
+Total Tardiness: 2190
+Time taken by genetic algorithm: 20.9824 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 6 7 2 14 22 20 1 21 10 18 5 13 25 
+
+Machine 2: 12 3 8 11 19 17 15 23 9 4 16 24 
+
+Total Tardiness: 1476
+Time taken by genetic algorithm: 20.0629 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 16 10 12 18 14 9 20 5 23 1 24 11 3 
+
+Machine 2: 22 7 6 19 15 21 8 13 2 17 4 25 
+
+Total Tardiness: 1782
+Time taken by genetic algorithm: 18.9788 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 9 1 8 16 13 22 17 4 25 5 2 19 24 
+
+Machine 2: 11 14 7 18 20 12 3 6 15 21 23 10 
+
+Total Tardiness: 1455
+Time taken by genetic algorithm: 20.3973 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 19 23 15 8 18 25 16 22 6 24 13 20 3 
+
+Machine 2: 7 14 21 17 12 11 9 10 5 2 1 4 
+
+Total Tardiness: 2343
+Time taken by genetic algorithm: 19.1127 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 24 21 2 18 16 8 10 17 3 12 
+
+Machine 2: 19 20 14 1 6 22 11 9 7 4 23 25 13 5 15 
+
+Total Tardiness: 2183
+Time taken by genetic algorithm: 16.5296 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 5 7 1 11 6 17 24 9 23 13 18 21 25 
+
+Machine 2: 12 22 10 2 15 8 3 14 20 4 19 16 
+
+Total Tardiness: 1482
+Time taken by genetic algorithm: 21.9434 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 16 9 7 1 11 20 22 15 2 17 6 
+
+Machine 2: 10 18 19 14 5 21 8 24 23 13 4 25 3 
+
+Total Tardiness: 1805
+Time taken by genetic algorithm: 21.735 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 14 7 11 8 6 4 1 13 16 22 21 17 24 
+
+Machine 2: 2 18 23 3 9 20 10 5 15 19 12 25 
+
+Total Tardiness: 1204
+Time taken by genetic algorithm: 20.9038 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 21 19 18 8 7 5 13 16 22 24 6 2 
+
+Machine 2: 11 23 14 17 15 20 10 9 25 3 1 4 
+
+Total Tardiness: 2226
+Time taken by genetic algorithm: 18.6911 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 3 14 9 12 10 16 24 23 25 18 8 
+
+Machine 2: 2 11 20 21 6 5 19 22 1 7 13 17 4 15 
+
+Total Tardiness: 1971
+Time taken by genetic algorithm: 19.5705 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 22 12 14 15 17 23 8 3 9 4 16 1 
+
+Machine 2: 2 7 11 20 5 6 10 24 18 21 25 19 13 
+
+Total Tardiness: 1063
+Time taken by genetic algorithm: 19.8252 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 16 12 14 19 17 1 20 24 22 2 25 4 
+
+Machine 2: 18 21 5 6 9 13 10 23 7 8 15 11 3 
+
+Total Tardiness: 2105
+Time taken by genetic algorithm: 20.4165 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 2 7 6 13 14 9 11 8 12 18 10 19 15 
+
+Machine 2: 1 20 3 25 17 16 5 23 21 4 24 22 
+
+Total Tardiness: 1112
+Time taken by genetic algorithm: 19.8961 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 3 19 11 17 23 9 5 2 6 24 8 
+
+Machine 2: 15 22 12 13 25 7 16 21 14 18 20 4 1 
+
+Total Tardiness: 2651
+Time taken by genetic algorithm: 19.7396 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 21 2 3 18 11 5 16 22 23 10 1 17 24 
+
+Machine 2: 14 9 25 20 19 8 6 12 7 15 13 4 
+
+Total Tardiness: 1827
+Time taken by genetic algorithm: 21.2419 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 7 22 17 15 19 12 3 4 18 25 21 13 
+
+Machine 2: 11 2 14 5 8 24 9 1 6 20 16 10 23 
+
+Total Tardiness: 895
+Time taken by genetic algorithm: 20.5173 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 5 7 6 18 13 21 24 22 8 15 25 
+
+Machine 2: 16 10 14 19 12 20 9 23 2 11 17 1 3 4 
+
+Total Tardiness: 1479
+Time taken by genetic algorithm: 19.5627 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 18 14 2 13 1 16 6 22 25 23 17 21 15 
+
+Machine 2: 20 12 10 3 4 9 7 24 8 5 19 
+
+Total Tardiness: 821
+Time taken by genetic algorithm: 20.3105 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 15 21 3 5 1 14 20 16 6 9 
+
+Machine 2: 19 7 10 12 23 22 13 18 17 11 8 25 2 24 4 
+
+Total Tardiness: 1987
+Time taken by genetic algorithm: 20.1148 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 22 6 7 10 23 25 14 19 20 8 4 18 16 5 
+
+Machine 2: 21 2 17 13 11 9 12 24 3 1 15 
+
+Total Tardiness: 4145
+Time taken by genetic algorithm: 15.8484 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 3 11 8 2 21 6 16 20 12 5 18 13 
+
+Machine 2: 7 22 19 15 10 23 1 9 14 17 4 25 24 
+
+Total Tardiness: 3298
+Time taken by genetic algorithm: 20.825 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 8 21 13 19 14 15 2 17 1 11 6 9 4 
+
+Machine 2: 5 16 10 18 22 23 24 7 12 20 25 3 
+
+Total Tardiness: 3630
+Time taken by genetic algorithm: 16.3442 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 8 7 11 5 18 14 12 9 21 17 24 
+
+Machine 2: 23 20 1 3 16 22 4 6 13 19 25 2 10 15 
+
+Total Tardiness: 2702
+Time taken by genetic algorithm: 19.0398 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 23 10 18 12 11 8 5 15 20 2 3 1 
+
+Machine 2: 21 16 7 19 17 14 25 24 22 6 13 9 4 
+
+Total Tardiness: 4163
+Time taken by genetic algorithm: 16.1648 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 9 18 21 6 22 17 20 11 16 24 8 5 
+
+Machine 2: 2 23 19 14 13 7 10 25 3 4 12 1 15 
+
+Total Tardiness: 4049
+Time taken by genetic algorithm: 15.9298 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 22 7 11 20 23 3 19 21 4 18 24 12 
+
+Machine 2: 17 2 6 8 15 10 9 1 16 5 14 13 25 
+
+Total Tardiness: 2803
+Time taken by genetic algorithm: 19.4846 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 12 5 22 16 9 14 15 25 11 23 4 3 
+
+Machine 2: 21 10 19 18 2 17 7 8 13 1 24 6 20 
+
+Total Tardiness: 3667
+Time taken by genetic algorithm: 15.5826 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 11 14 4 16 7 8 1 23 18 24 21 19 15 
+
+Machine 2: 6 3 22 9 25 5 13 2 12 17 10 
+
+Total Tardiness: 2469
+Time taken by genetic algorithm: 19.3594 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 23 10 19 14 7 16 22 25 17 18 9 15 3 24 4 
+
+Machine 2: 21 12 11 6 5 20 8 13 2 1 
+
+Total Tardiness: 4262
+Time taken by genetic algorithm: 16.1148 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 2 9 6 20 12 22 25 1 18 7 8 5 15 
+
+Machine 2: 3 21 11 10 23 13 19 14 24 17 4 16 
+
+Total Tardiness: 3504
+Time taken by genetic algorithm: 16.0166 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 6 10 7 5 17 20 3 19 14 24 25 
+
+Machine 2: 15 16 22 2 23 21 8 11 1 4 9 18 12 13 
+
+Total Tardiness: 2709
+Time taken by genetic algorithm: 15.7876 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 16 12 21 14 15 3 1 2 9 11 8 4 20 
+
+Machine 2: 22 10 18 5 7 19 23 13 17 24 6 25 
+
+Total Tardiness: 3034
+Time taken by genetic algorithm: 16.0226 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 2 6 13 4 7 3 8 5 16 11 25 10 17 24 
+
+Machine 2: 20 14 1 23 18 9 12 22 21 19 15 
+
+Total Tardiness: 2012
+Time taken by genetic algorithm: 21.3431 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 23 21 17 13 18 6 8 22 1 5 24 
+
+Machine 2: 19 25 12 11 7 20 16 14 15 9 2 3 4 
+
+Total Tardiness: 3599
+Time taken by genetic algorithm: 16.0177 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 2 24 12 10 8 11 25 5 3 4 
+
+Machine 2: 22 9 20 14 6 17 21 19 7 23 18 13 16 1 15 
+
+Total Tardiness: 3020
+Time taken by genetic algorithm: 18.9062 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 14 11 15 17 3 1 23 12 5 13 25 
+
+Machine 2: 7 20 22 8 2 9 10 18 6 21 16 19 4 24 
+
+Total Tardiness: 1884
+Time taken by genetic algorithm: 20.0419 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 21 14 7 16 17 8 6 24 1 25 
+
+Machine 2: 12 9 10 5 22 19 23 2 15 13 20 18 11 4 3 
+
+Total Tardiness: 2701
+Time taken by genetic algorithm: 20.747 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 6 3 22 5 9 10 25 21 17 24 
+
+Machine 2: 13 7 1 18 8 12 23 14 16 4 2 11 15 19 
+
+Total Tardiness: 1782
+Time taken by genetic algorithm: 20.1138 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 17 19 16 23 18 6 5 12 15 2 24 4 
+
+Machine 2: 11 14 21 25 7 8 13 22 1 9 3 20 
+
+Total Tardiness: 3430
+Time taken by genetic algorithm: 16.2792 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 3 21 9 22 6 11 18 10 17 5 13 4 15 
+
+Machine 2: 2 20 14 24 12 25 23 19 16 7 8 1 
+
+Total Tardiness: 2375
+Time taken by genetic algorithm: 18.7272 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 7 5 10 8 2 14 3 23 22 9 21 16 13 
+
+Machine 2: 12 15 20 17 6 4 1 19 18 25 24 
+
+Total Tardiness: 1432
+Time taken by genetic algorithm: 19.7468 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 18 10 21 3 2 17 9 23 1 11 6 
+
+Machine 2: 16 12 7 19 8 20 15 22 14 5 13 24 4 25 
+
+Total Tardiness: 2317
+Time taken by genetic algorithm: 19.2997 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 14 20 16 23 2 9 7 10 5 25 21 15 19 
+
+Machine 2: 1 11 12 3 8 6 18 22 4 13 17 24 
+
+Total Tardiness: 1240
+Time taken by genetic algorithm: 20.3749 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 25 23 21 10 5 12 13 9 14 22 24 4 
+
+Machine 2: 11 19 15 7 16 18 17 2 20 6 8 3 1 
+
+Total Tardiness: 2589
+Time taken by genetic algorithm: 20.8264 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 21 23 9 19 11 25 13 17 18 4 8 15 24 
+
+Machine 2: 6 14 10 12 22 7 3 2 20 1 16 5 
+
+Total Tardiness: 6035
+Time taken by genetic algorithm: 15.528 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 23 2 7 15 6 21 9 14 18 5 12 
+
+Machine 2: 8 22 17 1 16 3 11 25 24 4 19 20 13 
+
+Total Tardiness: 5243
+Time taken by genetic algorithm: 15.3199 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 15 21 5 24 8 14 16 18 9 11 20 
+
+Machine 2: 12 19 22 2 17 23 1 25 13 7 4 6 3 
+
+Total Tardiness: 5690
+Time taken by genetic algorithm: 15.4057 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 14 7 4 9 8 5 25 11 2 10 17 
+
+Machine 2: 13 23 16 18 6 22 3 1 24 21 19 12 15 
+
+Total Tardiness: 3982
+Time taken by genetic algorithm: 18.4746 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 18 25 7 21 19 10 17 11 23 1 2 3 9 24 
+
+Machine 2: 16 14 12 6 13 20 15 5 8 22 4 
+
+Total Tardiness: 6044
+Time taken by genetic algorithm: 15.1911 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 9 25 2 22 7 19 16 17 11 1 10 24 15 
+
+Machine 2: 21 20 23 13 4 14 6 18 12 3 8 5 
+
+Total Tardiness: 5469
+Time taken by genetic algorithm: 15.2782 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 7 11 6 8 2 1 19 16 21 4 20 5 
+
+Machine 2: 15 22 10 17 3 23 18 9 14 25 12 13 24 
+
+Total Tardiness: 4234
+Time taken by genetic algorithm: 15.4034 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 2 5 16 10 14 21 23 18 9 3 17 24 11 4 
+
+Machine 2: 15 19 22 12 1 13 8 7 25 6 20 
+
+Total Tardiness: 4833
+Time taken by genetic algorithm: 15.5615 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 23 13 3 22 4 8 16 2 11 25 10 12 24 
+
+Machine 2: 18 14 7 6 1 21 5 9 17 15 19 
+
+Total Tardiness: 3458
+Time taken by genetic algorithm: 17.2378 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 23 25 10 7 14 15 20 4 11 8 3 1 
+
+Machine 2: 21 19 18 12 17 6 16 13 2 5 9 24 22 
+
+Total Tardiness: 5312
+Time taken by genetic algorithm: 15.46 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 18 6 19 10 25 14 22 1 20 24 5 16 
+
+Machine 2: 2 9 23 11 21 17 7 13 12 4 8 3 15 
+
+Total Tardiness: 4627
+Time taken by genetic algorithm: 15.3205 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 22 15 8 11 6 3 4 21 19 1 14 25 24 
+
+Machine 2: 7 2 10 17 13 23 9 16 20 12 18 5 
+
+Total Tardiness: 3567
+Time taken by genetic algorithm: 19.0065 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 10 12 16 15 13 7 6 20 3 25 
+
+Machine 2: 18 21 5 14 22 2 24 19 1 8 9 4 23 17 11 
+
+Total Tardiness: 4300
+Time taken by genetic algorithm: 15.7248 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 14 23 3 5 18 25 8 13 21 1 2 19 15 
+
+Machine 2: 6 16 7 9 22 11 4 12 10 17 24 
+
+Total Tardiness: 2990
+Time taken by genetic algorithm: 20.4247 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 23 12 7 24 11 20 16 13 2 8 22 
+
+Machine 2: 25 17 19 21 14 10 18 9 6 3 5 15 1 4 
+
+Total Tardiness: 5051
+Time taken by genetic algorithm: 15.6475 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 22 11 17 25 7 19 6 3 4 13 18 16 
+
+Machine 2: 2 9 21 14 10 12 8 23 1 24 5 15 
+
+Total Tardiness: 4096
+Time taken by genetic algorithm: 15.1905 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 14 3 15 20 9 16 12 18 5 13 
+
+Machine 2: 7 10 8 6 2 11 22 23 17 1 21 19 4 25 24 
+
+Total Tardiness: 2900
+Time taken by genetic algorithm: 18.5715 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 22 1 15 5 23 10 9 17 11 4 6 3 25 
+
+Machine 2: 18 2 21 19 8 14 12 7 13 16 24 20 
+
+Total Tardiness: 4007
+Time taken by genetic algorithm: 16.2649 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 9 14 4 16 8 6 25 13 1 17 24 19 
+
+Machine 2: 11 7 3 18 10 23 22 15 5 2 12 21 
+
+Total Tardiness: 2527
+Time taken by genetic algorithm: 20.4897 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 11 7 22 23 16 5 8 13 4 2 24 
+
+Machine 2: 14 10 19 18 6 21 12 17 25 20 15 9 3 1 
+
+Total Tardiness: 4327
+Time taken by genetic algorithm: 15.9436 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 6 3 11 2 17 23 12 25 20 13 5 16 18 
+
+Machine 2: 24 21 14 22 9 19 10 7 8 4 1 15 
+
+Total Tardiness: 3615
+Time taken by genetic algorithm: 16.003 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 2 3 22 23 12 10 18 19 16 1 5 25 
+
+Machine 2: 11 7 8 15 20 17 6 9 21 14 24 4 13 
+
+Total Tardiness: 2455
+Time taken by genetic algorithm: 19.9912 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 14 10 21 5 16 18 8 12 20 7 24 4 25 
+
+Machine 2: 9 2 23 19 22 15 13 11 6 1 17 3 
+
+Total Tardiness: 3117
+Time taken by genetic algorithm: 16.9036 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 20 9 3 4 1 16 13 8 24 21 15 17 
+
+Machine 2: 7 23 14 6 2 25 18 5 22 12 10 11 19 
+
+Total Tardiness: 2093
+Time taken by genetic algorithm: 20.7522 seconds
+
+🧬 Genetic Algorithm
+Genetic Algorithm Schedule
+
+Machine 1: 23 21 7 12 13 25 16 4 11 6 20 24 2 
+
+Machine 2: 14 10 22 18 19 5 17 15 3 8 9 1 
+
+Total Tardiness: 3772
+Time taken by genetic algorithm: 15.8239 seconds
+
