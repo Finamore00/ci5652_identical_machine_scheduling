@@ -173,16 +173,10 @@ Donde `<path_to_benchmarks>` es la ruta a la carpeta que contiene los casos de p
 
 ## 📄 Analisis de resultados
 
-A continuación se presenta el análisis de los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks` en una **laptop** con **procesador AMD Ryzen 5 5500U**, **disco SSD**, **8GB de memoria RAM** y **WSL 2 Ubuntu**. Se tomará en cuenta los valores de tardanza óptima obtenidos del paper de referencia de donde se obtuvo el `benchmark` para comparar los resultados obtenidos con los algoritmos implementados.
+A continuación se presenta el análisis de los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks` en una **laptop** con **procesador AMD Ryzen 5 5500U**, **disco SSD**, **8GB de memoria RAM** y **WSL 2 Ubuntu**. Se tomará en cuenta los valores de tardanza óptima obtenidos del paper de referencia de donde se obtuvo el `benchmark` para comparar los resultados obtenidos con los algoritmos implementados de ambos cortes del proyecto.
 
 
 ### 📊 Métricas Comparativas
-
-Las métricas claves en el análisis incluyen:
-
-- **Tardanza Total (Total Tardiness)**: La suma de las tardanzas de todas las tareas.
-- **Diferencia con la Solución Óptima (Optimal Solution Difference)**: La diferencia entre la solución obtenida y la solución óptima.
-
 Se emplean diferentes parámetros para cada algoritmo implementado en este segundo corte:
 **Parámetros del Iterated Local Search (ILS)**:
  * max_iter Cantidad máxima de iteraciones para el algoritmo ILS
@@ -249,6 +243,44 @@ Se emplean diferentes parámetros para cada algoritmo implementado en este segun
 > GA2: population_size = 50, mutation_rate = 10%, max_iter = 4000
 
 > GA3: population_size = 100, mutation_rate = 5%, max_iter = 8000
+
+Las métricas claves en el análisis incluyen:
+
+- **Tardanza Total (Total Tardiness)**: La suma de las tardanzas de todas las tareas.
+- **Diferencia con la Solución Óptima (Optimal Solution Difference)**: La diferencia entre la solución obtenida y la solución óptima.
+
+#### Promedio de tardanza total para cada n tareas y m máquinas
+- Resultados del corte anterior:
+    - Solución heurística
+    
+    - Solución de búsqueda local partiendo de una solución heurística
+    
+    - Solución de búsqueda local partiendo de una solución aleatoria.
+
+![DiffOptCorte1](./img/DiffOptCorte1.png)
+
+- Resultados de Iterated Local Search (ILS), Tabu Search (TS) y Simulated Annealing (SA) usando diferentes parámetros:
+
+![DiffOptCorte2ILS&TS&SA](./img/DiffOptILS&TS&SA.png)
+
+
+- Resultados de GRASP usando diferentes parámetros:
+
+![DiffOptGRASP](./img/DiffOptGRASP.png)
+
+- Resultados de Genetic Algorithm (GA) usando diferentes parámetros:
+
+![DiffOptGA](./img/DiffOptGA.png)
+
+#### Resultados ordenados por promedio de tardanza total por n = 20
+
+![Sorted Diff opt by n = 20](./img/SortedDiffn20Corte2.png)
+
+#### Resultados ordenados por promedio de tardanza total por n = 25
+
+![Sorted Diff opt by n = 25](./img/SortedDiffn25Corte2.png)
+
+#### Promedio de tiempo en segundos para cada n tareas y m máquinas
 
 
 ### 📈 Resultados
