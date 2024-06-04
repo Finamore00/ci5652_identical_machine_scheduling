@@ -257,20 +257,19 @@ Las métricas claves en el análisis incluyen:
     
     - Solución de búsqueda local partiendo de una solución aleatoria.
 
-![DiffOptCorte1](./img/DiffOptCorte1.png)
+![Diff Opt Corte1](./img/DiffOptCorte1.png)
 
 - Resultados de Iterated Local Search (ILS), Tabu Search (TS) y Simulated Annealing (SA) usando diferentes parámetros:
 
-![DiffOptCorte2ILS&TS&SA](./img/DiffOptILS&TS&SA.png)
-
+![Diff Opt ILS &TS &SA](./img/DiffOptILS&TS&SA.png)
 
 - Resultados de GRASP usando diferentes parámetros:
 
-![DiffOptGRASP](./img/DiffOptGRASP.png)
+![Diff Opt GRASP](./img/DiffOptGRASP.png)
 
 - Resultados de Genetic Algorithm (GA) usando diferentes parámetros:
 
-![DiffOptGA](./img/DiffOptGA.png)
+![Diff Op tGA](./img/DiffOptGA.png)
 
 #### Resultados ordenados por promedio de tardanza total por n = 20
 
@@ -281,7 +280,34 @@ Las métricas claves en el análisis incluyen:
 ![Sorted Diff opt by n = 25](./img/SortedDiffn25Corte2.png)
 
 #### Promedio de tiempo en segundos para cada n tareas y m máquinas
+- Resultados del corte anterior:
+    - Solución heurística
+    
+    - Solución de búsqueda local partiendo de una solución heurística
+    
+    - Solución de búsqueda local partiendo de una solución aleatoria.
 
+![Time Corte1](./img/TimeCorte1.png)
+
+- Resultados de Iterated Local Search (ILS), Tabu Search (TS) y Simulated Annealing (SA) usando diferentes parámetros:
+
+![Time ILS & TS & SA](./img/TimeILS&TS&SA.png)
+
+- Resultados de GRASP usando diferentes parámetros:
+
+![Time GRASP](./img/TimeGRASP.png)
+
+- Resultados de Genetic Algorithm (GA) usando diferentes parámetros:
+
+![Diff Op tGA](./img/TimeGA.png)
+
+#### Resultados ordenados por promedio de tiempo por n = 20
+
+![Sorted Time by n = 20](./img/SortedTimen20Corte2.png)
+
+#### Resultados ordenados por promedio de tiempo por n = 25
+
+![Sorted Time by n = 25](./img/SortedTimen25Corte2.png)
 
 ### 📈 Resultados
 
