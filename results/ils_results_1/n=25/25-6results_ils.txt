@@ -1,0 +1,2250 @@
+🔁 ILS
+ILS Schedule
+
+Machine 1: 24 2 9 21 6 22 
+
+Machine 2: 23 19 14 18 15 
+
+Machine 3: 5 20 7 25 
+
+Machine 4: 3 1 13 
+
+Machine 5: 12 11 10 17 
+
+Machine 6: 16 8 4 
+
+Total Tardiness: 166
+Time taken by ILS: 0.950452 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 8 12 10 22 2 15 19 
+
+Machine 2: 5 23 16 
+
+Machine 3: 1 4 17 9 
+
+Machine 4: 18 20 13 
+
+Machine 5: 24 6 21 
+
+Machine 6: 14 11 3 25 
+
+Total Tardiness: 147
+Time taken by ILS: 0.857447 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 16 12 10 21 5 15 
+
+Machine 2: 14 20 19 2 22 4 
+
+Machine 3: 13 7 8 25 
+
+Machine 4: 6 9 1 
+
+Machine 5: 3 11 
+
+Machine 6: 24 23 17 
+
+Total Tardiness: 167
+Time taken by ILS: 1.00428 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 11 1 6 7 13 22 23 
+
+Machine 2: 2 4 14 16 8 18 
+
+Machine 3: 3 12 9 24 
+
+Machine 4: 19 15 
+
+Machine 5: 25 10 5 
+
+Machine 6: 21 17 
+
+Total Tardiness: 147
+Time taken by ILS: 1.00007 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 11 23 21 19 12 14 
+
+Machine 2: 3 15 10 2 
+
+Machine 3: 8 7 17 18 25 9 
+
+Machine 4: 24 5 20 
+
+Machine 5: 4 13 16 
+
+Machine 6: 1 22 6 
+
+Total Tardiness: 193
+Time taken by ILS: 1.03276 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 24 2 9 21 6 22 19 
+
+Machine 2: 3 20 17 
+
+Machine 3: 5 18 7 23 25 
+
+Machine 4: 1 16 13 
+
+Machine 5: 12 11 10 4 
+
+Machine 6: 8 14 15 
+
+Total Tardiness: 64
+Time taken by ILS: 0.927199 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 1 15 7 8 2 23 22 21 
+
+Machine 2: 14 10 11 13 
+
+Machine 3: 3 17 5 19 
+
+Machine 4: 18 6 25 
+
+Machine 5: 20 24 16 
+
+Machine 6: 12 4 9 
+
+Total Tardiness: 49
+Time taken by ILS: 0.88496 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 16 12 10 21 19 2 
+
+Machine 2: 5 9 22 8 25 
+
+Machine 3: 20 15 23 17 
+
+Machine 4: 11 24 1 
+
+Machine 5: 7 3 13 
+
+Machine 6: 6 14 4 
+
+Total Tardiness: 84
+Time taken by ILS: 0.96086 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 3 8 14 7 9 6 18 22 5 
+
+Machine 2: 23 4 11 13 16 24 
+
+Machine 3: 1 12 25 
+
+Machine 4: 19 15 
+
+Machine 5: 2 10 
+
+Machine 6: 21 17 
+
+Total Tardiness: 72
+Time taken by ILS: 0.861393 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 11 23 17 19 10 25 14 
+
+Machine 2: 21 12 3 18 2 
+
+Machine 3: 13 8 7 9 
+
+Machine 4: 24 5 16 
+
+Machine 5: 15 4 6 
+
+Machine 6: 1 22 20 
+
+Total Tardiness: 117
+Time taken by ILS: 0.845617 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 24 2 9 21 6 22 19 23 
+
+Machine 2: 3 20 17 25 
+
+Machine 3: 8 16 7 13 
+
+Machine 4: 5 18 4 
+
+Machine 5: 14 1 10 
+
+Machine 6: 12 11 15 
+
+Total Tardiness: 2
+Time taken by ILS: 0.814752 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 12 2 11 22 8 21 10 
+
+Machine 2: 15 1 6 13 
+
+Machine 3: 14 17 23 16 
+
+Machine 4: 4 18 3 9 
+
+Machine 5: 5 20 19 
+
+Machine 6: 24 25 
+
+Total Tardiness: 0
+Time taken by ILS: 0.963994 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 16 12 21 5 19 2 15 22 
+
+Machine 2: 7 14 8 13 1 
+
+Machine 3: 6 11 17 
+
+Machine 4: 10 20 25 
+
+Machine 5: 3 4 
+
+Machine 6: 9 24 23 
+
+Total Tardiness: 8
+Time taken by ILS: 0.840142 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 11 14 6 3 7 8 16 18 13 22 4 23 
+
+Machine 2: 2 9 25 
+
+Machine 3: 1 12 5 
+
+Machine 4: 19 17 
+
+Machine 5: 21 15 
+
+Machine 6: 10 24 
+
+Total Tardiness: 9
+Time taken by ILS: 0.862842 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 11 23 19 12 10 16 14 
+
+Machine 2: 21 24 7 17 25 
+
+Machine 3: 15 1 20 
+
+Machine 4: 4 18 5 6 
+
+Machine 5: 3 13 2 
+
+Machine 6: 22 8 9 
+
+Total Tardiness: 54
+Time taken by ILS: 0.940364 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 24 9 21 12 22 7 23 
+
+Machine 2: 3 20 6 17 19 25 
+
+Machine 3: 2 13 11 15 
+
+Machine 4: 5 8 4 
+
+Machine 5: 1 18 
+
+Machine 6: 14 16 10 
+
+Total Tardiness: 2
+Time taken by ILS: 0.931649 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 12 2 22 8 17 6 10 
+
+Machine 2: 11 14 4 3 
+
+Machine 3: 5 18 15 
+
+Machine 4: 20 24 23 
+
+Machine 5: 1 19 9 21 
+
+Machine 6: 13 25 16 
+
+Total Tardiness: 0
+Time taken by ILS: 1.0525 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 16 12 21 5 19 2 15 22 
+
+Machine 2: 10 14 7 8 13 
+
+Machine 3: 20 24 1 
+
+Machine 4: 9 11 23 
+
+Machine 5: 6 4 17 
+
+Machine 6: 3 25 
+
+Total Tardiness: 0
+Time taken by ILS: 0.944079 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 11 14 6 3 7 8 16 18 13 22 4 23 
+
+Machine 2: 2 9 25 
+
+Machine 3: 1 5 15 
+
+Machine 4: 19 24 
+
+Machine 5: 10 21 
+
+Machine 6: 12 17 
+
+Total Tardiness: 0
+Time taken by ILS: 0.954038 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 11 21 19 12 10 7 18 16 14 
+
+Machine 2: 15 17 5 25 6 
+
+Machine 3: 22 24 20 
+
+Machine 4: 3 1 
+
+Machine 5: 8 13 2 
+
+Machine 6: 23 4 9 
+
+Total Tardiness: 13
+Time taken by ILS: 0.839452 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 24 9 21 12 22 7 19 23 
+
+Machine 2: 3 18 6 17 25 
+
+Machine 3: 2 20 11 10 13 
+
+Machine 4: 5 8 4 
+
+Machine 5: 14 1 15 
+
+Machine 6: 16 
+
+Total Tardiness: 0
+Time taken by ILS: 0.956704 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 12 2 22 8 17 6 3 10 
+
+Machine 2: 11 14 4 15 16 
+
+Machine 3: 5 18 23 
+
+Machine 4: 20 24 19 
+
+Machine 5: 1 9 13 21 
+
+Machine 6: 25 
+
+Total Tardiness: 0
+Time taken by ILS: 1.01895 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 16 14 21 5 19 8 2 22 
+
+Machine 2: 12 10 3 23 1 
+
+Machine 3: 20 24 15 17 
+
+Machine 4: 7 11 13 
+
+Machine 5: 9 4 25 
+
+Machine 6: 6 
+
+Total Tardiness: 15
+Time taken by ILS: 0.903205 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 11 14 6 3 7 8 16 18 13 22 4 23 
+
+Machine 2: 2 9 5 
+
+Machine 3: 1 12 25 
+
+Machine 4: 19 10 
+
+Machine 5: 21 17 
+
+Machine 6: 24 15 
+
+Total Tardiness: 0
+Time taken by ILS: 0.972159 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 11 21 19 12 10 7 18 16 14 6 
+
+Machine 2: 23 8 17 25 
+
+Machine 3: 3 1 
+
+Machine 4: 15 4 9 
+
+Machine 5: 22 5 2 
+
+Machine 6: 24 13 20 
+
+Total Tardiness: 0
+Time taken by ILS: 0.93961 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 24 9 21 6 19 4 
+
+Machine 2: 2 22 12 23 25 16 
+
+Machine 3: 3 11 18 
+
+Machine 4: 5 13 17 
+
+Machine 5: 14 20 7 15 
+
+Machine 6: 1 10 8 
+
+Total Tardiness: 491
+Time taken by ILS: 0.912463 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 12 2 22 8 10 21 
+
+Machine 2: 5 11 3 18 
+
+Machine 3: 14 9 16 
+
+Machine 4: 6 4 15 13 
+
+Machine 5: 17 1 23 25 
+
+Machine 6: 20 19 24 
+
+Total Tardiness: 415
+Time taken by ILS: 0.869223 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 16 12 21 15 3 
+
+Machine 2: 10 14 5 19 8 4 
+
+Machine 3: 20 2 22 11 
+
+Machine 4: 7 23 24 
+
+Machine 5: 9 13 17 
+
+Machine 6: 6 1 25 
+
+Total Tardiness: 439
+Time taken by ILS: 0.999891 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 11 14 6 3 7 13 22 23 15 
+
+Machine 2: 1 16 8 18 24 
+
+Machine 3: 2 4 10 
+
+Machine 4: 9 5 21 
+
+Machine 5: 12 25 
+
+Machine 6: 19 17 
+
+Total Tardiness: 371
+Time taken by ILS: 1.02075 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 12 11 19 16 14 22 
+
+Machine 2: 10 23 7 17 18 2 
+
+Machine 3: 15 13 20 
+
+Machine 4: 8 5 4 
+
+Machine 5: 21 3 25 1 
+
+Machine 6: 24 6 9 
+
+Total Tardiness: 520
+Time taken by ILS: 0.889163 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 24 9 21 6 22 23 15 
+
+Machine 2: 3 11 7 4 
+
+Machine 3: 2 20 17 16 
+
+Machine 4: 5 12 25 
+
+Machine 5: 14 18 19 13 
+
+Machine 6: 1 10 8 
+
+Total Tardiness: 402
+Time taken by ILS: 0.934013 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 8 9 7 22 1 3 10 24 
+
+Machine 2: 12 6 13 
+
+Machine 3: 5 17 21 
+
+Machine 4: 14 11 15 25 
+
+Machine 5: 20 4 19 
+
+Machine 6: 18 23 16 
+
+Total Tardiness: 313
+Time taken by ILS: 0.986572 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 16 14 5 19 15 3 
+
+Machine 2: 12 10 21 8 2 1 
+
+Machine 3: 20 23 4 
+
+Machine 4: 7 11 25 
+
+Machine 5: 9 24 17 
+
+Machine 6: 6 13 22 
+
+Total Tardiness: 359
+Time taken by ILS: 0.955062 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 11 14 6 3 7 13 18 22 23 
+
+Machine 2: 2 8 4 17 
+
+Machine 3: 1 16 25 
+
+Machine 4: 9 10 24 
+
+Machine 5: 12 5 15 
+
+Machine 6: 19 21 
+
+Total Tardiness: 296
+Time taken by ILS: 0.922438 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 11 21 19 12 10 14 9 
+
+Machine 2: 25 23 17 18 6 
+
+Machine 3: 24 7 16 4 
+
+Machine 4: 15 5 22 
+
+Machine 5: 8 13 2 
+
+Machine 6: 3 20 1 
+
+Total Tardiness: 449
+Time taken by ILS: 0.881369 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 3 21 9 17 19 
+
+Machine 2: 24 11 22 23 25 
+
+Machine 3: 2 20 8 15 
+
+Machine 4: 5 10 13 
+
+Machine 5: 14 12 6 7 16 
+
+Machine 6: 1 18 4 
+
+Total Tardiness: 354
+Time taken by ILS: 0.932339 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 20 8 15 10 13 
+
+Machine 2: 12 6 3 25 
+
+Machine 3: 14 17 9 
+
+Machine 4: 5 1 16 
+
+Machine 5: 4 18 21 
+
+Machine 6: 24 23 19 
+
+Total Tardiness: 204
+Time taken by ILS: 0.921754 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 16 21 5 19 2 13 
+
+Machine 2: 12 10 8 15 3 
+
+Machine 3: 14 7 23 22 25 
+
+Machine 4: 20 1 4 
+
+Machine 5: 9 24 17 
+
+Machine 6: 6 11 
+
+Total Tardiness: 312
+Time taken by ILS: 0.908701 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 11 14 6 3 7 18 13 22 4 23 
+
+Machine 2: 1 8 16 17 
+
+Machine 3: 12 5 25 
+
+Machine 4: 9 10 15 
+
+Machine 5: 2 24 
+
+Machine 6: 19 21 
+
+Total Tardiness: 212
+Time taken by ILS: 0.910201 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 11 21 19 10 7 16 14 4 
+
+Machine 2: 23 12 17 25 6 
+
+Machine 3: 3 18 20 
+
+Machine 4: 15 5 2 
+
+Machine 5: 8 13 9 
+
+Machine 6: 24 22 1 
+
+Total Tardiness: 402
+Time taken by ILS: 0.964993 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 9 21 6 10 22 19 23 
+
+Machine 2: 3 12 7 25 13 
+
+Machine 3: 24 8 4 
+
+Machine 4: 5 11 15 
+
+Machine 5: 20 1 17 
+
+Machine 6: 14 18 16 
+
+Total Tardiness: 302
+Time taken by ILS: 0.900741 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 20 8 15 3 10 21 
+
+Machine 2: 12 19 9 
+
+Machine 3: 5 1 23 
+
+Machine 4: 14 6 25 
+
+Machine 5: 4 18 16 
+
+Machine 6: 17 24 13 
+
+Total Tardiness: 124
+Time taken by ILS: 0.902591 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 14 21 5 19 2 15 22 25 
+
+Machine 2: 10 12 8 23 17 
+
+Machine 3: 7 24 13 
+
+Machine 4: 16 9 3 
+
+Machine 5: 6 11 1 
+
+Machine 6: 20 4 
+
+Total Tardiness: 239
+Time taken by ILS: 0.818889 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 9 7 8 18 13 22 4 23 
+
+Machine 2: 11 16 5 24 
+
+Machine 3: 2 15 
+
+Machine 4: 1 10 25 
+
+Machine 5: 12 21 
+
+Machine 6: 19 17 
+
+Total Tardiness: 167
+Time taken by ILS: 0.837249 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 23 21 19 10 7 18 16 14 
+
+Machine 2: 11 12 17 25 6 
+
+Machine 3: 15 5 2 
+
+Machine 4: 3 22 1 
+
+Machine 5: 8 13 9 
+
+Machine 6: 24 20 4 
+
+Total Tardiness: 365
+Time taken by ILS: 0.881505 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 9 21 6 11 22 7 19 23 
+
+Machine 2: 3 16 25 13 
+
+Machine 3: 14 18 10 
+
+Machine 4: 24 12 17 
+
+Machine 5: 20 1 15 
+
+Machine 6: 5 8 4 
+
+Total Tardiness: 293
+Time taken by ILS: 0.838608 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 8 17 4 3 10 25 
+
+Machine 2: 14 15 6 9 
+
+Machine 3: 5 1 23 
+
+Machine 4: 12 19 21 
+
+Machine 5: 20 18 16 
+
+Machine 6: 24 13 
+
+Total Tardiness: 95
+Time taken by ILS: 1.00166 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 16 14 21 5 19 8 2 22 
+
+Machine 2: 18 3 15 1 
+
+Machine 3: 12 9 4 
+
+Machine 4: 10 7 23 13 
+
+Machine 5: 6 24 17 
+
+Machine 6: 20 11 25 
+
+Total Tardiness: 215
+Time taken by ILS: 0.844949 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 9 7 18 5 13 22 4 23 
+
+Machine 2: 11 8 16 24 
+
+Machine 3: 1 10 
+
+Machine 4: 2 21 
+
+Machine 5: 12 25 15 
+
+Machine 6: 19 17 
+
+Total Tardiness: 130
+Time taken by ILS: 0.911608 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 23 19 12 10 7 16 25 14 
+
+Machine 2: 21 24 20 6 
+
+Machine 3: 11 17 18 2 
+
+Machine 4: 15 5 9 
+
+Machine 5: 3 13 4 
+
+Machine 6: 8 22 1 
+
+Total Tardiness: 368
+Time taken by ILS: 0.883374 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 9 21 22 10 5 
+
+Machine 2: 20 6 19 12 16 
+
+Machine 3: 3 23 13 1 
+
+Machine 4: 14 11 8 
+
+Machine 5: 24 25 17 15 
+
+Machine 6: 18 7 4 
+
+Total Tardiness: 1023
+Time taken by ILS: 0.941466 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 22 8 2 11 17 10 23 14 
+
+Machine 2: 9 15 3 25 
+
+Machine 3: 18 21 13 
+
+Machine 4: 4 6 24 
+
+Machine 5: 20 19 5 
+
+Machine 6: 1 16 12 
+
+Total Tardiness: 838
+Time taken by ILS: 0.837059 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 14 19 22 6 
+
+Machine 2: 16 12 21 15 24 25 
+
+Machine 3: 10 5 2 17 3 
+
+Machine 4: 7 1 4 
+
+Machine 5: 9 13 20 
+
+Machine 6: 8 23 11 
+
+Total Tardiness: 862
+Time taken by ILS: 1.00801 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 7 8 13 22 23 17 
+
+Machine 2: 11 16 4 19 
+
+Machine 3: 1 5 15 
+
+Machine 4: 18 9 25 24 
+
+Machine 5: 2 10 
+
+Machine 6: 12 21 
+
+Total Tardiness: 689
+Time taken by ILS: 0.896885 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 11 19 10 22 2 
+
+Machine 2: 23 21 16 9 
+
+Machine 3: 15 25 14 4 
+
+Machine 4: 12 7 17 6 3 
+
+Machine 5: 8 13 1 
+
+Machine 6: 18 5 20 24 
+
+Total Tardiness: 1017
+Time taken by ILS: 0.918446 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 9 21 22 19 23 1 
+
+Machine 2: 20 6 7 17 15 
+
+Machine 3: 14 11 25 8 
+
+Machine 4: 3 12 4 
+
+Machine 5: 18 10 5 
+
+Machine 6: 24 13 16 
+
+Total Tardiness: 972
+Time taken by ILS: 0.907116 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 8 17 10 19 25 
+
+Machine 2: 20 15 3 12 
+
+Machine 3: 18 23 13 
+
+Machine 4: 1 16 5 
+
+Machine 5: 4 6 21 
+
+Machine 6: 14 9 24 
+
+Total Tardiness: 754
+Time taken by ILS: 0.879433 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 21 5 2 22 25 
+
+Machine 2: 16 19 23 15 11 
+
+Machine 3: 12 8 17 6 
+
+Machine 4: 14 10 24 3 
+
+Machine 5: 9 13 20 
+
+Machine 6: 7 1 4 
+
+Total Tardiness: 786
+Time taken by ILS: 0.903725 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 7 8 13 18 22 23 24 
+
+Machine 2: 1 16 4 17 
+
+Machine 3: 11 25 19 
+
+Machine 4: 9 5 15 
+
+Machine 5: 2 10 
+
+Machine 6: 12 21 
+
+Total Tardiness: 618
+Time taken by ILS: 0.911146 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 23 19 10 16 14 9 
+
+Machine 2: 21 12 17 6 3 
+
+Machine 3: 11 7 22 4 
+
+Machine 4: 15 25 2 
+
+Machine 5: 8 13 1 
+
+Machine 6: 18 5 20 24 
+
+Total Tardiness: 987
+Time taken by ILS: 0.906373 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 21 6 17 19 5 
+
+Machine 2: 20 10 23 25 16 
+
+Machine 3: 9 12 22 4 
+
+Machine 4: 14 11 7 1 
+
+Machine 5: 18 8 15 
+
+Machine 6: 3 13 24 
+
+Total Tardiness: 913
+Time taken by ILS: 0.912952 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 8 17 3 10 21 
+
+Machine 2: 14 6 16 
+
+Machine 3: 18 23 25 
+
+Machine 4: 5 9 13 
+
+Machine 5: 20 1 12 
+
+Machine 6: 4 15 19 24 
+
+Total Tardiness: 650
+Time taken by ILS: 0.883871 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 16 21 5 19 2 15 4 
+
+Machine 2: 12 8 22 1 3 
+
+Machine 3: 10 24 6 
+
+Machine 4: 14 7 17 25 
+
+Machine 5: 18 23 11 
+
+Machine 6: 9 13 20 
+
+Total Tardiness: 787
+Time taken by ILS: 0.890158 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 7 8 18 13 22 4 23 15 
+
+Machine 2: 11 5 17 
+
+Machine 3: 1 16 19 
+
+Machine 4: 9 25 24 
+
+Machine 5: 2 10 
+
+Machine 6: 12 21 
+
+Total Tardiness: 566
+Time taken by ILS: 0.890329 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 19 12 7 16 14 2 
+
+Machine 2: 23 17 25 9 
+
+Machine 3: 8 13 3 
+
+Machine 4: 15 20 1 
+
+Machine 5: 11 10 22 4 
+
+Machine 6: 18 5 6 24 
+
+Total Tardiness: 998
+Time taken by ILS: 0.858739 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 21 6 17 19 23 16 
+
+Machine 2: 9 3 22 25 13 
+
+Machine 3: 14 11 7 1 
+
+Machine 4: 20 10 4 
+
+Machine 5: 18 8 5 
+
+Machine 6: 24 12 15 
+
+Total Tardiness: 934
+Time taken by ILS: 0.907842 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 8 17 15 10 16 
+
+Machine 2: 20 6 3 18 
+
+Machine 3: 14 23 13 
+
+Machine 4: 5 19 24 
+
+Machine 5: 12 9 25 
+
+Machine 6: 4 1 21 
+
+Total Tardiness: 530
+Time taken by ILS: 0.911363 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 14 21 5 19 2 15 22 4 
+
+Machine 2: 16 7 1 25 
+
+Machine 3: 10 8 13 20 
+
+Machine 4: 12 24 17 
+
+Machine 5: 18 11 3 
+
+Machine 6: 9 23 6 
+
+Total Tardiness: 802
+Time taken by ILS: 0.881579 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 7 16 18 13 22 4 23 15 
+
+Machine 2: 11 8 17 
+
+Machine 3: 1 5 19 
+
+Machine 4: 9 25 24 
+
+Machine 5: 2 10 
+
+Machine 6: 12 21 
+
+Total Tardiness: 539
+Time taken by ILS: 0.895474 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 19 12 10 7 16 14 1 
+
+Machine 2: 23 17 25 6 4 
+
+Machine 3: 11 13 9 
+
+Machine 4: 15 20 3 
+
+Machine 5: 8 22 24 
+
+Machine 6: 18 5 2 
+
+Total Tardiness: 1022
+Time taken by ILS: 0.875519 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 21 6 12 22 19 23 25 
+
+Machine 2: 14 11 7 13 15 
+
+Machine 3: 9 24 1 
+
+Machine 4: 20 8 4 
+
+Machine 5: 3 17 5 
+
+Machine 6: 18 10 16 
+
+Total Tardiness: 777
+Time taken by ILS: 0.83845 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 8 17 6 10 9 
+
+Machine 2: 5 3 19 16 
+
+Machine 3: 14 23 13 
+
+Machine 4: 20 4 24 
+
+Machine 5: 12 15 21 
+
+Machine 6: 18 1 25 
+
+Total Tardiness: 381
+Time taken by ILS: 0.825231 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 16 21 5 19 2 15 22 1 
+
+Machine 2: 18 8 23 4 
+
+Machine 3: 14 7 13 3 
+
+Machine 4: 12 6 17 
+
+Machine 5: 10 20 24 
+
+Machine 6: 9 11 25 
+
+Total Tardiness: 659
+Time taken by ILS: 0.873935 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 7 16 8 18 13 22 4 23 
+
+Machine 2: 11 5 24 
+
+Machine 3: 1 25 15 
+
+Machine 4: 2 21 
+
+Machine 5: 9 10 19 
+
+Machine 6: 12 17 
+
+Total Tardiness: 437
+Time taken by ILS: 0.924562 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 18 12 10 7 16 14 6 
+
+Machine 2: 23 17 5 2 
+
+Machine 3: 19 11 22 24 
+
+Machine 4: 15 13 9 
+
+Machine 5: 8 20 1 
+
+Machine 6: 3 25 4 
+
+Total Tardiness: 846
+Time taken by ILS: 0.960836 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 9 21 22 20 4 
+
+Machine 2: 2 19 12 24 
+
+Machine 3: 6 7 13 3 15 
+
+Machine 4: 11 23 18 5 
+
+Machine 5: 14 25 8 16 
+
+Machine 6: 10 17 1 
+
+Total Tardiness: 1689
+Time taken by ILS: 0.926608 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 22 8 3 10 21 13 
+
+Machine 2: 11 23 20 25 
+
+Machine 3: 17 16 5 
+
+Machine 4: 6 19 14 
+
+Machine 5: 15 9 18 12 
+
+Machine 6: 1 4 24 
+
+Total Tardiness: 1386
+Time taken by ILS: 0.894234 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 14 19 22 9 4 
+
+Machine 2: 16 15 23 6 
+
+Machine 3: 10 8 7 3 
+
+Machine 4: 21 5 2 17 20 
+
+Machine 5: 12 13 24 25 
+
+Machine 6: 18 1 11 
+
+Total Tardiness: 1490
+Time taken by ILS: 0.903307 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 7 13 23 1 24 
+
+Machine 2: 3 16 18 2 15 
+
+Machine 3: 8 22 4 25 17 
+
+Machine 4: 9 12 19 
+
+Machine 5: 5 10 
+
+Machine 6: 11 21 
+
+Total Tardiness: 1201
+Time taken by ILS: 0.908925 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 19 10 13 2 4 
+
+Machine 2: 12 7 20 8 
+
+Machine 3: 17 14 5 1 
+
+Machine 4: 18 25 22 3 
+
+Machine 5: 23 11 9 
+
+Machine 6: 16 6 15 24 
+
+Total Tardiness: 1731
+Time taken by ILS: 1.03088 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 9 21 22 19 17 1 
+
+Machine 2: 2 7 18 5 
+
+Machine 3: 6 20 3 15 
+
+Machine 4: 11 23 25 8 16 
+
+Machine 5: 14 13 4 
+
+Machine 6: 10 12 24 
+
+Total Tardiness: 1690
+Time taken by ILS: 0.902543 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 22 8 15 10 21 24 
+
+Machine 2: 17 3 19 5 
+
+Machine 3: 20 4 12 
+
+Machine 4: 11 6 9 14 
+
+Machine 5: 1 16 13 
+
+Machine 6: 23 18 25 
+
+Total Tardiness: 1274
+Time taken by ILS: 0.869357 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 5 19 22 9 4 
+
+Machine 2: 14 8 23 6 
+
+Machine 3: 16 15 17 20 
+
+Machine 4: 10 13 7 3 
+
+Machine 5: 12 2 24 25 
+
+Machine 6: 18 1 11 
+
+Total Tardiness: 1500
+Time taken by ILS: 0.843813 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 7 13 18 4 5 10 
+
+Machine 2: 6 3 8 22 12 15 
+
+Machine 3: 16 25 17 
+
+Machine 4: 9 1 24 
+
+Machine 5: 11 21 
+
+Machine 6: 23 2 19 
+
+Total Tardiness: 1148
+Time taken by ILS: 0.892843 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 18 10 25 5 1 
+
+Machine 2: 19 7 16 22 3 
+
+Machine 3: 12 14 20 8 
+
+Machine 4: 17 6 15 24 
+
+Machine 5: 21 13 2 4 
+
+Machine 6: 23 11 9 
+
+Total Tardiness: 1733
+Time taken by ILS: 0.872573 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 9 21 6 22 19 3 15 
+
+Machine 2: 2 7 23 25 4 
+
+Machine 3: 14 13 8 16 
+
+Machine 4: 11 10 24 
+
+Machine 5: 20 17 1 
+
+Machine 6: 12 18 5 
+
+Total Tardiness: 1506
+Time taken by ILS: 0.97915 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 22 8 17 10 18 12 
+
+Machine 2: 11 6 19 13 
+
+Machine 3: 4 16 24 
+
+Machine 4: 20 21 25 
+
+Machine 5: 15 3 23 14 
+
+Machine 6: 1 9 5 
+
+Total Tardiness: 1073
+Time taken by ILS: 0.992634 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 14 5 2 22 7 3 
+
+Machine 2: 21 19 8 9 4 
+
+Machine 3: 16 15 1 6 
+
+Machine 4: 10 23 11 
+
+Machine 5: 12 13 24 25 
+
+Machine 6: 18 17 20 
+
+Total Tardiness: 1324
+Time taken by ILS: 0.927135 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 7 18 13 22 4 23 17 
+
+Machine 2: 3 8 16 25 15 
+
+Machine 3: 9 5 24 
+
+Machine 4: 11 12 19 
+
+Machine 5: 1 10 
+
+Machine 6: 2 21 
+
+Total Tardiness: 975
+Time taken by ILS: 0.913003 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 19 10 16 14 2 4 
+
+Machine 2: 12 7 25 5 1 
+
+Machine 3: 23 15 9 
+
+Machine 4: 17 20 8 
+
+Machine 5: 18 13 6 24 
+
+Machine 6: 11 22 3 
+
+Total Tardiness: 1551
+Time taken by ILS: 0.910058 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 9 21 6 22 7 25 1 
+
+Machine 2: 2 10 19 16 
+
+Machine 3: 14 11 23 13 15 
+
+Machine 4: 12 17 5 
+
+Machine 5: 20 3 24 
+
+Machine 6: 18 8 4 
+
+Total Tardiness: 1298
+Time taken by ILS: 0.877723 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 8 6 10 21 
+
+Machine 2: 20 3 16 12 
+
+Machine 3: 17 15 23 5 
+
+Machine 4: 4 9 13 
+
+Machine 5: 18 19 24 
+
+Machine 6: 14 1 25 
+
+Total Tardiness: 905
+Time taken by ILS: 0.918059 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 14 5 19 2 22 11 
+
+Machine 2: 16 23 15 6 
+
+Machine 3: 10 8 24 3 
+
+Machine 4: 21 9 1 4 
+
+Machine 5: 12 7 20 
+
+Machine 6: 18 13 17 25 
+
+Total Tardiness: 1133
+Time taken by ILS: 0.89365 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 7 8 13 22 4 23 17 
+
+Machine 2: 11 16 15 
+
+Machine 3: 9 5 19 
+
+Machine 4: 12 10 
+
+Machine 5: 1 18 25 24 
+
+Machine 6: 2 21 
+
+Total Tardiness: 823
+Time taken by ILS: 0.859439 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 19 12 10 7 16 14 8 
+
+Machine 2: 18 17 25 6 24 
+
+Machine 3: 23 20 3 
+
+Machine 4: 11 2 9 
+
+Machine 5: 21 13 5 4 
+
+Machine 6: 15 22 1 
+
+Total Tardiness: 1339
+Time taken by ILS: 0.804677 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 2 21 6 22 7 19 1 
+
+Machine 2: 9 11 23 25 13 16 
+
+Machine 3: 14 10 4 
+
+Machine 4: 20 17 24 
+
+Machine 5: 18 3 15 
+
+Machine 6: 12 8 5 
+
+Total Tardiness: 1114
+Time taken by ILS: 0.902699 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 11 22 8 17 3 10 21 
+
+Machine 2: 15 1 16 25 
+
+Machine 3: 14 9 24 
+
+Machine 4: 20 19 5 
+
+Machine 5: 4 6 12 
+
+Machine 6: 18 23 13 
+
+Total Tardiness: 715
+Time taken by ILS: 0.813859 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 14 21 5 19 2 15 20 
+
+Machine 2: 16 8 22 1 4 
+
+Machine 3: 7 13 6 
+
+Machine 4: 12 18 17 25 
+
+Machine 5: 9 23 11 
+
+Machine 6: 10 24 3 
+
+Total Tardiness: 947
+Time taken by ILS: 0.824138 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 3 7 8 18 13 22 4 23 24 
+
+Machine 2: 11 5 15 
+
+Machine 3: 1 16 10 
+
+Machine 4: 9 25 19 
+
+Machine 5: 2 21 
+
+Machine 6: 12 17 
+
+Total Tardiness: 655
+Time taken by ILS: 0.968096 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 19 10 7 16 14 2 
+
+Machine 2: 23 18 25 5 4 
+
+Machine 3: 12 17 13 9 
+
+Machine 4: 11 20 3 
+
+Machine 5: 15 22 24 
+
+Machine 6: 8 6 1 
+
+Total Tardiness: 1205
+Time taken by ILS: 0.914952 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 19 2 17 1 
+
+Machine 2: 6 11 18 5 
+
+Machine 3: 23 7 20 4 
+
+Machine 4: 25 13 12 24 
+
+Machine 5: 22 14 8 16 
+
+Machine 6: 9 10 3 15 
+
+Total Tardiness: 2357
+Time taken by ILS: 0.94017 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 10 23 4 24 
+
+Machine 2: 22 8 6 16 5 
+
+Machine 3: 2 17 21 13 
+
+Machine 4: 3 9 20 25 
+
+Machine 5: 11 19 18 12 
+
+Machine 6: 15 1 14 
+
+Total Tardiness: 2025
+Time taken by ILS: 0.909394 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 14 13 24 25 
+
+Machine 2: 5 10 23 6 
+
+Machine 3: 22 16 1 11 
+
+Machine 4: 19 12 17 20 
+
+Machine 5: 15 18 9 4 
+
+Machine 6: 2 8 7 3 
+
+Total Tardiness: 2169
+Time taken by ILS: 0.938641 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 13 23 16 2 15 
+
+Machine 2: 6 4 25 17 
+
+Machine 3: 3 8 1 24 
+
+Machine 4: 7 22 5 10 
+
+Machine 5: 18 9 12 19 
+
+Machine 6: 14 11 21 
+
+Total Tardiness: 1670
+Time taken by ILS: 0.894376 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 19 10 13 2 4 
+
+Machine 2: 12 25 20 8 
+
+Machine 3: 7 16 11 9 
+
+Machine 4: 14 17 22 3 
+
+Machine 5: 21 6 5 1 
+
+Machine 6: 18 23 15 24 
+
+Total Tardiness: 2406
+Time taken by ILS: 0.983842 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 6 19 10 3 15 
+
+Machine 2: 9 11 18 5 
+
+Machine 3: 22 23 20 4 
+
+Machine 4: 7 14 8 16 
+
+Machine 5: 2 12 24 
+
+Machine 6: 25 13 17 1 
+
+Total Tardiness: 2135
+Time taken by ILS: 0.940832 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 22 8 10 23 4 24 
+
+Machine 2: 2 3 1 14 
+
+Machine 3: 11 9 20 25 
+
+Machine 4: 15 19 18 12 
+
+Machine 5: 6 16 5 
+
+Machine 6: 17 21 13 
+
+Total Tardiness: 1751
+Time taken by ILS: 0.911546 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 16 15 1 11 
+
+Machine 2: 5 22 8 7 3 
+
+Machine 3: 19 10 23 6 
+
+Machine 4: 21 18 9 4 
+
+Machine 5: 14 13 24 25 
+
+Machine 6: 2 12 17 20 
+
+Total Tardiness: 1934
+Time taken by ILS: 0.888947 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 7 13 22 23 2 15 
+
+Machine 2: 6 9 5 10 
+
+Machine 3: 3 4 1 24 
+
+Machine 4: 14 18 12 19 
+
+Machine 5: 16 11 21 
+
+Machine 6: 8 25 17 
+
+Total Tardiness: 1454
+Time taken by ILS: 0.90152 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 19 10 14 20 8 
+
+Machine 2: 7 25 11 9 
+
+Machine 3: 21 17 22 3 
+
+Machine 4: 18 6 5 1 
+
+Machine 5: 12 23 15 24 
+
+Machine 6: 16 13 2 4 
+
+Total Tardiness: 2148
+Time taken by ILS: 0.917186 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 6 22 23 18 5 
+
+Machine 2: 9 19 25 17 1 
+
+Machine 3: 2 7 8 16 
+
+Machine 4: 11 13 3 15 
+
+Machine 5: 14 20 4 
+
+Machine 6: 10 12 24 
+
+Total Tardiness: 1899
+Time taken by ILS: 0.888248 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 22 8 3 10 4 24 
+
+Machine 2: 11 9 20 25 
+
+Machine 3: 17 16 5 
+
+Machine 4: 6 1 14 
+
+Machine 5: 15 23 19 12 
+
+Machine 6: 21 18 13 
+
+Total Tardiness: 1488
+Time taken by ILS: 0.919433 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 19 22 23 6 
+
+Machine 2: 12 15 17 20 
+
+Machine 3: 5 2 1 11 
+
+Machine 4: 16 18 9 4 
+
+Machine 5: 14 8 7 3 
+
+Machine 6: 10 13 24 25 
+
+Total Tardiness: 1712
+Time taken by ILS: 0.862993 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 6 7 18 13 23 2 15 
+
+Machine 2: 14 22 4 1 24 
+
+Machine 3: 3 8 25 17 
+
+Machine 4: 16 11 21 
+
+Machine 5: 9 12 19 
+
+Machine 6: 5 10 
+
+Total Tardiness: 1299
+Time taken by ILS: 0.925164 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 19 10 25 20 8 
+
+Machine 2: 21 14 11 9 
+
+Machine 3: 12 23 15 24 
+
+Machine 4: 7 16 22 3 
+
+Machine 5: 18 6 5 1 
+
+Machine 6: 17 13 2 4 
+
+Total Tardiness: 1932
+Time taken by ILS: 0.904883 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 9 6 22 19 17 1 
+
+Machine 2: 2 7 18 5 
+
+Machine 3: 21 20 3 15 
+
+Machine 4: 11 23 25 8 16 
+
+Machine 5: 14 13 4 
+
+Machine 6: 10 12 24 
+
+Total Tardiness: 1686
+Time taken by ILS: 0.980811 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 22 8 15 10 21 24 
+
+Machine 2: 11 23 19 5 
+
+Machine 3: 17 9 14 
+
+Machine 4: 3 6 18 12 
+
+Machine 5: 1 16 13 
+
+Machine 6: 4 20 25 
+
+Total Tardiness: 1273
+Time taken by ILS: 0.927297 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 5 19 15 9 4 
+
+Machine 2: 14 2 22 17 20 
+
+Machine 3: 16 8 7 3 
+
+Machine 4: 10 13 24 25 
+
+Machine 5: 12 1 11 
+
+Machine 6: 18 23 6 
+
+Total Tardiness: 1496
+Time taken by ILS: 0.883577 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 3 7 18 23 5 10 
+
+Machine 2: 13 6 8 4 2 15 
+
+Machine 3: 16 25 17 
+
+Machine 4: 9 1 24 
+
+Machine 5: 12 21 
+
+Machine 6: 11 22 19 
+
+Total Tardiness: 1147
+Time taken by ILS: 0.904295 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 10 25 5 1 
+
+Machine 2: 19 7 16 22 3 
+
+Machine 3: 12 14 20 8 
+
+Machine 4: 17 6 15 24 
+
+Machine 5: 18 13 2 4 
+
+Machine 6: 23 11 9 
+
+Total Tardiness: 1734
+Time taken by ILS: 0.896957 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 9 21 6 22 19 3 15 
+
+Machine 2: 2 7 23 25 4 
+
+Machine 3: 14 13 8 16 
+
+Machine 4: 11 10 24 
+
+Machine 5: 20 17 1 
+
+Machine 6: 12 18 5 
+
+Total Tardiness: 1506
+Time taken by ILS: 0.987598 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 7 2 22 8 17 10 18 12 
+
+Machine 2: 11 6 19 13 
+
+Machine 3: 4 16 24 
+
+Machine 4: 20 21 25 
+
+Machine 5: 15 3 23 14 
+
+Machine 6: 1 9 5 
+
+Total Tardiness: 1073
+Time taken by ILS: 0.986141 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 14 5 2 15 22 3 
+
+Machine 2: 21 19 8 9 4 
+
+Machine 3: 16 23 1 6 
+
+Machine 4: 10 7 11 
+
+Machine 5: 12 13 24 25 
+
+Machine 6: 18 17 20 
+
+Total Tardiness: 1321
+Time taken by ILS: 0.91919 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 20 14 6 7 18 13 22 4 23 17 
+
+Machine 2: 3 8 16 25 15 
+
+Machine 3: 9 5 24 
+
+Machine 4: 11 12 19 
+
+Machine 5: 1 10 
+
+Machine 6: 2 21 
+
+Total Tardiness: 975
+Time taken by ILS: 0.908934 seconds
+
+🔁 ILS
+ILS Schedule
+
+Machine 1: 21 19 10 16 14 2 4 
+
+Machine 2: 12 7 25 5 1 
+
+Machine 3: 11 6 9 
+
+Machine 4: 13 20 8 
+
+Machine 5: 17 18 15 24 
+
+Machine 6: 23 22 3 
+
+Total Tardiness: 1534
+Time taken by ILS: 0.932154 seconds
+
