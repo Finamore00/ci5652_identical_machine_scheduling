@@ -11,6 +11,7 @@
 #include "../header_files/grasp.h"
 #include "../header_files/evolution.h"
 #include "../header_files/simulated_annealing.h"
+#include "../header_files/tabu_search.h"
 
 using namespace std;
 using namespace chrono;
@@ -48,7 +49,7 @@ int main(int argc, char *argv[]) {
             cout << "Error reading the file " << entry.path() << endl;
             return -1;
         }
-        
+ 
         high_resolution_clock::time_point start, end;
         vector<vector<Job*>> schedule;
         string algorithm_name;
@@ -66,7 +67,7 @@ int main(int argc, char *argv[]) {
             cout << "🙊 Tabu Search" << endl;
             algorithm_name = "Tabu Search";
             start = high_resolution_clock::now();
-            // schedule = tabu_search(jobs, m,...)
+            schedule = tabu_search(jobs, m, 14000);
             end = high_resolution_clock::now();
             break;
         case 3:
