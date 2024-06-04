@@ -12,6 +12,7 @@
 #include "../header_files/evolution.h"
 #include "../header_files/simulated_annealing.h"
 #include "../header_files/tabu_search.h"
+#include "../header_files/ils.h"
 
 using namespace std;
 using namespace chrono;
@@ -60,7 +61,7 @@ int main(int argc, char *argv[]) {
             cout << "🔁 ILS" << endl;
             algorithm_name = "ILS";
             start = high_resolution_clock::now();
-            // schedule = ils(jobs, m,...)
+            schedule = ils(jobs, m, 1500,10,4,100,100);
             end = high_resolution_clock::now();
             break;
         case 2:
@@ -74,7 +75,7 @@ int main(int argc, char *argv[]) {
             cout << "❄️ Simulated Annealing" << endl;
             algorithm_name = "Simulated Annealing";
             start = high_resolution_clock::now();
-            schedule = simulated_annealing(jobs, m, 2000.0, 0.60, 200, 1000000, 1500, 200);
+            schedule = simulated_annealing(jobs, m, 2000.0, 0.90, 100, 2000);
             end = high_resolution_clock::now();
             break;
         case 4:
