@@ -1,0 +1,2250 @@
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 7 19 6 9 
+
+Machine 2: 8 10 20 
+
+Machine 3: 3 2 15 
+
+Machine 4: 5 14 18 
+
+Machine 5: 17 11 12 
+
+Machine 6: 16 13 4 
+
+Total Tardiness: 161
+Time taken by tabu search: 2.83322 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 16 9 20 17 5 18 8 
+
+Machine 2: 1 13 2 
+
+Machine 3: 6 7 3 
+
+Machine 4: 19 4 
+
+Machine 5: 11 15 
+
+Machine 6: 10 14 
+
+Total Tardiness: 116
+Time taken by tabu search: 2.95383 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 13 16 7 
+
+Machine 2: 10 2 12 20 
+
+Machine 3: 18 17 9 11 
+
+Machine 4: 8 1 6 
+
+Machine 5: 15 14 4 
+
+Machine 6: 5 19 3 
+
+Total Tardiness: 168
+Time taken by tabu search: 3.15616 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 8 17 1 12 2 
+
+Machine 2: 15 16 19 9 
+
+Machine 3: 5 7 
+
+Machine 4: 11 13 20 
+
+Machine 5: 14 6 10 
+
+Machine 6: 18 4 
+
+Total Tardiness: 142
+Time taken by tabu search: 2.94444 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 15 6 4 3 8 13 16 10 
+
+Machine 2: 9 18 12 
+
+Machine 3: 2 20 
+
+Machine 4: 17 1 5 
+
+Machine 5: 7 14 
+
+Machine 6: 11 19 
+
+Total Tardiness: 143
+Time taken by tabu search: 2.76424 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 7 19 20 
+
+Machine 2: 3 10 12 
+
+Machine 3: 17 6 11 4 
+
+Machine 4: 5 15 
+
+Machine 5: 14 2 13 18 
+
+Machine 6: 8 16 9 
+
+Total Tardiness: 88
+Time taken by tabu search: 3.30023 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 1 5 17 20 9 18 3 
+
+Machine 2: 6 7 16 
+
+Machine 3: 13 11 15 
+
+Machine 4: 19 8 
+
+Machine 5: 10 2 
+
+Machine 6: 4 14 
+
+Total Tardiness: 52
+Time taken by tabu search: 2.91888 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 10 12 17 3 
+
+Machine 2: 19 8 7 6 
+
+Machine 3: 5 1 9 
+
+Machine 4: 14 15 4 
+
+Machine 5: 16 2 11 
+
+Machine 6: 18 13 20 
+
+Total Tardiness: 82
+Time taken by tabu search: 3.23372 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 17 14 13 19 12 2 
+
+Machine 2: 16 15 11 8 
+
+Machine 3: 3 4 10 
+
+Machine 4: 18 20 
+
+Machine 5: 5 7 
+
+Machine 6: 6 9 
+
+Total Tardiness: 80
+Time taken by tabu search: 3.11217 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 15 6 4 3 8 13 16 17 10 
+
+Machine 2: 9 12 18 
+
+Machine 3: 1 14 
+
+Machine 4: 7 19 
+
+Machine 5: 11 20 
+
+Machine 6: 2 5 
+
+Total Tardiness: 85
+Time taken by tabu search: 2.96397 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 2 6 18 
+
+Machine 2: 8 7 19 20 9 
+
+Machine 3: 14 17 4 
+
+Machine 4: 5 11 12 
+
+Machine 5: 10 16 13 
+
+Machine 6: 3 15 
+
+Total Tardiness: 20
+Time taken by tabu search: 2.98455 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 1 5 17 20 9 18 3 
+
+Machine 2: 4 13 16 
+
+Machine 3: 11 6 19 
+
+Machine 4: 10 14 
+
+Machine 5: 8 2 
+
+Machine 6: 7 15 
+
+Total Tardiness: 6
+Time taken by tabu search: 2.92994 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 18 13 17 6 
+
+Machine 2: 19 2 12 9 3 
+
+Machine 3: 14 15 20 
+
+Machine 4: 10 8 7 
+
+Machine 5: 5 1 4 
+
+Machine 6: 16 11 
+
+Total Tardiness: 28
+Time taken by tabu search: 3.43058 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 17 1 19 15 11 2 
+
+Machine 2: 16 9 
+
+Machine 3: 13 14 8 12 10 
+
+Machine 4: 5 20 
+
+Machine 5: 18 4 
+
+Machine 6: 6 7 
+
+Total Tardiness: 54
+Time taken by tabu search: 3.136 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 15 6 4 3 8 13 16 17 12 10 
+
+Machine 2: 9 18 
+
+Machine 3: 2 14 
+
+Machine 4: 7 19 
+
+Machine 5: 11 20 
+
+Machine 6: 1 5 
+
+Total Tardiness: 52
+Time taken by tabu search: 3.30278 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 19 6 13 18 
+
+Machine 2: 8 2 20 9 
+
+Machine 3: 14 7 15 
+
+Machine 4: 3 11 4 
+
+Machine 5: 5 17 
+
+Machine 6: 10 16 12 
+
+Total Tardiness: 5
+Time taken by tabu search: 3.15449 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 1 5 20 9 16 18 
+
+Machine 2: 17 4 13 3 
+
+Machine 3: 11 6 19 
+
+Machine 4: 10 14 
+
+Machine 5: 8 2 
+
+Machine 6: 7 15 
+
+Total Tardiness: 0
+Time taken by tabu search: 2.95524 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 5 2 17 9 6 
+
+Machine 2: 7 15 18 20 
+
+Machine 3: 14 13 4 
+
+Machine 4: 16 1 3 
+
+Machine 5: 10 12 11 
+
+Machine 6: 19 8 
+
+Total Tardiness: 5
+Time taken by tabu search: 2.95717 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 1 17 19 15 11 12 2 
+
+Machine 2: 16 9 10 
+
+Machine 3: 13 4 
+
+Machine 4: 14 6 
+
+Machine 5: 18 8 20 
+
+Machine 6: 5 7 
+
+Total Tardiness: 59
+Time taken by tabu search: 3.11879 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 4 3 13 16 8 17 12 18 10 
+
+Machine 2: 6 11 20 
+
+Machine 3: 9 
+
+Machine 4: 7 19 
+
+Machine 5: 15 14 
+
+Machine 6: 1 5 
+
+Total Tardiness: 37
+Time taken by tabu search: 2.77016 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 8 19 6 11 12 9 
+
+Machine 2: 7 10 17 18 
+
+Machine 3: 5 13 20 
+
+Machine 4: 3 16 
+
+Machine 5: 1 15 
+
+Machine 6: 2 14 4 
+
+Total Tardiness: 33
+Time taken by tabu search: 2.89915 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 1 17 20 13 9 16 18 3 
+
+Machine 2: 5 11 6 14 
+
+Machine 3: 7 19 
+
+Machine 4: 10 15 
+
+Machine 5: 8 2 
+
+Machine 6: 4 
+
+Total Tardiness: 0
+Time taken by tabu search: 0.0003014 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 5 2 17 7 3 6 
+
+Machine 2: 10 12 11 
+
+Machine 3: 15 8 9 4 
+
+Machine 4: 14 13 20 
+
+Machine 5: 16 1 
+
+Machine 6: 19 18 
+
+Total Tardiness: 0
+Time taken by tabu search: 2.8379 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 13 14 11 15 12 2 10 
+
+Machine 2: 17 1 18 19 8 
+
+Machine 3: 3 4 
+
+Machine 4: 16 9 
+
+Machine 5: 5 7 
+
+Machine 6: 6 20 
+
+Total Tardiness: 81
+Time taken by tabu search: 2.87832 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 1 16 8 17 12 18 10 
+
+Machine 2: 13 15 14 
+
+Machine 3: 9 20 
+
+Machine 4: 7 19 
+
+Machine 5: 2 5 
+
+Machine 6: 11 
+
+Total Tardiness: 24
+Time taken by tabu search: 2.7475 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 5 19 9 12 
+
+Machine 2: 1 13 4 
+
+Machine 3: 8 11 17 
+
+Machine 4: 7 2 20 18 
+
+Machine 5: 3 6 15 
+
+Machine 6: 10 14 16 
+
+Total Tardiness: 442
+Time taken by tabu search: 3.02431 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 1 17 20 9 18 4 
+
+Machine 2: 5 13 6 2 
+
+Machine 3: 7 14 
+
+Machine 4: 11 16 8 
+
+Machine 5: 19 3 15 
+
+Machine 6: 10 
+
+Total Tardiness: 313
+Time taken by tabu search: 3.06895 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 5 2 7 18 
+
+Machine 2: 19 15 1 
+
+Machine 3: 14 17 8 
+
+Machine 4: 10 9 6 11 
+
+Machine 5: 16 3 20 
+
+Machine 6: 12 13 4 
+
+Total Tardiness: 475
+Time taken by tabu search: 3.18636 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 1 17 19 2 9 
+
+Machine 2: 4 15 8 
+
+Machine 3: 13 14 10 
+
+Machine 4: 18 12 20 
+
+Machine 5: 6 7 
+
+Machine 6: 16 11 5 
+
+Total Tardiness: 365
+Time taken by tabu search: 3.12186 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 15 6 3 17 13 12 
+
+Machine 2: 1 4 16 10 19 
+
+Machine 3: 8 2 5 
+
+Machine 4: 9 18 
+
+Machine 5: 7 14 
+
+Machine 6: 11 20 
+
+Total Tardiness: 346
+Time taken by tabu search: 3.26011 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 19 9 18 
+
+Machine 2: 8 11 12 
+
+Machine 3: 3 2 20 
+
+Machine 4: 7 10 6 15 
+
+Machine 5: 5 13 4 
+
+Machine 6: 14 17 16 
+
+Total Tardiness: 389
+Time taken by tabu search: 2.99336 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 17 12 20 11 9 18 14 
+
+Machine 2: 6 13 5 3 
+
+Machine 3: 7 15 
+
+Machine 4: 1 2 
+
+Machine 5: 10 8 
+
+Machine 6: 16 19 4 
+
+Total Tardiness: 233
+Time taken by tabu search: 3.24259 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 5 2 9 20 
+
+Machine 2: 14 17 6 4 
+
+Machine 3: 15 10 7 3 
+
+Machine 4: 16 8 
+
+Machine 5: 19 1 18 
+
+Machine 6: 12 13 11 
+
+Total Tardiness: 414
+Time taken by tabu search: 3.09741 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 1 19 15 2 4 
+
+Machine 2: 11 17 14 12 5 
+
+Machine 3: 13 8 10 
+
+Machine 4: 16 7 
+
+Machine 5: 18 9 
+
+Machine 6: 6 20 
+
+Total Tardiness: 350
+Time taken by tabu search: 3.01394 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 15 4 3 8 13 16 12 10 
+
+Machine 2: 6 1 17 14 
+
+Machine 3: 2 5 
+
+Machine 4: 7 19 
+
+Machine 5: 9 18 
+
+Machine 6: 11 20 
+
+Total Tardiness: 283
+Time taken by tabu search: 3.13858 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 2 19 20 9 
+
+Machine 2: 8 17 12 
+
+Machine 3: 3 11 4 
+
+Machine 4: 1 6 16 
+
+Machine 5: 10 14 15 
+
+Machine 6: 5 13 18 
+
+Total Tardiness: 361
+Time taken by tabu search: 2.78981 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 1 17 9 18 16 3 
+
+Machine 2: 5 13 6 2 
+
+Machine 3: 7 14 
+
+Machine 4: 11 20 8 
+
+Machine 5: 10 15 
+
+Machine 6: 19 4 
+
+Total Tardiness: 157
+Time taken by tabu search: 2.91067 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 5 2 9 8 
+
+Machine 2: 14 17 6 3 
+
+Machine 3: 15 12 7 4 
+
+Machine 4: 10 13 20 
+
+Machine 5: 16 18 
+
+Machine 6: 19 1 11 
+
+Total Tardiness: 368
+Time taken by tabu search: 2.75467 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 19 11 12 20 
+
+Machine 2: 1 14 17 15 7 2 
+
+Machine 3: 13 5 
+
+Machine 4: 16 8 10 
+
+Machine 5: 6 9 
+
+Machine 6: 18 4 
+
+Total Tardiness: 351
+Time taken by tabu search: 2.86866 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 1 3 17 13 16 12 10 
+
+Machine 2: 15 4 8 5 
+
+Machine 3: 9 18 
+
+Machine 4: 7 14 
+
+Machine 5: 2 20 
+
+Machine 6: 11 19 
+
+Total Tardiness: 244
+Time taken by tabu search: 2.81032 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 2 13 20 9 
+
+Machine 2: 19 10 17 12 
+
+Machine 3: 8 14 18 
+
+Machine 4: 5 15 
+
+Machine 5: 3 11 4 
+
+Machine 6: 1 6 16 
+
+Total Tardiness: 387
+Time taken by tabu search: 2.84552 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 5 17 20 13 9 16 18 
+
+Machine 2: 1 6 14 
+
+Machine 3: 7 4 
+
+Machine 4: 11 19 3 
+
+Machine 5: 8 15 
+
+Machine 6: 10 2 
+
+Total Tardiness: 97
+Time taken by tabu search: 2.96971 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 10 9 8 
+
+Machine 2: 15 12 7 6 3 
+
+Machine 3: 14 17 4 
+
+Machine 4: 5 13 11 
+
+Machine 5: 19 1 20 
+
+Machine 6: 16 18 
+
+Total Tardiness: 354
+Time taken by tabu search: 2.79181 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 17 1 14 19 15 11 2 10 
+
+Machine 2: 3 9 
+
+Machine 3: 13 8 12 4 
+
+Machine 4: 16 7 
+
+Machine 5: 18 20 
+
+Machine 6: 6 5 
+
+Total Tardiness: 383
+Time taken by tabu search: 2.77791 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 1 3 13 16 8 17 12 10 
+
+Machine 2: 4 11 18 
+
+Machine 3: 9 14 
+
+Machine 4: 2 19 
+
+Machine 5: 7 20 
+
+Machine 6: 15 5 
+
+Total Tardiness: 216
+Time taken by tabu search: 2.74062 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 19 6 11 12 9 
+
+Machine 2: 10 13 20 15 
+
+Machine 3: 2 17 4 
+
+Machine 4: 8 5 
+
+Machine 5: 14 1 18 
+
+Machine 6: 3 16 
+
+Total Tardiness: 461
+Time taken by tabu search: 2.79644 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 5 17 20 13 9 16 3 
+
+Machine 2: 7 19 18 
+
+Machine 3: 10 14 
+
+Machine 4: 11 6 15 
+
+Machine 5: 1 4 
+
+Machine 6: 8 2 
+
+Total Tardiness: 42
+Time taken by tabu search: 2.77272 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 15 2 1 7 11 
+
+Machine 2: 14 17 9 3 
+
+Machine 3: 10 18 4 
+
+Machine 4: 5 8 6 
+
+Machine 5: 19 16 
+
+Machine 6: 12 13 20 
+
+Total Tardiness: 349
+Time taken by tabu search: 2.79543 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 17 1 19 15 11 8 2 
+
+Machine 2: 14 4 12 10 
+
+Machine 3: 3 9 20 
+
+Machine 4: 18 7 
+
+Machine 5: 13 5 
+
+Machine 6: 16 6 
+
+Total Tardiness: 414
+Time taken by tabu search: 2.75322 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 3 11 13 16 17 12 10 
+
+Machine 2: 15 8 4 20 
+
+Machine 3: 2 14 
+
+Machine 4: 9 18 
+
+Machine 5: 7 19 
+
+Machine 6: 1 5 
+
+Total Tardiness: 195
+Time taken by tabu search: 2.86666 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 19 6 9 5 
+
+Machine 2: 10 12 16 
+
+Machine 3: 7 11 13 4 
+
+Machine 4: 14 20 15 
+
+Machine 5: 17 18 3 
+
+Machine 6: 8 1 
+
+Total Tardiness: 889
+Time taken by tabu search: 2.80277 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 13 17 20 9 18 16 8 
+
+Machine 2: 1 15 
+
+Machine 3: 5 19 2 
+
+Machine 4: 14 7 
+
+Machine 5: 6 3 4 
+
+Machine 6: 12 11 10 
+
+Total Tardiness: 533
+Time taken by tabu search: 2.85873 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 6 4 
+
+Machine 2: 15 2 7 1 11 
+
+Machine 3: 10 17 8 
+
+Machine 4: 12 9 14 
+
+Machine 5: 18 3 20 
+
+Machine 6: 5 13 16 
+
+Total Tardiness: 951
+Time taken by tabu search: 2.80441 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 12 6 
+
+Machine 2: 1 17 14 15 20 
+
+Machine 3: 19 7 5 
+
+Machine 4: 11 8 2 4 
+
+Machine 5: 13 10 9 
+
+Machine 6: 16 18 
+
+Total Tardiness: 667
+Time taken by tabu search: 2.89585 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 8 13 17 10 5 
+
+Machine 2: 15 12 19 
+
+Machine 3: 1 11 
+
+Machine 4: 16 18 7 
+
+Machine 5: 2 14 
+
+Machine 6: 20 9 
+
+Total Tardiness: 595
+Time taken by tabu search: 2.87208 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 6 13 9 16 
+
+Machine 2: 2 20 5 
+
+Machine 3: 19 17 1 
+
+Machine 4: 10 11 3 
+
+Machine 5: 8 18 15 
+
+Machine 6: 14 12 4 
+
+Total Tardiness: 874
+Time taken by tabu search: 2.75363 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 5 17 20 9 18 15 
+
+Machine 2: 1 2 
+
+Machine 3: 13 14 4 
+
+Machine 4: 11 7 
+
+Machine 5: 19 3 8 
+
+Machine 6: 6 16 10 
+
+Total Tardiness: 475
+Time taken by tabu search: 2.77897 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 15 17 6 20 
+
+Machine 2: 2 13 3 11 
+
+Machine 3: 12 9 4 
+
+Machine 4: 18 7 14 
+
+Machine 5: 10 5 8 
+
+Machine 6: 19 1 16 
+
+Total Tardiness: 912
+Time taken by tabu search: 2.79318 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 17 19 15 12 2 5 
+
+Machine 2: 14 11 10 6 
+
+Machine 3: 3 8 18 
+
+Machine 4: 13 7 
+
+Machine 5: 16 20 
+
+Machine 6: 9 4 
+
+Total Tardiness: 688
+Time taken by tabu search: 2.87018 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 8 13 16 12 10 9 
+
+Machine 2: 1 17 7 
+
+Machine 3: 15 18 
+
+Machine 4: 2 19 
+
+Machine 5: 20 14 
+
+Machine 6: 11 5 
+
+Total Tardiness: 583
+Time taken by tabu search: 2.82068 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 19 11 9 1 
+
+Machine 2: 2 6 12 16 
+
+Machine 3: 14 20 4 
+
+Machine 4: 10 13 5 
+
+Machine 5: 8 3 
+
+Machine 6: 17 18 15 
+
+Total Tardiness: 889
+Time taken by tabu search: 2.87749 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 5 20 9 18 3 10 
+
+Machine 2: 17 13 6 4 
+
+Machine 3: 1 14 
+
+Machine 4: 11 2 
+
+Machine 5: 19 16 15 
+
+Machine 6: 7 8 
+
+Total Tardiness: 412
+Time taken by tabu search: 2.83662 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 17 6 8 
+
+Machine 2: 2 1 3 20 
+
+Machine 3: 19 13 4 
+
+Machine 4: 15 5 16 
+
+Machine 5: 10 9 11 
+
+Machine 6: 18 7 14 
+
+Total Tardiness: 910
+Time taken by tabu search: 2.76852 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 17 19 15 11 2 5 
+
+Machine 2: 1 9 4 
+
+Machine 3: 14 8 12 6 
+
+Machine 4: 3 10 18 
+
+Machine 5: 13 7 
+
+Machine 6: 16 20 
+
+Total Tardiness: 732
+Time taken by tabu search: 2.79201 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 8 13 16 17 12 10 
+
+Machine 2: 1 18 9 
+
+Machine 3: 15 20 
+
+Machine 4: 2 19 
+
+Machine 5: 11 14 
+
+Machine 6: 7 5 
+
+Total Tardiness: 560
+Time taken by tabu search: 2.74451 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 6 20 9 15 
+
+Machine 2: 14 3 1 
+
+Machine 3: 19 17 12 18 
+
+Machine 4: 7 11 5 
+
+Machine 5: 10 13 16 
+
+Machine 6: 8 4 
+
+Total Tardiness: 924
+Time taken by tabu search: 2.79514 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 17 20 13 9 16 18 8 
+
+Machine 2: 5 6 3 14 
+
+Machine 3: 1 2 
+
+Machine 4: 11 4 
+
+Machine 5: 19 10 
+
+Machine 6: 7 15 
+
+Total Tardiness: 358
+Time taken by tabu search: 2.82067 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 1 7 6 20 
+
+Machine 2: 19 17 3 8 
+
+Machine 3: 10 9 4 
+
+Machine 4: 12 18 11 
+
+Machine 5: 5 14 
+
+Machine 6: 15 13 16 
+
+Total Tardiness: 938
+Time taken by tabu search: 2.80644 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 19 15 11 12 2 6 
+
+Machine 2: 17 9 10 
+
+Machine 3: 3 8 4 
+
+Machine 4: 14 7 5 
+
+Machine 5: 13 20 
+
+Machine 6: 16 18 
+
+Total Tardiness: 768
+Time taken by tabu search: 2.78168 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 13 16 8 12 18 10 
+
+Machine 2: 1 17 9 
+
+Machine 3: 15 20 
+
+Machine 4: 2 19 
+
+Machine 5: 11 14 
+
+Machine 6: 7 5 
+
+Total Tardiness: 530
+Time taken by tabu search: 2.72274 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 19 6 13 4 
+
+Machine 2: 10 17 18 
+
+Machine 3: 2 11 12 9 
+
+Machine 4: 14 1 5 
+
+Machine 5: 8 20 15 
+
+Machine 6: 3 16 
+
+Total Tardiness: 770
+Time taken by tabu search: 2.845 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 20 17 9 13 19 18 4 
+
+Machine 2: 5 6 16 2 
+
+Machine 3: 7 14 
+
+Machine 4: 11 8 
+
+Machine 5: 1 15 
+
+Machine 6: 10 3 
+
+Total Tardiness: 247
+Time taken by tabu search: 2.7736 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 13 9 6 11 
+
+Machine 2: 12 17 7 3 20 
+
+Machine 3: 19 1 14 
+
+Machine 4: 15 10 4 
+
+Machine 5: 5 16 
+
+Machine 6: 18 8 
+
+Total Tardiness: 806
+Time taken by tabu search: 2.81176 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 17 15 19 11 12 10 
+
+Machine 2: 3 18 2 
+
+Machine 3: 14 9 5 
+
+Machine 4: 13 8 20 
+
+Machine 5: 16 7 
+
+Machine 6: 4 6 
+
+Total Tardiness: 677
+Time taken by tabu search: 2.74155 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 13 16 8 17 12 18 
+
+Machine 2: 1 10 9 
+
+Machine 3: 15 20 
+
+Machine 4: 2 19 
+
+Machine 5: 11 14 
+
+Machine 6: 7 5 
+
+Total Tardiness: 440
+Time taken by tabu search: 2.79043 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 6 10 3 
+
+Machine 2: 7 9 8 15 
+
+Machine 3: 2 12 1 
+
+Machine 4: 13 20 4 
+
+Machine 5: 11 17 5 
+
+Machine 6: 14 18 16 
+
+Total Tardiness: 1458
+Time taken by tabu search: 2.76586 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 17 12 20 9 18 3 8 
+
+Machine 2: 13 1 15 
+
+Machine 3: 5 19 4 
+
+Machine 4: 14 2 
+
+Machine 5: 6 16 10 
+
+Machine 6: 11 7 
+
+Total Tardiness: 913
+Time taken by tabu search: 2.78418 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 6 5 20 
+
+Machine 2: 12 10 4 
+
+Machine 3: 15 18 14 
+
+Machine 4: 17 19 8 
+
+Machine 5: 9 13 16 
+
+Machine 6: 2 3 1 11 
+
+Total Tardiness: 1570
+Time taken by tabu search: 2.73236 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 19 16 9 
+
+Machine 2: 17 15 13 18 
+
+Machine 3: 14 3 4 
+
+Machine 4: 11 7 6 
+
+Machine 5: 8 2 5 
+
+Machine 6: 12 10 20 
+
+Total Tardiness: 1090
+Time taken by tabu search: 2.79083 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 8 13 12 10 11 
+
+Machine 2: 3 16 15 5 
+
+Machine 3: 17 1 7 
+
+Machine 4: 4 18 9 
+
+Machine 5: 2 19 
+
+Machine 6: 20 14 
+
+Total Tardiness: 975
+Time taken by tabu search: 2.81434 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 13 8 4 
+
+Machine 2: 11 20 16 
+
+Machine 3: 6 10 9 15 
+
+Machine 4: 7 18 1 
+
+Machine 5: 14 12 3 
+
+Machine 6: 2 17 5 
+
+Total Tardiness: 1491
+Time taken by tabu search: 2.74231 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 17 9 18 3 4 
+
+Machine 2: 20 13 1 15 
+
+Machine 3: 5 11 8 
+
+Machine 4: 14 2 
+
+Machine 5: 6 16 10 
+
+Machine 6: 19 7 
+
+Total Tardiness: 842
+Time taken by tabu search: 2.82469 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 9 10 8 
+
+Machine 2: 15 1 4 
+
+Machine 3: 13 3 14 
+
+Machine 4: 7 6 5 11 
+
+Machine 5: 12 19 20 
+
+Machine 6: 17 18 16 
+
+Total Tardiness: 1598
+Time taken by tabu search: 2.7441 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 15 12 2 6 
+
+Machine 2: 17 19 7 9 
+
+Machine 3: 14 13 20 
+
+Machine 4: 11 10 18 
+
+Machine 5: 8 3 5 
+
+Machine 6: 16 4 
+
+Total Tardiness: 1127
+Time taken by tabu search: 2.84493 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 4 13 8 17 12 9 
+
+Machine 2: 6 16 18 11 
+
+Machine 3: 15 5 
+
+Machine 4: 2 19 
+
+Machine 5: 1 10 7 
+
+Machine 6: 20 14 
+
+Total Tardiness: 948
+Time taken by tabu search: 2.78971 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 6 20 3 
+
+Machine 2: 7 13 9 4 
+
+Machine 3: 2 12 1 
+
+Machine 4: 11 17 5 
+
+Machine 5: 14 18 16 
+
+Machine 6: 10 8 15 
+
+Total Tardiness: 1325
+Time taken by tabu search: 2.94182 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 18 17 20 9 3 8 
+
+Machine 2: 5 19 15 
+
+Machine 3: 13 14 4 
+
+Machine 4: 6 16 10 
+
+Machine 5: 11 2 
+
+Machine 6: 1 7 
+
+Total Tardiness: 699
+Time taken by tabu search: 2.73976 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 17 18 4 
+
+Machine 2: 15 7 6 16 
+
+Machine 3: 12 10 8 
+
+Machine 4: 13 19 20 
+
+Machine 5: 1 3 14 
+
+Machine 6: 9 5 11 
+
+Total Tardiness: 1426
+Time taken by tabu search: 2.79011 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 11 12 2 4 
+
+Machine 2: 17 19 16 5 
+
+Machine 3: 14 8 18 
+
+Machine 4: 3 10 20 
+
+Machine 5: 15 7 6 
+
+Machine 6: 13 9 
+
+Total Tardiness: 1025
+Time taken by tabu search: 2.79905 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 8 13 12 10 19 
+
+Machine 2: 1 11 
+
+Machine 3: 15 7 
+
+Machine 4: 16 17 18 14 
+
+Machine 5: 2 5 
+
+Machine 6: 20 9 
+
+Total Tardiness: 833
+Time taken by tabu search: 2.71951 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 13 9 4 
+
+Machine 2: 19 6 20 3 
+
+Machine 3: 10 12 15 
+
+Machine 4: 14 18 5 
+
+Machine 5: 7 8 16 
+
+Machine 6: 11 17 1 
+
+Total Tardiness: 1185
+Time taken by tabu search: 2.82199 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 17 20 9 16 18 15 
+
+Machine 2: 5 14 8 
+
+Machine 3: 13 19 4 
+
+Machine 4: 6 3 10 
+
+Machine 5: 1 2 
+
+Machine 6: 11 7 
+
+Total Tardiness: 573
+Time taken by tabu search: 2.81335 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 17 7 6 11 
+
+Machine 2: 15 9 14 
+
+Machine 3: 19 3 4 
+
+Machine 4: 13 5 8 
+
+Machine 5: 1 18 20 
+
+Machine 6: 12 10 16 
+
+Total Tardiness: 1254
+Time taken by tabu search: 2.85374 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 17 19 15 12 2 6 
+
+Machine 2: 14 11 10 18 
+
+Machine 3: 3 8 20 
+
+Machine 4: 1 7 5 
+
+Machine 5: 13 9 
+
+Machine 6: 16 4 
+
+Total Tardiness: 927
+Time taken by tabu search: 2.84204 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 8 13 17 12 10 9 
+
+Machine 2: 1 11 
+
+Machine 3: 15 19 
+
+Machine 4: 16 18 7 
+
+Machine 5: 2 14 
+
+Machine 6: 20 5 
+
+Total Tardiness: 744
+Time taken by tabu search: 2.76736 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 6 12 5 
+
+Machine 2: 10 13 9 4 
+
+Machine 3: 19 11 18 15 
+
+Machine 4: 14 20 1 
+
+Machine 5: 2 17 16 
+
+Machine 6: 8 3 
+
+Total Tardiness: 1051
+Time taken by tabu search: 2.72801 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 17 20 13 9 18 3 8 
+
+Machine 2: 6 16 15 
+
+Machine 3: 1 10 
+
+Machine 4: 11 4 
+
+Machine 5: 5 19 14 
+
+Machine 6: 7 2 
+
+Total Tardiness: 456
+Time taken by tabu search: 2.80557 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 12 7 6 4 
+
+Machine 2: 13 9 3 14 
+
+Machine 3: 10 17 16 
+
+Machine 4: 15 18 11 
+
+Machine 5: 19 1 20 
+
+Machine 6: 5 8 
+
+Total Tardiness: 1106
+Time taken by tabu search: 2.84404 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 19 15 8 2 6 
+
+Machine 2: 17 11 12 10 5 
+
+Machine 3: 14 7 18 
+
+Machine 4: 3 9 
+
+Machine 5: 13 20 
+
+Machine 6: 16 4 
+
+Total Tardiness: 864
+Time taken by tabu search: 2.7625 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 13 16 8 17 10 9 
+
+Machine 2: 1 12 18 
+
+Machine 3: 15 20 
+
+Machine 4: 2 19 
+
+Machine 5: 11 14 
+
+Machine 6: 7 5 
+
+Total Tardiness: 645
+Time taken by tabu search: 2.775 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 11 18 16 
+
+Machine 2: 6 14 8 15 
+
+Machine 3: 9 10 3 
+
+Machine 4: 7 20 4 
+
+Machine 5: 13 12 1 
+
+Machine 6: 2 17 5 
+
+Total Tardiness: 1994
+Time taken by tabu search: 2.75212 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 17 9 19 4 
+
+Machine 2: 20 18 14 10 
+
+Machine 3: 16 6 2 
+
+Machine 4: 12 3 7 
+
+Machine 5: 13 1 15 
+
+Machine 6: 5 11 8 
+
+Total Tardiness: 1306
+Time taken by tabu search: 2.80732 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 3 18 16 
+
+Machine 2: 7 12 5 11 
+
+Machine 3: 6 13 14 
+
+Machine 4: 9 1 4 
+
+Machine 5: 17 10 8 
+
+Machine 6: 15 19 20 
+
+Total Tardiness: 2149
+Time taken by tabu search: 2.7636 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 14 7 6 
+
+Machine 2: 17 2 16 5 
+
+Machine 3: 15 8 20 
+
+Machine 4: 11 10 9 
+
+Machine 5: 19 3 4 
+
+Machine 6: 12 13 18 
+
+Total Tardiness: 1486
+Time taken by tabu search: 2.87723 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 3 13 10 18 7 
+
+Machine 2: 8 1 19 
+
+Machine 3: 12 6 11 
+
+Machine 4: 4 15 14 
+
+Machine 5: 17 2 5 
+
+Machine 6: 16 20 9 
+
+Total Tardiness: 1325
+Time taken by tabu search: 2.77567 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 11 10 3 
+
+Machine 2: 6 9 8 15 
+
+Machine 3: 7 20 4 
+
+Machine 4: 13 12 1 
+
+Machine 5: 14 18 16 
+
+Machine 6: 2 17 5 
+
+Total Tardiness: 1812
+Time taken by tabu search: 2.77237 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 9 18 19 4 
+
+Machine 2: 17 6 2 
+
+Machine 3: 20 3 7 
+
+Machine 4: 13 1 15 
+
+Machine 5: 5 11 8 
+
+Machine 6: 16 14 10 
+
+Total Tardiness: 1136
+Time taken by tabu search: 2.73809 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 3 18 16 
+
+Machine 2: 7 6 5 20 
+
+Machine 3: 9 1 4 
+
+Machine 4: 12 13 14 
+
+Machine 5: 17 10 8 
+
+Machine 6: 15 19 11 
+
+Total Tardiness: 1948
+Time taken by tabu search: 2.85661 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 15 2 3 4 
+
+Machine 2: 1 12 16 5 
+
+Machine 3: 19 8 20 
+
+Machine 4: 11 10 9 
+
+Machine 5: 14 7 6 
+
+Machine 6: 17 13 18 
+
+Total Tardiness: 1346
+Time taken by tabu search: 2.78391 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 16 13 12 10 11 
+
+Machine 2: 3 8 2 14 
+
+Machine 3: 4 20 9 
+
+Machine 4: 6 15 5 
+
+Machine 5: 17 1 19 
+
+Machine 6: 18 7 
+
+Total Tardiness: 1193
+Time taken by tabu search: 2.77995 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 6 17 5 
+
+Machine 2: 7 9 20 15 
+
+Machine 3: 14 10 3 
+
+Machine 4: 13 8 4 
+
+Machine 5: 2 12 1 
+
+Machine 6: 11 18 16 
+
+Total Tardiness: 1643
+Time taken by tabu search: 2.88377 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 20 9 18 1 15 
+
+Machine 2: 17 3 7 
+
+Machine 3: 13 19 4 
+
+Machine 4: 5 11 8 
+
+Machine 5: 16 14 10 
+
+Machine 6: 6 2 
+
+Total Tardiness: 993
+Time taken by tabu search: 2.79143 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 7 6 1 4 
+
+Machine 2: 17 10 8 
+
+Machine 3: 9 13 14 
+
+Machine 4: 12 19 20 
+
+Machine 5: 2 3 5 11 
+
+Machine 6: 15 18 16 
+
+Total Tardiness: 1746
+Time taken by tabu search: 2.7689 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 17 12 10 18 
+
+Machine 2: 1 15 16 20 
+
+Machine 3: 19 3 5 
+
+Machine 4: 11 13 4 
+
+Machine 5: 14 7 9 
+
+Machine 6: 8 2 6 
+
+Total Tardiness: 1230
+Time taken by tabu search: 2.83397 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 8 13 12 10 7 
+
+Machine 2: 4 3 2 5 
+
+Machine 3: 16 17 18 9 
+
+Machine 4: 20 11 
+
+Machine 5: 1 19 
+
+Machine 6: 15 14 
+
+Total Tardiness: 1067
+Time taken by tabu search: 2.77841 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 10 9 16 
+
+Machine 2: 14 20 3 
+
+Machine 3: 6 13 17 1 
+
+Machine 4: 2 18 15 
+
+Machine 5: 11 12 5 
+
+Machine 6: 7 8 4 
+
+Total Tardiness: 1491
+Time taken by tabu search: 2.80857 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 17 9 18 3 4 
+
+Machine 2: 20 13 1 15 
+
+Machine 3: 5 11 8 
+
+Machine 4: 14 2 
+
+Machine 5: 6 16 10 
+
+Machine 6: 19 7 
+
+Total Tardiness: 842
+Time taken by tabu search: 2.79023 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 9 10 8 
+
+Machine 2: 15 1 4 
+
+Machine 3: 17 18 14 
+
+Machine 4: 7 6 5 11 
+
+Machine 5: 12 19 20 
+
+Machine 6: 13 3 16 
+
+Total Tardiness: 1598
+Time taken by tabu search: 2.75922 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 15 12 2 20 
+
+Machine 2: 17 19 10 9 
+
+Machine 3: 8 16 6 
+
+Machine 4: 14 3 4 
+
+Machine 5: 11 13 5 
+
+Machine 6: 7 18 
+
+Total Tardiness: 1127
+Time taken by tabu search: 2.78109 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 4 8 13 16 12 10 7 
+
+Machine 2: 6 3 18 11 
+
+Machine 3: 1 19 
+
+Machine 4: 15 14 
+
+Machine 5: 17 20 9 
+
+Machine 6: 2 5 
+
+Total Tardiness: 948
+Time taken by tabu search: 2.93571 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 19 6 20 3 
+
+Machine 2: 7 13 9 4 
+
+Machine 3: 2 12 1 
+
+Machine 4: 11 17 5 
+
+Machine 5: 14 18 16 
+
+Machine 6: 10 8 15 
+
+Total Tardiness: 1325
+Time taken by tabu search: 3.20299 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 12 17 20 9 18 3 8 
+
+Machine 2: 5 19 15 
+
+Machine 3: 6 16 4 
+
+Machine 4: 13 14 10 
+
+Machine 5: 11 2 
+
+Machine 6: 1 7 
+
+Total Tardiness: 699
+Time taken by tabu search: 2.77005 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 2 17 5 4 
+
+Machine 2: 7 9 3 16 
+
+Machine 3: 12 18 8 
+
+Machine 4: 13 19 20 
+
+Machine 5: 15 10 14 
+
+Machine 6: 1 6 11 
+
+Total Tardiness: 1426
+Time taken by tabu search: 2.77819 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 1 11 12 2 4 
+
+Machine 2: 17 15 16 5 
+
+Machine 3: 14 8 18 
+
+Machine 4: 3 10 9 
+
+Machine 5: 19 7 6 
+
+Machine 6: 13 20 
+
+Total Tardiness: 1025
+Time taken by tabu search: 2.91096 seconds
+
+🙊 Tabu Search
+Tabu Search Schedule
+
+Machine 1: 6 4 3 8 13 12 10 19 
+
+Machine 2: 1 11 
+
+Machine 3: 15 7 
+
+Machine 4: 16 17 18 14 
+
+Machine 5: 2 5 
+
+Machine 6: 20 9 
+
+Total Tardiness: 833
+Time taken by tabu search: 2.83127 seconds
+
