@@ -250,6 +250,10 @@ Así mismo, se emplearon diferentes parámetros para cada algoritmo implementado
 > GA3: population_size = 100, mutation_rate = 5%, max_iter = 8000
 
 ### 📈 Resultados
+Los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks` se encuentran en el directorio `results`, sin embargo, debido a la cantidad de datos obtenidos, se almacenó los datos más relevantes en el siguiente enlace: [Resultados](https://docs.google.com/spreadsheets/d/1hKiU8t9stOFJTKyNNQ1MKPmBr3OwZpMlk57sYdZWiEQ/edit#gid=294798782)
+
+A modo de resumen y para facilitar la visualización de los resultados, se presentan las siguentes imágenes comparativas resumidas a continuación:
+
 #### Promedio de tardanza total para cada n tareas y m máquinas
 - Resultados del corte anterior:
     - Solución heurística
