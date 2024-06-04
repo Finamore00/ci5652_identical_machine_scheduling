@@ -177,7 +177,12 @@ A continuación se presenta el análisis de los resultados obtenidos al ejecutar
 
 
 ### 📊 Métricas Comparativas
-Se emplean diferentes parámetros para cada algoritmo implementado en este segundo corte:
+Las métricas claves en el análisis incluyen:
+
+- **Tardanza Total (Total Tardiness)**: La suma de las tardanzas de todas las tareas.
+- **Diferencia con la Solución Óptima (Optimal Solution Difference)**: La diferencia entre la solución obtenida y la solución óptima.
+
+Así mismo, se emplearon diferentes parámetros para cada algoritmo implementado en este segundo corte:
 **Parámetros del Iterated Local Search (ILS)**:
  * max_iter Cantidad máxima de iteraciones para el algoritmo ILS
  * p0 La fuerza de perturbación inicial.
@@ -244,11 +249,7 @@ Se emplean diferentes parámetros para cada algoritmo implementado en este segun
 
 > GA3: population_size = 100, mutation_rate = 5%, max_iter = 8000
 
-Las métricas claves en el análisis incluyen:
-
-- **Tardanza Total (Total Tardiness)**: La suma de las tardanzas de todas las tareas.
-- **Diferencia con la Solución Óptima (Optimal Solution Difference)**: La diferencia entre la solución obtenida y la solución óptima.
-
+### 📈 Resultados
 #### Promedio de tardanza total para cada n tareas y m máquinas
 - Resultados del corte anterior:
     - Solución heurística
@@ -308,8 +309,6 @@ Las métricas claves en el análisis incluyen:
 #### Resultados ordenados por promedio de tiempo por n = 25
 
 ![Sorted Time by n = 25](./img/SortedTimen25Corte2.png)
-
-### 📈 Resultados
 
 
 ## 📌 Conclusiones
