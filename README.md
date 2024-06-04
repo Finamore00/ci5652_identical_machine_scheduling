@@ -181,6 +181,7 @@ Las métricas claves en el análisis incluyen:
 
 - **Tardanza Total (Total Tardiness)**: La suma de las tardanzas de todas las tareas.
 - **Diferencia con la Solución Óptima (Optimal Solution Difference)**: La diferencia entre la solución obtenida y la solución óptima.
+- **Tiempo en segundos (Time in seconds)**: El tiempo en segundos tomado por el algoritmo.
 
 Así mismo, se emplearon diferentes parámetros para cada algoritmo implementado en este segundo corte:
 **Parámetros del Iterated Local Search (ILS)**:
@@ -254,7 +255,7 @@ Los resultados obtenidos al ejecutar el programa con los casos de prueba en la c
 
 A modo de resumen y para facilitar la visualización de los resultados, se presentan las siguentes imágenes comparativas resumidas a continuación:
 
-#### Promedio de tardanza total para cada n tareas y m máquinas
+#### Promedio de diferencia entre la solución obtenida y la solución óptima cada n tareas y m máquinas
 - Resultados del corte anterior:
     - Solución heurística
     
@@ -276,11 +277,11 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
 
 ![Diff Op tGA](./img/DiffOptGA.png)
 
-#### Resultados ordenados por promedio de tardanza total por n = 20
+#### Resultados ordenados por promedio de diferencias entre la solución obtenida y la solución óptima por n = 20
 
 ![Sorted Diff opt by n = 20](./img/SortedDiffn20Corte2.png)
 
-#### Resultados ordenados por promedio de tardanza total por n = 25
+#### Resultados ordenados por promedio de diferencias entre la solución obtenida y la solución óptima por n = 25
 
 ![Sorted Diff opt by n = 25](./img/SortedDiffn25Corte2.png)
 
@@ -317,6 +318,11 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
 
 ## 📌 Conclusiones
 
-
+- **Según el promedio de diferencias entre la solución óptima y la solución obtenida**:
+    - **Para n = 20**:
+        - *El algoritmo que dió menor diferencia entre las soluciones óptimas y las soluciones obtenidas* es **GRASP con alpha = 0.25** para el RCL **y con un máximo de 100 iteraciones** con una diferencia de 1,2071.
+        - *El algoritmo que dió mayor diferencia entre las soluciones óptimas y las soluciones obtenidas* es el **Algoritmo Genético con *population_size = 50, mutation_rate = 10%, max_iter = 4000* con una diferencia mayor que 150, específicamente, 154,81156.
+        - Además, en el caso del algoritmo genético, vemos que *GA1* y *GA2*, que tienen una diferencia mayor a 150, están debajos de la búsqueda local con solución inicial aleatoria que tiene una diferencia de 117,2631. Así mismo, para este caso n=20, *GA1*, que se diferencia de *GA2* por tener un porcentaje de mutación de 5% menos que *GA2*, vemos que *GA1* es mejor en cuánto a la diferencia con las soluciones óptimas que *GA2*. Y del uso de los diferentes parámetros para el algoritmo genético, vemos que *GA3* (con mayor cantidad de iteraciones y mayor tamaño de población con el mismo porcentaje de mutación que *GA1*) es mejor que *GA1* y *GA2* e incluso de las soluciones obtenidas con la búsqueda local partiendo de la solución inicial aleatoria.
+    - **Para n = 25**:
 
 ## 📚 Referencias
