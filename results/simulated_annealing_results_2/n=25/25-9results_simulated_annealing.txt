@@ -1,0 +1,3000 @@
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 24 9 21 19 
+
+Machine 2: 2 14 6 23 
+
+Machine 3: 3 22 25 
+
+Machine 4: 5 7 
+
+Machine 5: 20 11 4 
+
+Machine 6: 1 13 
+
+Machine 7: 18 17 
+
+Machine 8: 12 10 15 
+
+Machine 9: 16 8 
+
+Total Tardiness: 204
+Time taken by simulated annealing: 5.29747 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 15 10 
+
+Machine 2: 12 13 
+
+Machine 3: 5 3 
+
+Machine 4: 14 16 
+
+Machine 5: 20 6 25 
+
+Machine 6: 4 23 
+
+Machine 7: 18 9 
+
+Machine 8: 24 21 
+
+Machine 9: 1 19 
+
+Total Tardiness: 187
+Time taken by simulated annealing: 5.09212 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 16 10 22 
+
+Machine 2: 12 14 21 5 19 15 
+
+Machine 3: 20 2 
+
+Machine 4: 7 8 25 
+
+Machine 5: 9 23 
+
+Machine 6: 6 1 
+
+Machine 7: 3 11 
+
+Machine 8: 24 13 
+
+Machine 9: 4 17 
+
+Total Tardiness: 186
+Time taken by simulated annealing: 5.25755 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 11 14 6 7 13 23 
+
+Machine 2: 1 3 8 22 
+
+Machine 3: 2 16 
+
+Machine 4: 9 18 4 17 
+
+Machine 5: 21 10 
+
+Machine 6: 19 
+
+Machine 7: 12 24 
+
+Machine 8: 15 
+
+Machine 9: 5 25 
+
+Total Tardiness: 189
+Time taken by simulated annealing: 5.33345 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 11 21 19 7 2 
+
+Machine 2: 23 12 10 17 
+
+Machine 3: 3 18 
+
+Machine 4: 15 16 14 
+
+Machine 5: 8 25 9 
+
+Machine 6: 24 6 
+
+Machine 7: 4 22 
+
+Machine 8: 1 20 
+
+Machine 9: 5 13 
+
+Total Tardiness: 229
+Time taken by simulated annealing: 5.26345 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 24 21 6 22 23 
+
+Machine 2: 3 7 19 25 
+
+Machine 3: 2 20 13 
+
+Machine 4: 5 4 
+
+Machine 5: 9 14 17 
+
+Machine 6: 1 8 
+
+Machine 7: 18 10 
+
+Machine 8: 12 11 
+
+Machine 9: 16 15 
+
+Total Tardiness: 129
+Time taken by simulated annealing: 5.45082 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 6 10 
+
+Machine 2: 12 3 
+
+Machine 3: 24 15 
+
+Machine 4: 14 9 
+
+Machine 5: 20 1 
+
+Machine 6: 25 23 
+
+Machine 7: 18 19 
+
+Machine 8: 5 13 
+
+Machine 9: 4 16 21 
+
+Total Tardiness: 108
+Time taken by simulated annealing: 5.07356 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 16 21 5 2 
+
+Machine 2: 12 10 14 19 15 
+
+Machine 3: 20 22 25 
+
+Machine 4: 7 8 
+
+Machine 5: 9 23 
+
+Machine 6: 6 17 
+
+Machine 7: 3 4 
+
+Machine 8: 24 13 
+
+Machine 9: 11 1 
+
+Total Tardiness: 140
+Time taken by simulated annealing: 5.2776 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 11 14 6 7 13 22 23 
+
+Machine 2: 2 3 18 4 
+
+Machine 3: 12 8 
+
+Machine 4: 5 16 15 
+
+Machine 5: 1 24 
+
+Machine 6: 19 
+
+Machine 7: 9 10 
+
+Machine 8: 21 
+
+Machine 9: 17 25 
+
+Total Tardiness: 142
+Time taken by simulated annealing: 5.41152 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 19 11 10 21 22 
+
+Machine 2: 23 12 7 18 
+
+Machine 3: 3 16 
+
+Machine 4: 15 17 2 
+
+Machine 5: 14 8 25 
+
+Machine 6: 24 6 
+
+Machine 7: 4 9 
+
+Machine 8: 1 20 
+
+Machine 9: 5 13 
+
+Total Tardiness: 177
+Time taken by simulated annealing: 5.30036 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 24 21 6 22 19 
+
+Machine 2: 3 7 23 25 
+
+Machine 3: 2 9 11 13 
+
+Machine 4: 5 4 
+
+Machine 5: 20 10 
+
+Machine 6: 14 12 
+
+Machine 7: 1 8 
+
+Machine 8: 18 17 
+
+Machine 9: 16 15 
+
+Total Tardiness: 92
+Time taken by simulated annealing: 5.33331 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 6 10 
+
+Machine 2: 5 15 
+
+Machine 3: 14 3 25 
+
+Machine 4: 12 16 
+
+Machine 5: 20 1 
+
+Machine 6: 4 23 
+
+Machine 7: 18 19 
+
+Machine 8: 24 9 
+
+Machine 9: 13 21 
+
+Total Tardiness: 71
+Time taken by simulated annealing: 5.47736 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 16 21 5 2 22 
+
+Machine 2: 12 10 19 23 
+
+Machine 3: 14 7 15 
+
+Machine 4: 9 8 
+
+Machine 5: 20 1 
+
+Machine 6: 6 13 
+
+Machine 7: 3 25 
+
+Machine 8: 24 17 
+
+Machine 9: 11 4 
+
+Total Tardiness: 94
+Time taken by simulated annealing: 5.46589 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 11 14 6 7 13 18 22 23 
+
+Machine 2: 1 3 8 4 
+
+Machine 3: 2 16 
+
+Machine 4: 9 5 
+
+Machine 5: 12 24 
+
+Machine 6: 19 
+
+Machine 7: 10 15 
+
+Machine 8: 21 
+
+Machine 9: 25 17 
+
+Total Tardiness: 112
+Time taken by simulated annealing: 5.63842 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 11 21 19 10 16 
+
+Machine 2: 23 12 7 18 14 
+
+Machine 3: 3 25 
+
+Machine 4: 15 17 6 
+
+Machine 5: 8 20 
+
+Machine 6: 24 22 
+
+Machine 7: 4 9 
+
+Machine 8: 1 2 
+
+Machine 9: 5 13 
+
+Total Tardiness: 118
+Time taken by simulated annealing: 5.25569 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 14 21 6 22 19 23 
+
+Machine 2: 3 17 25 
+
+Machine 3: 24 8 
+
+Machine 4: 5 7 13 
+
+Machine 5: 20 9 4 
+
+Machine 6: 1 15 
+
+Machine 7: 18 11 
+
+Machine 8: 12 10 
+
+Machine 9: 16 
+
+Total Tardiness: 88
+Time taken by simulated annealing: 5.29963 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 6 10 
+
+Machine 2: 14 15 3 
+
+Machine 3: 5 23 
+
+Machine 4: 12 19 
+
+Machine 5: 20 1 
+
+Machine 6: 4 9 
+
+Machine 7: 18 25 
+
+Machine 8: 24 16 
+
+Machine 9: 13 21 
+
+Total Tardiness: 33
+Time taken by simulated annealing: 5.12487 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 10 5 19 2 22 
+
+Machine 2: 16 12 21 8 15 
+
+Machine 3: 14 24 1 
+
+Machine 4: 7 23 
+
+Machine 5: 9 13 
+
+Machine 6: 6 17 
+
+Machine 7: 20 25 
+
+Machine 8: 3 
+
+Machine 9: 11 4 
+
+Total Tardiness: 80
+Time taken by simulated annealing: 5.5624 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 9 7 18 13 22 4 23 
+
+Machine 2: 11 8 16 
+
+Machine 3: 1 5 
+
+Machine 4: 2 24 
+
+Machine 5: 12 15 
+
+Machine 6: 19 
+
+Machine 7: 10 
+
+Machine 8: 21 
+
+Machine 9: 25 17 
+
+Total Tardiness: 85
+Time taken by simulated annealing: 5.17553 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 23 21 19 10 7 16 
+
+Machine 2: 11 12 18 25 
+
+Machine 3: 3 17 14 
+
+Machine 4: 15 22 
+
+Machine 5: 8 20 
+
+Machine 6: 24 2 
+
+Machine 7: 4 6 
+
+Machine 8: 1 9 
+
+Machine 9: 5 13 
+
+Total Tardiness: 84
+Time taken by simulated annealing: 5.38044 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 9 21 6 17 19 
+
+Machine 2: 3 10 22 23 
+
+Machine 3: 24 7 25 13 
+
+Machine 4: 20 11 4 
+
+Machine 5: 14 12 
+
+Machine 6: 5 
+
+Machine 7: 1 15 
+
+Machine 8: 18 8 
+
+Machine 9: 16 
+
+Total Tardiness: 100
+Time taken by simulated annealing: 5.32065 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 6 3 10 
+
+Machine 2: 14 15 9 
+
+Machine 3: 5 23 
+
+Machine 4: 12 19 
+
+Machine 5: 20 1 
+
+Machine 6: 4 13 
+
+Machine 7: 18 21 
+
+Machine 8: 24 16 
+
+Machine 9: 25 
+
+Total Tardiness: 26
+Time taken by simulated annealing: 5.21493 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 21 5 19 2 15 22 
+
+Machine 2: 16 10 8 13 
+
+Machine 3: 12 14 24 
+
+Machine 4: 7 23 1 
+
+Machine 5: 9 11 
+
+Machine 6: 6 17 
+
+Machine 7: 20 25 
+
+Machine 8: 3 
+
+Machine 9: 4 
+
+Total Tardiness: 51
+Time taken by simulated annealing: 5.36899 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 9 7 18 13 22 4 23 
+
+Machine 2: 11 8 16 
+
+Machine 3: 1 5 
+
+Machine 4: 2 25 
+
+Machine 5: 12 24 
+
+Machine 6: 19 
+
+Machine 7: 10 15 
+
+Machine 8: 21 
+
+Machine 9: 17 
+
+Total Tardiness: 77
+Time taken by simulated annealing: 5.18669 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 23 19 12 10 7 16 14 
+
+Machine 2: 11 17 25 6 
+
+Machine 3: 21 18 5 
+
+Machine 4: 15 13 
+
+Machine 5: 3 20 
+
+Machine 6: 8 22 
+
+Machine 7: 24 2 
+
+Machine 8: 4 
+
+Machine 9: 1 9 
+
+Total Tardiness: 99
+Time taken by simulated annealing: 5.48159 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 9 21 22 16 
+
+Machine 2: 3 19 5 
+
+Machine 3: 24 23 15 
+
+Machine 4: 20 6 25 
+
+Machine 5: 14 7 4 
+
+Machine 6: 1 8 
+
+Machine 7: 18 17 
+
+Machine 8: 12 13 
+
+Machine 9: 11 10 
+
+Total Tardiness: 495
+Time taken by simulated annealing: 5.25545 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 10 
+
+Machine 2: 20 3 25 
+
+Machine 3: 14 24 
+
+Machine 4: 4 21 
+
+Machine 5: 6 15 16 
+
+Machine 6: 18 13 
+
+Machine 7: 1 19 
+
+Machine 8: 5 12 
+
+Machine 9: 23 9 
+
+Total Tardiness: 450
+Time taken by simulated annealing: 5.16981 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 16 15 25 
+
+Machine 2: 12 10 21 22 3 
+
+Machine 3: 14 5 19 2 17 
+
+Machine 4: 7 23 
+
+Machine 5: 9 1 
+
+Machine 6: 8 13 
+
+Machine 7: 24 20 
+
+Machine 8: 6 
+
+Machine 9: 11 4 
+
+Total Tardiness: 463
+Time taken by simulated annealing: 5.53269 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 11 7 13 23 
+
+Machine 2: 1 18 
+
+Machine 3: 14 6 3 8 16 15 
+
+Machine 4: 9 22 4 24 
+
+Machine 5: 2 19 
+
+Machine 6: 12 
+
+Machine 7: 10 
+
+Machine 8: 5 21 
+
+Machine 9: 25 17 
+
+Total Tardiness: 409
+Time taken by simulated annealing: 5.97317 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 11 19 10 20 
+
+Machine 2: 23 21 14 
+
+Machine 3: 15 7 1 
+
+Machine 4: 8 9 
+
+Machine 5: 12 17 18 2 
+
+Machine 6: 3 24 
+
+Machine 7: 5 25 
+
+Machine 8: 13 16 4 
+
+Machine 9: 22 6 
+
+Total Tardiness: 507
+Time taken by simulated annealing: 5.43545 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 9 21 22 19 
+
+Machine 2: 20 6 23 25 
+
+Machine 3: 14 7 16 
+
+Machine 4: 3 13 
+
+Machine 5: 24 4 
+
+Machine 6: 18 8 
+
+Machine 7: 1 5 
+
+Machine 8: 12 17 
+
+Machine 9: 11 10 15 
+
+Total Tardiness: 448
+Time taken by simulated annealing: 5.58116 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 10 12 
+
+Machine 2: 20 3 13 
+
+Machine 3: 14 21 
+
+Machine 4: 5 25 
+
+Machine 5: 4 19 
+
+Machine 6: 18 16 
+
+Machine 7: 6 15 9 
+
+Machine 8: 24 
+
+Machine 9: 1 23 
+
+Total Tardiness: 380
+Time taken by simulated annealing: 5.62249 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 21 5 2 3 
+
+Machine 2: 16 12 19 15 
+
+Machine 3: 10 14 13 
+
+Machine 4: 7 22 11 
+
+Machine 5: 9 1 
+
+Machine 6: 8 23 
+
+Machine 7: 6 4 
+
+Machine 8: 20 25 
+
+Machine 9: 24 17 
+
+Total Tardiness: 412
+Time taken by simulated annealing: 5.73579 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 7 8 13 18 23 
+
+Machine 2: 11 22 4 
+
+Machine 3: 1 17 
+
+Machine 4: 9 16 24 
+
+Machine 5: 2 15 
+
+Machine 6: 12 19 
+
+Machine 7: 10 
+
+Machine 8: 21 
+
+Machine 9: 5 25 
+
+Total Tardiness: 352
+Time taken by simulated annealing: 5.73279 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 23 19 10 7 14 
+
+Machine 2: 11 18 1 
+
+Machine 3: 21 12 17 2 
+
+Machine 4: 15 25 
+
+Machine 5: 8 9 
+
+Machine 6: 3 24 
+
+Machine 7: 5 16 4 
+
+Machine 8: 13 6 
+
+Machine 9: 22 20 
+
+Total Tardiness: 484
+Time taken by simulated annealing: 5.5031 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 9 21 22 19 23 
+
+Machine 2: 20 6 7 
+
+Machine 3: 14 17 
+
+Machine 4: 3 25 16 
+
+Machine 5: 18 13 
+
+Machine 6: 24 4 
+
+Machine 7: 1 5 
+
+Machine 8: 12 8 
+
+Machine 9: 11 10 15 
+
+Total Tardiness: 441
+Time taken by simulated annealing: 5.70548 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 10 13 
+
+Machine 2: 20 15 25 
+
+Machine 3: 14 9 
+
+Machine 4: 5 21 
+
+Machine 5: 4 3 19 
+
+Machine 6: 18 23 
+
+Machine 7: 12 
+
+Machine 8: 6 1 16 
+
+Machine 9: 24 
+
+Total Tardiness: 315
+Time taken by simulated annealing: 5.46644 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 21 5 2 22 
+
+Machine 2: 16 14 19 15 11 
+
+Machine 3: 12 8 17 
+
+Machine 4: 10 23 24 
+
+Machine 5: 9 13 
+
+Machine 6: 7 1 
+
+Machine 7: 6 4 
+
+Machine 8: 20 25 
+
+Machine 9: 3 
+
+Total Tardiness: 371
+Time taken by simulated annealing: 5.42663 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 7 8 13 18 22 23 
+
+Machine 2: 11 16 4 
+
+Machine 3: 1 24 
+
+Machine 4: 9 25 
+
+Machine 5: 2 15 
+
+Machine 6: 12 19 
+
+Machine 7: 10 
+
+Machine 8: 21 
+
+Machine 9: 5 17 
+
+Total Tardiness: 315
+Time taken by simulated annealing: 5.44513 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 23 19 10 7 14 
+
+Machine 2: 21 12 17 6 
+
+Machine 3: 11 16 2 
+
+Machine 4: 15 25 
+
+Machine 5: 8 13 
+
+Machine 6: 18 5 20 
+
+Machine 7: 3 22 
+
+Machine 8: 1 9 
+
+Machine 9: 24 4 
+
+Total Tardiness: 482
+Time taken by simulated annealing: 5.34829 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 21 6 22 7 23 
+
+Machine 2: 20 17 25 
+
+Machine 3: 14 10 19 
+
+Machine 4: 9 11 13 
+
+Machine 5: 18 4 
+
+Machine 6: 3 5 
+
+Machine 7: 24 16 
+
+Machine 8: 1 15 
+
+Machine 9: 12 8 
+
+Total Tardiness: 404
+Time taken by simulated annealing: 5.32314 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 3 10 
+
+Machine 2: 20 6 
+
+Machine 3: 14 19 
+
+Machine 4: 5 16 
+
+Machine 5: 12 
+
+Machine 6: 4 15 21 
+
+Machine 7: 18 9 
+
+Machine 8: 24 13 
+
+Machine 9: 1 23 25 
+
+Total Tardiness: 259
+Time taken by simulated annealing: 5.29792 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 16 21 5 19 2 22 
+
+Machine 2: 12 8 15 25 
+
+Machine 3: 18 23 3 
+
+Machine 4: 10 11 
+
+Machine 5: 14 24 
+
+Machine 6: 9 13 
+
+Machine 7: 7 1 
+
+Machine 8: 6 17 
+
+Machine 9: 20 4 
+
+Total Tardiness: 368
+Time taken by simulated annealing: 5.37672 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 7 8 18 13 22 4 23 
+
+Machine 2: 11 16 15 
+
+Machine 3: 1 25 
+
+Machine 4: 9 5 
+
+Machine 5: 2 17 
+
+Machine 6: 12 24 
+
+Machine 7: 10 
+
+Machine 8: 21 
+
+Machine 9: 19 
+
+Total Tardiness: 277
+Time taken by simulated annealing: 5.44409 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 23 19 10 16 14 
+
+Machine 2: 21 12 7 25 6 
+
+Machine 3: 11 20 
+
+Machine 4: 15 22 
+
+Machine 5: 8 5 
+
+Machine 6: 17 18 13 
+
+Machine 7: 3 2 
+
+Machine 8: 1 9 
+
+Machine 9: 24 4 
+
+Total Tardiness: 475
+Time taken by simulated annealing: 5.45617 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 21 6 17 19 
+
+Machine 2: 14 10 22 23 
+
+Machine 3: 9 11 7 25 
+
+Machine 4: 20 8 
+
+Machine 5: 24 13 
+
+Machine 6: 3 4 
+
+Machine 7: 18 16 
+
+Machine 8: 1 15 
+
+Machine 9: 12 5 
+
+Total Tardiness: 397
+Time taken by simulated annealing: 5.45625 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 17 3 10 
+
+Machine 2: 20 6 
+
+Machine 3: 14 9 
+
+Machine 4: 5 21 
+
+Machine 5: 12 25 
+
+Machine 6: 4 15 16 
+
+Machine 7: 18 23 
+
+Machine 8: 24 13 
+
+Machine 9: 1 19 
+
+Total Tardiness: 214
+Time taken by simulated annealing: 5.34082 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 16 21 5 19 2 15 
+
+Machine 2: 12 8 13 
+
+Machine 3: 10 11 22 
+
+Machine 4: 14 24 
+
+Machine 5: 18 23 1 
+
+Machine 6: 9 17 
+
+Machine 7: 7 4 
+
+Machine 8: 6 3 
+
+Machine 9: 20 25 
+
+Total Tardiness: 354
+Time taken by simulated annealing: 5.37002 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 7 8 18 13 22 4 23 
+
+Machine 2: 11 16 15 
+
+Machine 3: 1 25 
+
+Machine 4: 2 5 
+
+Machine 5: 9 17 
+
+Machine 6: 12 24 
+
+Machine 7: 10 
+
+Machine 8: 19 
+
+Machine 9: 21 
+
+Total Tardiness: 248
+Time taken by simulated annealing: 5.29278 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 12 10 7 16 14 
+
+Machine 2: 23 17 25 
+
+Machine 3: 11 13 
+
+Machine 4: 15 20 
+
+Machine 5: 8 22 
+
+Machine 6: 18 5 6 
+
+Machine 7: 3 2 
+
+Machine 8: 1 9 
+
+Machine 9: 24 4 
+
+Total Tardiness: 478
+Time taken by simulated annealing: 5.36623 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 21 22 16 
+
+Machine 2: 9 6 19 3 
+
+Machine 3: 14 23 5 
+
+Machine 4: 11 25 24 
+
+Machine 5: 20 8 
+
+Machine 6: 12 4 
+
+Machine 7: 10 18 
+
+Machine 8: 17 1 
+
+Machine 9: 7 13 15 
+
+Total Tardiness: 827
+Time taken by simulated annealing: 5.56987 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 10 13 
+
+Machine 2: 17 3 25 
+
+Machine 3: 6 4 
+
+Machine 4: 15 16 12 
+
+Machine 5: 1 5 
+
+Machine 6: 23 20 
+
+Machine 7: 9 18 
+
+Machine 8: 19 14 
+
+Machine 9: 21 24 
+
+Total Tardiness: 746
+Time taken by simulated annealing: 5.44347 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 18 15 4 
+
+Machine 2: 16 21 19 6 
+
+Machine 3: 12 5 22 20 
+
+Machine 4: 10 2 11 
+
+Machine 5: 14 1 25 
+
+Machine 6: 8 17 
+
+Machine 7: 9 3 
+
+Machine 8: 23 24 
+
+Machine 9: 13 7 
+
+Total Tardiness: 748
+Time taken by simulated annealing: 5.7365 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 7 13 23 21 
+
+Machine 2: 9 22 17 
+
+Machine 3: 8 16 18 24 
+
+Machine 4: 11 15 
+
+Machine 5: 5 10 
+
+Machine 6: 25 19 
+
+Machine 7: 4 12 
+
+Machine 8: 1 
+
+Machine 9: 2 
+
+Total Tardiness: 663
+Time taken by simulated annealing: 5.45172 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 7 10 15 
+
+Machine 2: 23 6 4 
+
+Machine 3: 12 17 8 
+
+Machine 4: 18 16 2 
+
+Machine 5: 13 9 
+
+Machine 6: 11 3 
+
+Machine 7: 22 1 
+
+Machine 8: 25 14 20 
+
+Machine 9: 5 24 
+
+Total Tardiness: 877
+Time taken by simulated annealing: 5.38685 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 21 22 19 5 
+
+Machine 2: 9 6 7 16 
+
+Machine 3: 14 23 25 15 
+
+Machine 4: 11 13 
+
+Machine 5: 20 3 
+
+Machine 6: 12 4 
+
+Machine 7: 10 8 
+
+Machine 8: 18 1 
+
+Machine 9: 17 24 
+
+Total Tardiness: 846
+Time taken by simulated annealing: 5.35474 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 3 13 
+
+Machine 2: 17 15 10 12 
+
+Machine 3: 6 16 
+
+Machine 4: 4 24 
+
+Machine 5: 20 25 
+
+Machine 6: 1 5 
+
+Machine 7: 23 21 
+
+Machine 8: 19 14 
+
+Machine 9: 9 18 
+
+Total Tardiness: 690
+Time taken by simulated annealing: 5.43247 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 16 21 19 22 25 
+
+Machine 2: 12 5 15 20 
+
+Machine 3: 10 2 11 
+
+Machine 4: 14 13 3 
+
+Machine 5: 18 1 
+
+Machine 6: 8 17 
+
+Machine 7: 9 6 
+
+Machine 8: 7 4 
+
+Machine 9: 23 24 
+
+Total Tardiness: 733
+Time taken by simulated annealing: 5.47808 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 7 13 22 23 19 
+
+Machine 2: 9 18 24 
+
+Machine 3: 8 16 4 21 
+
+Machine 4: 11 17 
+
+Machine 5: 1 
+
+Machine 6: 5 10 
+
+Machine 7: 25 15 
+
+Machine 8: 2 
+
+Machine 9: 12 
+
+Total Tardiness: 643
+Time taken by simulated annealing: 5.4234 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 10 7 14 24 
+
+Machine 2: 12 17 20 
+
+Machine 3: 23 25 4 
+
+Machine 4: 18 16 6 
+
+Machine 5: 11 8 
+
+Machine 6: 13 2 
+
+Machine 7: 5 3 
+
+Machine 8: 22 9 
+
+Machine 9: 15 1 
+
+Total Tardiness: 870
+Time taken by simulated annealing: 5.46523 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 2 21 22 19 23 15 
+
+Machine 2: 9 6 7 25 
+
+Machine 3: 14 13 16 
+
+Machine 4: 20 4 
+
+Machine 5: 11 17 
+
+Machine 6: 12 24 
+
+Machine 7: 10 3 
+
+Machine 8: 18 1 
+
+Machine 9: 8 5 
+
+Total Tardiness: 859
+Time taken by simulated annealing: 5.46964 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 3 10 24 
+
+Machine 2: 17 15 21 
+
+Machine 3: 4 5 
+
+Machine 4: 20 13 
+
+Machine 5: 6 23 12 
+
+Machine 6: 1 16 
+
+Machine 7: 18 25 
+
+Machine 8: 19 9 
+
+Machine 9: 14 
+
+Total Tardiness: 637
+Time taken by simulated annealing: 5.34702 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 14 5 19 15 3 
+
+Machine 2: 16 2 22 20 
+
+Machine 3: 10 13 25 
+
+Machine 4: 12 1 
+
+Machine 5: 21 8 11 
+
+Machine 6: 18 17 
+
+Machine 7: 9 6 
+
+Machine 8: 7 4 
+
+Machine 9: 23 24 
+
+Total Tardiness: 761
+Time taken by simulated annealing: 5.51217 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 7 13 18 22 23 
+
+Machine 2: 9 4 15 
+
+Machine 3: 8 16 10 
+
+Machine 4: 11 17 
+
+Machine 5: 1 19 
+
+Machine 6: 5 21 
+
+Machine 7: 25 24 
+
+Machine 8: 2 
+
+Machine 9: 12 
+
+Total Tardiness: 617
+Time taken by simulated annealing: 5.40323 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 10 7 14 24 
+
+Machine 2: 12 17 20 
+
+Machine 3: 23 25 4 
+
+Machine 4: 18 16 6 
+
+Machine 5: 11 8 
+
+Machine 6: 5 3 
+
+Machine 7: 13 2 
+
+Machine 8: 15 1 
+
+Machine 9: 22 9 
+
+Total Tardiness: 882
+Time taken by simulated annealing: 5.33348 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 9 21 6 22 19 23 
+
+Machine 2: 2 7 25 15 
+
+Machine 3: 14 13 16 
+
+Machine 4: 20 4 
+
+Machine 5: 11 17 
+
+Machine 6: 12 24 
+
+Machine 7: 18 1 
+
+Machine 8: 10 3 
+
+Machine 9: 8 5 
+
+Total Tardiness: 877
+Time taken by simulated annealing: 5.3103 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 22 8 17 3 10 12 
+
+Machine 2: 11 6 9 
+
+Machine 3: 20 16 
+
+Machine 4: 4 21 
+
+Machine 5: 15 1 24 
+
+Machine 6: 18 13 
+
+Machine 7: 14 25 
+
+Machine 8: 5 
+
+Machine 9: 23 19 
+
+Total Tardiness: 574
+Time taken by simulated annealing: 5.32809 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 14 5 19 15 22 
+
+Machine 2: 21 8 11 
+
+Machine 3: 16 2 1 
+
+Machine 4: 10 23 25 
+
+Machine 5: 12 13 4 
+
+Machine 6: 18 17 
+
+Machine 7: 9 6 
+
+Machine 8: 7 20 
+
+Machine 9: 24 3 
+
+Total Tardiness: 770
+Time taken by simulated annealing: 5.45713 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 7 18 13 22 4 23 
+
+Machine 2: 3 8 16 21 
+
+Machine 3: 9 25 
+
+Machine 4: 11 24 
+
+Machine 5: 1 15 
+
+Machine 6: 2 19 
+
+Machine 7: 12 
+
+Machine 8: 5 17 
+
+Machine 9: 10 
+
+Total Tardiness: 585
+Time taken by simulated annealing: 5.33835 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 10 16 14 4 
+
+Machine 2: 12 7 25 1 
+
+Machine 3: 23 6 
+
+Machine 4: 17 18 20 
+
+Machine 5: 11 8 
+
+Machine 6: 15 24 
+
+Machine 7: 5 3 
+
+Machine 8: 13 2 
+
+Machine 9: 22 9 
+
+Total Tardiness: 908
+Time taken by simulated annealing: 5.42387 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 9 21 6 22 7 25 
+
+Machine 2: 2 10 19 
+
+Machine 3: 14 23 13 15 
+
+Machine 4: 20 8 
+
+Machine 5: 12 4 
+
+Machine 6: 11 17 
+
+Machine 7: 18 1 
+
+Machine 8: 3 5 
+
+Machine 9: 24 16 
+
+Total Tardiness: 753
+Time taken by simulated annealing: 5.52493 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 11 22 8 6 10 25 
+
+Machine 2: 20 3 13 
+
+Machine 3: 17 15 9 
+
+Machine 4: 4 19 
+
+Machine 5: 18 16 
+
+Machine 6: 14 21 
+
+Machine 7: 5 12 
+
+Machine 8: 1 23 
+
+Machine 9: 24 
+
+Total Tardiness: 458
+Time taken by simulated annealing: 5.28989 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 14 5 19 2 22 25 
+
+Machine 2: 16 8 15 
+
+Machine 3: 10 23 3 
+
+Machine 4: 21 11 
+
+Machine 5: 12 13 20 
+
+Machine 6: 18 1 
+
+Machine 7: 9 17 
+
+Machine 8: 7 6 
+
+Machine 9: 24 4 
+
+Total Tardiness: 689
+Time taken by simulated annealing: 5.34229 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 3 7 18 13 22 4 23 
+
+Machine 2: 9 25 
+
+Machine 3: 11 17 
+
+Machine 4: 1 24 
+
+Machine 5: 8 16 5 
+
+Machine 6: 2 15 
+
+Machine 7: 12 19 
+
+Machine 8: 10 
+
+Machine 9: 21 
+
+Total Tardiness: 478
+Time taken by simulated annealing: 5.32853 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 10 7 16 14 
+
+Machine 2: 12 17 25 24 
+
+Machine 3: 23 20 
+
+Machine 4: 11 3 
+
+Machine 5: 18 22 4 
+
+Machine 6: 15 6 
+
+Machine 7: 5 9 
+
+Machine 8: 13 2 
+
+Machine 9: 8 1 
+
+Total Tardiness: 802
+Time taken by simulated annealing: 5.49831 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 6 19 12 16 
+
+Machine 2: 9 23 3 
+
+Machine 3: 22 25 8 
+
+Machine 4: 2 18 
+
+Machine 5: 7 20 5 
+
+Machine 6: 13 17 15 
+
+Machine 7: 11 4 
+
+Machine 8: 14 24 
+
+Machine 9: 10 1 
+
+Total Tardiness: 1386
+Time taken by simulated annealing: 5.48641 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 22 8 10 4 
+
+Machine 2: 11 16 25 
+
+Machine 3: 15 21 12 
+
+Machine 4: 3 1 24 
+
+Machine 5: 6 20 
+
+Machine 6: 17 18 
+
+Machine 7: 23 14 
+
+Machine 8: 9 5 
+
+Machine 9: 19 13 
+
+Total Tardiness: 1143
+Time taken by simulated annealing: 5.14009 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 1 4 
+
+Machine 2: 14 22 24 
+
+Machine 3: 5 15 7 
+
+Machine 4: 16 23 3 
+
+Machine 5: 10 17 25 
+
+Machine 6: 12 9 
+
+Machine 7: 2 13 20 
+
+Machine 8: 18 11 
+
+Machine 9: 8 6 
+
+Total Tardiness: 1248
+Time taken by simulated annealing: 5.53801 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 6 7 13 23 12 
+
+Machine 2: 14 18 10 
+
+Machine 3: 3 22 4 21 
+
+Machine 4: 8 1 
+
+Machine 5: 16 2 
+
+Machine 6: 9 17 
+
+Machine 7: 5 24 
+
+Machine 8: 11 15 
+
+Machine 9: 25 19 
+
+Total Tardiness: 982
+Time taken by simulated annealing: 5.52621 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 23 9 
+
+Machine 2: 19 7 20 1 
+
+Machine 3: 12 11 24 
+
+Machine 4: 10 14 5 
+
+Machine 5: 18 13 3 
+
+Machine 6: 17 2 
+
+Machine 7: 16 15 
+
+Machine 8: 25 22 4 
+
+Machine 9: 6 8 
+
+Total Tardiness: 1405
+Time taken by simulated annealing: 5.441 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 6 22 18 
+
+Machine 2: 9 19 17 15 
+
+Machine 3: 2 23 24 
+
+Machine 4: 11 8 
+
+Machine 5: 7 25 3 
+
+Machine 6: 14 4 
+
+Machine 7: 10 1 
+
+Machine 8: 13 12 16 
+
+Machine 9: 20 5 
+
+Total Tardiness: 1377
+Time taken by simulated annealing: 5.41865 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 22 8 3 10 18 
+
+Machine 2: 2 15 4 
+
+Machine 3: 11 16 25 
+
+Machine 4: 17 20 
+
+Machine 5: 6 21 12 
+
+Machine 6: 23 14 
+
+Machine 7: 9 5 
+
+Machine 8: 19 13 
+
+Machine 9: 1 24 
+
+Total Tardiness: 1049
+Time taken by simulated annealing: 5.38851 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 22 24 
+
+Machine 2: 5 2 7 
+
+Machine 3: 14 1 4 
+
+Machine 4: 16 23 3 
+
+Machine 5: 10 17 25 
+
+Machine 6: 12 9 
+
+Machine 7: 15 13 20 
+
+Machine 8: 18 11 
+
+Machine 9: 8 6 
+
+Total Tardiness: 1245
+Time taken by simulated annealing: 5.74839 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 6 7 13 22 23 10 
+
+Machine 2: 14 18 4 21 
+
+Machine 3: 3 1 
+
+Machine 4: 8 2 
+
+Machine 5: 16 12 
+
+Machine 6: 9 17 
+
+Machine 7: 5 24 
+
+Machine 8: 11 15 
+
+Machine 9: 25 19 
+
+Total Tardiness: 954
+Time taken by simulated annealing: 5.48588 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 19 10 14 2 
+
+Machine 2: 21 13 3 
+
+Machine 3: 12 11 24 
+
+Machine 4: 7 6 9 
+
+Machine 5: 18 20 1 
+
+Machine 6: 17 15 
+
+Machine 7: 16 5 
+
+Machine 8: 25 22 4 
+
+Machine 9: 23 8 
+
+Total Tardiness: 1421
+Time taken by simulated annealing: 5.72248 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 6 22 19 4 
+
+Machine 2: 9 7 24 
+
+Machine 3: 2 23 25 16 
+
+Machine 4: 11 13 15 
+
+Machine 5: 14 18 
+
+Machine 6: 10 8 
+
+Machine 7: 20 3 
+
+Machine 8: 12 1 
+
+Machine 9: 17 5 
+
+Total Tardiness: 1207
+Time taken by simulated annealing: 5.29495 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 22 8 3 10 5 
+
+Machine 2: 11 16 25 
+
+Machine 3: 17 20 
+
+Machine 4: 6 4 
+
+Machine 5: 15 21 12 
+
+Machine 6: 1 24 
+
+Machine 7: 23 18 
+
+Machine 8: 19 13 
+
+Machine 9: 9 14 
+
+Total Tardiness: 926
+Time taken by simulated annealing: 5.31232 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 15 6 
+
+Machine 2: 14 2 11 
+
+Machine 3: 5 22 13 4 
+
+Machine 4: 16 1 3 
+
+Machine 5: 10 17 25 
+
+Machine 6: 12 9 
+
+Machine 7: 18 7 
+
+Machine 8: 8 24 
+
+Machine 9: 23 20 
+
+Total Tardiness: 1108
+Time taken by simulated annealing: 5.30429 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 6 3 7 13 22 23 21 
+
+Machine 2: 14 18 4 10 
+
+Machine 3: 8 2 
+
+Machine 4: 16 12 
+
+Machine 5: 9 17 
+
+Machine 6: 5 24 
+
+Machine 7: 11 15 
+
+Machine 8: 25 19 
+
+Machine 9: 1 
+
+Total Tardiness: 847
+Time taken by simulated annealing: 5.46718 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 10 14 8 
+
+Machine 2: 19 7 20 1 
+
+Machine 3: 12 11 24 
+
+Machine 4: 17 15 
+
+Machine 5: 18 6 3 
+
+Machine 6: 16 5 
+
+Machine 7: 23 2 
+
+Machine 8: 25 22 4 
+
+Machine 9: 13 9 
+
+Total Tardiness: 1287
+Time taken by simulated annealing: 5.61469 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 9 21 22 19 5 
+
+Machine 2: 2 7 16 
+
+Machine 3: 6 23 25 18 
+
+Machine 4: 11 13 15 
+
+Machine 5: 14 8 
+
+Machine 6: 10 3 
+
+Machine 7: 20 4 
+
+Machine 8: 12 24 
+
+Machine 9: 17 1 
+
+Total Tardiness: 1084
+Time taken by simulated annealing: 5.36156 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 22 8 15 10 13 
+
+Machine 2: 11 3 21 
+
+Machine 3: 17 16 
+
+Machine 4: 6 9 12 
+
+Machine 5: 1 5 
+
+Machine 6: 4 24 
+
+Machine 7: 20 25 
+
+Machine 8: 23 18 
+
+Machine 9: 19 14 
+
+Total Tardiness: 803
+Time taken by simulated annealing: 5.54459 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 5 19 22 20 
+
+Machine 2: 14 2 24 
+
+Machine 3: 16 15 11 
+
+Machine 4: 10 13 3 
+
+Machine 5: 12 1 25 
+
+Machine 6: 18 17 
+
+Machine 7: 8 7 
+
+Machine 8: 23 6 
+
+Machine 9: 9 4 
+
+Total Tardiness: 985
+Time taken by simulated annealing: 5.07151 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 7 13 18 22 23 24 
+
+Machine 2: 6 3 8 4 21 
+
+Machine 3: 16 12 
+
+Machine 4: 9 10 
+
+Machine 5: 11 15 
+
+Machine 6: 5 17 
+
+Machine 7: 25 19 
+
+Machine 8: 1 
+
+Machine 9: 2 
+
+Total Tardiness: 764
+Time taken by simulated annealing: 5.41153 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 10 25 8 
+
+Machine 2: 19 7 16 2 
+
+Machine 3: 12 14 5 
+
+Machine 4: 17 6 24 
+
+Machine 5: 18 22 4 
+
+Machine 6: 23 15 
+
+Machine 7: 13 9 
+
+Machine 8: 20 3 
+
+Machine 9: 11 1 
+
+Total Tardiness: 1134
+Time taken by simulated annealing: 5.35856 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 9 21 6 22 19 
+
+Machine 2: 2 7 23 15 
+
+Machine 3: 14 25 24 
+
+Machine 4: 11 13 16 
+
+Machine 5: 20 3 
+
+Machine 6: 12 4 
+
+Machine 7: 10 17 
+
+Machine 8: 18 1 
+
+Machine 9: 8 5 
+
+Total Tardiness: 979
+Time taken by simulated annealing: 5.38413 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 22 8 6 10 5 
+
+Machine 2: 11 15 3 25 
+
+Machine 3: 17 9 
+
+Machine 4: 4 13 
+
+Machine 5: 20 24 
+
+Machine 6: 1 14 
+
+Machine 7: 18 12 
+
+Machine 8: 23 16 
+
+Machine 9: 19 21 
+
+Total Tardiness: 691
+Time taken by simulated annealing: 5.21454 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 14 19 2 22 3 
+
+Machine 2: 21 5 15 11 
+
+Machine 3: 16 13 4 
+
+Machine 4: 10 23 25 
+
+Machine 5: 12 1 
+
+Machine 6: 18 17 
+
+Machine 7: 8 24 
+
+Machine 8: 9 6 
+
+Machine 9: 7 20 
+
+Total Tardiness: 882
+Time taken by simulated annealing: 5.40108 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 14 6 7 13 18 22 4 23 
+
+Machine 2: 3 8 10 
+
+Machine 3: 9 21 
+
+Machine 4: 16 12 
+
+Machine 5: 11 24 
+
+Machine 6: 1 19 
+
+Machine 7: 5 17 
+
+Machine 8: 25 15 
+
+Machine 9: 2 
+
+Total Tardiness: 673
+Time taken by simulated annealing: 5.49671 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 10 16 1 
+
+Machine 2: 12 7 25 24 
+
+Machine 3: 17 14 15 
+
+Machine 4: 18 20 4 
+
+Machine 5: 23 6 
+
+Machine 6: 13 2 
+
+Machine 7: 11 8 
+
+Machine 8: 22 9 
+
+Machine 9: 5 3 
+
+Total Tardiness: 1005
+Time taken by simulated annealing: 5.29918 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 2 3 
+
+Machine 2: 23 11 4 
+
+Machine 3: 19 14 24 
+
+Machine 4: 25 10 1 
+
+Machine 5: 6 20 5 
+
+Machine 6: 22 12 16 
+
+Machine 7: 9 17 15 
+
+Machine 8: 7 18 
+
+Machine 9: 13 8 
+
+Total Tardiness: 1832
+Time taken by simulated annealing: 5.38468 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 22 10 1 24 
+
+Machine 2: 8 23 14 
+
+Machine 3: 7 9 5 
+
+Machine 4: 2 19 13 
+
+Machine 5: 3 16 25 
+
+Machine 6: 11 21 12 
+
+Machine 7: 15 4 
+
+Machine 8: 6 20 
+
+Machine 9: 17 18 
+
+Total Tardiness: 1596
+Time taken by simulated annealing: 5.22649 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 12 24 
+
+Machine 2: 22 18 11 
+
+Machine 3: 5 8 6 
+
+Machine 4: 19 13 20 
+
+Machine 5: 15 1 4 
+
+Machine 6: 2 23 3 
+
+Machine 7: 14 17 25 
+
+Machine 8: 16 9 
+
+Machine 9: 10 7 
+
+Total Tardiness: 1694
+Time taken by simulated annealing: 5.14807 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 23 16 21 
+
+Machine 2: 7 9 17 
+
+Machine 3: 6 5 24 
+
+Machine 4: 13 8 10 
+
+Machine 5: 3 25 19 
+
+Machine 6: 22 11 15 
+
+Machine 7: 18 1 
+
+Machine 8: 4 2 
+
+Machine 9: 14 12 
+
+Total Tardiness: 1349
+Time taken by simulated annealing: 5.42642 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 10 17 2 
+
+Machine 2: 19 6 8 
+
+Machine 3: 7 23 9 
+
+Machine 4: 14 13 3 
+
+Machine 5: 21 20 1 
+
+Machine 6: 18 11 24 
+
+Machine 7: 12 22 4 
+
+Machine 8: 25 5 
+
+Machine 9: 16 15 
+
+Total Tardiness: 1885
+Time taken by simulated annealing: 5.41456 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 10 1 
+
+Machine 2: 6 20 5 
+
+Machine 3: 22 12 16 
+
+Machine 4: 23 11 4 
+
+Machine 5: 9 17 15 
+
+Machine 6: 25 14 24 
+
+Machine 7: 7 18 
+
+Machine 8: 13 8 
+
+Machine 9: 2 3 
+
+Total Tardiness: 1666
+Time taken by simulated annealing: 5.25108 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 22 10 1 24 
+
+Machine 2: 2 8 19 13 
+
+Machine 3: 3 16 25 
+
+Machine 4: 11 21 12 
+
+Machine 5: 15 4 
+
+Machine 6: 6 20 
+
+Machine 7: 17 18 
+
+Machine 8: 23 14 
+
+Machine 9: 9 5 
+
+Total Tardiness: 1403
+Time taken by simulated annealing: 5.423 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 12 24 
+
+Machine 2: 5 8 6 
+
+Machine 3: 19 13 20 
+
+Machine 4: 15 1 4 
+
+Machine 5: 2 23 3 
+
+Machine 6: 22 18 11 
+
+Machine 7: 14 17 25 
+
+Machine 8: 16 9 
+
+Machine 9: 10 7 
+
+Total Tardiness: 1535
+Time taken by simulated annealing: 5.27735 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 7 23 11 15 
+
+Machine 2: 6 13 25 19 
+
+Machine 3: 3 22 12 
+
+Machine 4: 14 2 
+
+Machine 5: 18 5 24 
+
+Machine 6: 8 10 
+
+Machine 7: 16 21 
+
+Machine 8: 4 1 
+
+Machine 9: 9 17 
+
+Total Tardiness: 1216
+Time taken by simulated annealing: 5.17397 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 19 17 2 
+
+Machine 2: 10 6 8 
+
+Machine 3: 7 23 9 
+
+Machine 4: 21 13 3 
+
+Machine 5: 18 11 24 
+
+Machine 6: 12 22 4 
+
+Machine 7: 14 20 1 
+
+Machine 8: 25 5 
+
+Machine 9: 16 15 
+
+Total Tardiness: 1711
+Time taken by simulated annealing: 5.34006 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 6 19 17 15 
+
+Machine 2: 9 20 5 
+
+Machine 3: 22 23 8 
+
+Machine 4: 7 12 16 
+
+Machine 5: 2 3 
+
+Machine 6: 25 10 1 
+
+Machine 7: 13 18 
+
+Machine 8: 11 4 
+
+Machine 9: 14 24 
+
+Total Tardiness: 1526
+Time taken by simulated annealing: 5.16944 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 22 8 10 1 24 
+
+Machine 2: 2 3 4 
+
+Machine 3: 11 16 25 
+
+Machine 4: 15 21 12 
+
+Machine 5: 6 20 
+
+Machine 6: 17 18 
+
+Machine 7: 23 14 
+
+Machine 8: 9 5 
+
+Machine 9: 19 13 
+
+Total Tardiness: 1224
+Time taken by simulated annealing: 5.32192 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 15 7 
+
+Machine 2: 5 22 23 3 
+
+Machine 3: 19 8 6 
+
+Machine 4: 14 1 4 
+
+Machine 5: 16 17 25 
+
+Machine 6: 2 13 20 
+
+Machine 7: 10 9 
+
+Machine 8: 12 24 
+
+Machine 9: 18 11 
+
+Total Tardiness: 1392
+Time taken by simulated annealing: 5.2884 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 7 13 22 23 21 
+
+Machine 2: 6 18 1 
+
+Machine 3: 3 4 10 
+
+Machine 4: 14 25 19 
+
+Machine 5: 16 2 
+
+Machine 6: 8 12 
+
+Machine 7: 9 17 
+
+Machine 8: 5 24 
+
+Machine 9: 11 15 
+
+Total Tardiness: 1067
+Time taken by simulated annealing: 5.4371 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 19 10 6 8 
+
+Machine 2: 7 23 9 
+
+Machine 3: 21 13 3 
+
+Machine 4: 18 11 24 
+
+Machine 5: 12 22 4 
+
+Machine 6: 16 15 
+
+Machine 7: 25 5 
+
+Machine 8: 17 2 
+
+Machine 9: 14 20 1 
+
+Total Tardiness: 1557
+Time taken by simulated annealing: 5.32669 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 6 22 18 
+
+Machine 2: 9 19 17 15 
+
+Machine 3: 2 23 24 
+
+Machine 4: 11 8 
+
+Machine 5: 7 25 3 
+
+Machine 6: 14 4 
+
+Machine 7: 10 1 
+
+Machine 8: 13 12 16 
+
+Machine 9: 20 5 
+
+Total Tardiness: 1377
+Time taken by simulated annealing: 5.37237 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 22 8 3 10 18 
+
+Machine 2: 2 15 4 
+
+Machine 3: 11 16 25 
+
+Machine 4: 17 20 
+
+Machine 5: 6 21 12 
+
+Machine 6: 23 14 
+
+Machine 7: 9 5 
+
+Machine 8: 19 13 
+
+Machine 9: 1 24 
+
+Total Tardiness: 1049
+Time taken by simulated annealing: 5.29259 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 22 24 
+
+Machine 2: 5 2 7 
+
+Machine 3: 14 1 4 
+
+Machine 4: 16 23 3 
+
+Machine 5: 10 17 25 
+
+Machine 6: 12 9 
+
+Machine 7: 15 13 20 
+
+Machine 8: 18 11 
+
+Machine 9: 8 6 
+
+Total Tardiness: 1245
+Time taken by simulated annealing: 5.42172 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 6 7 13 22 23 10 
+
+Machine 2: 14 18 4 21 
+
+Machine 3: 3 1 
+
+Machine 4: 8 2 
+
+Machine 5: 16 12 
+
+Machine 6: 9 17 
+
+Machine 7: 5 24 
+
+Machine 8: 11 15 
+
+Machine 9: 25 19 
+
+Total Tardiness: 954
+Time taken by simulated annealing: 5.23411 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 19 10 14 2 
+
+Machine 2: 21 13 3 
+
+Machine 3: 12 11 24 
+
+Machine 4: 7 6 9 
+
+Machine 5: 18 20 1 
+
+Machine 6: 17 15 
+
+Machine 7: 16 5 
+
+Machine 8: 25 22 4 
+
+Machine 9: 23 8 
+
+Total Tardiness: 1421
+Time taken by simulated annealing: 5.40726 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 6 22 19 4 
+
+Machine 2: 9 7 24 
+
+Machine 3: 2 23 25 16 
+
+Machine 4: 11 13 15 
+
+Machine 5: 14 18 
+
+Machine 6: 10 8 
+
+Machine 7: 20 3 
+
+Machine 8: 12 1 
+
+Machine 9: 17 5 
+
+Total Tardiness: 1207
+Time taken by simulated annealing: 5.29476 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 7 2 22 8 3 10 5 
+
+Machine 2: 11 16 25 
+
+Machine 3: 17 20 
+
+Machine 4: 6 4 
+
+Machine 5: 15 21 12 
+
+Machine 6: 1 24 
+
+Machine 7: 23 18 
+
+Machine 8: 19 13 
+
+Machine 9: 9 14 
+
+Total Tardiness: 926
+Time taken by simulated annealing: 5.43801 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 19 15 6 
+
+Machine 2: 14 2 11 
+
+Machine 3: 5 22 13 4 
+
+Machine 4: 16 1 3 
+
+Machine 5: 10 17 25 
+
+Machine 6: 12 9 
+
+Machine 7: 18 7 
+
+Machine 8: 8 24 
+
+Machine 9: 23 20 
+
+Total Tardiness: 1108
+Time taken by simulated annealing: 5.29318 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 20 6 3 7 13 22 23 21 
+
+Machine 2: 14 18 4 10 
+
+Machine 3: 8 2 
+
+Machine 4: 16 12 
+
+Machine 5: 9 17 
+
+Machine 6: 5 24 
+
+Machine 7: 11 15 
+
+Machine 8: 25 19 
+
+Machine 9: 1 
+
+Total Tardiness: 847
+Time taken by simulated annealing: 5.25676 seconds
+
+❄️ Simulated Annealing
+Simulated Annealing Schedule
+
+Machine 1: 21 10 14 8 
+
+Machine 2: 19 7 20 1 
+
+Machine 3: 12 11 24 
+
+Machine 4: 17 15 
+
+Machine 5: 18 6 3 
+
+Machine 6: 16 5 
+
+Machine 7: 23 2 
+
+Machine 8: 25 22 4 
+
+Machine 9: 13 9 
+
+Total Tardiness: 1287
+Time taken by simulated annealing: 5.55661 seconds
+
