@@ -1,11 +1,9 @@
-
 #ifndef ILS_H
     #define ILS_H
     #include "../header_files/utilities.h"
     #include "../header_files/vicinities.h"
     #include "../header_files/exact.h"
     #include "../header_files/heuristic.h"
-    #include "../header_files/tabu_list.h"
     #include <vector>
 
     using namespace std;

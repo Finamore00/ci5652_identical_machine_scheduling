@@ -7,7 +7,7 @@
 #include "../header_files/vicinities.h"
 #include "../header_files/exact.h"
 #include "../header_files/heuristic.h"
-#include "../header_files/tabu_list.h"
+
 using namespace std;
 
 vector<vector<Job*>> rna(vector<vector<Job*>> schedule, int rnamax) {

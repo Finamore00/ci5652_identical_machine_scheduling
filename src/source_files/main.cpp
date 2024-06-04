@@ -68,7 +68,7 @@ int main(int argc, char *argv[]) {
             cout << "🙊 Tabu Search" << endl;
             algorithm_name = "Tabu Search";
             start = high_resolution_clock::now();
-            schedule = tabu_search(jobs, m, 14000);
+            schedule = tabu_search(jobs, m, 10000, 100, 7);
             end = high_resolution_clock::now();
             break;
         case 3:

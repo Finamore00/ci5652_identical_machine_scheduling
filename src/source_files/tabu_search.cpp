@@ -3,124 +3,57 @@
 #include <limits>
 #include <random>
 #include <iostream>
+#include <unordered_set>
+#include "../header_files/utilities.h"
 #include "../header_files/vicinities.h"
 #include "../header_files/exact.h"
 #include "../header_files/heuristic.h"
-#include "../header_files/tabu_list.h"
+#include "../header_files/Move.h"
+
 using namespace std;
 
 
+vector<vector<Job*>> tabu_search(vector<Job*> jobs, int machines, unsigned int max_iter, unsigned int max_grn_iter, unsigned int tabu_tenure) {
+    vector<vector<Job*>> best_schedule = mddScheduling(jobs, machines);
+    vector<vector<Job*>> current_schedule = best_schedule;
+    unordered_set<Move, MoveHasher> tabu_list;
+    long long best_tardiness = total_tardiness(best_schedule);
+    int iter = 0;
 
-// Genera vecinos de una solución dada
-vector<vector<Job*>> va(vector<vector<Job*>> machine_jobs, tabu_list& tl) {
-    vector<vector<Job*>> best_solution, tabu_solution;
-    long long best_tardiness = LLONG_MAX;
-    long long current_tardiness = total_tardiness(machine_jobs);
-    pair<int, int> tabu_move_1, tabu_move_2;
+    while (iter < max_iter) {
+        int tardiest_machine = index_tardiest_machine(current_schedule);
+        vector<vector<Job*>> best_candidate = current_schedule;
+        long long best_candidate_tardiness = LLONG_MAX;
+        Move best_move(-1, -1, -1);
 
-    // Find tardiest machine in the solution
-    int tardiest_machine = -1;
-    long long max_tardiness = LLONG_MIN;
-    for (size_t i = 0; i < machine_jobs.size(); i++) {
-        if (machine_tardiness(machine_jobs[i]) > max_tardiness) {
-                max_tardiness = machine_tardiness(machine_jobs[i]);
-                tardiest_machine = i;
-        }
-    }
-
-    // Find earliess machine in the solution
-    int earliess_machine = -1;
-    long long min_tardiness = LLONG_MAX;
-    for (size_t i = 0; i < machine_jobs.size(); i++) {
-        if (machine_tardiness(machine_jobs[i]) < min_tardiness) {
-                min_tardiness = machine_tardiness(machine_jobs[i]);
-                earliess_machine = i;
-        }
-    }
-    
-    if (tardiest_machine != earliess_machine) {
-        for (size_t j = 0; j < machine_jobs[tardiest_machine].size(); j++) {
-            if(!tl.belongs(earliess_machine, j)) {
-                for (size_t k = 0; k < machine_jobs[earliess_machine].size(); k++) {
-                    if(!tl.belongs(tardiest_machine, j)) {
-                        vector<vector<Job*>> new_solution = machine_jobs;
-
-                        // Sacar el trabajo de la máquina i
-                        Job* job_to_move = new_solution[tardiest_machine][j];
-                        new_solution[tardiest_machine].erase(new_solution[tardiest_machine].begin() + j);
-
-                        // Insertar el trabajo en la posición anterior al trabajo en la máquina tardía
-                        new_solution[earliess_machine].insert(new_solution[earliess_machine].begin() + k, job_to_move);
-                        if (total_tardiness(new_solution) < best_tardiness) {
-                            best_solution = new_solution;
-                            best_tardiness = total_tardiness(new_solution);
-                            tabu_move_1 = make_pair(tardiest_machine, j);
-                            tabu_move_2 = make_pair(earliess_machine, k);
-                        }
-                    }
+        for (int i = 0; i < max_grn_iter; i++) {
+            vector<vector<Job*>> candidate = generate_neighbor(current_schedule, tardiest_machine);
+            long long candidate_tardiness = total_tardiness(candidate);
+            if (candidate_tardiness < best_candidate_tardiness) {
+                best_candidate = candidate;
+                best_candidate_tardiness = candidate_tardiness;
+                int idx1 = 0, idx2 = 0;
+                while (candidate[tardiest_machine].size() > 1 && idx1 == idx2) {
+                    idx1 = rand() % candidate[tardiest_machine].size();
+                    idx2 = rand() % candidate[tardiest_machine].size();
                 }
+                
+                best_move = Move(tardiest_machine, idx1, idx2);
             }
         }
-    }
 
-    bool flag = false;
-    for (size_t i = 0; i < tl.l.size(); i++) {
-        if (tl.l[i].first != -1) {
-            tabu_solution = direct_swap_neighborhood(machine_jobs, tl.l[i].first);
-            if (total_tardiness(tabu_solution) < best_tardiness) {
-                best_solution = tabu_solution;
-                best_tardiness = total_tardiness(tabu_solution);
+        if (tabu_list.find(best_move) == tabu_list.end() || best_candidate_tardiness < best_tardiness) {
+            current_schedule = best_candidate;
+            tabu_list.insert(best_move);
+            if (tabu_list.size() > tabu_tenure) {
+                tabu_list.erase(tabu_list.begin());
+            }
+            if (best_candidate_tardiness < best_tardiness) {
+                best_schedule = best_candidate;
+                best_tardiness = best_candidate_tardiness;
             }
         }
+        iter++;
     }
-
-    if(!flag){
-        tl.add(tabu_move_1);
-        tl.add(tabu_move_2);
-    }
-
-    return best_solution;
-}
-
-
-// Función principal de Búsqueda Tabú
-vector<vector<Job*>> tabu_search(vector<Job*> jobs, int num_machines, int max_iterations) {
-    vector<vector<Job*>> best_solution = mddScheduling(jobs, num_machines);
-    long long best_tardiness = total_tardiness(best_solution);
-    vector<vector<Job*>> current_solution = best_solution;
-    long long current_tardiness = best_tardiness;
-    int div = 0;
-    if (best_tardiness == 0) {
-        return best_solution;
-    }
-
-    tabu_list tl;
-
-    for (int iter = 0; iter < max_iterations; ++iter) {
-        current_solution = va(current_solution, tl);
-        current_tardiness = total_tardiness(current_solution);
-        if(current_tardiness < best_tardiness) {
-            best_solution = current_solution;
-            best_tardiness = best_tardiness;
-            div = 0;
-        } else {
-            div++;
-        }
-        if (div == 3000) {
-            for (size_t i = 0; i < 10; i++) {
-                int earliess_machine = -1;
-                long long min_tardiness = LLONG_MAX;
-                for (size_t i = 0; i < current_solution.size(); i++) {
-                    if (machine_tardiness(current_solution[i]) < min_tardiness) {
-                            min_tardiness = machine_tardiness(current_solution[i]);
-                            earliess_machine = i;
-                    }
-                }
-                direct_swap_neighborhood(current_solution, earliess_machine);
-            }  
-            div = 0;
-        }
-    }
-
-    return best_solution;
+    return best_schedule;
 }
