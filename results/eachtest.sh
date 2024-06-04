@@ -24,31 +24,32 @@
 #     done
 
 # Genetic algorithm prueba 2
-echo "Procesando archivos de resultados genetic algorithm"
-echo "n=20"
-for file in ./genetic_results_2/n=20/*results_genetic.txt
-    do
-        filename="${file##*/}"
-        filename="${filename%.*}"
-        echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttGA2$filename.txt
-        ./timeGA.sh $file > timeGA2$filename.txt
-    done
-echo "/n"
-echo "n=25"
-for file in ./genetic_results_2/n=25/*results_genetic.txt
-    do
-        filename="${file##*/}"
-        filename="${filename%.*}"
-        echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttGA2$filename.txt
-        ./timeGA.sh $file > timeGA2$filename.txt
-    done
+# echo "Procesando archivos de resultados genetic algorithm"
+# echo "n=20"
+# for file in ./genetic_results2/n=20/*results_genetic.txt
+#     do
+#         filename="${file##*/}"
+#         filename="${filename%.*}"
+#         echo "Procesando archivo: $filename"
+#         ./total_tardiness.sh $file > ttGA2$filename.txt
+#         ./timeGA.sh $file > timeGA2$filename.txt
+#     done
+# echo "/n"
+# echo "n=25"
+# for file in ./genetic_results2/n=25/*results_genetic.txt
+#     do
+#         filename="${file##*/}"
+#         filename="${filename%.*}"
+#         echo "Procesando archivo: $filename"
+#         ./total_tardiness.sh $file > ttGA2$filename.txt
+#         ./timeGA.sh $file > timeGA2$filename.txt
+#     done
+
 
 # Genetic algorithm prueba 3
 echo "Procesando archivos de resultados genetic algorithm"
 echo "n=20"
-for file in ./genetic_results_3/n=20/*results_genetic.txt
+for file in ./genetic_results3/n=20/*results_genetic.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
@@ -58,13 +59,35 @@ for file in ./genetic_results_3/n=20/*results_genetic.txt
     done
 echo "/n"
 echo "n=25"
-for file in ./genetic_results_2/n=25/*results_genetic.txt
+for file in ./genetic_results3/n=25/*results_genetic.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
         ./total_tardiness.sh $file > ttGA3$filename.txt
         ./timeGA.sh $file > timeGA3$filename.txt
+    done
+
+# Genetic algorithm prueba 4
+echo "Procesando archivos de resultados genetic algorithm"
+echo "n=20"
+for file in ./genetic_results3/n=20/*results_genetic.txt
+    do
+        filename="${file##*/}"
+        filename="${filename%.*}"
+        echo "Procesando archivo: $filename"
+        ./total_tardiness.sh $file > ttGA4$filename.txt
+        ./timeGA.sh $file > timeGA4$filename.txt
+    done
+echo "/n"
+echo "n=25"
+for file in ./genetic_results3/n=25/*results_genetic.txt
+    do
+        filename="${file##*/}"
+        filename="${filename%.*}"
+        echo "Procesando archivo: $filename"
+        ./total_tardiness.sh $file > ttGA4$filename.txt
+        ./timeGA.sh $file > timeGA4$filename.txt
     done
 
 # # Simulated annealing prueba 1
