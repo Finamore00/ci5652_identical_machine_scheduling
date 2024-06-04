@@ -183,6 +183,74 @@ Las métricas claves en el análisis incluyen:
 - **Tardanza Total (Total Tardiness)**: La suma de las tardanzas de todas las tareas.
 - **Diferencia con la Solución Óptima (Optimal Solution Difference)**: La diferencia entre la solución obtenida y la solución óptima.
 
+Se emplean diferentes parámetros para cada algoritmo implementado en este segundo corte:
+**Parámetros del Iterated Local Search (ILS)**:
+ * max_iter Cantidad máxima de iteraciones para el algoritmo ILS
+ * p0 La fuerza de perturbación inicial.
+ * pmax El multiplicador máximo de fuerza de perturbación.
+ * rnamax El número máximo de iteraciones para el algoritmo de RNA dentro de ILS.
+ * itermax El número máximo de iteraciones antes de aumentar la fuerza de la perturbación.
+
+> ILS1: max_iter = 1500, p0 = 10, pmax = 4, rnamax = 100, itermax = 100
+
+> ILS2: max_iter = 1000, p0 = 3, pmax = 15, rnamax = 70, itermax = 150
+
+**Parámetros del Tabu Search (TS)**:
+ * max_iter El número máximo de iteraciones para el algoritmo de búsqueda tabú.
+ * max_grn_iter El número máximo de iteraciones para generar vecinos dentro de cada iteración.
+ * tabu_tenure El número de iteraciones durante las cuales un movimiento permanece en la lista tabú.
+
+> TS1: max_iter = 10000, max_grn_iter = 100, tabu_ternure = 7
+
+> TS2: max_iter = 6000, max_grn_iter = 70, tabu_ternure = 5
+
+**Parámetros del Simulated Annealing (SA) o Reconocido Simulado**:
+ * t0 La temperatura inicial para el algoritmo de recocido simulado.
+ * t_step El factor por el cual la temperatura disminuye en cada iteración.
+ * max_iter_t_step El número máximo de iteraciones en cada paso de temperatura.
+ * max_iters El número máximo de iteraciones para el algoritmo de recocido simulado.
+
+> SA1: t0 = 2000, t_step = 0,90, max_iter_t_step = 100, max_iter = 1500
+
+> SA2: t0 = 1500, t_step = 0,70, max_iter_t_step = 120, max_iter = 1500
+
+> SA3: t0 = 1500, t_step = 0,85, max_iter_t_step = 100, max_iter = 1000
+
+**Parámetros del GRASP**:
+ * max_iters El número máximo de iteraciones a realizar.
+ * alpha El valor alfa utilizado para calcular la condición para RCL.
+
+> Grasp 0.25-30: max_iters = 30, alpha = 0.25
+
+> Grasp 0.5-30: max_iters = 30, alpha = 0.5
+
+> Grasp 0.75-30: max_iters = 30, alpha = 0.75
+
+> Grasp 0.25-60: max_iters = 60, alpha = 0.25
+
+> Grasp 0.5-60: max_iters = 60, alpha = 0.5
+
+> Grasp 0.75-60: max_iters = 60, alpha = 0.75
+
+> Grasp 0.25-100: max_iters = 100, alpha = 0.25
+
+> Grasp 0.5-100: max_iters = 100, alpha = 0.5
+
+> Grasp 0.75-100: max_iters = 100, alpha = 0.75
+
+
+**Parámetros del Genetic Algorithm (GA) o Algoritmo Genético**:
+ * population_size El tamaño de la población para el algoritmo genético.
+ * mutation_rate el porcentaje en que ocurren las mutaciones durante el algoritmo genético.
+ * max_iter El número máximo de iteraciones para el algoritmo genético.
+
+> GA1: population_size = 50, mutation_rate = 5%, max_iter = 4000
+
+> GA2: population_size = 50, mutation_rate = 10%, max_iter = 4000
+
+> GA3: population_size = 100, mutation_rate = 5%, max_iter = 8000
+
+
 ### 📈 Resultados
 
 
