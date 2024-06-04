@@ -10,6 +10,17 @@
 using namespace std;
 using namespace std::chrono;
 
+/**
+ * Generates a Restricted Candidate List (RCL) of jobs based on certain criteria.
+ *
+ * @param jobs The list of jobs to consider.
+ * @param numMachines The number of machines available.
+ * @param completion_times The completion times of the machines.
+ * @param selected_machine The reference to the selected machine.
+ * @param selected_job The reference to the selected job.
+ * @param alpha The alpha value used to calculate the condition for RCL.
+ * @return A vector of pairs, where each pair contains a job and the corresponding machine.
+ */
 vector<pair<Job *, int>> RCL(vector<Job *> jobs, int numMachines, vector<long long> completion_times, int &selected_machine, Job* &selected_job, float alpha) {
     long long max_delta = -1;
     long long min_delta = LLONG_MAX;
@@ -50,6 +61,21 @@ vector<pair<Job *, int>> RCL(vector<Job *> jobs, int numMachines, vector<long lo
     return rcl_jobs;
 }
 
+/**
+ * Constructs a schedule using a random greedy algorithm.
+ * 
+ * This function takes a list of jobs, the number of machines, and an alpha value as input.
+ * It constructs a schedule by iteratively selecting a job and a machine based on a random greedy algorithm.
+ * The algorithm uses a restricted candidate list (RCL) to select the job and machine combination.
+ * The selected job is then scheduled on the selected machine, and its completion time is updated.
+ * The job is removed from the list of unscheduled jobs.
+ * This process continues until all jobs are scheduled.
+ * 
+ * @param jobs The list of jobs to be scheduled.
+ * @param numMachines The number of machines available for scheduling.
+ * @param alpha The alpha value used to calculate the condition for RCL.
+ * @return A 2D vector representing the constructed schedule, where each inner vector represents a machine and contains the scheduled jobs.
+ */
 vector<vector<Job*>> random_greedy_construction(vector<Job*> jobs, int numMachines, float alpha) {
     vector<vector<Job*>> schedule(numMachines);
     
@@ -78,6 +104,19 @@ vector<vector<Job*>> random_greedy_construction(vector<Job*> jobs, int numMachin
     return schedule;
 }       
 
+/**
+ * Implements the GRASP (Greedy Randomized Adaptive Search Procedure) algorithm.
+ * 
+ * This algorithm generates a set of random solutions and iteratively improves them
+ * by applying local search techniques. It returns a list of the best solutions found
+ * at specific iterations along with the time taken to find each solution.
+ * 
+ * @param jobs The list of jobs to be scheduled.
+ * @param numMachines The number of machines available for scheduling.
+ * @param max_iters The maximum number of iterations to perform.
+ * @param alpha The alpha value used to calculate the condition for RCL.
+ * @return A vector of pairs, where each pair contains a solution and the time taken to find it.
+ */
 vector<pair<vector<vector<Job *>>, duration<double>>> grasp(vector<Job *> jobs, int numMachines, int max_iters, float alpha) {
     high_resolution_clock::time_point start, end;
     start = high_resolution_clock::now();
