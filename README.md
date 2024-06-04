@@ -13,6 +13,7 @@ Dado un conjunto de `n` tareas y `m` máquinas idénticas, el objetivo es asigna
 El programa está implementado en C++ y consta de los siguientes archivos para este segundo corte:
 
 - `grasp.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando GRASP para el problema.
+- `evolution.cpp`: Archivo que contiene los tipos de datos y algoritmos requeridos por la implementación del algoritmo genético para la reoslución del problema.
 
 📂 En la carpeta `benchmarks` se encuentran los casos de pruebas de la primera corte del proyecto para medir y comparar el rendimiento de diferentes algoritmos para solucionar el problema descrito.
 
@@ -146,6 +147,34 @@ La implementación del algoritmo GRASP recibe la información de las `n` tareas,
 4. Se repite el paso 2 y 3 hasta que se acaben las iteraciones.
 
 ## Definición de un fenotipo/genotipo, operadores de cruce y mutación e implementación de un algoritmo genético.
+
+### 🧬 Genotipo de los individuos para modelado del problema 
+
+Para propósitos de nuestro problema, definimos un gen como un par ordenado que contiene el identificador numérico de un trabajo y el número de la máquina donde este trabajo está asignado en el cronograma que modela su conjunto de genes. Esto es, si tenemos, por ejemplo, la tupla (5, 8), esto representa que el trabajo de ID 5 está asignado a la máquina 8. Este modelado de un gen se encuentra en el struct `Gene` definido en `evolution.cpp`.
+
+Como por la definición del problema cada trabajo está asignado a una sola máquina, para una instancia del mismo con `n` trabajos el genotipo de un individuo viene dado por un vector de `n` genes, donde cada posición indica la máquina a la que está asignada cada uno de los trabajos. De esta manera, el genotipo de un individuo está restringido en el hecho de que para cada trabajo en la instancia del problema su identificador aparece en el genotipo de un individuo exactamente una vez. En referencia al *orden* que tienen los trabajos dentro de cada máquina individual, el mismo viene dado por el orden que tienen los trabajos involucrados dentro del vector genotipo. Esto es, si para un individuo tenemos el vector de genes `[..., (6, 1), ..., (9, 1), ..., (4, 1), ...]` entonces en la máquina 1 estarán ubicados los trabajos de identificadores 6, 9 y 4 en ese orden.
+
+De esta manera una población no es más que un arreglo de genotipos, que a su vez son arreglos de genes. Los tipos de datos para la representación de un individuo y de una población se encuentran en los tipos `Individual` y `Population` definidos en `evolution.cpp`.
+
+### 👾 Fenotipo de los individuos y función de *fitness*
+
+El fenotipo de los individuos viene dado por el mismo modelo de cronograma utilizado en el primer corte. Esto es, un cronograma es un arreglo multi-dimensional donde cada posición representa a una de las máquinas disponibles, y cada máquina es un arreglo de trabajos que indica cuáles trabajos están asignados a esa máquina y en qué orden se ejecutarán dentro de la misma. La obtensión del fenotipo de un individuo a través de su genotipo es proveída por la función `get_fenotype` definida en `evolution.cpp`.
+
+La aptitud de un individuo viene dada directamente por la morosidad total de su fenotipo, la cual se calcula de la misma forma presentada en el corte pasado. Como los algoritmos genéticos son inherentemente problemas de maximización, y estamos ante un problema que busca un mínimo global, la definición específica de la aptitud de un individuo viene dada por el negativo de su morosidad total.
+
+### 👨‍👩‍👦 Selección de Padres y apareamiento
+
+El algoritmo implementado hace uso de apareamiento con 2 padres. Cada individuo tiene a su vez una probabilidad asociada de ser escogido para ser padre de la siguiente generación igual al cociente de su valor para la función de aptitud entre la suma total de las aptitudes de todos los individuos. Esto es, si definimos f(i) como la aptitud del individuo i de la población S, entonces la probabilidad p(i) de que i sea escogido como padre viene dada por:
+
+<center> <code> p(i) = f(i)/sum(f(j) for j in S) </code> </center>
+
+Tras ser escogidos dos padres, sus descendientes son obtenidos utilizando cruce parcialmente mapeado. Esto debido a que, como cada identificador de trabajo aparece exactamente una vez dentro del genotipo de cualquier individuo, podemos, de cierta manera, tratar los genotipos como permutaciones de los identificadores de los trabajos. 
+
+La selección de padres y el operador de cruce vienen dados por las funciones `choose_parents` y `partially_mapped_crossover` definidas en evolution.cpp, respectivamente.
+
+### ☢️ Mutación
+
+La mutación de individuos se realiza con probabilidad uniforme sobre los genes de los mismos. La probabilidad de mutación es proveída como argumento de entrada al algoritmo genético (`mutation_rate`) y no varía de ninguna manera durante la ejecución del algoritmo. El operador de mutación implementado recibe un gen y reasigna el trabajo encontrado dentro del mismo a otra máquina aleatoriamente escogida. El operador de mutación no modifica de ninguna manera los identificadores de los trabajos encontrados en los genes ni efectúa ningún tipo de reordenamiento sobre los genes del fenotipo.
 
 ## 🚀 Uso
 
