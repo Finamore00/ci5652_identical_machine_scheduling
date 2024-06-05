@@ -350,8 +350,19 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
 - **Según el promedio de diferencias entre la solución óptima y la solución obtenida**:
     - **Para n = 20**:
         - *El algoritmo que dió menor diferencia entre las soluciones óptimas y las soluciones obtenidas* es **GRASP con alpha = 0.25** para el RCL **y con un máximo de 100 iteraciones** con una diferencia de 1,2071.
-        - *El algoritmo que dió mayor diferencia entre las soluciones óptimas y las soluciones obtenidas* es el **Algoritmo Genético con *population_size = 50, mutation_rate = 10%, max_iter = 4000* con una diferencia mayor que 150, específicamente, 154,81156.
+        - *El algoritmo que dió mayor diferencia entre las soluciones óptimas y las soluciones obtenidas* es el **Algoritmo Genético con *population_size = 50, mutation_rate = 10%, max_iter = 4000** con una diferencia mayor que 150, específicamente, 154,81156.
         - Además, en el caso del algoritmo genético, vemos que *GA1* y *GA2*, que tienen una diferencia mayor a 150, están debajos de la búsqueda local con solución inicial aleatoria que tiene una diferencia de 117,2631. Así mismo, para este caso n=20, *GA1*, que se diferencia de *GA2* por tener un porcentaje de mutación de 5% menos que *GA2*, vemos que *GA1* es mejor en cuánto a la diferencia con las soluciones óptimas que *GA2*. Y del uso de los diferentes parámetros para el algoritmo genético, vemos que *GA3* (con mayor cantidad de iteraciones y mayor tamaño de población con el mismo porcentaje de mutación que *GA1*) es mejor que *GA1* y *GA2* e incluso de las soluciones obtenidas con la búsqueda local partiendo de la solución inicial aleatoria.
+        - Luego, **todos los que están encima de *GA3* tienen una diferencia menor de 20**, siendo *la solución heurística* el que está encima de *GA3*.
+        - Justamente encima de la solución heurística, se encuentra el algoritmo de *Reconocido Simulado* usando los 3 diferentes parámetros, vemos que *SA2* tiene menor diferencia con la solución óptima en comparación con *SA1* y *SA3*, lo que sugiere que aunque *SA2* tiene una temperatura inicial y el t_step (factor el cual la temperatura disminuye en cada iteración) menor o igual que las otras dos, lo importante es que tiene un max_iter_t_step mayor (el número max de iteraciones en cada paso de temperatura).
+        - 
     - **Para n = 25**:
 
 ## 📚 Referencias
+El factor por el cual la temperatura disminuye en cada iteración.
+> SA1: t0 = 2000, t_step = 0,90, max_iter_t_step = 100, max_iter = 1500
+
+> SA2: t0 = 1500, t_step = 0,70, max_iter_t_step = 120, max_iter = 1500
+
+> SA3: t0 = 1500, t_step = 0,85, max_iter_t_step = 100, max_iter = 1000
+
+max_iter_t_step El número máximo de iteraciones en cada paso de temperatura.
