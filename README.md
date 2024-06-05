@@ -166,7 +166,7 @@ La aptitud de un individuo viene dada directamente por la morosidad total de su 
 
 El algoritmo implementado hace uso de apareamiento con 2 padres. Cada individuo tiene a su vez una probabilidad asociada de ser escogido para ser padre de la siguiente generación igual al cociente de su valor para la función de aptitud entre la suma total de las aptitudes de todos los individuos. Esto es, si definimos f(i) como la aptitud del individuo i de la población S, entonces la probabilidad p(i) de que i sea escogido como padre viene dada por:
 
-<center> <code> p(i) = f(i)/sum(f(j) for j in S) </code> </center>
+<center> <code> p(i) = 1 - f(i)/sum(f(j) for j in S) </code> </center>
 
 Tras ser escogidos dos padres, sus descendientes son obtenidos utilizando cruce parcialmente mapeado. Esto debido a que, como cada identificador de trabajo aparece exactamente una vez dentro del genotipo de cualquier individuo, podemos, de cierta manera, tratar los genotipos como permutaciones de los identificadores de los trabajos. 
 
