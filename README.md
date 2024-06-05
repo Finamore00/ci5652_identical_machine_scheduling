@@ -25,12 +25,12 @@ La implementación del algoritmo de Búsqueda Local Iterada (ILS) recibe la info
 
 1. **Inicialización:** 
     - El algoritmo empieza creando una solución inicial `S` utilizando el método `mddScheduling`. 
-    - Luego, aplica el algoritmo `RNA` a esta solución inicial para obtener una solución mejorada `S`.
+    - Luego, aplica el algoritmo `local search` a esta solución inicial para obtener una solución mejorada `S`.
     - Esta solución `S` es considerada la mejor solución conocida hasta el momento (`best_schedule`).
 
 2. **Iteraciones principales:** 
     - Para cada iteración, se realiza una perturbación a la solución actual `current_schedule` aplicando un número `p` de movimientos aleatorios.
-    - Después de la perturbación, se aplica el algoritmo `RNA` para mejorar la solución perturbada.
+    - Después de la perturbación, se aplica el algoritmo `local search` para mejorar la solución perturbada.
 
 3. **Evaluación de soluciones:** 
     - Si la solución mejorada tiene una tardanza total (`total_tardiness`) menor que la mejor solución conocida, se actualiza la mejor solución y se restablece la fuerza de perturbación `p` a su valor inicial.
@@ -217,17 +217,17 @@ Así mismo, se emplearon diferentes parámetros para cada algoritmo implementado
  * max_iter Cantidad máxima de iteraciones para el algoritmo ILS
  * p0 La fuerza de perturbación inicial.
  * pmax El multiplicador máximo de fuerza de perturbación.
- * rnamax El número máximo de iteraciones para el algoritmo de RNA dentro de ILS.
+ * lsmax El número máximo de iteraciones para el algoritmo de local search dentro de ILS.
  * itermax El número máximo de iteraciones antes de aumentar la fuerza de la perturbación.
 
-> ILS1: max_iter = 1500, p0 = 10, pmax = 4, rnamax = 100, itermax = 100
+> ILS1: max_iter = 1500, p0 = 10, pmax = 4, lsmax = 100, itermax = 100
 
-> ILS2: max_iter = 1000, p0 = 3, pmax = 15, rnamax = 70, itermax = 150
+> ILS2: max_iter = 1000, p0 = 3, pmax = 15, lsmax = 70, itermax = 150
 
 **Parámetros del Tabu Search (TS)**:
  * max_iter El número máximo de iteraciones para el algoritmo de búsqueda tabú.
  * max_grn_iter El número máximo de iteraciones para generar vecinos dentro de cada iteración.
- * tabu_tenure El número de iteraciones durante las cuales un movimiento permanece en la lista tabú.
+ * tabu_tenure El tamaño de la lista tabú.
 
 > TS1: max_iter = 10000, max_grn_iter = 100, tabu_ternure = 7
 
@@ -354,7 +354,7 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
         - Además, en el caso del algoritmo genético, vemos que *GA1* y *GA2*, que tienen un promedio de diferencia mayor a 150, están debajos de la búsqueda local con solución inicial aleatoria que tiene un promedio de diferencia de 117,2631. Así mismo, para este caso n=20, *GA1*, que se diferencia de *GA2* por tener un porcentaje de mutación de 5% menos que *GA2*, vemos que *GA1* es mejor en cuánto a la diferencia con las soluciones óptimas que *GA2*. Y del uso de los diferentes parámetros para el algoritmo genético, vemos que *GA3* (con mayor cantidad de iteraciones y mayor tamaño de población con el mismo porcentaje de mutación que *GA1*) es mejor que *GA1* y *GA2* e incluso de las soluciones obtenidas con la búsqueda local partiendo de la solución inicial aleatoria.
         - Luego, **todos los que están encima de *GA3* tienen un promedio de diferencia menor de 20**, siendo *la solución heurística* el que está encima de *GA3*.
         - Justamente encima de la solución heurística, se encuentra el algoritmo de *Reconocido Simulado* usando los 3 diferentes parámetros, vemos que *SA2* tiene menor diferencia con la solución óptima en comparación con *SA1* y *SA3*, lo que sugiere que aunque *SA2* tiene una temperatura inicial y el t_step (factor el cual la temperatura disminuye en cada iteración) menor o igual que las otras dos, lo importante es que tiene un max_iter_t_step mayor (el número max de iteraciones en cada paso de temperatura).
-        - Para el ILS, se observa que ambos ILSs están justos encima de *SA2*, siendo el mejor entre las dos, el *ILS2*, que aunque tiene menor cantidad de iteraciones máximas para el algoritmo ILS y también la menor cantidad de iteraciones para el algoritmo RNA que trabaja dentro del ILS, se tiene que produce mejores resultados si el ILS tiene un mayor multiplicador máximo de fuerza de perturbación, así como también un mayor número de iteraciones antes de aumentar la fuerza de perturbación junto con una menor fuerza de perturbación inicial. 
+        - Para el ILS, se observa que ambos ILSs están justos encima de *SA2*, siendo el mejor entre las dos, el *ILS2*, que aunque tiene menor cantidad de iteraciones máximas para el algoritmo ILS y también la menor cantidad de iteraciones para el algoritmo local search que trabaja dentro del ILS, se tiene que produce mejores resultados si el ILS tiene un mayor multiplicador máximo de fuerza de perturbación, así como también un mayor número de iteraciones antes de aumentar la fuerza de perturbación junto con una menor fuerza de perturbación inicial. 
         - *Arriba del *ILS2**, se encuentra *la búsqueda local a partir de una solución inicial heurística*, con una diferencia con el *ILS2* de 0,89.
         - Las dos búsquedas locales, ***TS1* y *TS2* se presentan encima de la solución con *búsqueda local partiendo de una solución inicial heurística***, el cual *TS2* tiene menos diferencia con las soluciones óptimas que *TS1*. De esto, se sugiere que a pesar de que *TS2* tiene valores menores para la cantidad máxima de iteraciones, el número máximo de iteraciones para generar vecinos dentro de cada iteración (max_gnr_iter) y el número de iteraciones durante las cuales un movimiento permanece en la lista tabú (tabu_tenure), una configuración más pequeña en estos parámetros puede conducir a un mejor rendimiento del algoritmo de búsqueda tabú.
         - Y por último, las 9 diferentes configuraciones del **algoritmo GRASP** están encima de cualquier otro algoritmo. Y según los resultados, parece que **para un alpha pequeño, como 0.25, ofrece mejores soluciones al problema para cualquier cantidad de iteraciones**.
@@ -395,5 +395,3 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
         - *El algoritmo genéticos sigue siendo el más lento*, con *GA3* *siendo el más lento con un tiempo de 137.34 segundos*. *GA1 y GA2 también presentan tiempos altos, con 16.70 y 20.28 segundos respectivamente.* Este alto costo computacional, junto con la menor calidad de solución en comparación con otros algoritmos, hace que el algoritmo genético con estas configuraciones sean menos atractivos para este tipo problemas de tamaño n=25.
     
     **En resumen, GRASP con alpha = 0.25 y 100 iteraciones ofreció la mejor combinación de precisión y tiempo de ejecución, mientras que los algoritmos genéticos fueron los menos eficientes en ambas métricas.**
-
-## 📚 Referencias
