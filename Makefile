@@ -29,7 +29,7 @@ local_search.o: target_dir heuristic.o vicinities.o exact.o
 target_dir:
 	mkdir -p ./target
 
-ils.o: target_dir vicinities.o exact.o heuristic.o
+ils.o: target_dir vicinities.o exact.o heuristic.o local_search.o
 	$(CC) $(CPP_FLAGS) $(SRC_FILE_DIR)/ils.cpp -c -o $(TARGET_DIR)/ils.o
 
 annealing.o: target_dir vicinities.o exact.o heuristic.o
