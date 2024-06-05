@@ -11,7 +11,7 @@
 using namespace std;
 
 /**
- * Implements the Random Neighborhood Algorithm (RNA) for scheduling jobs across multiple machines.
+ * Implements the Random Non-Ascendant Algorithm (RNA) for scheduling jobs across multiple machines.
  *
  * @param schedule The initial schedule of jobs across machines.
  * @param rnamax The maximum number of iterations for the RNA algorithm.
