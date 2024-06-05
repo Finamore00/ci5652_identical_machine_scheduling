@@ -41,7 +41,7 @@ double generate_random_double() {
  * It then iteratively improves the schedule by generating neighboring schedules and applying the simulated annealing strategy
  * to escape local optima. The best found schedule is returned after the maximum number of iterations.
  */
-vector<vector<Job*>> simulated_annealing(vector<Job*> jobs, int machines, float t0, int t_step, int max_iter_t_step, int max_iter) {
+vector<vector<Job*>> simulated_annealing(vector<Job*> jobs, int machines, float t0, float t_step, int max_iter_t_step, int max_iter) {
     // Initialize the best and current schedules using the initial scheduling method.
     vector<vector<Job*>> best_schedule = mddScheduling(jobs, machines);
     vector<vector<Job*>> current_schedule, neighbor;
