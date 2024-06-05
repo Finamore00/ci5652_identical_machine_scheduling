@@ -48,7 +48,7 @@ vector<vector<Job*>> simulated_annealing(vector<Job*> jobs, int machines, float 
     current_schedule = best_schedule;
     
     // Initialize the temperature and the stopping criteria.
-    int t = t0;
+    float t = t0;
     double epsilon = 0.000001;
     int cnt = max_iter;
     
