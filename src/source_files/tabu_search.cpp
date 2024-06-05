@@ -47,9 +47,6 @@ vector<vector<Job*>> tabu_search(vector<Job*> jobs, int machines, unsigned int m
 
     // Main loop for the Tabu Search algorithm.
     while (iter < max_iter) {
-        // Find the index of the machine with the highest tardiness.
-        int tardiest_machine = index_tardiest_machine(current_schedule);
-        
         // Variables to store the best candidate schedule and its tardiness.
         vector<vector<Job*>> best_candidate = current_schedule;
         long long best_candidate_tardiness = LLONG_MAX;
@@ -57,6 +54,8 @@ vector<vector<Job*>> tabu_search(vector<Job*> jobs, int machines, unsigned int m
 
         // Generate neighbors and evaluate them.
         for (int i = 0; i < max_grn_iter; i++) {
+            // Find the index of the machine with the highest tardiness.
+            int tardiest_machine = index_tardiest_machine(current_schedule);
             vector<vector<Job*>> candidate = generate_neighbor(current_schedule, tardiest_machine);
             long long candidate_tardiness = total_tardiness(candidate);
             
