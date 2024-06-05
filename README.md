@@ -227,7 +227,7 @@ Así mismo, se emplearon diferentes parámetros para cada algoritmo implementado
 **Parámetros del Tabu Search (TS)**:
  * max_iter El número máximo de iteraciones para el algoritmo de búsqueda tabú.
  * max_grn_iter El número máximo de iteraciones para generar vecinos dentro de cada iteración.
- * tabu_tenure El número de iteraciones durante las cuales un movimiento permanece en la lista tabú.
+ * tabu_tenure El tamaño de la lista tabú.
 
 > TS1: max_iter = 10000, max_grn_iter = 100, tabu_ternure = 7
 

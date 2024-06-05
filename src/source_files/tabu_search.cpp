@@ -19,7 +19,7 @@ using namespace std;
  * @param machines The number of machines available for scheduling.
  * @param max_iter The maximum number of iterations for the Tabu Search algorithm.
  * @param max_grn_iter The maximum number of iterations for generating neighbors within each iteration.
- * @param tabu_tenure The number of iterations for which a move remains in the tabu list.
+ * @param tabu_tenure The size of the tabu list.
  * @return A vector of vectors where each inner vector represents the schedule of jobs for a machine, optimized to minimize tardiness.
  * 
  * The function begins by creating an initial schedule using the `mddScheduling` function and calculates its total tardiness.
