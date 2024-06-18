@@ -55,7 +55,8 @@ int main(int argc, char *argv[]) {
             cout << "😂😝 Memetic" << endl;
             algorithm_name = "Memetic";
             start = high_resolution_clock::now();
-            schedule = memetic_algorithm(jobs, m, 500, 0.05, 10, 3);
+            schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 3, 2, 0.75, false);
+            // schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 7, 2, 0.75, false);
             end = high_resolution_clock::now();
             break;
         case 2:

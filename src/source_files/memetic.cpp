@@ -12,7 +12,31 @@
 
 using namespace std;
 
-// mapping list determination for multi partially mapped crossover with n parents
+/**
+ * Converts a given fenotype into a genotype representation.
+ * 
+ * @param fen The fenotype to convert.
+ * @param machine_count The number of machines in the fenotype.
+ * @return The genotype representation of the fenotype.
+ */
+Individual get_genotype(Fenotype fen, int machine_count) {
+    Individual ind;
+    for (int i = 0; i < machine_count; i++) {
+        for (Job* job : fen[i]) {
+            Gene g = {job, i};
+            ind.push_back(g);
+        }
+    }
+    return ind;
+}
+
+/**
+ * Creates a mapping list based on a vector of parent individuals.
+ * The mapping list maps genes from different parents to each other based on the job they represent.
+ *
+ * @param parents A vector of parent individuals.
+ * @return An unordered map that represents the mapping list, where the key is the job ID and the value is the gene.
+ */
 unordered_map<int, Gene> create_mapping_list(vector<Individual> parents) {
      unordered_map<int, Gene> ch_map;
 
@@ -84,7 +108,14 @@ unordered_map<int, Gene> create_mapping_list(vector<Individual> parents) {
     return ch_map;
 }
 
-// create a random order array for mapping the genes of each subpart
+/**
+ * Creates a random order for a given number of genes and cut points.
+ *
+ * @param n The number of subparts.
+ * @param nro_genes The total number of genes.
+ * @param cut_points The vector of cut points.
+ * @return A vector of vectors representing the random order.
+ */
 vector<vector<int>> create_random_order(int n, int nro_genes, vector<int> cut_points) {
     vector<vector<int>> order(n);
     int start_cut_point = cut_points[0], end_cut_point;
@@ -116,7 +147,13 @@ vector<vector<int>> create_random_order(int n, int nro_genes, vector<int> cut_po
     return order;
 }
 
-// partially mapped crossover with n parents
+
+/**
+ * Performs multi-partially-mapped crossover on a vector of parent individuals.
+ * 
+ * @param parents A vector of parent individuals.
+ * @return A vector of children individuals resulting from the crossover operation.
+ */
 vector<Individual> multi_partially_mapped_crossover(vector<Individual> parents) {
     // number of parents
     int n = parents.size();
@@ -257,6 +294,15 @@ vector<Individual> multi_partially_mapped_crossover(vector<Individual> parents) 
     return children;
 }
 
+/**
+ * Chooses multiple parents from the population based on their fitness values.
+ * 
+ * @param k The number of parents to choose.
+ * @param population The population of individuals.
+ * @param fitnesses The fitness values of the individuals in the population.
+ * @param total_fitness The sum of all fitness values in the population.
+ * @return A vector containing the chosen parents.
+ */
 vector<Individual> choose_multi_parents(int k, Population &population, vector<long long> &fitnesses, long long total_fitness) {
     // Choose k parents
     vector<Individual> parents;
@@ -284,18 +330,21 @@ vector<Individual> choose_multi_parents(int k, Population &population, vector<lo
 }
 
 
-//TO-DO
 /**
- * Applies a genetic algorithm to solve the job scheduling problem.
+ * Applies the memetic algorithm to solve the job scheduling problem.
  *
- * @param jobs The list of jobs to be scheduled.
+ * @param jobs The vector of Job pointers representing the jobs to be scheduled.
  * @param machine_count The number of machines available for scheduling.
  * @param population_size The size of the population for the genetic algorithm.
- * @param mutation_rate The rate at which mutations occur during the genetic algorithm.
+ * @param mutation_rate The mutation rate for the genetic algorithm.
  * @param max_iter The maximum number of iterations for the genetic algorithm.
- * @return The best fenotype (job scheduling) solution found by the genetic algorithm.
+ * @param nro_parents_crossover The number of parents to be selected for crossover.
+ * @param opt_freq The frequency of applying local search optimization. Every how many generations the optimization is launched?
+ * @param opt_rate The rate of applying local search optimization. How many individuals are optimized in each generation?
+ * @param random_opt_rate A boolean value indicating whether the optimization rate is random or not for each generation. If it is random, then its value should be greater than 10%
+ * @return The best fenotype (job scheduling) found by the memetic algorithm.
  */
-Fenotype memetic_algorithm(vector<Job*> jobs, int machine_count, int population_size, float mutation_rate, int max_iter, int nro_parents_crossover) {
+Fenotype memetic_algorithm(vector<Job*> jobs, int machine_count, int population_size, float mutation_rate, int max_iter, int nro_parents_crossover, int opt_freq, float opt_rate, bool random_opt_rate) {
     Population population = generate_population(jobs, machine_count, population_size);
     int generation = 0;
     vector<long long> fitnesses(population_size);
@@ -342,8 +391,24 @@ Fenotype memetic_algorithm(vector<Job*> jobs, int machine_count, int population_
         }
 
         //Mutate the generated population
-        for (Individual ind : new_pop) {
-            mutate(ind, machine_count, mutation_rate);
+        for (int k = 0; k < new_pop_count; k++) {
+            mutate(new_pop[k], machine_count, mutation_rate);
+        }
+
+        // apply local search optimization if this generations needs
+        if (generation % opt_freq == 0) {
+            int nro_opt;
+            if (random_opt_rate) {
+                nro_opt = (10 + (rand() % 100)/100)*new_pop_count;
+            } else {
+                nro_opt = opt_rate * new_pop_count;
+            }
+            for (int i = 0; i < nro_opt; i++) {
+                int pos = rand() % new_pop_count;
+                Fenotype fen = get_fenotype(new_pop[pos], machine_count);
+                fen = improve_solution_by_ls(fen, machine_count, 50);
+                new_pop[pos] = get_genotype(fen, machine_count);
+            }
         }
 
         // Replace current population with new one
