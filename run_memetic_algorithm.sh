@@ -15,4 +15,4 @@ myfunc() {
 
 export -f myfunc
 
-parallel myfunc ::: 20 25 ::: {2..10}
+parallel myfunc ::: 25 ::: {7..10}
