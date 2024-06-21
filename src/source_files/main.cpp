@@ -59,7 +59,9 @@ int main(int argc, char *argv[]) {
             // add more parents to recombination
             // schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 10, 2, 0.75, false);
             // increase the frequency of local search 
-            schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 10, 1, 0.75, false);
+            // schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 10, 1, 0.75, false);
+            // increase the frequency of local search 
+            schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 10, 1, 1, false);
             end = high_resolution_clock::now();
             break;
         case 2:
