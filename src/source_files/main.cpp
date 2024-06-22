@@ -9,6 +9,7 @@
 #include "../header_files/utilities.h"
 #include "../header_files/exact.h"
 #include "../header_files/memetic.h"
+#include "../header_files/aco.h"
 
 using namespace std;
 using namespace chrono;
@@ -26,7 +27,7 @@ int main(int argc, char *argv[]) {
         cout << " <algorithm> must be one of the following:" << endl;
         cout << "\t1: Memetic Algorithm" << endl;
         cout << "\t2: Tabu Search" << endl;
-        cout << "\t3: Simulated Annealing" << endl;
+        cout << "\t3: Ant Colony Optimization" << endl;
         return -1;
     }
 
@@ -63,7 +64,7 @@ int main(int argc, char *argv[]) {
             // increase rate of local search 
             // schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 10, 1, 1, false);
             // random frequency of local search
-            schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 5, 2, 1, true);
+            schedule = memetic_algorithm(jobs, m, 250, 0.05, 20, 5, 2, 1, true);
             end = high_resolution_clock::now();
             break;
         case 2:
@@ -74,10 +75,10 @@ int main(int argc, char *argv[]) {
             end = high_resolution_clock::now();
             break;
         case 3:
-            cout << "❄️ Simulated Annealing" << endl;
-            algorithm_name = "Simulated Annealing";
+            cout << "🐜 Ant Colony Optimization" << endl;
+            algorithm_name = "Ant Colony Optimization";
             start = high_resolution_clock::now();
-            // schedule = simulated_annealing(jobs, m, 1500.0, 0.85, 100, 1000);
+            schedule = ACO(jobs, m, 250, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
             end = high_resolution_clock::now();
             break;
         }
@@ -101,7 +102,7 @@ int main(int argc, char *argv[]) {
             cout << "tabu search: ";
             break;
         case 3:
-            cout << "simulated annealing: ";
+            cout << "ant colony optimization: ";
             break;
         default:
             break;
