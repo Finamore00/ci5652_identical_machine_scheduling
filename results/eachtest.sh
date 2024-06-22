@@ -23,25 +23,25 @@
 #         ./timeMA.sh $file > timeMA$filename.txt
 #     done
 
-# memetic algorithm prueba 3
-echo "Procesando archivos de resultados memetic algorithm 3"
+# memetic algorithm prueba 4
+echo "Procesando archivos de resultados memetic algorithm 4"
 echo "n=20"
-for file in ./memetic_results3/n=20/*results_memetic3.txt
+for file in ./memetic_results4/n=20/*results_memetic4.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttMA3$filename.txt
-        ./timeMA.sh $file > timeMA3$filename.txt
+        ./total_tardiness.sh $file > ttMA4$filename.txt
+        ./timeMA.sh $file > timeMA4$filename.txt
     done
 
 echo "/n"
 echo "n=25"
-for file in ./memetic_results3/n=25/*results_memetic3.txt
+for file in ./memetic_results4/n=25/*results_memetic4.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
         echo "Procesando archivo: $filename"
-        ./total_tardiness.sh $file > ttMA3$filename.txt
-        ./timeMA.sh $file > timeMA3$filename.txt
+        ./total_tardiness.sh $file > ttMA4$filename.txt
+        ./timeMA.sh $file > timeMA4$filename.txt
     done
