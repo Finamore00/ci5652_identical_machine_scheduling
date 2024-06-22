@@ -5,11 +5,14 @@ SRC_FILE_DIR = src/source_files
 HDR_FILE_DIR = src/header_files
 OBJECTS := $(wildcard $(TARGET_DIR)/*.o)
 
-all: target_dir memetic.o
+all: target_dir memetic.o aco.o
 	$(CC) $(CPP_FLAGS) $(TARGET_DIR)/*.o $(SRC_FILE_DIR)/main.cpp -o $(TARGET_DIR)/PROY3
 
 memetic.o: target_dir local_search.o exact.o evolution.o
 	$(CC) $(CPP_FLAGS) $(SRC_FILE_DIR)/memetic.cpp -c -o $(TARGET_DIR)/memetic.o
+
+aco.o: target_dir vicinities.o exact.o heuristic.o local_search.o
+	$(CC) $(CPP_FLAGS) $(SRC_FILE_DIR)/aco.cpp -c -o $(TARGET_DIR)/aco.o
 
 grasp.o: target_dir local_search.o heuristic.o exact.o
 	$(CC) $(CPP_FLAGS) $(SRC_FILE_DIR)/grasp.cpp -c -o $(TARGET_DIR)/grasp.o
