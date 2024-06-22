@@ -35,7 +35,17 @@ int main(int argc, char *argv[]) {
 	auto timeMillis = duration_cast<chrono::milliseconds>(now.time_since_epoch()).count();
 	srand(timeMillis);
 
+    vector<filesystem::directory_entry> entries;
+
     for (const auto & entry : filesystem::directory_iterator(path)) {
+        entries.push_back(entry);
+    }
+
+    sort(entries.begin(), entries.end(), [](const filesystem::directory_entry &a, const filesystem::directory_entry &b) {
+        return a.path().filename().string() < b.path().filename().string();
+    });
+
+    for (const auto & entry : entries) {
         // store the information of the file
         int n, m;
         vector<Job*> jobs;
