@@ -102,7 +102,7 @@ int main(int argc, char *argv[]) {
             cout << "tabu search: ";
             break;
         case 3:
-            cout << "ant colony optimization:";
+            cout << "ant colony optimization: ";
             break;
         default:
             break;
