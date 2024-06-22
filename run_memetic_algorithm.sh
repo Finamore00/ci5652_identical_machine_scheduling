@@ -6,8 +6,13 @@ mkdir -p results/memetic_results5/n=25
 
 export -f myfunc
 
-for i in {2..10}
-do
-    echo "Benchmark Started. m=$i, n=25"
-    target/PROY3 benchmarks/n=25/m=$i 1 > results/memetic_results5/n=25/25-$i-results_memetic5.txt
-done
+myfunc() {
+    n=$1
+    m=$2
+    echo "Benchmark Started. m=$m, n=$n"
+    target/PROY3 benchmarks/n="$n"/m="$m" 1 > results/memetic_results5/n="$n"/"$n"-"$m"results_memetic5.txt
+}
+
+export -f myfunc
+
+parallel myfunc ::: 20 25 ::: {2..10}

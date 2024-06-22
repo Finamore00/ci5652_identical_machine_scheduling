@@ -63,7 +63,7 @@ int main(int argc, char *argv[]) {
             // increase rate of local search 
             // schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 10, 1, 1, false);
             // random frequency of local search
-            schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 10, 1, 1, true);
+            schedule = memetic_algorithm(jobs, m, 500, 0.05, 20, 5, 2, 1, true);
             end = high_resolution_clock::now();
             break;
         case 2:
