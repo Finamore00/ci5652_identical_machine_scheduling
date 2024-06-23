@@ -154,12 +154,14 @@ void local_pheromone_update(vector<vector<double>>& pheromone, int job, int mach
  * @param best_tardiness The tardiness of the best solution.
  * @param rho_global The global pheromone evaporation rate.
  */
-void global_pheromone_update(vector<vector<double>>& pheromone, 
-                           const vector<vector<Job*>>& best_solution, 
-                           long long best_tardiness, const double rho_global) {
-    for (int i = 0; i < pheromone.size(); ++i) {
-        for (int j = 0; j < pheromone[i].size(); ++j) {
-            pheromone[i][j] = (1 - rho_global) * pheromone[i][j] + rho_global * (1.0 / best_tardiness);
+void global_pheromone_update(vector<vector<double>>& pheromone,
+                             const vector<Job*>& jobs,
+                             const vector<vector<Job*>>& best_solution, 
+                             long long best_tardiness, const double rho_global) {
+    for (int i = 0; i < best_solution.size(); ++i) {
+        for (int j = 0; j < best_solution[i].size(); ++j) {
+            int job = find(jobs.begin(), jobs.end(), best_solution[i][j]) - jobs.begin();
+            pheromone[job][i] = (1 - rho_global) * pheromone[job][i] + rho_global * (1.0 / best_tardiness);
         }
     }
 }
@@ -225,7 +227,7 @@ vector<vector<Job*>> ACO(vector<Job*> jobs, int machines, int iterations, int an
             }
         }
         // Update the global pheromone level based on the best solution
-        global_pheromone_update(pheromone, best_solution, best_tardiness, rho_global);
+        global_pheromone_update(pheromone, jobs, best_solution, best_tardiness, rho_global);
     }
     return best_solution;
 }

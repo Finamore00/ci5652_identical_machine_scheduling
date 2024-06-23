@@ -17,32 +17,79 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
 📂 En la carpeta `benchmarks` se encuentran los casos de pruebas de la primera corte del proyecto para medir y comparar el rendimiento de diferentes algoritmos para solucionar el problema descrito.
 
-## Definición de una perturbación e implementación de una búsqueda local iterada (ILS).
+## Definición del comportamiento de la feromona/heurística e implemente con ello una optimización de colonia de hormigas
+### 🐜 Optimización de Colonia de Hormigas
 
-### 🔄 ILS
+#### Feromona 
 
-La implementación del algoritmo de Búsqueda Local Iterada (ILS) recibe la información de las `n` tareas, la cantidad de `m` máquinas, y varios parámetros que controlan el proceso de búsqueda, como el número máximo de iteraciones y la fuerza de perturbación inicial. A continuación se describen los pasos de la implementación:
+- **Estructura**: Se implementa como una matriz bidimensional donde cada elemento τ[i][j] representa el nivel de feromona para asignar la tarea i a la máquina j.
 
-1. **Inicialización:** 
-    - El algoritmo empieza creando una solución inicial `S` utilizando el método `mddScheduling`. 
-    - Luego, aplica el algoritmo `local search` a esta solución inicial para obtener una solución mejorada `S`.
-    - Esta solución `S` es considerada la mejor solución conocida hasta el momento (`best_schedule`).
+- **Inicialización**: Al comenzar, todos los valores de feromona se establecen en 1.0, indicando que inicialmente no hay preferencia por ninguna asignación.
 
-2. **Iteraciones principales:** 
-    - Para cada iteración, se realiza una perturbación a la solución actual `current_schedule` aplicando un número `p` de movimientos aleatorios.
-    - Después de la perturbación, se aplica el algoritmo `local search` para mejorar la solución perturbada.
+- **Actualización local**: Después de cada asignación de tarea, se actualiza la feromona usando la fórmula:
+  τ[job][machine] = (1 - ρ_local) * τ[job][machine] + ρ_local * Δτ
+  Donde Δτ es 1 dividido por el retraso máximo calculado inicialmente y ρ_local es un parámetro que controla la tasa de evaporación local.
 
-3. **Evaluación de soluciones:** 
-    - Si la solución mejorada tiene una tardanza total (`total_tardiness`) menor que la mejor solución conocida, se actualiza la mejor solución y se restablece la fuerza de perturbación `p` a su valor inicial.
-    - Si no mejora, se incrementa un contador `i`.
+- **Actualización global**: Al final de cada iteración, se actualiza la feromona basándose en la mejor solución encontrada:
+  τ[i][j] = (1 - ρ_global) * τ[i][j] + ρ_global * (1 / mejor_retraso) 
+    Donde ρ_global es un parámetro que controla la tasa de evaporación global y mejor_retraso es el retraso total de la mejor solución encontrada.
 
-4. **Ajuste de la perturbación:** 
-    - Si el contador `i` alcanza el límite `itermax`, se incrementa la fuerza de perturbación `p`. Si `p` excede un valor máximo `pmax`, se restablece a su valor inicial.
+- **Uso**: En la selección de tareas, la feromona se eleva a la potencia α para ajustar su influencia en la decisión.
 
-5. **Repetición:** 
-    - Se repiten los pasos 2-4 hasta que se agoten las iteraciones.
+#### Heurística
 
-El algoritmo `ILS` busca explorar el espacio de soluciones mediante la combinación de perturbaciones y optimización local, ayudando a escapar de óptimos locales y encontrar soluciones mejores.
+
+- **Cálculo**: Se define como el inverso del retraso modificado de la fecha de vencimiento (modified due date tardiness o MDD):
+  η = 1 / MDD(tiempo_actual_máquina, tarea)
+
+- **Función MDD**: Calcula el retraso potencial de una tarea si se asignara a una máquina en un momento dado. 
+
+- **Uso**: En la selección de tareas, la heurística se eleva a la potencia β para ajustar su influencia en la decisión.
+
+- **Equilibrio con la feromona**: La probabilidad de seleccionar una tarea para una máquina se calcula como:
+  P[i][j] ∝ (τ[i][j])^α * (η[i][j])^β
+  Donde τ es la feromona, η es la heurística, y α y β son parámetros que controlan la importancia relativa de la feromona y la heurística respectivamente.
+
+Esta combinación de feromona y heurística permite al algoritmo equilibrar entre explotar la información aprendida (a través de la feromona) y responder a las características específicas de cada tarea y el estado actual de las máquinas (a través de la heurística). Esto guía al algoritmo hacia soluciones que minimizan el retraso total de las tareas, adaptándose dinámicamente a medida que construye y mejora las soluciones.
+
+#### Pasos del Algoritmo
+
+1. **Inicialización**
+
+El algoritmo comienza creando la matriz de feromonas. Además, se calcula el MDD Tardiness que se usa como referencia para la actualización local de la feromona. 
+
+2. **Ciclo principal**
+
+El corazón del algoritmo es un ciclo que se repite un número fijo de veces. Cada repetición de este ciclo representa una generación completa de soluciones. Durante cada iteración, el algoritmo generará una solución, la mejorará, y usará la información obtenida para influir en las siguientes generaciones.
+
+3. **Construcción de soluciones**
+
+En esta fase, el algoritmo crea múltiples soluciones desde cero. Cada solución se construye de manera similar a cómo una hormiga construiría un camino. Se comienza con todas las tareas sin asignar y todas las máquinas vacías. Luego, para cada tarea, se selecciona primero una máquina, favoreciendo aquellas con menos tiempo de procesamiento acumulado. Después, se elige una tarea para esa máquina, basándose en los niveles de feromona (que indican qué tan buena ha sido esta asignación en el pasado) y la urgencia de la tarea. Una vez hecha la asignación, se actualiza el tiempo de procesamiento de la máquina y se modifica ligeramente el nivel de feromona para esa combinación específica de tarea y máquina.
+
+4. **Actualización local de feromonas**
+
+Después de asignar cada tarea a una máquina, el algoritmo actualiza los niveles de feromona localmente. Esto se hace aumentando los niveles de feromona para las combinaciones de tarea-máquina que se han asignado en esta solución.
+
+5. **Mejora local**
+
+Una vez construida una solución completa, el algoritmo intenta mejorarla. Esto se hace mediante un proceso de búsqueda local.
+
+6. **Evaluación**
+
+Después de mejorar cada solución, el algoritmo calcula su calidad midiendo el retraso total que produce. Si esta solución resulta ser mejor que la mejor encontrada hasta ahora (es decir, si produce un retraso total menor), se guarda como la nueva mejor solución. 
+
+7. **Actualización global de feromonas**
+
+Al final de cada iteración, después de haber construido y evaluado todas las soluciones de esa generación, el algoritmo actualiza la matriz de feromonas basándose en la mejor solución encontrada. Esto se hace aumentando los niveles de feromona para las combinaciones de tarea-máquina que aparecen en la mejor solución.
+
+8. **Evaporación de feromonas**
+
+Para evitar que el algoritmo se quede atrapado en soluciones subóptimas, se implementa un mecanismo de evaporación de feromonas. Esto significa que en cada iteración, todos los niveles de feromona se reducen ligeramente.
+
+9. **Finalización**
+
+Después de completar todas las iteraciones programadas, el algoritmo termina y devuelve la mejor solución que ha encontrado. Esta solución representa la programación de tareas que, según el algoritmo, debería producir el menor retraso total posible dado el conjunto de tareas y máquinas disponibles.
+
 
 ## Definición de reglas para movimientos que han de ser tabús e implementación de una búsqueda tabú.
 

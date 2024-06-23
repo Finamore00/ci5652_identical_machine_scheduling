@@ -35,7 +35,17 @@ int main(int argc, char *argv[]) {
 	auto timeMillis = duration_cast<chrono::milliseconds>(now.time_since_epoch()).count();
 	srand(timeMillis);
 
+    vector<filesystem::directory_entry> entries;
+
     for (const auto & entry : filesystem::directory_iterator(path)) {
+        entries.push_back(entry);
+    }
+
+    sort(entries.begin(), entries.end(), [](const filesystem::directory_entry &a, const filesystem::directory_entry &b) {
+        return a.path().filename().string() < b.path().filename().string();
+    });
+
+    for (const auto & entry : entries) {
         // store the information of the file
         int n, m;
         vector<Job*> jobs;
@@ -78,7 +88,8 @@ int main(int argc, char *argv[]) {
             cout << "🐜 Ant Colony Optimization" << endl;
             algorithm_name = "Ant Colony Optimization";
             start = high_resolution_clock::now();
-            schedule = ACO(jobs, m, 250, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
+            // schedule = ACO(jobs, m, 250, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
+            schedule = ACO(jobs, m, 250, 50, 1, 3, 0.9, 0.9, 0.01, 0.01);
             end = high_resolution_clock::now();
             break;
         }
