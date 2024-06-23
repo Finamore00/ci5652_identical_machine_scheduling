@@ -60,7 +60,7 @@ El algoritmo comienza creando la matriz de feromonas. Además, se calcula el MDD
 
 2. **Ciclo principal**
 
-El corazón del algoritmo es un ciclo que se repite un número fijo de veces, que es el criterio de terminación. Cada repetición de este ciclo representa una generación completa de soluciones. Durante cada iteración, el algoritmo generará una solución, la mejorará, y usará la información obtenida para influir en las siguientes generaciones.
+El corazón del algoritmo es un ciclo que se repite un número fijo de veces. Cada repetición de este ciclo representa una generación completa de soluciones. Durante cada iteración, el algoritmo generará una solución, la mejorará, y usará la información obtenida para influir en las siguientes generaciones.
 
 3. **Construcción de soluciones**
 
