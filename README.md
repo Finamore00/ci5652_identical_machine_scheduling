@@ -83,17 +83,35 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
     9. Se devuelven los hijos generados.
 
-- **Mejora luego de la recombinación**: Para este paso, se utiliza la búsqueda local implementada en la primera corte del proyecto.
+### Mejora luego de la recombinación
 
-    1. Sea un hijo `h` producido en la recombinación.
+Para este paso, se utiliza la búsqueda local implementada en la primera corte del proyecto.
 
-    2. Se decodifica el genotipo del hijo `h` en un fenotipo válido.
+1. Sea un hijo `h` producido en la recombinación.
 
-    3. Luego, se le aplica la búsqueda local al fenotipo convertido.
+2. Se decodifica el genotipo del hijo `h` en un fenotipo válido.
 
-    4. Y por último, el resultado de la búsqueda local se transforma nuavemente en un genotipo.
+3. Luego, se le aplica la búsqueda local al fenotipo convertido.
 
-- **Parámetros del algoritmo memético**:  
+4. Y por último, el resultado de la búsqueda local se transforma nuavemente en un genotipo.
+
+### Parámetros del algoritmo memético
+
+Aparte de recibir las tareas y la cantidad de máquinas, y los parámetros del algoritmo genético: 
+- population_size: El tamaño de la población
+
+- mutation_rate: El porcentaje de mutación.
+
+- max_iter: El máximo número de iteraciones o generaciones.
+
+El algoritmo memético recibe adicionalmente los siguientes parámetros:
+- nro_parents_crossover: Un entero para la cantidad de padres para ser seleccionadas para la recombinación en cada generación.
+
+- opt_freq: Un entero que indica la frequencia de aplicar la mejora con la búsqueda local. Responde a la pregunta de ¿cada cuántas generaciones se lanza la optimización?
+
+- opt_rate: Un float para el porcentaje de aplicar la mejora en la búsqueda local sobre los descendientes. ¿Cuántos invididuos generados son optimizados en cada generación?
+
+- random_opt_rate: Un valor booleano que indica si aplicar la búsqueda local con un porcentaje aleatorio en  cada generación o aplicarlo según el opt_rate. Y si es aleatorio, el valor del parámetro es true, en caso contrario es false. Además, si es aleatorio, el valor de porcentaje para la búsqueda local en cada generación debe ser mayor que 10%, esto para asegurar que siempre se aplique una cantidad significativa de optimización local.
 
 ## Definición del comportamiento de la feromona/heurística e implemente con ello una optimización de colonia de hormigas
 ### 🐜 Optimización de Colonia de Hormigas
