@@ -10,182 +10,39 @@ Proyecto de Diseño de Algoritmos II (CI5652) con soluciones aproximadas para el
 Dado un conjunto de `n` tareas y `m` máquinas idénticas, el objetivo es asignar cada tarea a una máquina y determinar la secuencia de tareas en cada máquina de manera que se minimice la tardanza total (the total tardiness). Cada tarea `j` tiene un tiempo de procesamiento `p_j` y una fecha de vencimiento `d_j`. La tardanza de una tarea se calcula como `max(0, C_j - d_j)`, donde `C_j` es el tiempo de finalización del trabajo `j`.
 
 # 📋 INFORME DEL PROYECTO - SEGUNDO CORTE
-El programa está implementado en C++ y consta de los siguientes archivos para este tercer corte:
+El programa está implementado en C++ y consta de los siguientes archivos para este segundo corte:
 
-- `memetic.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando el algoritmo memético para el problema.
-- `aco.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando el algoritmo de optimicación de colonia de hormigas para el problema.
+- `grasp.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando GRASP para el problema.
+- `evolution.cpp`: Archivo que contiene los tipos de datos y algoritmos requeridos por la implementación del algoritmo genético para la reoslución del problema.
 
 📂 En la carpeta `benchmarks` se encuentran los casos de pruebas de la primera corte del proyecto para medir y comparar el rendimiento de diferentes algoritmos para solucionar el problema descrito.
 
-## Definición del operador de cruce utilizado en el algoritmo genético para una recombinación de al menos 3 padres, el método de mejora luego de la recombinación y la implementación del algoritmo memético
+## Definición de una perturbación e implementación de una búsqueda local iterada (ILS).
 
-### ( ͡° ͜ʖ ͡°) Algoritmo Memético 😂
+### 🔄 ILS
 
-### Operador de cruce utilizado en el algoritmo genético para una recombinación de al menos 3 padres
+La implementación del algoritmo de Búsqueda Local Iterada (ILS) recibe la información de las `n` tareas, la cantidad de `m` máquinas, y varios parámetros que controlan el proceso de búsqueda, como el número máximo de iteraciones y la fuerza de perturbación inicial. A continuación se describen los pasos de la implementación:
 
-- **Operador de cruce utilizado en el algoritmo genético**: Cruce parcialmente mapeado.
+1. **Inicialización:** 
+    - El algoritmo empieza creando una solución inicial `S` utilizando el método `mddScheduling`. 
+    - Luego, aplica el algoritmo `local search` a esta solución inicial para obtener una solución mejorada `S`.
+    - Esta solución `S` es considerada la mejor solución conocida hasta el momento (`best_schedule`).
 
-- **Cruce parcialmente mapeado para múltiples padres**: Se implementa el cruce parcialmente mapeado para múltiples padres, cuyo proceso consiste en:
+2. **Iteraciones principales:** 
+    - Para cada iteración, se realiza una perturbación a la solución actual `current_schedule` aplicando un número `p` de movimientos aleatorios.
+    - Después de la perturbación, se aplica el algoritmo `local search` para mejorar la solución perturbada.
 
-    1. Sea `k` el número de padres. 
+3. **Evaluación de soluciones:** 
+    - Si la solución mejorada tiene una tardanza total (`total_tardiness`) menor que la mejor solución conocida, se actualiza la mejor solución y se restablece la fuerza de perturbación `p` a su valor inicial.
+    - Si no mejora, se incrementa un contador `i`.
 
-    2. Se seleccionan aleatoriamente `k` puntos de corte para dividir cada padre en `k + 1` subpartes.
+4. **Ajuste de la perturbación:** 
+    - Si el contador `i` alcanza el límite `itermax`, se incrementa la fuerza de perturbación `p`. Si `p` excede un valor máximo `pmax`, se restablece a su valor inicial.
 
-    ![Ejemplo de subpartes](./img/ejemplo_subpartes.png)
+5. **Repetición:** 
+    - Se repiten los pasos 2-4 hasta que se agoten las iteraciones.
 
-    3. Se crea una lista de mapeo (`ch_map`) utilizando la función `create_mapping_list`. Esta lista mapea los genes (o tareas) de diferentes padres entre sí. 
-
-        3.1. Sea `g` el número de genes o tareas de un individuo.
-
-        3.2. Se crea un arreglo `job_mapped` para rastrear qué tareas ya han sido mapeados y un contador de tareas mapeados `cnt_mapped`
-
-        3.3. Se selecciona aleatoriamente un padre `start_parent` y un gen inicial del padre seleccionado `start_gene`.
-
-        3.4. Luego se ejecuta un bucle con `g` iteraciones
-        
-            3.4.1. En el bucle, se marca el gen actual `start_gene` como mapeado.
-
-            3.4.2. Se selecciona un padre final `end_parent` aleatoriamente y diferente del padre inicial y se busca en el padre final el gen que corresponde a la misma tarea que el gen inicial, al encontrarlo se guarda el gen en `end_gene`.
-
-            3.4.3. Se incrementa `cnt_mapped` a 1. Si todos las tareas han sido mapeados, se sale del bucle.
-
-            3.4.4. Si aún faltan tareas por mapear, se elige un nuevo padre inicial diferente del final y se selecciona un nuevo gen inicial cuya tarea no haya sido mapeada aún.
-
-            3.4.5. Y se agrega un mapeo con `ch_map[end_gene.job->id] = start_gene`
-
-        3.5. Después del bucle, se agrega un mapeo final de la tarea del último gen a la tarea del gen inicial (el primer gen que se mapea). Esto para crear un mapeo cíclico entre tareas.
-
-        ![Mapeo de genes](./img/mapeo_genes.png)
-
-    4. Luego, se crea un orden aleatorio en los genes para cada subparte con la función `create_random_order` y este orden aleatorio se guarda en un arreglo `order`
-
-    5. Se crean los `k` hijos.
-
-    6. Primero cada hijo `i` se copia la primera subparte del padre `i` (antes del primer punto de corte y después del último punto de corte).
-
-    7. Luego, para cada hijo `i`, las subpartes entre los puntos de corte se copian de otros padres en un patrón diagonal.
-
-    8. Posteriormente, se legaliza cada hijo para asegurar que no hayan trabajos duplicados.
-
-        8.1. Se crea un nuevo orden aleatorio `new_order` para procesar las subpartes del hijo `i`.
-
-        8.2. Se marcan inicialmente la primera subparte procesada, o sea, la primera subparte de cada hijo permanece igual.
-
-        8.3. Para cada subparte restante según el orden en `new_order`.
-
-            8.3.1. Se revisa cada gen de la subparte actual según el orden en `order`.
-
-            8.3.2. Si la tarea ya está marcado (duplicado), se reemplaza con el trabajo mapeado según la lista de mapeo (`ch_map`). Este proceso continúa hasta encontrar un trabajo no marcado.
-            
-            8.3.3. Al encontrar un trabajo no marcado, se marca el nuevo trabajo y se actualiza el gen en el hijo actual.
-
-        8.4. Se verifica que todas las tareas estén marcadas (para asegurar que no hayan tareas duplicadas y tampoco tareas faltantes).
-
-    9. Se devuelven los hijos generados.
-
-### Mejora luego de la recombinación
-
-Para este paso, se utiliza la búsqueda local implementada en la primera corte del proyecto.
-
-1. Sea un hijo `h` producido en la recombinación.
-
-2. Se decodifica el genotipo del hijo `h` en un fenotipo válido.
-
-3. Luego, se le aplica la búsqueda local al fenotipo convertido.
-
-4. Y por último, el resultado de la búsqueda local se transforma nuevamente en un genotipo.
-
-### Parámetros del algoritmo memético
-
-Aparte de recibir las tareas y la cantidad de máquinas, y los parámetros del algoritmo genético: 
-- population_size: El tamaño de la población
-
-- mutation_rate: El porcentaje de mutación.
-
-- max_iter: El máximo número de iteraciones o generaciones.
-
-El algoritmo memético recibe adicionalmente los siguientes parámetros:
-- nro_parents_crossover: Un entero para la cantidad de padres para ser seleccionadas para la recombinación en cada generación.
-
-- opt_freq: Un entero que indica la frequencia de aplicar la mejora con la búsqueda local. Responde a la pregunta de ¿cada cuántas generaciones se lanza la optimización?
-
-- opt_rate: Un float para el porcentaje de aplicar la mejora en la búsqueda local sobre los descendientes. ¿Cuántos invididuos generados son optimizados en cada generación?
-
-- random_opt_rate: Un valor booleano que indica si aplicar la búsqueda local con un porcentaje aleatorio en  cada generación o aplicarlo según el opt_rate. Y si es aleatorio, el valor del parámetro es true, en caso contrario es false. Además, si es aleatorio, el valor de porcentaje para la búsqueda local en cada generación debe ser mayor que 10%, esto para asegurar que siempre se aplique una cantidad significativa de optimización local.
-
-## Definición del comportamiento de la feromona/heurística e implemente con ello una optimización de colonia de hormigas
-### 🐜 Optimización de Colonia de Hormigas
-
-#### Feromona 
-
-- **Estructura**: Se implementa como una matriz bidimensional donde cada elemento τ[i][j] representa el nivel de feromona para asignar la tarea i a la máquina j.
-
-- **Inicialización**: Al comenzar, todos los valores de feromona se establecen en 1.0, indicando que inicialmente no hay preferencia por ninguna asignación.
-
-- **Actualización local**: Después de cada asignación de tarea, se actualiza la feromona usando la fórmula:
-  τ[job][machine] = (1 - ρ_local) * τ[job][machine] + ρ_local * Δτ
-  Donde Δτ es 1 dividido por el retraso máximo calculado inicialmente y ρ_local es un parámetro que controla la tasa de evaporación local.
-
-- **Actualización global**: Al final de cada iteración, se actualiza la feromona basándose en la mejor solución encontrada:
-  τ[i][j] = (1 - ρ_global) * τ[i][j] + ρ_global * (1 / mejor_retraso) 
-    Donde ρ_global es un parámetro que controla la tasa de evaporación global y mejor_retraso es el retraso total de la mejor solución encontrada.
-
-- **Uso**: En la selección de tareas, la feromona se eleva a la potencia α para ajustar su influencia en la decisión.
-
-#### Heurística
-
-
-- **Cálculo**: Se define como el inverso del retraso modificado de la fecha de vencimiento (modified due date tardiness o MDD):
-  η = 1 / MDD(tiempo_actual_máquina, tarea)
-
-- **Función MDD**: Calcula el retraso potencial de una tarea si se asignara a una máquina en un momento dado. 
-
-- **Uso**: En la selección de tareas, la heurística se eleva a la potencia β para ajustar su influencia en la decisión.
-
-- **Equilibrio con la feromona**: La probabilidad de seleccionar una tarea para una máquina se calcula como:
-  P[i][j] ∝ (τ[i][j])^α * (η[i][j])^β
-  Donde τ es la feromona, η es la heurística, y α y β son parámetros que controlan la importancia relativa de la feromona y la heurística respectivamente.
-
-Esta combinación de feromona y heurística permite al algoritmo equilibrar entre explotar la información aprendida (a través de la feromona) y responder a las características específicas de cada tarea y el estado actual de las máquinas (a través de la heurística). Esto guía al algoritmo hacia soluciones que minimizan el retraso total de las tareas, adaptándose dinámicamente a medida que construye y mejora las soluciones.
-
-#### Pasos del Algoritmo
-
-1. **Inicialización**
-
-El algoritmo comienza creando la matriz de feromonas. Además, se calcula el MDD Tardiness que se usa como referencia para la actualización local de la feromona. 
-
-2. **Ciclo principal**
-
-El corazón del algoritmo es un ciclo que se repite un número fijo de veces. Cada repetición de este ciclo representa una generación completa de soluciones. Durante cada iteración, el algoritmo generará una solución, la mejorará, y usará la información obtenida para influir en las siguientes generaciones.
-
-3. **Construcción de soluciones**
-
-En esta fase, el algoritmo crea múltiples soluciones desde cero. Cada solución se construye de manera similar a cómo una hormiga construiría un camino. Se comienza con todas las tareas sin asignar y todas las máquinas vacías. Luego, para cada tarea, se selecciona primero una máquina, favoreciendo aquellas con menos tiempo de procesamiento acumulado. Después, se elige una tarea para esa máquina, basándose en los niveles de feromona (que indican qué tan buena ha sido esta asignación en el pasado) y la urgencia de la tarea. Una vez hecha la asignación, se actualiza el tiempo de procesamiento de la máquina y se modifica ligeramente el nivel de feromona para esa combinación específica de tarea y máquina.
-
-4. **Actualización local de feromonas**
-
-Después de asignar cada tarea a una máquina, el algoritmo actualiza los niveles de feromona localmente. Esto se hace aumentando los niveles de feromona para las combinaciones de tarea-máquina que se han asignado en esta solución.
-
-5. **Mejora local**
-
-Una vez construida una solución completa, el algoritmo intenta mejorarla. Esto se hace mediante un proceso de búsqueda local.
-
-6. **Evaluación**
-
-Después de mejorar cada solución, el algoritmo calcula su calidad midiendo el retraso total que produce. Si esta solución resulta ser mejor que la mejor encontrada hasta ahora (es decir, si produce un retraso total menor), se guarda como la nueva mejor solución. 
-
-7. **Actualización global de feromonas**
-
-Al final de cada iteración, después de haber construido y evaluado todas las soluciones de esa generación, el algoritmo actualiza la matriz de feromonas basándose en la mejor solución encontrada. Esto se hace aumentando los niveles de feromona para las combinaciones de tarea-máquina que aparecen en la mejor solución.
-
-8. **Evaporación de feromonas**
-
-Para evitar que el algoritmo se quede atrapado en soluciones subóptimas, se implementa un mecanismo de evaporación de feromonas. Esto significa que en cada iteración, todos los niveles de feromona se reducen ligeramente.
-
-9. **Finalización**
-
-Después de completar todas las iteraciones programadas, el algoritmo termina y devuelve la mejor solución que ha encontrado. Esta solución representa la programación de tareas que, según el algoritmo, debería producir el menor retraso total posible dado el conjunto de tareas y máquinas disponibles.
-
+El algoritmo `ILS` busca explorar el espacio de soluciones mediante la combinación de perturbaciones y optimización local, ayudando a escapar de óptimos locales y encontrar soluciones mejores.
 
 ## Definición de reglas para movimientos que han de ser tabús e implementación de una búsqueda tabú.
 
