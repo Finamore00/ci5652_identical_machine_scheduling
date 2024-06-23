@@ -9,7 +9,7 @@ Proyecto de Diseño de Algoritmos II (CI5652) con soluciones aproximadas para el
 # 🤔 Descripción del problema
 Dado un conjunto de `n` tareas y `m` máquinas idénticas, el objetivo es asignar cada tarea a una máquina y determinar la secuencia de tareas en cada máquina de manera que se minimice la tardanza total (the total tardiness). Cada tarea `j` tiene un tiempo de procesamiento `p_j` y una fecha de vencimiento `d_j`. La tardanza de una tarea se calcula como `max(0, C_j - d_j)`, donde `C_j` es el tiempo de finalización del trabajo `j`.
 
-# 📋 INFORME DEL PROYECTO - SEGUNDO CORTE
+# 📋 INFORME DEL PROYECTO - TERCER CORTE
 El programa está implementado en C++ y consta de los siguientes archivos para este tercer corte:
 
 - `memetic.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando el algoritmo memético para el problema.
@@ -228,9 +228,12 @@ Para evitar que el algoritmo se quede atrapado en soluciones subóptimas, se imp
 
 Después de completar todas las iteraciones programadas, el algoritmo termina y devuelve la mejor solución que ha encontrado. Esta solución representa la programación de tareas que, según el algoritmo, debería producir el menor retraso total posible dado el conjunto de tareas y máquinas disponibles.
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> 4f1ff0a2ed93383de1c27b98742107090847d7d8
 ## 🚀 Uso
 
 Para compilar y ejecutar el programa, se debe ejecutar los siguientes comandos en la terminal:
@@ -244,16 +247,14 @@ cd target
 ```
 
 ```bash
-./PROY2 <path_to_benchmarks> <algorithm>
+./PROY3 <path_to_benchmarks> <algorithm>
 ```
 
 Donde `<path_to_benchmarks>` es la ruta a la carpeta que contiene los casos de prueba y `<algorithm>` es el número del algoritmo a ejecutar:
 
-1. Búsqueda Local Iterada (ILS)
-2. Búsqueda Tabú 
-3. Reconocido Simulado
-4. GRASP
-5. Algoritmo Genético
+1. Algoritmo Memético
+2. Búsqueda Dispersa
+3. Optimización de Colonia de Hormigas
 
 ## 📄 Analisis de resultados
 
