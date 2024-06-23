@@ -98,9 +98,9 @@ int main(int argc, char *argv[]) {
             // Change the alpha and beta values for analizing the impact of the heuristic
             // schedule = ACO(jobs, m, 250, 20, 3, 1, 0.9, 0.9, 0.01, 0.01);
             // Change the probability of exploring or exploiting
-            schedule = ACO(jobs, m, 250, 20, 1, 3, 0.7, 0.7, 0.01, 0.01);
+            // schedule = ACO(jobs, m, 250, 20, 1, 3, 0.7, 0.7, 0.01, 0.01);
             // Reduce the number of iterations
-            // schedule = ACO(jobs, m, 100, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
+            schedule = ACO(jobs, m, 100, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
             end = high_resolution_clock::now();
             break;
         }
