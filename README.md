@@ -228,12 +228,6 @@ Para evitar que el algoritmo se quede atrapado en soluciones subóptimas, se imp
 
 Después de completar todas las iteraciones programadas, el algoritmo termina y devuelve la mejor solución que ha encontrado. Esta solución representa la programación de tareas que, según el algoritmo, debería producir el menor retraso total posible dado el conjunto de tareas y máquinas disponibles.
 
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 4f1ff0a2ed93383de1c27b98742107090847d7d8
 ## 🚀 Uso
 
 Para compilar y ejecutar el programa, se debe ejecutar los siguientes comandos en la terminal:
@@ -363,13 +357,15 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
 
     ![Diff Op tGA](./img/DiffOptGA.png)
 
-- Resultados del Algoritmo Memético usando diferentes parámetros:
+- Resultados del tercer corte: 
+
+    - Algoritmo Memético usando diferentes parámetros:
 
 
-- Resultados de Búsqueda Dispersa usando diferentes parámetros:
+    - Búsqueda Dispersa usando diferentes parámetros:
 
 
-- Resultados de Optimización de Colonia de Hormigas usando diferentes parámetros:
+    - Optimización de Colonia de Hormigas usando diferentes parámetros:
 
 
 #### Resultados ordenados por promedio de diferencias entre la solución obtenida y la solución óptima por n = 20
@@ -405,13 +401,15 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
     ![Diff Op tGA](./img/TimeGA.png)
 
 
-- Resultados del Algoritmo Memético usando diferentes parámetros:
+- Resultados del tercer corte: 
+
+    - Algoritmo Memético usando diferentes parámetros:
 
 
-- Resultados de Búsqueda Dispersa usando diferentes parámetros:
+    - Búsqueda Dispersa usando diferentes parámetros:
 
 
-- Resultados de Optimización de Colonia de Hormigas usando diferentes parámetros:
+    - Optimización de Colonia de Hormigas usando diferentes parámetros:
 
 
 #### Resultados ordenados por promedio de tiempo por n = 20
