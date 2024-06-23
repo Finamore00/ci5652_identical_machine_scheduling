@@ -19,9 +19,9 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
 ## Definición del operador de cruce utilizado en el algoritmo genético para una recombinación de al menos 3 padres, el método de mejora luego de la recombinación y la implementación del algoritmo memético
 
-### ( ͡° ͜ʖ ͡°) Algoritmo Memético 😂
+### 😂 Algoritmo Memético ( ͡° ͜ʖ ͡°)
 
-### Operador de cruce utilizado en el algoritmo genético para una recombinación de al menos 3 padres
+### 👨‍👩‍👦👨‍👩‍👦👨‍👩‍👦 Operador de cruce utilizado en el algoritmo genético para una recombinación de al menos 3 padres
 
 - **Operador de cruce utilizado en el algoritmo genético**: Cruce parcialmente mapeado.
 
@@ -83,7 +83,7 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
     9. Se devuelven los hijos generados.
 
-### Mejora luego de la recombinación
+### 🚀⬆ Mejora luego de la recombinación
 
 Para este paso, se utiliza la búsqueda local implementada en la primera corte del proyecto.
 
@@ -95,7 +95,7 @@ Para este paso, se utiliza la búsqueda local implementada en la primera corte d
 
 4. Y por último, el resultado de la búsqueda local se transforma nuevamente en un genotipo.
 
-### Parámetros del algoritmo memético
+### 🛠️ Parámetros del algoritmo memético
 
 Aparte de recibir las tareas y la cantidad de máquinas, y los parámetros del algoritmo genético: 
 - population_size: El tamaño de la población
@@ -112,6 +112,42 @@ El algoritmo memético recibe adicionalmente los siguientes parámetros:
 - opt_rate: Un float para el porcentaje de aplicar la mejora en la búsqueda local sobre los descendientes. ¿Cuántos invididuos generados son optimizados en cada generación?
 
 - random_opt_rate: Un valor booleano que indica si aplicar la búsqueda local con un porcentaje aleatorio en  cada generación o aplicarlo según el opt_rate. Y si es aleatorio, el valor del parámetro es true, en caso contrario es false. Además, si es aleatorio, el valor de porcentaje para la búsqueda local en cada generación debe ser mayor que 10%, esto para asegurar que siempre se aplique una cantidad significativa de optimización local.
+
+### 👣 Proceso del algoritmo memético
+
+Los primeros pasos del algoritmo memético son similares al algoritmo genético de la segunda corte del proyecto:
+
+1. Se genera una población aleatoria inicial.
+
+2. Se ordena la población por su fitness.
+
+3. Luego, se comienza un bucle. Hasta que se terminen el máximo número de generaciones o se encuentre la solución óptima (un fitness igual a 0), se procede a: 
+
+    3.1. Calcular el fitness de cada individuo y la suma del fitness total de la población.
+
+    3.2. Crear una nueva población, el cual se generan nuevos individuos hasta llenar el 90% de la nueva población. El 10% restante se completa con los mejores individuos de la población anterior.
+
+Acá el paso 3.2. cambia un poco para el algoritmo memético:
+
+3.2.1. Se seleccionan múltiples padres usando la función `choose_multi_parents`. La selección de padres es la misma condición para el algoritmo genético.
+> Si definimos f(i) como la aptitud del individuo i de la población S, entonces la probabilidad p(i) de que i sea escogido como padre viene dada por: p(i) = 1 - f(i)/sum(f(j) for j in S) 
+
+3.2.2. Se aplica el cruce parcialmente mapeado multi-parental.
+
+Luego del paso 3.2, se continua dentro del bucle con los siguientes pasos:
+
+3.3. Se aplica mutación a los nuevos individuos generados 
+> Mutación: Reasigna el trabajo seleccionado dentro de una máquina a otra máquina aleatoriamente escogida.
+
+3.4. Se optimiza la generación si es que le toca optimizarse (`opt_freq`):
+- Se determina cuántos individuos optimizar (basado en `random_opt_rate` y `opt_rate`).
+- Se aplica búsqueda local a los individuos seleccionados.
+
+3.5. La nueva población reemplaza a la anterior.
+
+3.6. Se ordena la nueva población por su aptitud o fitness.
+
+3.7. Se repite desde el paso 3.1 a 3.6 hasta que se finalice el bucle.
 
 ## Definición del comportamiento de la feromona/heurística e implemente con ello una optimización de colonia de hormigas
 ### 🐜 Optimización de Colonia de Hormigas
