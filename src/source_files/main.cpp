@@ -88,7 +88,8 @@ int main(int argc, char *argv[]) {
             cout << "🐜 Ant Colony Optimization" << endl;
             algorithm_name = "Ant Colony Optimization";
             start = high_resolution_clock::now();
-            schedule = ACO(jobs, m, 250, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
+            // schedule = ACO(jobs, m, 250, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
+            schedule = ACO(jobs, m, 250, 50, 1, 3, 0.9, 0.9, 0.01, 0.01);
             end = high_resolution_clock::now();
             break;
         }
