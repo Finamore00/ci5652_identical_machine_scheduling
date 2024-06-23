@@ -93,7 +93,7 @@ Para este paso, se utiliza la búsqueda local implementada en la primera corte d
 
 3. Luego, se le aplica la búsqueda local al fenotipo convertido.
 
-4. Y por último, el resultado de la búsqueda local se transforma nuavemente en un genotipo.
+4. Y por último, el resultado de la búsqueda local se transforma nuevamente en un genotipo.
 
 ### Parámetros del algoritmo memético
 
