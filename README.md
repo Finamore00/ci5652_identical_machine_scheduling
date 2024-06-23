@@ -29,9 +29,11 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
     1. Sea `k` el número de padres. 
 
-    2. Se seleccionan aleatoriamente `k` puntos de corte para dividir cada padre en `k + 1` subpartes.
+    2. Se seleccionan aleatoriamente `k` puntos de corte para dividir cada padre en `k + 1` subpartes. 
 
     ![Ejemplo de subpartes](./img/ejemplo_subpartes.png)
+
+      La última subparte lo vamos a tomar en cuenta como subparte 1 también.
 
     3. Se crea una lista de mapeo (`ch_map`) utilizando la función `create_mapping_list`. Esta lista mapea los genes (o tareas) de diferentes padres entre sí. 
 
