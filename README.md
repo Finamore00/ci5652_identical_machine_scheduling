@@ -31,7 +31,7 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
     2. Se seleccionan aleatoriamente `k` puntos de corte para dividir cada padre en `k + 1` subpartes.
 
-    [Ejemplo de subpartes](./img/ejemplo_subpartes.png)
+    ![Ejemplo de subpartes](./img/ejemplo_subpartes.png)
 
     3. Se crea una lista de mapeo (`ch_map`) utilizando la función `create_mapping_list`. Esta lista mapea los genes (o tareas) de diferentes padres entre sí. 
 
@@ -55,7 +55,7 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
         3.5. Después del bucle, se agrega un mapeo final de la tarea del último gen a la tarea del gen inicial (el primer gen que se mapea). Esto para crear un mapeo cíclico entre tareas.
 
-        [Mapeo de genes](./img/mapeo_genes.png)
+        ![Mapeo de genes](./img/mapeo_genes.png)
 
     4. Luego, se crea un orden aleatorio en los genes para cada subparte con la función `create_random_order` y este orden aleatorio se guarda en un arreglo `order`
 
