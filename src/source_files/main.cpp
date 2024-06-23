@@ -91,8 +91,16 @@ int main(int argc, char *argv[]) {
             algorithm_name = "Ant Colony Optimization";
             start = high_resolution_clock::now();
             // schedule = ACO(jobs, m, 250, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
+            // add more ants to the algorithm
             // schedule = ACO(jobs, m, 250, 50, 1, 3, 0.9, 0.9, 0.01, 0.01);
-             schedule = ACO(jobs, m, 250, 20, 1, 3, 0.9, 0.9, 0.1, 0.1);
+            // increase the rate of pheromone evaporation
+            // schedule = ACO(jobs, m, 250, 20, 1, 3, 0.9, 0.9, 0.1, 0.1);
+            // Change the alpha and beta values for analizing the impact of the heuristic
+            // schedule = ACO(jobs, m, 250, 20, 3, 1, 0.9, 0.9, 0.01, 0.01);
+            // Change the probability of exploring or exploiting
+            schedule = ACO(jobs, m, 250, 20, 1, 3, 0.7, 0.7, 0.01, 0.01);
+            // Reduce the number of iterations
+            // schedule = ACO(jobs, m, 100, 20, 1, 3, 0.9, 0.9, 0.01, 0.01);
             end = high_resolution_clock::now();
             break;
         }
