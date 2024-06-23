@@ -9,7 +9,7 @@ Proyecto de Diseño de Algoritmos II (CI5652) con soluciones aproximadas para el
 # 🤔 Descripción del problema
 Dado un conjunto de `n` tareas y `m` máquinas idénticas, el objetivo es asignar cada tarea a una máquina y determinar la secuencia de tareas en cada máquina de manera que se minimice la tardanza total (the total tardiness). Cada tarea `j` tiene un tiempo de procesamiento `p_j` y una fecha de vencimiento `d_j`. La tardanza de una tarea se calcula como `max(0, C_j - d_j)`, donde `C_j` es el tiempo de finalización del trabajo `j`.
 
-# 📋 INFORME DEL PROYECTO - SEGUNDO CORTE
+# 📋 INFORME DEL PROYECTO - TERCER CORTE
 El programa está implementado en C++ y consta de los siguientes archivos para este tercer corte:
 
 - `memetic.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando el algoritmo memético para el problema.
@@ -222,139 +222,6 @@ Para evitar que el algoritmo se quede atrapado en soluciones subóptimas, se imp
 
 Después de completar todas las iteraciones programadas, el algoritmo termina y devuelve la mejor solución que ha encontrado. Esta solución representa la programación de tareas que, según el algoritmo, debería producir el menor retraso total posible dado el conjunto de tareas y máquinas disponibles.
 
-
-## Definición de reglas para movimientos que han de ser tabús e implementación de una búsqueda tabú.
-
-### 🚫 Tabu Search
-
-La implementación del algoritmo de Búsqueda Tabú recibe la información de las `n` tareas, la cantidad de `m` máquinas, y varios parámetros que controlan el proceso de búsqueda, como el número máximo de iteraciones y la tenencia de la lista tabú. A continuación se describen los pasos de la implementación:
-
-1. **Inicialización:** 
-    - El algoritmo empieza creando una solución inicial `S` utilizando el método `mddScheduling`. 
-    - Esta solución `S` es considerada la mejor solución conocida hasta el momento (`best_schedule`).
-
-2. **Lista Tabú:** 
-    - Se inicializa una lista tabú para almacenar los movimientos que están prohibidos temporalmente.
-
-3. **Iteraciones principales:** 
-    - Para cada iteración, se identifica la máquina con mayor tardanza (`tardiest_machine`).
-    - Se generan múltiples vecinos de la solución actual mediante movimientos aleatorios en la máquina con mayor tardanza.
-    - Se selecciona el mejor vecino que no esté en la lista tabú o que mejora la mejor solución conocida.
-
-4. **Actualización de la lista Tabú:** 
-    - Si el mejor vecino no está en la lista tabú o mejora la mejor solución conocida, se actualiza la solución actual y se añade uno de los índices de los trabajos restantes de la maquina con más tardiness a la lista tabú, esto para asegurar que no se extraigan varias veces elementos de la misma maquina, evitando así ciclos.
-    - Si la lista tabú excede su tamaño máximo (`tabu_tenure`), se elimina el movimiento más antiguo.
-
-5. **Actualización de la mejor solución:** 
-    - Si el vecino seleccionado mejora la mejor solución conocida, se actualiza la mejor solución.
-
-6. **Repetición:** 
-    - Se repiten los pasos 3-5 hasta que se agoten las iteraciones.
-
-El algoritmo `Tabu Search` busca explorar el espacio de soluciones evitando ciclos y escapando de óptimos locales mediante el uso de una lista tabú que prohíbe ciertos movimientos temporalmente.
-
-## Definición de un proceso de enfriado progresivo e implementación de un recocido simulado.
-
-### ❄️ Simulated Annealing
-
-La implementación del algoritmo de Recocido Simulado (Simulated Annealing) recibe la información de las `n` tareas, la cantidad de `m` máquinas, y varios parámetros que controlan el proceso de búsqueda, como la temperatura inicial y el factor de reducción de temperatura. A continuación se describen los pasos de la implementación:
-
-1. **Inicialización:** 
-    - El algoritmo empieza creando una solución inicial `S` utilizando el método `mddScheduling`. 
-    - Esta solución `S` es considerada la mejor solución conocida hasta el momento (`best_schedule`).
-    - Se inicializa la temperatura `t` con un valor inicial `t0`.
-
-2. **Iteraciones principales:** 
-    - Para cada iteración, se generan múltiples vecinos de la solución actual mediante movimientos aleatorios.
-    - Se calcula la diferencia de tardanza (`delta`) entre el vecino y la solución actual.
-
-3. **Criterio de aceptación:** 
-    - Si el vecino tiene una tardanza menor o igual, se acepta.
-    - Si el vecino tiene una tardanza mayor, se acepta con una probabilidad `exp(-delta / t)`.
-
-4. **Actualización de la mejor solución:** 
-    - Si la solución actual mejorada tiene una tardanza menor que la mejor solución conocida, se actualiza la mejor solución.
-
-5. **Reducción de la temperatura:** 
-    - Después de un número fijo de iteraciones, se reduce la temperatura multiplicándola por un factor `t_step`.
-    - Si la temperatura cae por debajo de un umbral `epsilon`, se restablece a su valor inicial `t0`.
-
-6. **Repetición:** 
-    - Se repiten los pasos 2-5 hasta que se agoten las iteraciones.
-
-El algoritmo `Simulated Annealing` busca explorar el espacio de soluciones permitiendo peores soluciones con una probabilidad decreciente, lo que ayuda a escapar de óptimos locales y encontrar mejores soluciones globales.
-
-## 🎲 Definición de un método de construción para una RCL e implementación de GRASP.
-
-### 👨‍⚖️ Método de construción para una RCL
-
-Para la definición del RCL en este problema, se utilizó el enfoque heurístico Modified Due Date (MDD) explicado en el primer corte del proyecto:
-
-1. Sea `S` una solución parcialmente construida.
-2. Se tiene una lista de tareas no programadas `U` en la solución `S`.
-3. Para cada máquina `j`, dividir `U` en dos subconjuntos `U1j` y `U2j` para `j` = 1, 2, ..., `m`.
-    > `U1j` contiene las tareas que no se pueden completar en su fecha de vencimiento en la máquina `j`.
-
-    > `U2j` contiene las tareas que sí se pueden completar antes de su fecha de vencimiento en la máquina `j`.
-4. De `U1j` y `U2j`, encontrar los subconjuntos `γj` y `λj` que contienen las tareas con el tiempo de procesamiento mínimo y la fecha de vencimiento mínima, respectivamente. 
-5. Seleccionar una tarea `gj` de `γj` o `λj` que minimice el valor de MDD en la máquina `j`. El valor de MDD en la máquina `j` de una tarea `i` está dada por `MDD(j, i) = max(Cj + pi, di)` 
-    > `Cj` es la suma del procesamiento de tiempo de las tareas que ya han sido programados en la máquina `j`.
-
-    > `pi` es el tiempo de procesamiento de la tarea `i` con su fecha de vencimiento `di`.
-6. Luego, sea `C` el conjunto resultante de tener cada par `<g, l>`, donde cada una de estos pares representa que la tarea `g` es la tarea que produce el menor valor MDD en la máquina `l`).
-7. Se puede definir el costo de la función de un elemento `<g, l>` en `C` como `c(<g, l>) = MDD(g, l)`.
-8. También se define `c_min = min{ c(<g, l>) | <g, l> ∈ C}` y `c_max = max{ c(<g, l>) | <g, l> ∈ C}`.
-9. Entonces, el `RCL = { <g, l> ∈ C | c(<g, l>) <= c_min + α(c_max - c_min)}`
-
-### 🎰 GRASP
-
-La implementación del algoritmo GRASP recibe la información de las `n` tareas, la cantidad de las `m` máquinas, el `alpha` para el RCL y `el máximo número de iteraciones`. A continuación se describen los pasos de la implementación: 
-
-1. El algoritmo empieza a generar una solución inicial aleatoria `S`. Por ahora, se tiene que `S` es la mejor solución que se tiene para el problema.
-2. Ahora, para cada iteración, se construye una solución voraz aleatoria `S'`, el cual: 
-
-    2.1. Se considera las tareas que aún no han sido programadas y se aplica el enfoque heurístico para la Lista Restringida de Candidatos (RCL). 
-
-    2.2. De esta lista RCL, se escoge aleatoriamente un elemento: `<g, l>`. 
-
-    2.3. Luego, del elemento seleccionado `<g, l>`, se le asigna la tarea `g` a la máquina `l`. 
-
-    2.4. Se elimina la tarea `g` de la lista de tareas sin programar en esta solución parcial construida `S'`.
-
-    2.5. Se repite los pasos 2.1 a 2.4 hasta que no queden tareas sin programar.
-3. Se reemplaza `S` por `S'` si el retraso total o total tardiness de las tareas en la solución `S` es mayor que el de `S'`, en caso contrario, no se hace nada.
-4. Se repite el paso 2 y 3 hasta que se acaben las iteraciones.
-
-## Definición de un fenotipo/genotipo, operadores de cruce y mutación e implementación de un algoritmo genético.
-
-### 🧬 Genotipo de los individuos para modelado del problema 
-
-Para propósitos de nuestro problema, definimos un gen como un par ordenado que contiene el identificador numérico de un trabajo y el número de la máquina donde este trabajo está asignado en el cronograma que modela su conjunto de genes. Esto es, si tenemos, por ejemplo, la tupla (5, 8), esto representa que el trabajo de ID 5 está asignado a la máquina 8. Este modelado de un gen se encuentra en el struct `Gene` definido en `evolution.cpp`.
-
-Como por la definición del problema cada trabajo está asignado a una sola máquina, para una instancia del mismo con `n` trabajos el genotipo de un individuo viene dado por un vector de `n` genes, donde cada posición indica la máquina a la que está asignada cada uno de los trabajos. De esta manera, el genotipo de un individuo está restringido en el hecho de que para cada trabajo en la instancia del problema su identificador aparece en el genotipo de un individuo exactamente una vez. En referencia al *orden* que tienen los trabajos dentro de cada máquina individual, el mismo viene dado por el orden que tienen los trabajos involucrados dentro del vector genotipo. Esto es, si para un individuo tenemos el vector de genes `[..., (6, 1), ..., (9, 1), ..., (4, 1), ...]` entonces en la máquina 1 estarán ubicados los trabajos de identificadores 6, 9 y 4 en ese orden.
-
-De esta manera una población no es más que un arreglo de genotipos, que a su vez son arreglos de genes. Los tipos de datos para la representación de un individuo y de una población se encuentran en los tipos `Individual` y `Population` definidos en `evolution.cpp`.
-
-### 👾 Fenotipo de los individuos y función de *fitness*
-
-El fenotipo de los individuos viene dado por el mismo modelo de cronograma utilizado en el primer corte. Esto es, un cronograma es un arreglo multi-dimensional donde cada posición representa a una de las máquinas disponibles, y cada máquina es un arreglo de trabajos que indica cuáles trabajos están asignados a esa máquina y en qué orden se ejecutarán dentro de la misma. La obtensión del fenotipo de un individuo a través de su genotipo es proveída por la función `get_fenotype` definida en `evolution.cpp`.
-
-La aptitud de un individuo viene dada directamente por la morosidad total de su fenotipo, la cual se calcula de la misma forma presentada en el corte pasado. Como los algoritmos genéticos son inherentemente problemas de maximización, y estamos ante un problema que busca un mínimo global, la definición específica de la aptitud de un individuo viene dada por el negativo de su morosidad total.
-
-### 👨‍👩‍👦 Selección de Padres y apareamiento
-
-El algoritmo implementado hace uso de apareamiento con 2 padres. Cada individuo tiene a su vez una probabilidad asociada de ser escogido para ser padre de la siguiente generación igual al cociente de su valor para la función de aptitud entre la suma total de las aptitudes de todos los individuos. Esto es, si definimos f(i) como la aptitud del individuo i de la población S, entonces la probabilidad p(i) de que i sea escogido como padre viene dada por:
-
-<center> <code> p(i) = 1 - f(i)/sum(f(j) for j in S) </code> </center>
-
-Tras ser escogidos dos padres, sus descendientes son obtenidos utilizando cruce parcialmente mapeado. Esto debido a que, como cada identificador de trabajo aparece exactamente una vez dentro del genotipo de cualquier individuo, podemos, de cierta manera, tratar los genotipos como permutaciones de los identificadores de los trabajos. 
-
-La selección de padres y el operador de cruce vienen dados por las funciones `choose_parents` y `partially_mapped_crossover` definidas en evolution.cpp, respectivamente.
-
-### ☢️ Mutación
-
-La mutación de individuos se realiza con probabilidad uniforme sobre los genes de los mismos. La probabilidad de mutación es proveída como argumento de entrada al algoritmo genético (`mutation_rate`) y no varía de ninguna manera durante la ejecución del algoritmo. El operador de mutación implementado recibe un gen y reasigna el trabajo encontrado dentro del mismo a otra máquina aleatoriamente escogida. El operador de mutación no modifica de ninguna manera los identificadores de los trabajos encontrados en los genes ni efectúa ningún tipo de reordenamiento sobre los genes del fenotipo.
-
 ## 🚀 Uso
 
 Para compilar y ejecutar el programa, se debe ejecutar los siguientes comandos en la terminal:
@@ -368,16 +235,14 @@ cd target
 ```
 
 ```bash
-./PROY2 <path_to_benchmarks> <algorithm>
+./PROY3 <path_to_benchmarks> <algorithm>
 ```
 
 Donde `<path_to_benchmarks>` es la ruta a la carpeta que contiene los casos de prueba y `<algorithm>` es el número del algoritmo a ejecutar:
 
-1. Búsqueda Local Iterada (ILS)
-2. Búsqueda Tabú 
-3. Reconocido Simulado
-4. GRASP
-5. Algoritmo Genético
+1. Algoritmo Memético
+2. Búsqueda Dispersa
+3. Optimización de Colonia de Hormigas
 
 ## 📄 Analisis de resultados
 
