@@ -10,12 +10,90 @@ Proyecto de Diseño de Algoritmos II (CI5652) con soluciones aproximadas para el
 Dado un conjunto de `n` tareas y `m` máquinas idénticas, el objetivo es asignar cada tarea a una máquina y determinar la secuencia de tareas en cada máquina de manera que se minimice la tardanza total (the total tardiness). Cada tarea `j` tiene un tiempo de procesamiento `p_j` y una fecha de vencimiento `d_j`. La tardanza de una tarea se calcula como `max(0, C_j - d_j)`, donde `C_j` es el tiempo de finalización del trabajo `j`.
 
 # 📋 INFORME DEL PROYECTO - SEGUNDO CORTE
-El programa está implementado en C++ y consta de los siguientes archivos para este segundo corte:
+El programa está implementado en C++ y consta de los siguientes archivos para este tercer corte:
 
-- `grasp.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando GRASP para el problema.
-- `evolution.cpp`: Archivo que contiene los tipos de datos y algoritmos requeridos por la implementación del algoritmo genético para la reoslución del problema.
+- `memetic.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando el algoritmo memético para el problema.
+- `aco.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando el algoritmo de optimicación de colonia de hormigas para el problema.
 
 📂 En la carpeta `benchmarks` se encuentran los casos de pruebas de la primera corte del proyecto para medir y comparar el rendimiento de diferentes algoritmos para solucionar el problema descrito.
+
+## Definición del operador de cruce utilizado en el algoritmo genético para una recombinación de al menos 3 padres, el método de mejora luego de la recombinación y la implementación del algoritmo memético
+
+### ( ͡° ͜ʖ ͡°) Algoritmo Memético 😂
+
+### Operador de cruce utilizado en el algoritmo genético para una recombinación de al menos 3 padres
+
+- **Operador de cruce utilizado en el algoritmo genético**: Cruce parcialmente mapeado.
+
+- **Cruce parcialmente mapeado para múltiples padres**: Se implementa el cruce parcialmente mapeado para múltiples padres, cuyo proceso consiste en:
+
+    1. Sea `k` el número de padres. 
+
+    2. Se seleccionan aleatoriamente `k` puntos de corte para dividir cada padre en `k + 1` subpartes.
+
+    [Ejemplo de subpartes](./img/ejemplo_subpartes.png)
+
+    3. Se crea una lista de mapeo (`ch_map`) utilizando la función `create_mapping_list`. Esta lista mapea los genes (o tareas) de diferentes padres entre sí. 
+
+        3.1. Sea `g` el número de genes o tareas de un individuo.
+
+        3.2. Se crea un arreglo `job_mapped` para rastrear qué tareas ya han sido mapeados y un contador de tareas mapeados `cnt_mapped`
+
+        3.3. Se selecciona aleatoriamente un padre `start_parent` y un gen inicial del padre seleccionado `start_gene`.
+
+        3.4. Luego se ejecuta un bucle con `g` iteraciones
+        
+            3.4.1. En el bucle, se marca el gen actual `start_gene` como mapeado.
+
+            3.4.2. Se selecciona un padre final `end_parent` aleatoriamente y diferente del padre inicial y se busca en el padre final el gen que corresponde a la misma tarea que el gen inicial, al encontrarlo se guarda el gen en `end_gene`.
+
+            3.4.3. Se incrementa `cnt_mapped` a 1. Si todos las tareas han sido mapeados, se sale del bucle.
+
+            3.4.4. Si aún faltan tareas por mapear, se elige un nuevo padre inicial diferente del final y se selecciona un nuevo gen inicial cuya tarea no haya sido mapeada aún.
+
+            3.4.5. Y se agrega un mapeo con `ch_map[end_gene.job->id] = start_gene`
+
+        3.5. Después del bucle, se agrega un mapeo final de la tarea del último gen a la tarea del gen inicial (el primer gen que se mapea). Esto para crear un mapeo cíclico entre tareas.
+
+        [Mapeo de genes](./img/mapeo_genes.png)
+
+    4. Luego, se crea un orden aleatorio en los genes para cada subparte con la función `create_random_order` y este orden aleatorio se guarda en un arreglo `order`
+
+    5. Se crean los `k` hijos.
+
+    6. Primero cada hijo `i` se copia la primera subparte del padre `i` (antes del primer punto de corte y después del último punto de corte).
+
+    7. Luego, para cada hijo `i`, las subpartes entre los puntos de corte se copian de otros padres en un patrón diagonal.
+
+    8. Posteriormente, se legaliza cada hijo para asegurar que no hayan trabajos duplicados.
+
+        8.1. Se crea un nuevo orden aleatorio `new_order` para procesar las subpartes del hijo `i`.
+
+        8.2. Se marcan inicialmente la primera subparte procesada, o sea, la primera subparte de cada hijo permanece igual.
+
+        8.3. Para cada subparte restante según el orden en `new_order`.
+
+            8.3.1. Se revisa cada gen de la subparte actual según el orden en `order`.
+
+            8.3.2. Si la tarea ya está marcado (duplicado), se reemplaza con el trabajo mapeado según la lista de mapeo (`ch_map`). Este proceso continúa hasta encontrar un trabajo no marcado.
+            
+            8.3.3. Al encontrar un trabajo no marcado, se marca el nuevo trabajo y se actualiza el gen en el hijo actual.
+
+        8.4. Se verifica que todas las tareas estén marcadas (para asegurar que no hayan tareas duplicadas y tampoco tareas faltantes).
+
+    9. Se devuelven los hijos generados.
+
+- **Mejora luego de la recombinación**: Para este paso, se utiliza la búsqueda local implementada en la primera corte del proyecto.
+
+    1. Sea un hijo `h` producido en la recombinación.
+
+    2. Se decodifica el genotipo del hijo `h` en un fenotipo válido.
+
+    3. Luego, se le aplica la búsqueda local al fenotipo convertido.
+
+    4. Y por último, el resultado de la búsqueda local se transforma nuavemente en un genotipo.
+
+- **Parámetros del algoritmo memético**:  
 
 ## Definición del comportamiento de la feromona/heurística e implemente con ello una optimización de colonia de hormigas
 ### 🐜 Optimización de Colonia de Hormigas
