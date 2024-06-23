@@ -1,0 +1,3000 @@
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 20 
+
+Machine 2: 7 19 16 
+
+Machine 3: 5 18 
+
+Machine 4: 3 4 
+
+Machine 5: 15 
+
+Machine 6: 6 10 11 
+
+Machine 7: 17 12 
+
+Machine 8: 8 13 
+
+Machine 9: 14 2 9 
+
+Total Tardiness: 194
+Time taken by ant colony optimization: 18.7729 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 15 
+
+Machine 2: 2 17 20 
+
+Machine 3: 3 13 16 
+
+Machine 4: 4 
+
+Machine 5: 5 11 19 
+
+Machine 6: 6 12 14 
+
+Machine 7: 7 18 
+
+Machine 8: 8 
+
+Machine 9: 9 10 
+
+Total Tardiness: 161
+Time taken by ant colony optimization: 8.91074 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 8 20 
+
+Machine 2: 2 10 17 
+
+Machine 3: 19 4 
+
+Machine 4: 14 3 
+
+Machine 5: 5 1 
+
+Machine 6: 15 13 7 
+
+Machine 7: 12 11 
+
+Machine 8: 18 9 
+
+Machine 9: 16 6 
+
+Total Tardiness: 193
+Time taken by ant colony optimization: 21.0262 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 14 17 8 9 
+
+Machine 2: 13 11 12 
+
+Machine 3: 19 15 7 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 3 20 
+
+Machine 8: 1 4 2 
+
+Machine 9: 16 10 
+
+Total Tardiness: 180
+Time taken by ant colony optimization: 17.997 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 169
+Time taken by ant colony optimization: 11.7579 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 20 
+
+Machine 2: 7 19 16 
+
+Machine 3: 3 18 
+
+Machine 4: 14 4 
+
+Machine 5: 5 
+
+Machine 6: 10 11 9 
+
+Machine 7: 17 12 
+
+Machine 8: 8 13 
+
+Machine 9: 2 6 15 
+
+Total Tardiness: 149
+Time taken by ant colony optimization: 19.988 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 15 
+
+Machine 2: 2 17 20 
+
+Machine 3: 3 13 16 
+
+Machine 4: 4 
+
+Machine 5: 5 11 19 
+
+Machine 6: 6 12 14 
+
+Machine 7: 7 18 
+
+Machine 8: 8 
+
+Machine 9: 9 10 
+
+Total Tardiness: 132
+Time taken by ant colony optimization: 8.44842 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 12 1 
+
+Machine 2: 2 14 6 
+
+Machine 3: 16 3 
+
+Machine 4: 18 4 
+
+Machine 5: 8 9 
+
+Machine 6: 15 13 7 
+
+Machine 7: 19 11 
+
+Machine 8: 10 20 
+
+Machine 9: 5 17 
+
+Total Tardiness: 137
+Time taken by ant colony optimization: 21.8993 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 3 1 11 10 
+
+Machine 2: 17 4 8 
+
+Machine 3: 16 15 12 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 14 20 
+
+Machine 8: 19 9 2 
+
+Machine 9: 13 7 
+
+Total Tardiness: 161
+Time taken by ant colony optimization: 18.8256 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 6 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 2 18 
+
+Machine 7: 7 
+
+Machine 8: 8 1 12 16 17 
+
+Machine 9: 9 
+
+Total Tardiness: 127
+Time taken by ant colony optimization: 14.3253 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 13 
+
+Machine 2: 7 14 12 
+
+Machine 3: 3 18 
+
+Machine 4: 8 20 
+
+Machine 5: 5 
+
+Machine 6: 6 10 11 
+
+Machine 7: 2 15 
+
+Machine 8: 17 4 
+
+Machine 9: 19 16 9 
+
+Total Tardiness: 130
+Time taken by ant colony optimization: 20.9881 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 2 
+
+Machine 2: 1 17 16 
+
+Machine 3: 20 9 4 
+
+Machine 4: 10 
+
+Machine 5: 5 11 3 
+
+Machine 6: 6 12 14 
+
+Machine 7: 7 18 
+
+Machine 8: 8 
+
+Machine 9: 13 15 
+
+Total Tardiness: 34
+Time taken by ant colony optimization: 16.9291 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 10 1 
+
+Machine 2: 2 18 7 
+
+Machine 3: 14 20 
+
+Machine 4: 19 4 
+
+Machine 5: 16 9 
+
+Machine 6: 15 13 3 
+
+Machine 7: 12 11 
+
+Machine 8: 8 6 
+
+Machine 9: 5 17 
+
+Total Tardiness: 95
+Time taken by ant colony optimization: 22.3774 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 14 12 19 8 
+
+Machine 2: 16 11 2 
+
+Machine 3: 17 15 9 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 13 7 
+
+Machine 8: 1 4 10 
+
+Machine 9: 3 20 
+
+Total Tardiness: 153
+Time taken by ant colony optimization: 23.092 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 15 20 
+
+Machine 2: 16 19 
+
+Machine 3: 3 11 18 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 1 
+
+Machine 7: 7 
+
+Machine 8: 8 2 17 12 10 
+
+Machine 9: 9 
+
+Total Tardiness: 100
+Time taken by ant colony optimization: 12.6165 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 8 20 
+
+Machine 2: 2 19 17 
+
+Machine 3: 3 12 
+
+Machine 4: 10 4 
+
+Machine 5: 5 
+
+Machine 6: 6 16 9 
+
+Machine 7: 7 15 
+
+Machine 8: 1 18 
+
+Machine 9: 14 11 13 
+
+Total Tardiness: 138
+Time taken by ant colony optimization: 23.1528 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 5 15 
+
+Machine 2: 11 13 3 
+
+Machine 3: 1 20 16 
+
+Machine 4: 4 
+
+Machine 5: 19 17 14 
+
+Machine 6: 6 12 2 
+
+Machine 7: 10 18 
+
+Machine 8: 8 
+
+Machine 9: 7 9 
+
+Total Tardiness: 14
+Time taken by ant colony optimization: 17.5978 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 12 1 
+
+Machine 2: 2 8 6 
+
+Machine 3: 15 13 
+
+Machine 4: 19 11 
+
+Machine 5: 14 9 
+
+Machine 6: 5 17 3 
+
+Machine 7: 10 20 
+
+Machine 8: 18 4 
+
+Machine 9: 16 7 
+
+Total Tardiness: 80
+Time taken by ant colony optimization: 22.0073 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 13 12 2 
+
+Machine 2: 19 14 9 
+
+Machine 3: 17 11 20 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 3 7 
+
+Machine 8: 16 15 10 
+
+Machine 9: 4 8 
+
+Total Tardiness: 174
+Time taken by ant colony optimization: 17.0279 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 6 19 
+
+Machine 2: 16 2 
+
+Machine 3: 9 17 10 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 1 20 
+
+Machine 7: 7 
+
+Machine 8: 15 3 8 12 18 
+
+Machine 9: 11 
+
+Total Tardiness: 85
+Time taken by ant colony optimization: 15.2273 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 8 20 
+
+Machine 2: 2 11 13 
+
+Machine 3: 3 18 
+
+Machine 4: 6 16 
+
+Machine 5: 5 
+
+Machine 6: 10 17 9 
+
+Machine 7: 1 12 
+
+Machine 8: 7 15 
+
+Machine 9: 14 19 4 
+
+Total Tardiness: 152
+Time taken by ant colony optimization: 21.9271 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 2 
+
+Machine 2: 17 19 20 
+
+Machine 3: 18 6 16 
+
+Machine 4: 10 
+
+Machine 5: 12 5 15 
+
+Machine 6: 11 9 14 
+
+Machine 7: 7 3 
+
+Machine 8: 8 
+
+Machine 9: 13 4 
+
+Total Tardiness: 11
+Time taken by ant colony optimization: 16.2251 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 14 4 
+
+Machine 2: 2 18 6 
+
+Machine 3: 10 11 
+
+Machine 4: 16 9 
+
+Machine 5: 15 13 
+
+Machine 6: 5 17 3 
+
+Machine 7: 12 1 
+
+Machine 8: 19 20 
+
+Machine 9: 8 7 
+
+Total Tardiness: 80
+Time taken by ant colony optimization: 21.8156 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 13 19 12 10 
+
+Machine 2: 1 17 9 
+
+Machine 3: 16 15 2 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 4 7 
+
+Machine 8: 14 8 11 
+
+Machine 9: 3 20 
+
+Total Tardiness: 205
+Time taken by ant colony optimization: 16.9142 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 18 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 15 8 12 16 17 
+
+Machine 9: 9 
+
+Total Tardiness: 99
+Time taken by ant colony optimization: 11.3904 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 16 
+
+Machine 2: 19 10 9 
+
+Machine 3: 3 18 
+
+Machine 4: 14 4 
+
+Machine 5: 5 
+
+Machine 6: 6 2 1 
+
+Machine 7: 11 12 
+
+Machine 8: 8 20 
+
+Machine 9: 7 13 15 
+
+Total Tardiness: 466
+Time taken by ant colony optimization: 13.5159 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 18 15 
+
+Machine 2: 19 17 16 
+
+Machine 3: 20 11 14 
+
+Machine 4: 4 
+
+Machine 5: 13 5 3 
+
+Machine 6: 6 12 2 
+
+Machine 7: 1 7 
+
+Machine 8: 8 
+
+Machine 9: 9 10 
+
+Total Tardiness: 326
+Time taken by ant colony optimization: 15.667 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 10 8 
+
+Machine 2: 2 15 16 
+
+Machine 3: 1 4 
+
+Machine 4: 5 3 
+
+Machine 5: 19 17 
+
+Machine 6: 12 7 20 
+
+Machine 7: 14 11 
+
+Machine 8: 13 6 
+
+Machine 9: 18 9 
+
+Total Tardiness: 481
+Time taken by ant colony optimization: 18.3 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 15 1 8 10 
+
+Machine 2: 12 11 16 
+
+Machine 3: 19 14 7 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 17 18 
+
+Machine 8: 3 2 9 
+
+Machine 9: 13 20 
+
+Total Tardiness: 400
+Time taken by ant colony optimization: 15.8916 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 373
+Time taken by ant colony optimization: 11.3486 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 10 20 
+
+Machine 2: 2 6 16 
+
+Machine 3: 3 18 
+
+Machine 4: 17 4 
+
+Machine 5: 5 
+
+Machine 6: 14 19 15 
+
+Machine 7: 7 12 
+
+Machine 8: 8 1 
+
+Machine 9: 11 13 9 
+
+Total Tardiness: 459
+Time taken by ant colony optimization: 17.0557 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 2 
+
+Machine 2: 17 20 4 
+
+Machine 3: 5 13 3 
+
+Machine 4: 15 
+
+Machine 5: 11 9 16 
+
+Machine 6: 6 18 14 
+
+Machine 7: 19 7 
+
+Machine 8: 8 
+
+Machine 9: 12 10 
+
+Total Tardiness: 269
+Time taken by ant colony optimization: 14.731 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 10 16 
+
+Machine 2: 2 12 7 
+
+Machine 3: 18 4 
+
+Machine 4: 13 8 
+
+Machine 5: 19 3 
+
+Machine 6: 15 17 20 
+
+Machine 7: 1 11 
+
+Machine 8: 5 6 
+
+Machine 9: 14 9 
+
+Total Tardiness: 454
+Time taken by ant colony optimization: 22.1472 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 11 17 19 10 
+
+Machine 2: 1 14 16 
+
+Machine 3: 3 12 2 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 13 7 
+
+Machine 8: 8 15 4 
+
+Machine 9: 9 20 
+
+Total Tardiness: 406
+Time taken by ant colony optimization: 20.6145 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 354
+Time taken by ant colony optimization: 10.9267 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 20 
+
+Machine 2: 2 19 16 
+
+Machine 3: 10 18 
+
+Machine 4: 7 4 
+
+Machine 5: 5 
+
+Machine 6: 14 13 9 
+
+Machine 7: 8 12 
+
+Machine 8: 3 1 
+
+Machine 9: 6 11 15 
+
+Total Tardiness: 444
+Time taken by ant colony optimization: 19.8667 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 6 15 
+
+Machine 2: 20 19 2 
+
+Machine 3: 5 13 16 
+
+Machine 4: 4 
+
+Machine 5: 1 9 3 
+
+Machine 6: 12 11 14 
+
+Machine 7: 17 7 
+
+Machine 8: 8 
+
+Machine 9: 18 10 
+
+Total Tardiness: 223
+Time taken by ant colony optimization: 18.2122 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 5 3 
+
+Machine 2: 15 2 17 
+
+Machine 3: 1 11 
+
+Machine 4: 18 4 
+
+Machine 5: 12 8 
+
+Machine 6: 10 7 20 
+
+Machine 7: 14 6 
+
+Machine 8: 13 16 
+
+Machine 9: 19 9 
+
+Total Tardiness: 433
+Time taken by ant colony optimization: 23.4408 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 11 8 2 
+
+Machine 2: 3 12 10 
+
+Machine 3: 19 15 4 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 16 7 
+
+Machine 8: 17 14 9 
+
+Machine 9: 13 20 
+
+Total Tardiness: 416
+Time taken by ant colony optimization: 22.6434 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 332
+Time taken by ant colony optimization: 11.0122 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 8 20 
+
+Machine 2: 2 6 16 
+
+Machine 3: 17 18 
+
+Machine 4: 3 12 
+
+Machine 5: 5 
+
+Machine 6: 10 13 9 
+
+Machine 7: 14 4 
+
+Machine 8: 7 1 
+
+Machine 9: 19 11 15 
+
+Total Tardiness: 448
+Time taken by ant colony optimization: 19.0568 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 20 4 
+
+Machine 2: 12 5 2 
+
+Machine 3: 13 19 16 
+
+Machine 4: 10 
+
+Machine 5: 1 9 3 
+
+Machine 6: 6 17 14 
+
+Machine 7: 7 18 
+
+Machine 8: 8 
+
+Machine 9: 11 15 
+
+Total Tardiness: 170
+Time taken by ant colony optimization: 17.7175 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 5 7 
+
+Machine 2: 2 13 20 
+
+Machine 3: 15 8 
+
+Machine 4: 18 4 
+
+Machine 5: 19 16 
+
+Machine 6: 12 17 6 
+
+Machine 7: 1 11 
+
+Machine 8: 14 3 
+
+Machine 9: 10 9 
+
+Total Tardiness: 424
+Time taken by ant colony optimization: 24.6542 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 17 11 8 
+
+Machine 2: 14 19 9 
+
+Machine 3: 3 15 20 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 4 7 
+
+Machine 8: 13 12 2 
+
+Machine 9: 16 10 
+
+Total Tardiness: 424
+Time taken by ant colony optimization: 23.7781 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 11 19 
+
+Machine 2: 16 20 
+
+Machine 3: 1 3 18 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 15 8 17 12 10 
+
+Machine 9: 9 
+
+Total Tardiness: 300
+Time taken by ant colony optimization: 11.2505 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 14 1 
+
+Machine 2: 19 11 13 
+
+Machine 3: 3 18 
+
+Machine 4: 17 4 
+
+Machine 5: 5 
+
+Machine 6: 10 20 9 
+
+Machine 7: 8 12 
+
+Machine 8: 7 16 
+
+Machine 9: 2 6 15 
+
+Total Tardiness: 458
+Time taken by ant colony optimization: 19.2798 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 11 2 
+
+Machine 2: 20 17 15 
+
+Machine 3: 1 9 16 
+
+Machine 4: 10 
+
+Machine 5: 5 19 3 
+
+Machine 6: 12 6 14 
+
+Machine 7: 7 18 
+
+Machine 8: 8 
+
+Machine 9: 13 4 
+
+Total Tardiness: 125
+Time taken by ant colony optimization: 16.5148 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 12 20 
+
+Machine 2: 2 13 17 
+
+Machine 3: 16 3 
+
+Machine 4: 5 14 
+
+Machine 5: 1 4 
+
+Machine 6: 10 9 6 
+
+Machine 7: 19 11 
+
+Machine 8: 15 8 
+
+Machine 9: 18 7 
+
+Total Tardiness: 430
+Time taken by ant colony optimization: 24.7268 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 19 7 2 
+
+Machine 2: 1 9 10 
+
+Machine 3: 3 15 12 
+
+Machine 4: 18 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 16 4 
+
+Machine 8: 14 11 8 
+
+Machine 9: 13 20 
+
+Total Tardiness: 442
+Time taken by ant colony optimization: 23.6435 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 2 18 
+
+Machine 3: 11 12 10 
+
+Machine 4: 4 8 14 
+
+Machine 5: 5 
+
+Machine 6: 6 20 
+
+Machine 7: 7 
+
+Machine 8: 15 13 3 16 17 
+
+Machine 9: 9 
+
+Total Tardiness: 260
+Time taken by ant colony optimization: 13.9105 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 20 1 
+
+Machine 2: 7 19 16 
+
+Machine 3: 10 3 
+
+Machine 4: 11 4 
+
+Machine 5: 5 
+
+Machine 6: 6 13 18 
+
+Machine 7: 14 17 
+
+Machine 8: 12 8 
+
+Machine 9: 2 9 15 
+
+Total Tardiness: 760
+Time taken by ant colony optimization: 21.4708 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 20 15 
+
+Machine 2: 17 16 2 
+
+Machine 3: 9 3 1 
+
+Machine 4: 4 
+
+Machine 5: 5 18 11 
+
+Machine 6: 13 12 14 
+
+Machine 7: 19 7 
+
+Machine 8: 8 
+
+Machine 9: 6 10 
+
+Total Tardiness: 527
+Time taken by ant colony optimization: 19.6916 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 10 14 
+
+Machine 2: 2 17 16 
+
+Machine 3: 1 3 
+
+Machine 4: 13 4 
+
+Machine 5: 15 5 
+
+Machine 6: 6 7 20 
+
+Machine 7: 12 11 
+
+Machine 8: 19 8 
+
+Machine 9: 9 18 
+
+Total Tardiness: 830
+Time taken by ant colony optimization: 19.5427 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 1 19 7 
+
+Machine 2: 2 11 9 
+
+Machine 3: 15 10 13 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 8 18 
+
+Machine 8: 14 12 16 
+
+Machine 9: 3 20 
+
+Total Tardiness: 628
+Time taken by ant colony optimization: 18.3209 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 18 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 15 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 2 
+
+Machine 9: 9 
+
+Total Tardiness: 610
+Time taken by ant colony optimization: 11.3207 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 20 1 
+
+Machine 2: 19 13 16 
+
+Machine 3: 14 3 
+
+Machine 4: 17 4 
+
+Machine 5: 5 
+
+Machine 6: 7 6 18 
+
+Machine 7: 10 12 
+
+Machine 8: 2 8 
+
+Machine 9: 11 9 15 
+
+Total Tardiness: 786
+Time taken by ant colony optimization: 19.8644 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 16 15 
+
+Machine 2: 20 6 2 
+
+Machine 3: 5 9 3 
+
+Machine 4: 4 
+
+Machine 5: 17 12 7 
+
+Machine 6: 13 18 14 
+
+Machine 7: 11 1 
+
+Machine 8: 8 
+
+Machine 9: 19 10 
+
+Total Tardiness: 488
+Time taken by ant colony optimization: 24.1483 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 3 
+
+Machine 2: 2 7 5 
+
+Machine 3: 13 14 
+
+Machine 4: 17 4 
+
+Machine 5: 15 16 
+
+Machine 6: 9 6 20 
+
+Machine 7: 10 11 
+
+Machine 8: 1 8 
+
+Machine 9: 12 18 
+
+Total Tardiness: 843
+Time taken by ant colony optimization: 21.8376 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 1 19 10 
+
+Machine 2: 2 8 7 
+
+Machine 3: 14 12 9 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 13 18 
+
+Machine 8: 15 11 16 
+
+Machine 9: 3 20 
+
+Total Tardiness: 654
+Time taken by ant colony optimization: 18.4042 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 595
+Time taken by ant colony optimization: 11.3373 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 7 1 
+
+Machine 2: 6 13 16 
+
+Machine 3: 10 18 
+
+Machine 4: 17 4 
+
+Machine 5: 5 
+
+Machine 6: 19 20 3 
+
+Machine 7: 11 12 
+
+Machine 8: 2 8 
+
+Machine 9: 14 9 15 
+
+Total Tardiness: 818
+Time taken by ant colony optimization: 21.056 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 15 
+
+Machine 2: 20 17 2 
+
+Machine 3: 12 13 16 
+
+Machine 4: 4 
+
+Machine 5: 11 18 3 
+
+Machine 6: 5 9 14 
+
+Machine 7: 1 7 
+
+Machine 8: 8 
+
+Machine 9: 6 10 
+
+Total Tardiness: 446
+Time taken by ant colony optimization: 19.119 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 3 
+
+Machine 2: 2 17 16 
+
+Machine 3: 10 14 
+
+Machine 4: 18 20 
+
+Machine 5: 15 5 
+
+Machine 6: 9 7 4 
+
+Machine 7: 13 11 
+
+Machine 8: 12 8 
+
+Machine 9: 1 6 
+
+Total Tardiness: 852
+Time taken by ant colony optimization: 24.2624 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 8 2 10 
+
+Machine 2: 17 19 9 
+
+Machine 3: 15 11 7 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 3 18 
+
+Machine 8: 14 12 16 
+
+Machine 9: 13 20 
+
+Total Tardiness: 684
+Time taken by ant colony optimization: 20.0265 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 579
+Time taken by ant colony optimization: 10.9289 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 1 
+
+Machine 2: 2 13 16 
+
+Machine 3: 8 18 
+
+Machine 4: 10 4 
+
+Machine 5: 5 
+
+Machine 6: 6 20 9 
+
+Machine 7: 7 12 
+
+Machine 8: 14 3 
+
+Machine 9: 19 11 15 
+
+Total Tardiness: 847
+Time taken by ant colony optimization: 18.6461 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 15 
+
+Machine 2: 11 18 3 
+
+Machine 3: 17 13 16 
+
+Machine 4: 4 
+
+Machine 5: 9 19 2 
+
+Machine 6: 12 6 14 
+
+Machine 7: 20 7 
+
+Machine 8: 8 
+
+Machine 9: 5 10 
+
+Total Tardiness: 400
+Time taken by ant colony optimization: 17.6954 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 13 11 
+
+Machine 2: 2 17 5 
+
+Machine 3: 18 3 
+
+Machine 4: 19 4 
+
+Machine 5: 15 16 
+
+Machine 6: 7 9 20 
+
+Machine 7: 1 6 
+
+Machine 8: 12 14 
+
+Machine 9: 10 8 
+
+Total Tardiness: 856
+Time taken by ant colony optimization: 22.7174 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 11 12 10 
+
+Machine 2: 13 2 7 
+
+Machine 3: 15 8 20 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 3 18 
+
+Machine 8: 17 19 9 
+
+Machine 9: 14 16 
+
+Total Tardiness: 716
+Time taken by ant colony optimization: 18.2459 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 567
+Time taken by ant colony optimization: 11.0712 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 11 1 
+
+Machine 2: 2 13 16 
+
+Machine 3: 3 18 
+
+Machine 4: 10 4 
+
+Machine 5: 5 
+
+Machine 6: 7 20 9 
+
+Machine 7: 14 12 
+
+Machine 8: 17 8 
+
+Machine 9: 6 19 15 
+
+Total Tardiness: 742
+Time taken by ant colony optimization: 21.1555 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 5 15 
+
+Machine 2: 20 9 2 
+
+Machine 3: 18 13 10 
+
+Machine 4: 4 
+
+Machine 5: 17 6 3 
+
+Machine 6: 12 19 14 
+
+Machine 7: 11 7 
+
+Machine 8: 8 
+
+Machine 9: 1 16 
+
+Total Tardiness: 320
+Time taken by ant colony optimization: 19.4373 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 4 
+
+Machine 2: 2 17 5 
+
+Machine 3: 18 6 
+
+Machine 4: 9 14 
+
+Machine 5: 10 16 
+
+Machine 6: 15 7 20 
+
+Machine 7: 13 11 
+
+Machine 8: 19 3 
+
+Machine 9: 12 8 
+
+Total Tardiness: 748
+Time taken by ant colony optimization: 21.5113 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 11 12 10 
+
+Machine 2: 1 7 2 
+
+Machine 3: 17 15 16 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 13 18 
+
+Machine 8: 14 8 9 
+
+Machine 9: 3 20 
+
+Total Tardiness: 648
+Time taken by ant colony optimization: 21.295 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 495
+Time taken by ant colony optimization: 10.77 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 2 1 
+
+Machine 2: 19 14 16 
+
+Machine 3: 13 3 
+
+Machine 4: 12 15 
+
+Machine 5: 5 
+
+Machine 6: 6 10 17 
+
+Machine 7: 20 4 
+
+Machine 8: 11 8 
+
+Machine 9: 7 9 18 
+
+Total Tardiness: 1227
+Time taken by ant colony optimization: 21.3653 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 14 
+
+Machine 2: 20 6 2 
+
+Machine 3: 13 18 1 
+
+Machine 4: 4 
+
+Machine 5: 9 5 11 
+
+Machine 6: 12 17 7 
+
+Machine 7: 3 15 
+
+Machine 8: 8 
+
+Machine 9: 16 10 
+
+Total Tardiness: 803
+Time taken by ant colony optimization: 20.3209 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 5 
+
+Machine 2: 2 10 4 
+
+Machine 3: 3 14 
+
+Machine 4: 9 8 
+
+Machine 5: 13 19 
+
+Machine 6: 7 6 20 
+
+Machine 7: 12 11 
+
+Machine 8: 15 16 
+
+Machine 9: 17 18 
+
+Total Tardiness: 1281
+Time taken by ant colony optimization: 20.2988 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 2 11 7 
+
+Machine 2: 17 8 13 
+
+Machine 3: 15 10 9 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 3 18 
+
+Machine 8: 1 12 16 
+
+Machine 9: 14 20 
+
+Total Tardiness: 953
+Time taken by ant colony optimization: 21.4893 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 18 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 15 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 2 
+
+Machine 9: 9 
+
+Total Tardiness: 883
+Time taken by ant colony optimization: 10.9967 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 20 1 
+
+Machine 2: 6 14 8 
+
+Machine 3: 10 18 
+
+Machine 4: 12 16 
+
+Machine 5: 5 
+
+Machine 6: 19 2 3 
+
+Machine 7: 11 4 
+
+Machine 8: 13 17 
+
+Machine 9: 7 9 15 
+
+Total Tardiness: 1241
+Time taken by ant colony optimization: 20.9316 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 5 15 
+
+Machine 2: 20 19 14 
+
+Machine 3: 13 18 1 
+
+Machine 4: 4 
+
+Machine 5: 12 9 11 
+
+Machine 6: 17 6 2 
+
+Machine 7: 3 7 
+
+Machine 8: 8 
+
+Machine 9: 16 10 
+
+Total Tardiness: 764
+Time taken by ant colony optimization: 19.8957 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 18 
+
+Machine 2: 2 3 5 
+
+Machine 3: 15 14 
+
+Machine 4: 10 4 
+
+Machine 5: 1 16 
+
+Machine 6: 7 6 20 
+
+Machine 7: 12 11 
+
+Machine 8: 13 8 
+
+Machine 9: 9 19 
+
+Total Tardiness: 1286
+Time taken by ant colony optimization: 21.8665 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 15 2 7 
+
+Machine 2: 14 11 13 
+
+Machine 3: 17 12 9 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 8 18 
+
+Machine 8: 19 10 16 
+
+Machine 9: 3 20 
+
+Total Tardiness: 964
+Time taken by ant colony optimization: 21.8037 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 18 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 15 
+
+Machine 9: 9 
+
+Total Tardiness: 857
+Time taken by ant colony optimization: 11.9134 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 11 1 
+
+Machine 2: 19 12 4 
+
+Machine 3: 10 18 
+
+Machine 4: 20 16 
+
+Machine 5: 5 
+
+Machine 6: 6 13 3 
+
+Machine 7: 14 17 
+
+Machine 8: 2 8 
+
+Machine 9: 7 9 15 
+
+Total Tardiness: 1123
+Time taken by ant colony optimization: 22.5221 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 5 2 
+
+Machine 2: 18 16 15 
+
+Machine 3: 13 9 1 
+
+Machine 4: 4 
+
+Machine 5: 12 20 11 
+
+Machine 6: 17 3 14 
+
+Machine 7: 6 7 
+
+Machine 8: 8 
+
+Machine 9: 19 10 
+
+Total Tardiness: 654
+Time taken by ant colony optimization: 22.1778 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 18 
+
+Machine 2: 7 6 5 
+
+Machine 3: 12 14 
+
+Machine 4: 19 4 
+
+Machine 5: 17 16 
+
+Machine 6: 2 3 20 
+
+Machine 7: 13 11 
+
+Machine 8: 15 8 
+
+Machine 9: 9 10 
+
+Total Tardiness: 1166
+Time taken by ant colony optimization: 21.8367 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 15 2 13 
+
+Machine 2: 14 10 7 
+
+Machine 3: 1 11 9 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 8 18 
+
+Machine 8: 19 12 16 
+
+Machine 9: 3 20 
+
+Total Tardiness: 882
+Time taken by ant colony optimization: 19.704 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 18 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 15 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 2 
+
+Machine 9: 9 
+
+Total Tardiness: 781
+Time taken by ant colony optimization: 11.3394 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 20 1 
+
+Machine 2: 19 12 3 
+
+Machine 3: 10 4 
+
+Machine 4: 2 16 
+
+Machine 5: 5 
+
+Machine 6: 6 13 8 
+
+Machine 7: 7 18 
+
+Machine 8: 14 17 
+
+Machine 9: 11 9 15 
+
+Total Tardiness: 1027
+Time taken by ant colony optimization: 21.5962 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 11 15 
+
+Machine 2: 17 20 7 
+
+Machine 3: 5 18 3 
+
+Machine 4: 4 
+
+Machine 5: 9 13 1 
+
+Machine 6: 12 16 14 
+
+Machine 7: 19 2 
+
+Machine 8: 8 
+
+Machine 9: 6 10 
+
+Total Tardiness: 573
+Time taken by ant colony optimization: 20.0873 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 3 
+
+Machine 2: 2 9 5 
+
+Machine 3: 1 14 
+
+Machine 4: 10 4 
+
+Machine 5: 15 16 
+
+Machine 6: 7 6 20 
+
+Machine 7: 12 11 
+
+Machine 8: 17 8 
+
+Machine 9: 13 18 
+
+Total Tardiness: 1069
+Time taken by ant colony optimization: 20.5797 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 15 2 13 
+
+Machine 2: 1 11 7 
+
+Machine 3: 19 10 20 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 8 18 
+
+Machine 8: 14 12 16 
+
+Machine 9: 3 9 
+
+Total Tardiness: 824
+Time taken by ant colony optimization: 18.4366 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 709
+Time taken by ant colony optimization: 10.9367 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 2 1 
+
+Machine 2: 6 13 16 
+
+Machine 3: 10 18 
+
+Machine 4: 7 4 
+
+Machine 5: 5 
+
+Machine 6: 19 20 3 
+
+Machine 7: 14 12 
+
+Machine 8: 17 8 
+
+Machine 9: 11 9 15 
+
+Total Tardiness: 932
+Time taken by ant colony optimization: 19.9168 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 13 15 
+
+Machine 2: 17 20 2 
+
+Machine 3: 5 9 3 
+
+Machine 4: 4 
+
+Machine 5: 19 18 11 
+
+Machine 6: 12 16 14 
+
+Machine 7: 1 7 
+
+Machine 8: 8 
+
+Machine 9: 6 10 
+
+Total Tardiness: 491
+Time taken by ant colony optimization: 22.1848 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 5 6 
+
+Machine 2: 2 17 11 
+
+Machine 3: 15 16 
+
+Machine 4: 1 8 
+
+Machine 5: 12 3 
+
+Machine 6: 7 9 20 
+
+Machine 7: 13 14 
+
+Machine 8: 19 4 
+
+Machine 9: 10 18 
+
+Total Tardiness: 969
+Time taken by ant colony optimization: 31.6189 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 12 10 
+
+Machine 2: 3 2 7 
+
+Machine 3: 17 11 16 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 14 18 
+
+Machine 8: 15 8 9 
+
+Machine 9: 13 20 
+
+Total Tardiness: 771
+Time taken by ant colony optimization: 19.0085 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 15 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 18 
+
+Machine 9: 9 
+
+Total Tardiness: 638
+Time taken by ant colony optimization: 12.2243 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 7 15 
+
+Machine 2: 19 2 16 
+
+Machine 3: 10 3 
+
+Machine 4: 20 4 
+
+Machine 5: 5 
+
+Machine 6: 6 14 18 
+
+Machine 7: 12 1 
+
+Machine 8: 11 8 
+
+Machine 9: 9 13 17 
+
+Total Tardiness: 1590
+Time taken by ant colony optimization: 21.0876 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 16 15 
+
+Machine 2: 20 3 1 
+
+Machine 3: 9 5 2 
+
+Machine 4: 4 
+
+Machine 5: 18 19 11 
+
+Machine 6: 17 12 14 
+
+Machine 7: 6 7 
+
+Machine 8: 8 
+
+Machine 9: 13 10 
+
+Total Tardiness: 1089
+Time taken by ant colony optimization: 21.0231 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 12 5 
+
+Machine 2: 2 6 10 
+
+Machine 3: 3 14 
+
+Machine 4: 13 4 
+
+Machine 5: 1 16 
+
+Machine 6: 7 17 20 
+
+Machine 7: 19 11 
+
+Machine 8: 15 8 
+
+Machine 9: 9 18 
+
+Total Tardiness: 1685
+Time taken by ant colony optimization: 23.823 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 10 13 
+
+Machine 2: 2 11 7 
+
+Machine 3: 15 12 20 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 14 18 
+
+Machine 8: 17 8 16 
+
+Machine 9: 3 9 
+
+Total Tardiness: 1244
+Time taken by ant colony optimization: 23.2988 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 4 19 
+
+Machine 2: 18 20 
+
+Machine 3: 12 17 11 
+
+Machine 4: 8 16 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 3 13 10 1 15 
+
+Machine 9: 9 
+
+Total Tardiness: 1112
+Time taken by ant colony optimization: 23.7556 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 20 1 
+
+Machine 2: 19 14 16 
+
+Machine 3: 11 3 
+
+Machine 4: 7 4 
+
+Machine 5: 5 
+
+Machine 6: 6 12 17 
+
+Machine 7: 13 18 
+
+Machine 8: 2 8 
+
+Machine 9: 9 10 15 
+
+Total Tardiness: 1473
+Time taken by ant colony optimization: 23.0548 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 5 15 
+
+Machine 2: 9 3 1 
+
+Machine 3: 17 13 7 
+
+Machine 4: 4 
+
+Machine 5: 20 19 11 
+
+Machine 6: 12 18 14 
+
+Machine 7: 16 10 
+
+Machine 8: 8 
+
+Machine 9: 6 2 
+
+Total Tardiness: 979
+Time taken by ant colony optimization: 20.5345 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 12 5 
+
+Machine 2: 2 10 8 
+
+Machine 3: 3 14 
+
+Machine 4: 13 4 
+
+Machine 5: 1 16 
+
+Machine 6: 7 15 20 
+
+Machine 7: 6 11 
+
+Machine 8: 17 19 
+
+Machine 9: 9 18 
+
+Total Tardiness: 1549
+Time taken by ant colony optimization: 21.1994 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 2 10 7 
+
+Machine 2: 19 11 13 
+
+Machine 3: 17 14 9 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 12 18 
+
+Machine 8: 15 8 16 
+
+Machine 9: 3 20 
+
+Total Tardiness: 1145
+Time taken by ant colony optimization: 20.2209 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 16 19 
+
+Machine 2: 18 20 
+
+Machine 3: 8 17 11 
+
+Machine 4: 4 1 14 
+
+Machine 5: 5 
+
+Machine 6: 6 15 
+
+Machine 7: 7 
+
+Machine 8: 3 12 13 10 2 
+
+Machine 9: 9 
+
+Total Tardiness: 1007
+Time taken by ant colony optimization: 12.5244 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 11 1 
+
+Machine 2: 7 9 16 
+
+Machine 3: 20 3 
+
+Machine 4: 10 4 
+
+Machine 5: 5 
+
+Machine 6: 6 14 18 
+
+Machine 7: 2 17 
+
+Machine 8: 12 8 
+
+Machine 9: 19 13 15 
+
+Total Tardiness: 1359
+Time taken by ant colony optimization: 20.9501 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 6 2 
+
+Machine 2: 13 18 11 
+
+Machine 3: 17 19 14 
+
+Machine 4: 4 
+
+Machine 5: 20 16 1 
+
+Machine 6: 12 9 15 
+
+Machine 7: 5 7 
+
+Machine 8: 8 
+
+Machine 9: 3 10 
+
+Total Tardiness: 860
+Time taken by ant colony optimization: 20.5523 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 10 5 
+
+Machine 2: 2 13 8 
+
+Machine 3: 3 14 
+
+Machine 4: 1 4 
+
+Machine 5: 15 16 
+
+Machine 6: 7 6 20 
+
+Machine 7: 12 11 
+
+Machine 8: 17 19 
+
+Machine 9: 9 18 
+
+Total Tardiness: 1416
+Time taken by ant colony optimization: 21.3236 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 2 10 13 
+
+Machine 2: 19 11 9 
+
+Machine 3: 15 8 7 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 14 18 
+
+Machine 8: 17 12 16 
+
+Machine 9: 3 20 
+
+Total Tardiness: 1054
+Time taken by ant colony optimization: 21.4464 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 18 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 15 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 2 
+
+Machine 9: 9 
+
+Total Tardiness: 946
+Time taken by ant colony optimization: 11.7275 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 13 1 
+
+Machine 2: 19 20 16 
+
+Machine 3: 14 3 
+
+Machine 4: 2 4 
+
+Machine 5: 5 
+
+Machine 6: 6 10 18 
+
+Machine 7: 11 17 
+
+Machine 8: 12 8 
+
+Machine 9: 7 9 15 
+
+Total Tardiness: 1241
+Time taken by ant colony optimization: 22.0436 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 16 1 
+
+Machine 2: 12 9 2 
+
+Machine 3: 13 18 7 
+
+Machine 4: 4 
+
+Machine 5: 17 5 11 
+
+Machine 6: 20 19 14 
+
+Machine 7: 3 15 
+
+Machine 8: 8 
+
+Machine 9: 6 10 
+
+Total Tardiness: 764
+Time taken by ant colony optimization: 20.6339 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 18 
+
+Machine 2: 7 3 5 
+
+Machine 3: 13 14 
+
+Machine 4: 10 4 
+
+Machine 5: 1 16 
+
+Machine 6: 2 6 20 
+
+Machine 7: 12 11 
+
+Machine 8: 15 8 
+
+Machine 9: 9 19 
+
+Total Tardiness: 1286
+Time taken by ant colony optimization: 21.769 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 15 2 13 
+
+Machine 2: 19 12 7 
+
+Machine 3: 17 10 16 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 11 18 
+
+Machine 8: 14 8 9 
+
+Machine 9: 3 20 
+
+Total Tardiness: 964
+Time taken by ant colony optimization: 23.2991 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 18 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 15 
+
+Machine 9: 9 
+
+Total Tardiness: 857
+Time taken by ant colony optimization: 11.2572 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 11 1 
+
+Machine 2: 19 13 16 
+
+Machine 3: 20 3 
+
+Machine 4: 10 4 
+
+Machine 5: 5 
+
+Machine 6: 6 14 18 
+
+Machine 7: 2 17 
+
+Machine 8: 12 8 
+
+Machine 9: 7 9 15 
+
+Total Tardiness: 1123
+Time taken by ant colony optimization: 21.6771 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 16 15 
+
+Machine 2: 12 20 1 
+
+Machine 3: 13 9 2 
+
+Machine 4: 4 
+
+Machine 5: 5 18 11 
+
+Machine 6: 17 3 14 
+
+Machine 7: 19 7 
+
+Machine 8: 8 
+
+Machine 9: 6 10 
+
+Total Tardiness: 654
+Time taken by ant colony optimization: 22.3715 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 19 1 
+
+Machine 2: 2 3 4 
+
+Machine 3: 10 14 
+
+Machine 4: 13 18 
+
+Machine 5: 15 16 
+
+Machine 6: 7 6 20 
+
+Machine 7: 12 11 
+
+Machine 8: 17 5 
+
+Machine 9: 9 8 
+
+Total Tardiness: 1166
+Time taken by ant colony optimization: 24.959 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 17 15 2 16 
+
+Machine 2: 1 11 13 
+
+Machine 3: 19 10 18 
+
+Machine 4: 4 
+
+Machine 5: 5 
+
+Machine 6: 6 
+
+Machine 7: 3 7 
+
+Machine 8: 14 12 9 
+
+Machine 9: 8 20 
+
+Total Tardiness: 882
+Time taken by ant colony optimization: 24.1226 seconds
+
+🐜 Ant Colony Optimization
+Ant Colony Optimization Schedule
+
+Machine 1: 1 19 
+
+Machine 2: 18 20 
+
+Machine 3: 3 10 11 
+
+Machine 4: 4 13 14 
+
+Machine 5: 5 
+
+Machine 6: 6 2 
+
+Machine 7: 7 
+
+Machine 8: 8 12 16 17 15 
+
+Machine 9: 9 
+
+Total Tardiness: 781
+Time taken by ant colony optimization: 11.3931 seconds
+
