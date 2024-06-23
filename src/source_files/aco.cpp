@@ -158,7 +158,6 @@ void global_pheromone_update(vector<vector<double>>& pheromone,
                              const vector<Job*>& jobs,
                              const vector<vector<Job*>>& best_solution, 
                              long long best_tardiness, const double rho_global) {
-        
     for (int i = 0; i < best_solution.size(); ++i) {
         for (int j = 0; j < best_solution[i].size(); ++j) {
             int job = find(jobs.begin(), jobs.end(), best_solution[i][j]) - jobs.begin();
