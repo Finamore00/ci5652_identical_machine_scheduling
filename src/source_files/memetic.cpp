@@ -314,7 +314,7 @@ vector<Individual> choose_multi_parents(int k, Population &population, vector<lo
             int candidate_pos = rand() % population.size();
 
             //Calculate its probability of being chosen
-            double candidate_prob = (double)fitnesses[candidate_pos] / (double)total_fitness;
+            double candidate_prob = 1 - (double)fitnesses[candidate_pos] / (double)total_fitness;
             double prob = (double)rand() / (double)RAND_MAX;
 
             if (prob < candidate_prob) {

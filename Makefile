@@ -5,7 +5,7 @@ SRC_FILE_DIR = src/source_files
 HDR_FILE_DIR = src/header_files
 OBJECTS := $(wildcard $(TARGET_DIR)/*.o)
 
-all: target_dir memetic.o aco.o
+all: target_dir memetic.o aco.o scattered.o
 	$(CC) $(CPP_FLAGS) $(TARGET_DIR)/*.o $(SRC_FILE_DIR)/main.cpp -o $(TARGET_DIR)/PROY3
 
 memetic.o: target_dir local_search.o exact.o evolution.o
@@ -46,6 +46,9 @@ tabu_search.o: target_dir heuristic.o vicinities.o exact.o local_search.o
 
 evolution.o: target_dir vicinities.o local_search.o
 	$(CC) $(CPP_FLAGS) $(SRC_FILE_DIR)/evolution.cpp -c -o $(TARGET_DIR)/evolution.o
+
+scattered.o: target_dir evolution.o memetic.o
+	$(CC) $(CPP_FLAGS) $(SRC_FILE_DIR)/scattered.cpp -c -o $(TARGET_DIR)/scattered.o
 
 clean:
 	rm -f $(TARGET_DIR)/*
