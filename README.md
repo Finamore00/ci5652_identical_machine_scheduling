@@ -80,10 +80,12 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
             8.3.2. Si la tarea ya está marcado (duplicado), se reemplaza con el trabajo mapeado según la lista de mapeo (`ch_map`). Este proceso continúa hasta encontrar un trabajo no marcado.
             
             8.3.3. Al encontrar un trabajo no marcado, se marca el nuevo trabajo y se actualiza el gen en el hijo actual.
+ 
+            8.3.4. Se marca la subparte actual procesada.
 
         8.4. Se verifica que todas las tareas estén marcadas (para asegurar que no hayan tareas duplicadas y tampoco tareas faltantes).
 
-    9. Se devuelven los hijos generados.
+    10. Se devuelven los hijos generados.
 
 ### 🚀⬆ Mejora luego de la recombinación
 
