@@ -45,13 +45,13 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
         3.4. Luego se ejecuta un bucle con `g` iteraciones
         
-            3.4.1. En el bucle, se marca el gen actual `start_gene` como mapeado.
+            3.4.1. En el bucle, se marca la tarea del gen actual `start_gene` como mapeado.
 
             3.4.2. Se selecciona un padre final `end_parent` aleatoriamente y diferente del padre inicial y se busca en el padre final el gen que corresponde a la misma tarea que el gen inicial, al encontrarlo se guarda el gen en `end_gene`.
 
             3.4.3. Se incrementa `cnt_mapped` a 1. Si todos las tareas han sido mapeados, se sale del bucle.
 
-            3.4.4. Si aún faltan tareas por mapear, se elige un nuevo padre inicial diferente del final y se selecciona un nuevo gen inicial cuya tarea no haya sido mapeada aún.
+            3.4.4. Si aún faltan tareas por mapear o marcar, se elige un nuevo padre inicial diferente del final y se selecciona un nuevo gen inicial cuyo gen tarea no haya sido marcada aún.
 
             3.4.5. Y se agrega un mapeo con `ch_map[end_gene.job->id] = start_gene`
 
