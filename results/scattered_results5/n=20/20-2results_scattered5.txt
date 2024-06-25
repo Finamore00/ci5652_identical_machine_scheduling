@@ -1,0 +1,1250 @@
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 19 8 3 16 5 13 11 20 9 4 
+
+Machine 2: 7 10 14 1 6 2 15 17 12 18 
+
+Total Tardiness: 147
+Time taken by scattered_search: 7.23734 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 12 18 13 6 4 11 10 8 2 
+
+Machine 2: 9 7 1 20 5 17 19 16 14 3 15 
+
+Total Tardiness: 102
+Time taken by scattered_search: 7.04541 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 14 9 10 19 2 1 13 18 7 3 20 
+
+Machine 2: 16 17 8 5 15 6 12 11 4 
+
+Total Tardiness: 152
+Time taken by scattered_search: 7.08568 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 15 17 18 11 13 5 4 10 20 
+
+Machine 2: 14 3 6 19 12 16 9 8 2 7 
+
+Total Tardiness: 136
+Time taken by scattered_search: 7.29278 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 7 14 10 3 15 16 8 20 18 
+
+Machine 2: 11 4 6 9 12 2 13 5 17 19 
+
+Total Tardiness: 118
+Time taken by scattered_search: 7.22606 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 13 5 10 17 20 3 19 15 12 9 
+
+Machine 2: 7 8 6 2 14 11 1 16 4 18 
+
+Total Tardiness: 17
+Time taken by scattered_search: 7.38937 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 20 11 17 12 9 4 16 18 1 10 14 
+
+Machine 2: 7 13 19 15 5 3 8 2 
+
+Total Tardiness: 17
+Time taken by scattered_search: 7.32228 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 5 19 7 8 13 10 11 4 
+
+Machine 2: 15 1 14 6 12 16 2 18 9 20 3 
+
+Total Tardiness: 32
+Time taken by scattered_search: 7.56965 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 16 17 18 19 11 3 4 8 7 10 
+
+Machine 2: 14 15 13 1 5 6 12 9 20 2 
+
+Total Tardiness: 41
+Time taken by scattered_search: 7.30216 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 4 3 15 13 16 7 6 11 2 20 18 
+
+Machine 2: 8 17 14 12 9 1 5 19 10 
+
+Total Tardiness: 34
+Time taken by scattered_search: 7.22866 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 8 7 1 10 3 16 11 12 9 
+
+Machine 2: 17 13 5 2 14 15 19 6 20 4 18 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.504236 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 16 15 17 5 19 10 20 8 2 
+
+Machine 2: 7 1 13 6 12 11 14 18 9 3 4 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.466364 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 18 6 16 17 15 12 9 11 4 
+
+Machine 2: 1 14 7 19 2 10 8 13 3 20 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.539101 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 13 1 16 17 14 6 19 4 11 8 12 10 
+
+Machine 2: 18 2 3 5 15 9 20 7 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.506832 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 8 18 2 16 5 10 7 12 19 
+
+Machine 2: 11 4 9 6 13 1 3 14 17 20 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.515842 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 2 8 1 10 7 6 4 16 20 
+
+Machine 2: 19 3 17 9 5 14 11 13 15 12 18 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.53488 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 12 20 14 13 4 10 19 9 18 8 2 
+
+Machine 2: 16 17 1 7 15 6 11 3 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.442531 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 13 5 14 2 10 18 11 9 20 
+
+Machine 2: 12 16 19 3 15 8 1 17 7 4 6 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.493304 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 2 16 6 9 8 7 
+
+Machine 2: 1 13 17 3 19 14 18 15 4 11 10 12 20 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.524272 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 13 1 16 4 12 5 2 20 19 10 18 
+
+Machine 2: 14 3 6 11 9 7 17 8 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.456241 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 10 5 6 14 13 15 20 4 9 
+
+Machine 2: 2 8 7 3 19 17 11 16 18 12 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.509524 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 16 5 17 11 8 13 2 4 3 
+
+Machine 2: 18 12 1 20 14 10 7 19 9 15 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.438713 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 13 19 14 8 1 11 4 20 
+
+Machine 2: 7 6 12 15 16 2 10 9 18 17 3 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.620951 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 16 13 14 6 19 15 4 11 12 
+
+Machine 2: 3 17 5 18 9 7 8 20 2 10 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.537877 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 4 6 15 19 2 7 5 16 18 
+
+Machine 2: 13 11 9 17 1 8 10 3 12 14 20 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.435598 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 8 2 7 19 6 1 17 13 12 4 16 
+
+Machine 2: 5 10 11 3 14 20 9 18 15 
+
+Total Tardiness: 696
+Time taken by scattered_search: 7.31881 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 13 9 18 11 10 17 8 3 14 4 
+
+Machine 2: 20 19 6 1 12 5 7 16 2 15 
+
+Total Tardiness: 412
+Time taken by scattered_search: 7.34501 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 16 15 2 19 10 18 6 3 8 11 
+
+Machine 2: 12 5 13 9 14 17 7 1 4 20 
+
+Total Tardiness: 798
+Time taken by scattered_search: 7.23523 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 14 18 19 11 16 15 8 10 7 5 
+
+Machine 2: 17 6 3 13 4 12 2 9 20 
+
+Total Tardiness: 565
+Time taken by scattered_search: 7.35195 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 2 4 6 9 11 16 18 14 
+
+Machine 2: 13 1 8 15 17 3 7 20 12 10 19 5 
+
+Total Tardiness: 488
+Time taken by scattered_search: 7.40233 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 19 7 1 10 6 2 17 13 20 12 9 16 
+
+Machine 2: 5 3 8 14 11 4 18 15 
+
+Total Tardiness: 532
+Time taken by scattered_search: 7.51517 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 9 17 7 6 8 16 19 18 14 15 
+
+Machine 2: 13 12 1 20 11 5 3 10 2 4 
+
+Total Tardiness: 254
+Time taken by scattered_search: 8.05974 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 10 2 12 14 15 18 17 7 3 4 11 
+
+Machine 2: 19 5 16 13 1 9 6 8 20 
+
+Total Tardiness: 571
+Time taken by scattered_search: 8.3605 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 16 19 5 4 15 8 2 7 6 
+
+Machine 2: 1 14 13 3 18 9 11 12 10 20 
+
+Total Tardiness: 474
+Time taken by scattered_search: 8.3887 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 2 4 3 8 7 13 14 12 20 5 
+
+Machine 2: 9 15 1 11 16 17 18 10 19 
+
+Total Tardiness: 333
+Time taken by scattered_search: 8.44115 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 3 5 19 7 2 17 11 13 4 18 
+
+Machine 2: 8 1 10 14 6 16 20 12 9 15 
+
+Total Tardiness: 351
+Time taken by scattered_search: 8.39151 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 12 19 9 16 17 7 13 18 8 3 15 
+
+Machine 2: 6 10 5 11 20 14 4 2 
+
+Total Tardiness: 121
+Time taken by scattered_search: 8.27689 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 2 10 19 14 12 13 9 7 11 3 20 
+
+Machine 2: 15 5 16 18 1 17 8 6 4 
+
+Total Tardiness: 385
+Time taken by scattered_search: 8.64324 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 14 3 17 13 18 19 4 8 2 10 20 
+
+Machine 2: 1 16 5 6 15 11 12 7 9 
+
+Total Tardiness: 394
+Time taken by scattered_search: 8.19184 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 11 1 7 14 16 13 8 12 18 20 
+
+Machine 2: 15 3 6 9 2 4 5 17 10 19 
+
+Total Tardiness: 216
+Time taken by scattered_search: 8.16305 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 8 3 2 14 6 11 13 15 4 9 
+
+Machine 2: 1 5 10 19 17 16 20 12 18 
+
+Total Tardiness: 220
+Time taken by scattered_search: 8.08555 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 5 9 1 17 11 4 15 2 
+
+Machine 2: 12 19 13 16 6 20 10 8 18 3 14 
+
+Total Tardiness: 36
+Time taken by scattered_search: 8.14541 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 14 16 13 1 18 20 3 
+
+Machine 2: 19 15 7 10 2 12 8 17 9 11 6 4 
+
+Total Tardiness: 257
+Time taken by scattered_search: 8.22985 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 16 14 17 6 19 15 4 11 8 7 2 10 
+
+Machine 2: 1 3 13 18 5 9 12 20 
+
+Total Tardiness: 339
+Time taken by scattered_search: 8.30265 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 4 6 1 13 11 14 3 20 19 
+
+Machine 2: 7 9 2 5 16 8 17 12 18 10 
+
+Total Tardiness: 92
+Time taken by scattered_search: 8.45824 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 7 10 14 19 6 17 11 15 4 18 9 
+
+Machine 2: 8 3 2 5 16 13 20 12 
+
+Total Tardiness: 238
+Time taken by scattered_search: 8.23993 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 12 6 13 4 11 10 8 14 
+
+Machine 2: 1 9 16 20 18 5 7 3 19 15 2 
+
+Total Tardiness: 0
+Time taken by scattered_search: 0.540122 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 19 15 2 16 10 13 8 7 11 20 
+
+Machine 2: 5 14 12 18 1 17 9 6 4 3 
+
+Total Tardiness: 182
+Time taken by scattered_search: 8.27034 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 3 1 13 18 15 19 4 9 12 7 2 
+
+Machine 2: 16 17 14 6 5 11 8 20 10 
+
+Total Tardiness: 359
+Time taken by scattered_search: 8.42403 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 9 3 7 12 13 14 8 17 19 
+
+Machine 2: 6 2 4 16 1 11 5 20 18 10 
+
+Total Tardiness: 2
+Time taken by scattered_search: 8.14992 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 8 10 11 13 9 20 4 1 16 
+
+Machine 2: 19 3 2 6 14 17 12 18 5 15 
+
+Total Tardiness: 1743
+Time taken by scattered_search: 8.17971 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 20 6 1 17 18 5 19 3 14 15 10 
+
+Machine 2: 12 9 11 13 7 16 2 4 8 
+
+Total Tardiness: 937
+Time taken by scattered_search: 8.28139 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 10 12 9 7 6 14 4 20 11 
+
+Machine 2: 15 19 17 2 13 1 3 18 8 16 
+
+Total Tardiness: 1912
+Time taken by scattered_search: 8.40306 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 16 14 1 3 15 8 10 7 4 5 
+
+Machine 2: 17 18 13 19 11 12 2 9 20 6 
+
+Total Tardiness: 1225
+Time taken by scattered_search: 8.20709 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 13 6 1 7 8 18 20 19 5 
+
+Machine 2: 15 9 4 3 16 12 10 2 11 14 
+
+Total Tardiness: 1095
+Time taken by scattered_search: 8.14818 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 8 10 19 6 11 13 12 18 4 16 
+
+Machine 2: 1 2 14 17 20 9 3 5 15 
+
+Total Tardiness: 1608
+Time taken by scattered_search: 8.13673 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 12 5 6 16 18 19 14 15 10 
+
+Machine 2: 7 17 11 20 9 13 3 2 4 8 
+
+Total Tardiness: 739
+Time taken by scattered_search: 8.12643 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 14 15 10 13 9 6 3 4 20 16 
+
+Machine 2: 2 5 19 12 17 7 1 18 8 11 
+
+Total Tardiness: 1733
+Time taken by scattered_search: 8.14914 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 3 13 4 7 10 20 6 
+
+Machine 2: 17 16 1 14 19 11 15 8 12 2 9 18 5 
+
+Total Tardiness: 1211
+Time taken by scattered_search: 8.33255 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 1 3 11 8 16 10 18 19 14 
+
+Machine 2: 4 6 9 13 2 12 17 20 7 5 
+
+Total Tardiness: 923
+Time taken by scattered_search: 8.55288 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 8 10 2 6 11 1 12 9 5 16 
+
+Machine 2: 7 3 19 14 17 13 20 18 4 15 
+
+Total Tardiness: 1568
+Time taken by scattered_search: 8.26107 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 20 1 7 13 19 16 3 4 8 
+
+Machine 2: 12 5 9 11 6 10 18 14 2 15 
+
+Total Tardiness: 518
+Time taken by scattered_search: 8.18714 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 2 10 13 9 7 18 4 20 16 
+
+Machine 2: 15 19 12 1 17 14 6 3 8 11 
+
+Total Tardiness: 1631
+Time taken by scattered_search: 8.14423 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 17 13 16 19 15 11 8 12 2 10 20 6 
+
+Machine 2: 3 14 18 4 7 9 5 
+
+Total Tardiness: 1219
+Time taken by scattered_search: 8.25043 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 4 9 2 10 16 17 8 12 18 20 14 
+
+Machine 2: 15 1 7 3 13 11 19 5 
+
+Total Tardiness: 775
+Time taken by scattered_search: 8.15662 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 8 2 19 14 11 1 20 18 9 15 
+
+Machine 2: 7 10 3 6 17 13 4 12 16 5 
+
+Total Tardiness: 1637
+Time taken by scattered_search: 8.53223 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 5 20 13 6 9 10 16 3 14 4 
+
+Machine 2: 12 18 17 7 11 19 8 2 15 
+
+Total Tardiness: 331
+Time taken by scattered_search: 8.34355 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 2 15 19 12 1 17 9 14 6 20 16 
+
+Machine 2: 5 10 13 18 7 8 3 4 11 
+
+Total Tardiness: 1613
+Time taken by scattered_search: 8.28917 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 17 14 3 18 15 9 7 10 2 5 
+
+Machine 2: 13 16 19 4 11 12 8 20 6 
+
+Total Tardiness: 1320
+Time taken by scattered_search: 8.21189 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 9 3 4 2 13 16 8 20 18 10 5 
+
+Machine 2: 15 1 7 11 17 12 19 14 
+
+Total Tardiness: 666
+Time taken by scattered_search: 8.17402 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 8 2 19 6 1 17 13 5 4 18 
+
+Machine 2: 7 3 10 14 11 16 20 12 9 15 
+
+Total Tardiness: 1331
+Time taken by scattered_search: 8.17528 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 12 17 9 20 13 5 6 16 11 19 18 4 3 2 
+
+Machine 2: 1 7 10 8 14 15 
+
+Total Tardiness: 137
+Time taken by scattered_search: 8.23739 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 15 12 14 17 9 7 16 6 3 20 
+
+Machine 2: 2 19 10 13 1 8 18 4 11 
+
+Total Tardiness: 1169
+Time taken by scattered_search: 8.41145 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 17 14 18 4 9 20 2 10 6 
+
+Machine 2: 3 13 16 19 15 12 11 8 7 5 
+
+Total Tardiness: 1105
+Time taken by scattered_search: 8.49658 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 1 7 3 14 8 16 12 17 18 19 
+
+Machine 2: 6 9 13 4 2 11 10 20 5 
+
+Total Tardiness: 439
+Time taken by scattered_search: 8.49265 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 2 7 19 6 13 9 20 18 4 5 15 
+
+Machine 2: 10 14 11 12 17 8 3 1 16 
+
+Total Tardiness: 3192
+Time taken by scattered_search: 8.51434 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 9 17 1 20 16 3 11 7 15 8 
+
+Machine 2: 13 12 5 18 6 19 14 2 4 10 
+
+Total Tardiness: 1793
+Time taken by scattered_search: 8.4315 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 12 7 9 6 1 18 4 20 11 
+
+Machine 2: 2 19 17 3 13 10 5 14 8 16 
+
+Total Tardiness: 3484
+Time taken by scattered_search: 8.49385 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 14 1 17 19 11 12 10 20 9 18 6 
+
+Machine 2: 3 2 15 8 13 7 16 4 5 
+
+Total Tardiness: 2275
+Time taken by scattered_search: 8.21436 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 8 4 3 18 2 11 14 9 
+
+Machine 2: 6 1 16 10 13 17 12 20 7 19 5 
+
+Total Tardiness: 1918
+Time taken by scattered_search: 8.23537 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 14 6 13 20 17 18 3 16 15 
+
+Machine 2: 2 19 10 11 12 9 8 4 1 5 
+
+Total Tardiness: 3219
+Time taken by scattered_search: 8.17888 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 12 17 5 20 9 6 18 16 11 7 4 10 
+
+Machine 2: 1 13 19 3 14 2 15 8 
+
+Total Tardiness: 1558
+Time taken by scattered_search: 8.10081 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 12 17 7 19 1 18 4 8 16 
+
+Machine 2: 2 10 13 9 6 3 5 14 20 11 
+
+Total Tardiness: 3470
+Time taken by scattered_search: 8.31811 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 1 3 19 11 12 2 16 20 18 5 
+
+Machine 2: 14 13 15 8 10 7 9 4 6 
+
+Total Tardiness: 2324
+Time taken by scattered_search: 8.13607 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 1 4 3 16 12 13 10 17 20 7 19 9 
+
+Machine 2: 15 2 8 18 11 14 5 
+
+Total Tardiness: 1841
+Time taken by scattered_search: 8.36895 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 2 19 6 17 20 8 4 5 15 
+
+Machine 2: 10 14 11 13 12 9 18 3 1 16 
+
+Total Tardiness: 2768
+Time taken by scattered_search: 8.10161 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 20 9 11 16 3 7 15 8 
+
+Machine 2: 12 17 5 6 13 19 18 14 2 4 10 
+
+Total Tardiness: 1193
+Time taken by scattered_search: 8.12831 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 2 12 9 7 1 6 18 14 8 11 
+
+Machine 2: 19 10 17 13 3 5 4 20 16 
+
+Total Tardiness: 2986
+Time taken by scattered_search: 8.12514 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 14 13 19 15 11 12 2 10 16 18 5 
+
+Machine 2: 1 3 4 8 7 9 20 6 
+
+Total Tardiness: 2059
+Time taken by scattered_search: 8.14321 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 3 4 13 7 8 17 10 11 19 9 
+
+Machine 2: 6 1 2 16 12 18 20 14 5 
+
+Total Tardiness: 1521
+Time taken by scattered_search: 8.20859 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 10 14 6 17 13 12 9 3 16 15 
+
+Machine 2: 7 2 19 8 11 20 18 4 1 5 
+
+Total Tardiness: 2396
+Time taken by scattered_search: 8.19056 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 12 1 20 17 13 11 19 14 4 8 
+
+Machine 2: 5 7 9 6 18 16 3 2 15 10 
+
+Total Tardiness: 843
+Time taken by scattered_search: 8.17073 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 10 13 7 18 6 3 4 8 11 
+
+Machine 2: 19 2 12 17 9 1 14 5 20 16 
+
+Total Tardiness: 2517
+Time taken by scattered_search: 8.252 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 14 3 15 19 9 8 2 20 4 5 
+
+Machine 2: 1 13 16 12 11 7 10 18 6 
+
+Total Tardiness: 1833
+Time taken by scattered_search: 8.29812 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 1 10 2 3 16 12 17 13 8 11 19 5 
+
+Machine 2: 15 4 7 20 18 14 9 
+
+Total Tardiness: 1251
+Time taken by scattered_search: 8.18429 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 10 19 2 6 11 13 20 12 9 1 15 
+
+Machine 2: 8 14 17 3 4 18 16 5 
+
+Total Tardiness: 1998
+Time taken by scattered_search: 8.1999 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 5 6 13 9 18 10 3 4 8 
+
+Machine 2: 12 17 20 7 11 19 16 14 2 15 
+
+Total Tardiness: 565
+Time taken by scattered_search: 8.32844 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 2 10 13 17 9 7 14 3 8 16 
+
+Machine 2: 19 12 1 5 18 6 4 20 11 
+
+Total Tardiness: 2053
+Time taken by scattered_search: 8.61498 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 1 14 18 19 15 4 20 7 5 
+
+Machine 2: 3 13 16 11 8 12 2 10 9 6 
+
+Total Tardiness: 1568
+Time taken by scattered_search: 8.21038 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 1 3 2 20 18 19 14 
+
+Machine 2: 6 9 4 11 13 10 16 8 12 17 7 5 
+
+Total Tardiness: 949
+Time taken by scattered_search: 8.36791 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 19 13 9 14 20 12 8 4 16 15 
+
+Machine 2: 6 7 2 11 10 17 18 3 1 5 
+
+Total Tardiness: 4651
+Time taken by scattered_search: 8.27329 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 12 20 9 5 6 19 14 7 4 8 
+
+Machine 2: 17 13 18 16 3 1 11 2 15 10 
+
+Total Tardiness: 2862
+Time taken by scattered_search: 8.31787 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 9 6 15 12 13 1 5 14 20 16 
+
+Machine 2: 2 7 17 3 19 10 18 4 8 11 
+
+Total Tardiness: 5054
+Time taken by scattered_search: 8.23853 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 19 2 14 8 3 7 20 4 6 
+
+Machine 2: 1 15 12 11 10 13 16 9 18 5 
+
+Total Tardiness: 3322
+Time taken by scattered_search: 8.18582 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 3 4 13 8 12 18 15 2 7 19 5 
+
+Machine 2: 6 16 10 17 1 20 11 14 9 
+
+Total Tardiness: 2876
+Time taken by scattered_search: 8.1093 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 6 13 9 10 20 18 3 1 16 
+
+Machine 2: 19 2 11 14 12 17 8 4 5 15 
+
+Total Tardiness: 4154
+Time taken by scattered_search: 8.17862 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 12 17 20 13 9 18 3 11 1 2 15 8 
+
+Machine 2: 5 6 16 19 14 7 4 10 
+
+Total Tardiness: 2395
+Time taken by scattered_search: 8.21522 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 2 17 7 6 3 13 19 18 14 8 11 
+
+Machine 2: 15 9 12 1 10 5 4 20 16 
+
+Total Tardiness: 4483
+Time taken by scattered_search: 8.1755 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 19 11 8 13 16 20 18 5 
+
+Machine 2: 1 14 15 12 2 10 3 7 9 4 6 
+
+Total Tardiness: 2943
+Time taken by scattered_search: 8.29185 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 13 4 3 16 17 12 1 20 7 19 9 
+
+Machine 2: 15 8 10 18 2 11 14 5 
+
+Total Tardiness: 2512
+Time taken by scattered_search: 8.23722 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 19 6 13 10 9 17 8 3 1 15 
+
+Machine 2: 2 11 14 20 12 18 4 5 16 
+
+Total Tardiness: 3667
+Time taken by scattered_search: 8.34885 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 5 17 20 13 6 18 3 11 2 15 10 
+
+Machine 2: 12 1 9 16 19 14 7 4 8 
+
+Total Tardiness: 1966
+Time taken by scattered_search: 8.34265 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 2 15 17 7 6 19 10 5 14 8 11 
+
+Machine 2: 12 9 13 3 1 18 4 20 16 
+
+Total Tardiness: 3975
+Time taken by scattered_search: 8.43677 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 14 19 15 11 12 2 10 7 20 4 6 
+
+Machine 2: 17 3 8 13 16 9 18 5 
+
+Total Tardiness: 2628
+Time taken by scattered_search: 8.27566 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 4 12 8 18 10 2 11 19 5 
+
+Machine 2: 6 15 3 13 16 17 20 7 14 9 
+
+Total Tardiness: 2158
+Time taken by scattered_search: 8.28326 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 2 11 13 20 9 18 3 16 5 
+
+Machine 2: 10 19 6 14 17 12 8 4 1 15 
+
+Total Tardiness: 3205
+Time taken by scattered_search: 8.43404 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 12 5 17 13 6 16 18 3 7 4 8 
+
+Machine 2: 1 20 9 19 11 14 2 15 10 
+
+Total Tardiness: 1557
+Time taken by scattered_search: 8.37119 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 2 10 19 9 6 3 5 14 11 20 
+
+Machine 2: 15 12 17 7 13 1 18 4 8 16 
+
+Total Tardiness: 3477
+Time taken by scattered_search: 8.63856 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 17 3 19 15 8 2 10 16 20 18 5 
+
+Machine 2: 1 14 13 11 12 7 9 4 6 
+
+Total Tardiness: 2324
+Time taken by scattered_search: 8.32027 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 6 1 13 4 3 8 16 17 12 18 7 19 5 
+
+Machine 2: 15 2 10 20 11 14 9 
+
+Total Tardiness: 1832
+Time taken by scattered_search: 8.58715 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 7 2 19 6 17 20 8 4 1 16 
+
+Machine 2: 10 14 11 13 12 9 18 3 5 15 
+
+Total Tardiness: 2768
+Time taken by scattered_search: 8.62498 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 17 20 6 19 14 2 4 10 
+
+Machine 2: 12 5 13 11 9 18 16 3 7 15 8 
+
+Total Tardiness: 1193
+Time taken by scattered_search: 8.21847 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 2 12 1 7 9 6 18 14 20 11 
+
+Machine 2: 19 10 17 13 3 5 4 8 16 
+
+Total Tardiness: 2984
+Time taken by scattered_search: 8.26343 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 1 14 3 19 15 11 8 2 10 20 18 5 
+
+Machine 2: 17 13 16 12 7 9 4 6 
+
+Total Tardiness: 2058
+Time taken by scattered_search: 8.16676 seconds
+
+🦀 Scattered Search
+Scattered Search Schedule
+
+Machine 1: 15 2 13 12 8 16 17 10 7 19 9 
+
+Machine 2: 6 1 4 3 11 18 20 14 5 
+
+Total Tardiness: 1520
+Time taken by scattered_search: 8.20594 seconds
+

@@ -84,7 +84,19 @@ int main(int argc, char *argv[]) {
             cout << "🦀 Scattered Search" << endl;
             algorithm_name = "Scattered Search";
             start = high_resolution_clock::now();
-            schedule = scatter_search(jobs, m, 50, 25, 5, 20, 0.3);
+            //Initial run
+            // schedule = scatter_search(jobs, m, 40, 20, 4, 20, 0.3);
+            //Increase Iterations
+            // schedule = scatter_search(jobs, m, 40, 20, 4, 30, 0.3);
+            //Extra parent
+            // schedule = scatter_search(jobs, m, 40, 20, 5, 30, 0.3);
+            //Bigger reference set and max pool size
+            // schedule = scatter_search(jobs, m, 60, 30, 5, 20, 0.3);
+            //Increase iterations
+            // schedule = scatter_search(jobs, m, 60, 30, 5, 30, 0.3);
+            //Add extra parent
+            schedule = scatter_search(jobs, m, 60, 30, 6, 20, 0.3);
+
             end = high_resolution_clock::now();
             break;
         case 3:
@@ -122,7 +134,7 @@ int main(int argc, char *argv[]) {
             cout << "memetic algorithm: ";
             break;
         case 2:
-            cout << "tabu search: ";
+            cout << "scattered_search: ";
             break;
         case 3:
             cout << "ant colony optimization: ";
