@@ -84,7 +84,7 @@ int main(int argc, char *argv[]) {
             cout << "🦀 Scattered Search" << endl;
             algorithm_name = "Scattered Search";
             start = high_resolution_clock::now();
-            scatter_search(jobs, m, 50, 25, 5, 1000, 0.3);
+            schedule = scatter_search(jobs, m, 50, 25, 5, 20, 0.3);
             end = high_resolution_clock::now();
             break;
         case 3:
@@ -107,10 +107,6 @@ int main(int argc, char *argv[]) {
         }
 
         duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
-
-        if (algorithm == 2) {
-            return 0;
-        }
 
         cout << algorithm_name << " Schedule" << endl;
         print_schedule(schedule, m);
