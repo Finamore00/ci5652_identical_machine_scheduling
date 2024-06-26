@@ -14,6 +14,7 @@ El programa está implementado en C++ y consta de los siguientes archivos para e
 
 - `memetic.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando el algoritmo memético para el problema.
 - `aco.cpp`: Archivo principal del programa que contiene la implementación de una solución utilizando el algoritmo de optimicación de colonia de hormigas para el problema.
+- `scattered.cpp`: Archivo principal del programam que contiene la implementación de la metaheurística de búsqueda dispersa aplicada al problema a tratar.
 
 📂 En la carpeta `benchmarks` se encuentran los casos de pruebas de la primera corte del proyecto para medir y comparar el rendimiento de diferentes algoritmos para solucionar el problema descrito.
 
@@ -155,9 +156,57 @@ Luego del paso 3.2, se continua dentro del bucle con los siguientes pasos:
 
 ## Definición de la medida de distancia entre soluciones, el re-enlazado de caminos para un porcentaje dado de los pares de puntos de referencia de cada "generación", e implementación del algoritmo de búsqueda dispersa.
 
-### 🔍 Algoritmo de Búsqueda Dispersa
+### Definición de distancia entre individuos
 
-...........................
+Dados los genotipos de dos individuos, `g1` y `g2`, la distancia entre los individuos representados por estos genotipos se define como el número de trabajos que están asignados a máquinas diferentes dentro de los mismos. Explicando de manera resumida:
+
+1. Para cada par `g = <job_id, machine>` en `g1` (recordar la definición de gen en la entrega anterior)
+    * Encontrar el gen `g'` en `g2` tal que `g'.job_id == job_id`
+    * Si `g'.machine != g.machine`, entonces sumar 1 a la distancia total
+
+Inicialmente se consideró hacer una versión alternativa donde si para dos individuos un trabajo estaba asignado en la misma máquina, pero el dicho trabajo estaba en *posiciones distintas* dentro de la máquina en cuestión, entonces se agregaría un valor de `0.5` adicional a la distancia. Sin embargo, se descartó la idea por temas de rendimiento.
+
+### Construcción del Conjunto de Referencia para el algoritmo de Búsqueda Dispersa
+
+Para el algoritmo de Búsqueda Dispersa implementado se decidió emplear conjuntos de referencia que toman en cuenta para su constitución tanto la diversidad de las soluciones como su calidad. Dado que es la idea fundamental del algoritmo, la diversidad se mantuvo como el determinante principal de los elementos que constituyen en conjunto.
+
+En cada iteración del algoritmo el conjunto de referencia es obtenido como un subconjunto de una *piscina de soluciones*, de tamaño igual o mayor al del conjunto de referncia. Al momento de generar el conjunto inicial, la piscina está conformada por soluciones generadas aleatoriamente que son sometidas a una mejora mediante búsqueda local con el fin de aumentar la calidad general de los individuos involucrados; durante las iteraciones posteriores del algoritmo la piscina de soluciones está compuesta por la unión del conjunto de referencia mismo con el conjunto de soluciones hijas que salen resultado del proceso de cruce. Una vez tenida la piscina de soluciones el conjunto de referencia es construido de la siguiente manera:
+
+1. Todas las soluciones en la piscina son ordenadas de acuerdo a su aptitud.
+2. Se utilizan las soluciones más aptas de la piscina para conformar el 10% inicial del conjunto de referencia. Las soluciones escogidas son posteriormente eliminadas de la piscina
+3. Luego hasta lograr el tamaño definido para el conjnunto de referencia
+    1. Hallar, para cada elemento en la piscina, la mínima distancia existente entre él y alguno de los elementos ya presentes en el conjunto de referencia
+    2. De todos los elementos de la piscina, se escoge aquel que entre las distancias mínimas calculadas, tenga la más grande.
+    3. Incluir el elemento escogido en el conjunto de referencia y eliminarlo de la piscina de soluciones
+
+La proporción del 10% de individuos basados en un criterio de calidad está *hardwired* en el código y fue escogida de manera arbitraria, sin embargo, se cree que podría ser de provecho explorar diferentes proporciones de calidad y diversidad para futuras iteraciones del algoritmo.
+
+### Cruce e Intesificación mediante Reenlazado de Caminos
+
+Para la formación de nuevas soluciones se utilizan los mismos mecanismos de selección y cruce empleados en el algoritmo memético. Posteriormente, se emplea un proceso de intensificación sobre el conjunto de soluciones generadas aplicando Reenlazado de Caminos sobre un porcentaje definido de los posibles pares existentes sobre el conjunto de soluciones descendientes (El porcentajede pares a explorar se pasa al algoritmo como parámetro).
+
+Dadas dos genotipos `g1` y `g2` representando dos individuos de la población, el proceso de reenlazado de caminos funciona explorando un conjunto de soluciones intermedias que "conectan" a `g1` y `g2` a través de estructuras de vecindad. Para generar este camino eficientemente, el reenlazado de caminos es realizado efectuando intercambios y reasignaciones de máquinas en `g1` vorazmente con el fin de irlo asemejando a `g2` en cada paso del proceso. Concretamente, para dos individuos el reenlazado de caminos se ejecuta de la siguiente forma:
+
+Para cada gen `g = <job_id, machine>` en el individuo objetivo
+
+1. Ubicar el gen `g'` en el individuo de partida con el id de trabajo `job_id`
+2. Si la posición de `g'` en el individuo de partida es distinta a la posición de `g` en el individuo objetivo, traer `g'` a la posición correcta mediante una operación de intercambio y generar una solución intermedia
+3. Si la máquina a la cual está asignada el trabajo en `g'` difiere de la máquina a la que está asignado el trabajo en `g`, cambiar la máquina de `g'` a la encontada en `g` y generar una solución intermedia.
+
+Para cada una de las soluciones intermedias generadas se mide su aptitud y se mantiene almacenada la solución más apta encontrada hasta el momento (esto puede incluir a las mismas soluciones de partida y objetivo). Si al terminar de explorar todas las soluciones intermedias se encuentra una solución mejor a las dos involucradas, una de ellas es reemplazada al azar por la nueva solución más apta. Este proceso es repetido hasta que se explora el porcentaje de pares establecido.
+
+### Recapitulación del algoritmo de Búsqueda Dispersa
+
+Para sintetizar, el algoritmo de Búsqueda Dispersa Implementado se resume en las siguientes operaciones:
+
+1. Generar un conjunto de soluciones aleatorias con el tamaño de piscina definido
+2. Mejorar cada una de estas soluciones con un proceso breve de búsqueda local (para esta implementación concreta, se emplearon 60 iteraciones).
+3. Construir el conjunto inicial de referencias
+4. Hasta que la mejor solución tenga morosidad 0 o se efectúen el máximo de iteraciones
+    1. Crear la nueva generación de individuos mediante los operadores de selección y cruce
+    2. Sobre los individuos generados, intentar obtener mejores y más diversas soluciones empleando reenlace de caminos sobre el porcentaje de pares definido como argumento.
+    3. Actualizar el conjunto de referencias usando como piscina de soluciones la unión del conjunto actual con el conjunto de descendientes intensificado.
+5. Retornar la mejor solución hallada
 
 ## Definición del comportamiento de la feromona/heurística e implemente con ello una optimización de colonia de hormigas
 ### 🐜 Optimización de Colonia de Hormigas
@@ -266,72 +315,68 @@ Las métricas claves en el análisis incluyen:
 - **Diferencia con la Solución Óptima (Optimal Solution Difference)**: La diferencia entre la solución obtenida y la solución óptima.
 - **Tiempo en segundos (Time in seconds)**: El tiempo en segundos tomado por el algoritmo.
 
-Así mismo, se emplearon diferentes parámetros para cada algoritmo implementado en este segundo corte:
-**Parámetros del Iterated Local Search (ILS)**:
- * max_iter Cantidad máxima de iteraciones para el algoritmo ILS
- * p0 La fuerza de perturbación inicial.
- * pmax El multiplicador máximo de fuerza de perturbación.
- * lsmax El número máximo de iteraciones para el algoritmo de local search dentro de ILS.
- * itermax El número máximo de iteraciones antes de aumentar la fuerza de la perturbación.
+Así mismo, se emplearon diferentes parámetros para cada algoritmo implementado en este tercer corte:
+**Parámetros del Algoritmo Memético (MA)**:
+ * population_size: Tamaño de la población.
+ * mutation_rate: Probabilidad de mutación.
+ * max_iter: Número máximo de iteraciones permitidas para el algoritmo.
+ * nro_parent_crossover: Número de padres que estarán involucrados en el proceso de cruce.
+ * opt_freq: Frecuencia con la que se aplicará búsqueda local para la mejora de individuos (medido en número de generaciones).
+ * opt_rate: Porcentaje de la población que será mejorado por búsqueda local en cada proceso de intensificación.
+ * random_opt_rate: Valor booleano que indica si el porcentaje de población a mejorar será aleatorio para cada proceso de intensificación.
 
-> ILS1: max_iter = 1500, p0 = 10, pmax = 4, lsmax = 100, itermax = 100
+> MA1: population_size = 500, mutation_rate = 0.05, max_iter = 20, nro_parents_crossover = 3, opt_freq = 2, opt_rate = 0.75, random_opt_rate = false
 
-> ILS2: max_iter = 1000, p0 = 3, pmax = 15, lsmax = 70, itermax = 150
+> MA2: population_size = 500, mutation_rate = 0.05, max_iter = 20, nro_parents_crossover = 10, opt_freq = 2, opt_rate = 0.75, random_opt_rate = false
 
-**Parámetros del Tabu Search (TS)**:
- * max_iter El número máximo de iteraciones para el algoritmo de búsqueda tabú.
- * max_grn_iter El número máximo de iteraciones para generar vecinos dentro de cada iteración.
- * tabu_tenure El tamaño de la lista tabú.
+> MA3: population_size = 500, mutation_rate = 0.05, max_iter = 20, nro_parents_crossover = 10, opt_freq = 1, opt_rate = 0.75, random_opt_rate = false
 
-> TS1: max_iter = 10000, max_grn_iter = 100, tabu_ternure = 7
+> MA4: population_size = 500, mutation_rate = 0.05, max_iter = 20, nro_parents_crossover = 3, opt_freq = 1, opt_rate = 1, random_opt_rate = false
 
-> TS2: max_iter = 6000, max_grn_iter = 70, tabu_ternure = 5
+> MA5: population_size = 250, mutation_rate = 0.05, max_iter = 20, nro_parents_crossover = 5, opt_freq = 2, opt_rate = 1, random_opt_rate = true
 
-**Parámetros del Simulated Annealing (SA) o Reconocido Simulado**:
- * t0 La temperatura inicial para el algoritmo de recocido simulado.
- * t_step El factor por el cual la temperatura disminuye en cada iteración.
- * max_iter_t_step El número máximo de iteraciones en cada paso de temperatura.
- * max_iters El número máximo de iteraciones para el algoritmo de recocido simulado.
+> MA6: population_size = 250, mutation_rate = 0.05, max_iter = 20, nro_parents_crossover = 5, opt_freq = 2, opt_rate = 1, random_opt_rate = false
 
-> SA1: t0 = 2000, t_step = 0,90, max_iter_t_step = 100, max_iter = 1500
+**Parámetros de la Búsqueda Dispersa (SS)**:
+ * max_pool_size: Tamaño máximo a emplear para la piscina de soluciones.
+ * ref_set_size: Tamaño del conjunto de referencias.
+ * parent_count: Número de padres a emplear en el proceso de cruce
+ * max_iter: Número máximo de iteraciones a realizar
+ * path_relinking_ptg: Porcentaje de pares a explorar para el reenlazado de caminos
 
-> SA2: t0 = 1500, t_step = 0,70, max_iter_t_step = 120, max_iter = 1500
+> SS1: max_pool_size = 40, ref_set_size = 20, parent_count = 4, max_iter = 20, path_relinking_ptg = 0.3
 
-> SA3: t0 = 1500, t_step = 0,85, max_iter_t_step = 100, max_iter = 1000
+> SS2: max_pool_size = 40, ref_set_size = 20, parent_count = 4, max_iter = 30, path_relinking_ptg = 0.3
 
-**Parámetros del GRASP**:
- * max_iters El número máximo de iteraciones a realizar.
- * alpha El valor alfa utilizado para calcular la condición para RCL.
+> SS3: max_pool_size = 40, ref_set_size = 20, parent_count = 5, max_iter = 30, path_relinking_ptg = 0.3
 
-> Grasp 0.25-30: max_iters = 30, alpha = 0.25
+> SS4: max_pool_size = 60, ref_set_size = 30, parent_count = 5, max_iter = 20, path_relinking_ptg = 0.3
 
-> Grasp 0.5-30: max_iters = 30, alpha = 0.5
+> SS5: max_pool_size = 60, ref_set_size = 30, parent_count = 5, max_iter = 30, path_relinking_ptg = 0.3
 
-> Grasp 0.75-30: max_iters = 30, alpha = 0.75
+> SS6: max_pool_size = 60, ref_set_size = 30, parent_count = 6, max_iter = 20, path_relinking_ptg = 0.3
 
-> Grasp 0.25-60: max_iters = 60, alpha = 0.25
+**Parámetros de la Optimización de Colonia de Hormigas (ACO)**:
+ * iterations: Número máximo de iteraciones a realizar
+ * ants: Número de hormigas (soluciones) a generar en cada iteración.
+ * alpha: Importancia del camino de feromonas en la toma de decisiones de las hormigas.
+ * beta: Importancia de la información heurística en la toma de decisiones de las hormigas.
+ * qm0: Probabilidad de escoger el trabajo menos tardío en vez de elegir probabilísticamente.
+ * qj0: Probabilidad de seleccionar el trabajo de mayor valor en vez de elegir probabilísticamente.
+ * rho_local: Taza de evaporación local de la feromona.
+ * rho_global: Taza de evaporación global de la feromona.
 
-> Grasp 0.5-60: max_iters = 60, alpha = 0.5
+> ACO1: iterations = 250, ants = 20, alpha = 1, beta = 3, qm0 = 0.9, qj0 = 0.9, rho_local = 0.01, rho_global = 0.01
 
-> Grasp 0.75-60: max_iters = 60, alpha = 0.75
+> ACO2: iterations = 250, ants = 50, alpha = 1, beta = 3, qm0 = 0.9, qj0 = 0.9, rho_local = 0.01, rho_global = 0.01
 
-> Grasp 0.25-100: max_iters = 100, alpha = 0.25
+> ACO3: iterations = 250, ants = 20, alpha = 1, beta = 3, qm0 = 0.9, qj0 = 0.9, rho_local = 0.1, rho_global = 0.1
 
-> Grasp 0.5-100: max_iters = 100, alpha = 0.5
+> ACO4: iterations = 250, ants = 20, alpha = 3, beta = 1, qm0 = 0.9, qj0 = 0.9, rho_local = 0.01, rho_global = 0.01
 
-> Grasp 0.75-100: max_iters = 100, alpha = 0.75
+> ACO5: iterations = 250, ants = 20, alpha = 1, beta = 3, qm0 = 0.7, qj0 = 0.7, rho_local = 0.01, rho_global = 0.01
 
-
-**Parámetros del Genetic Algorithm (GA) o Algoritmo Genético**:
- * population_size El tamaño de la población para el algoritmo genético.
- * mutation_rate el porcentaje en que ocurren las mutaciones durante el algoritmo genético.
- * max_iter El número máximo de iteraciones para el algoritmo genético.
-
-> GA1: population_size = 50, mutation_rate = 5%, max_iter = 4000
-
-> GA2: population_size = 50, mutation_rate = 10%, max_iter = 4000
-
-> GA3: population_size = 100, mutation_rate = 5%, max_iter = 8000
+> ACO6: iterations = 100, ants = 20, alpha = 1, beta = 3, qm0 = 0.9, qj0 = 0.9, rho_local = 0.01, rho_global = 0.01
 
 ### 📈 Resultados
 Los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks` se encuentran en el directorio `results`, sin embargo, debido a la cantidad de datos obtenidos, se almacenó los datos más relevantes en el siguiente enlace: [Resultados](https://docs.google.com/spreadsheets/d/1uta3jDjtNU2J74XQsV7Od8gzj1OaBIcp_lE5jGSw7Gw/edit#gid=294798782)
@@ -365,11 +410,15 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
 
     - Algoritmo Memético usando diferentes parámetros:
 
+    ![Diff Opt MA](./img/DiffOptMA.png)
 
     - Búsqueda Dispersa usando diferentes parámetros:
 
+    ![Diff Opt SS](./img/DiffOptSS.png)
 
     - Optimización de Colonia de Hormigas usando diferentes parámetros:
+
+    ![Diff Opt ACO](./img/DiffOptACO.png)
 
 
 #### Resultados ordenados por promedio de diferencias entre la solución obtenida y la solución óptima por n = 20
@@ -409,12 +458,15 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
 
     - Algoritmo Memético usando diferentes parámetros:
 
+    ![Time MA](./img/TimeMA.png)
 
     - Búsqueda Dispersa usando diferentes parámetros:
 
+    ![Time SS](./img/Time%20SS.png)
 
     - Optimización de Colonia de Hormigas usando diferentes parámetros:
 
+    ![Time ACO](./img/TimeACO.png)
 
 #### Resultados ordenados por promedio de tiempo por n = 20
 
@@ -428,15 +480,16 @@ A modo de resumen y para facilitar la visualización de los resultados, se prese
 ## 📌 Conclusiones
 
 - **Según el promedio de diferencias entre la solución óptima y la solución obtenida**:
-    - **Para n = 20** (segun la lista de resultados ordenados por promedio de diferencias entre la solución obtenida y la solución óptima por n = 20):
+    - **Para n = 20** El algoritmo memético y la optimización de colonia de hormigas se posicionan como los algoritmos más exactos de las soluciones implementadas, teniendo 3 y 2 posiciones de los 5 mejores resultados respectivamente. Se evidencia una clara pérdida de exactitud en el algoritmo de búsqueda dispersa, con todas sus ejecuciones quedando en los últimos 6 lugares del ranking. La pérdida de exactitud demostrada por el algorimto de búsqueda dispersa es además bastante pronunciada, con el *mejor* desempeño de la búsqueda dispersa (15.2844) siendo un 30.4% más tardío que el *peor* resultado del algoritmo memético (11.7217) y un 66.67% más tardío que el *peor* resultado de la optimización de colonia de hormigas (9.1724)
 
-    - **Para n = 25** (segun la lista de resultados ordenados por promedio de diferencias entre la solución obtenida y la solución óptima por n = 20):
+    - **Para n = 25** La optimización de colonia de hormigas muestra una clara superioridad por encima de las otras dos metaheurísticas, teniendo la totalidad de los 5 mejores resultados obtenidos. Inmediatamente después le siguen casi todas las instancias del algoritmo memético, y finalmente la búsqueda dispersa vuelve a posicionarse como el algoritmo menos exacto. En este caso el *mejor* resultado de búsqueda dispersa (36.1084) es un 68.64% más tardío que el *peor* resultado del algoritmo memético (21.4107) y un 310.2% más tardío que el *peor* resultado de la optimización de colonia de hormigas (11.64).
 
 - **Según el tiempo promedio de ejecución**
-    - **Para n=20:**
+    - **Para n=20:** La búsqueda dispersa se posiciona como el algoritmo más rápido de las 3 metaheurísticas, con 3 de sus soluciones posicionándose en las 5 respuestas más rápidas y con todas sus soluciones entranado en el top 10. Con excepción del caso ACO6, el algoritmo memético supera en velocidad a la optimización de colonia de hormigas en todas sus respuestas, dejando a la optimización de colonia de hormigas como el algorimto más tardío en líneas generales. 
         
-    - **Para n=25:**
+    - **Para n=25:** La búsqueda dispersa se posiciona nuevamente como el algoritmo más rápido de los 3, teniendo en esta ocación 4 de las 5 soluciones más rápidas registradas. En esta ocasión las diferencias de velocidad entre el algorimto memético y la optimización de colonia de hormigas son mucho más difusas, siendo complicado establecer con certeza el predominio de una metaheurística sobre la otra. 
 
 ## 📚 Referencias
 
 1. [C. Ting, C. Su and C. Lee. Multi-parent extension of partially mapped crossover for combinatorial optimization problems. Expert Systems with Applications 37, p. 1879–1886, 2010.](https://mx.nthu.edu.tw/~ckting/pubs/eswa2010.pdf)
+2. [Martí, R. Laguna, M. Glover F. Principles of Scatter Search. Dpto. de Estadística e Investigación Operativa, Facultad de Matemáticas, Universidad de Valencia, 2003](https://www.uv.es/rmarti/paper/docs/ss8.pdf)
