@@ -59,7 +59,7 @@ int main(int argc, char *argv[]) {
         long long tardiness = total_tardiness(schedule);
         cout << "\nTotal Tardiness: " << tardiness << endl;
 
-        cout << "Time taken by tinder search";
+        cout << "Time taken by tinder search ";
         cout << duration.count() << " seconds\n" << endl;
     }
 
