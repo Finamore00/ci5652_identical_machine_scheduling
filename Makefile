@@ -5,8 +5,11 @@ SRC_FILE_DIR = src/source_files
 HDR_FILE_DIR = src/header_files
 OBJECTS := $(wildcard $(TARGET_DIR)/*.o)
 
-all: target_dir memetic.o aco.o scattered.o
-	$(CC) $(CPP_FLAGS) $(TARGET_DIR)/*.o $(SRC_FILE_DIR)/main.cpp -o $(TARGET_DIR)/PROY3
+all: target_dir tinder_search.o
+	$(CC) $(CPP_FLAGS) $(TARGET_DIR)/*.o $(SRC_FILE_DIR)/main.cpp -o $(TARGET_DIR)/TINDER_SEARCH
+
+tinder_search.o: target_dir exact.o evolution.o 
+	$(CC) $(CPP_FLAGS) $(SRC_FILE_DIR)/tinder_search.cpp -c -o $(TARGET_DIR)/tinder_search.o
 
 memetic.o: target_dir local_search.o exact.o evolution.o
 	$(CC) $(CPP_FLAGS) $(SRC_FILE_DIR)/memetic.cpp -c -o $(TARGET_DIR)/memetic.o
