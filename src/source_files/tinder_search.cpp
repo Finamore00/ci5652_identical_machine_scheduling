@@ -8,7 +8,13 @@
 
 using namespace std;
 
-// count dislikes and likes of an individual
+/**
+ * Counts the number of likes and dislikes in the given preferences.
+ * 
+ * @param preferences A vector of vectors representing the preferences of an individual
+ *                    The values in the inner vector can be 1 for like, -1 for dislike, or 0 for neutral.
+ * @return A pair of integers representing the count of likes and dislikes, respectively.
+ */
 pair<int,int> count_likes_dislikes(vector<vector<int>> preferences) {
     int likes = 0;
     int dislikes = 0;
@@ -26,10 +32,15 @@ pair<int,int> count_likes_dislikes(vector<vector<int>> preferences) {
     return make_pair(likes, dislikes);
 }
 
-
-// 1 i like
-// -1 i dont like
-// 0 neutral
+/**
+ * Generates a random preference matrix based on the given dimensions.
+ * The preference matrix represents the likes and dislikes of each user for different items.
+ * 1 represents like, -1 represents dislike, and 0 represents neutral.
+ * 
+ * @param n The number of users.
+ * @param m The number of items.
+ * @return A vector of vectors representing the random preference matrix.
+ */
 vector<vector<int>> generate_random_preferences(int n, int m) {
     // avoid more than 80% of likes or dislikes
     vector<vector<int>> preferences(n); 
@@ -58,7 +69,14 @@ vector<vector<int>> generate_random_preferences(int n, int m) {
     return preferences;
 }
 
-// calcular nivel de atraccion entre 0 y 1
+/**
+ * Calculates the attraction level between a set of individual preferences and an individual.
+ * And normalize the value to be between 0 and 1.
+ * 
+ * @param individualPreferences The preferences of a individual
+ * @param individualB The individual to calculate the attraction level for.
+ * @return The attraction level between two individuals.
+ */
 float calculate_atraction(vector<vector<int>> individualPreferences, Individual individualB) {
     float level_atraction = 0;
     // for each gene of individualB
@@ -79,7 +97,15 @@ float calculate_atraction(vector<vector<int>> individualPreferences, Individual 
     return (1 / level_atraction);
 }
 
-// update likes of a individual
+
+/**
+ * Updates the likes of a individual based on the genes of its partner.
+ * It sets all the genes of the partner individual to 1 in the preferences of the liker.
+ * And it balances the preferences to avoid more than 80% of likes.
+ * 
+ * @param LikerPreferences A reference to a 2D vector representing the preferences of an individual.
+ * @param couple The individual partner
+ */
 void update_likes(vector<vector<int>> &LikerPreferences, Individual couple) {
     for (int i = 0; i < couple.size(); i++) {
         int job = couple[i].job->id - 1;
@@ -127,7 +153,15 @@ void update_likes(vector<vector<int>> &LikerPreferences, Individual couple) {
     return;
 }
 
-// update dislikes of a individual
+
+/**
+ * Updates the dislikes in the preferences of the ghoster based of the genes of the ghosted individual.
+ * It sets all the genes of the ghosted individual to -1 in the preferences of the ghoster.
+ * And it balances the preferences to avoid more than 80% of dislikes.
+ * 
+ * @param GhosterPreferences The vector representing the preferences of the ghoster.
+ * @param ghosted The individual who has been ghosted.
+ */
 void update_dislikes(vector<vector<int>> &GhosterPreferences, Individual ghosted) {
     for (int i = 0; i < ghosted.size(); i++) {
         int job = ghosted[i].job->id - 1;
@@ -175,6 +209,17 @@ void update_dislikes(vector<vector<int>> &GhosterPreferences, Individual ghosted
     return;
 }
 
+/**
+ * Chooses a couple from the given population based on their preferences and compatibility.
+ * 
+ * @param population The population.
+ * @param preferences The preferences matrix.
+ * @param nro_profiles The number of profiles to consider.
+ * @param delta The delta value for level of desperation.
+ * @param to_ghost Flag indicating whether to ghost or not.
+ * @param nro_msgs The number of messages to exchange.
+ * @return A pair of integers representing the positions of the chosen couple in the population.
+ */
 pair<int, int> choose_couple(Population &population, vector<vector<vector<int>>> &preferences, int nro_profiles, float delta, bool to_ghost, int nro_msgs) {
     int parent1_pos = rand() % population.size();
     int parent2_pos = -1;
@@ -264,6 +309,15 @@ pair<int, int> choose_couple(Population &population, vector<vector<vector<int>>>
     return make_pair(parent1_pos, parent2_pos);
 }
 
+/**
+ * Mixes the preferences of two users and returns the mixed preferences.
+ * If both users like the same item, the mixed preference will be like.
+ * If both users dislike the same item, the mixed preference will be dislike.
+ * Otherwise, the mixed preference will be random.
+ * @param preferences1 The preferences of the first user.
+ * @param preferences2 The preferences of the second user.
+ * @return The mixed preferences of the two users.
+ */
 vector<vector<int>> mix_preferences(vector<vector<int>> preferences1, vector<vector<int>> preferences2) {
     vector<vector<int>> mixed_preferences(preferences1.size());
     for (int i = 0; i < preferences1.size(); i++) {
@@ -293,6 +347,20 @@ vector<vector<int>> mix_preferences(vector<vector<int>> preferences1, vector<vec
     return mixed_preferences;
 }
 
+/**
+ * Performs a genetic algorithm based on Tinder
+ *
+ * @param jobs The vector of Job pointers representing the available jobs.
+ * @param machine_count The number of machines available for job scheduling.
+ * @param population_size The size of the population for the genetic algorithm.
+ * @param mutation_rate The mutation rate for the genetic algorithm.
+ * @param max_iter The maximum number of iterations for the genetic algorithm.
+ * @param nro_profiles The number of profiles to consider for partner selection of each individual.
+ * @param delta The delta value for parent selection.
+ * @param to_ghost A boolean value indicating whether to consider ghost individuals in parent selection.
+ * @param nro_msgs The number of messages to consider for parent selection.
+ * @return The best fenotype found by the genetic algorithm.
+ */
 Fenotype tinder_search(vector<Job*> jobs, int machine_count, int population_size, float mutation_rate, int max_iter, int nro_profiles, float delta, bool to_ghost, int nro_msgs) {
     Population population = generate_population(jobs, machine_count, population_size);
     int generation = 0;
