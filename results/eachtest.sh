@@ -7,7 +7,7 @@ mkdir -p separate_results/tinder_search/n=25
 
 echo "Procesando archivos de resultados scattered search"
 echo "n=20"
-for file in ./tinder_search3/n=20/*results_tinderSearch2.txt
+for file in ./tinder_search3/n=20/*results_tinderSearch3.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
@@ -18,7 +18,7 @@ for file in ./tinder_search3/n=20/*results_tinderSearch2.txt
 
 echo "/n"
 echo "n=25"
-for file in ./tinder_search3/n=25/*results_tinderSearch2.txt
+for file in ./tinder_search3/n=25/*results_tinderSearch3.txt
     do
         filename="${file##*/}"
         filename="${filename%.*}"
