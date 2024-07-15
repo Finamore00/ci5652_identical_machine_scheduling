@@ -10,7 +10,7 @@ myfunc() {
     n=$1
     m=$2
     echo "Benchmark Started. m=$m, n=$n"
-    target/TINDER_SEARCH benchmarks/n="$n"/m="$m" > results/tinder_search4/n="$n"/"$n"-"$m"results_tinderSearch4.txt
+    target/TINDER_SEARCH benchmarks/n="$n"/m="$m" > results/tinder_search5/n="$n"/"$n"-"$m"results_tinderSearch5.txt
 }
 
 export -f myfunc
