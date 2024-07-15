@@ -52,11 +52,11 @@ int main(int argc, char *argv[]) {
         // increase the number of profiles to show
         // schedule = tinder_search(jobs, m, 500, 0.05, 20, 100, 0.05, true, 5);
         // increase the delta value
-        schedule = tinder_search(jobs, m, 500, 0.05, 20, 100, 0.25, true, 5);
+        // schedule = tinder_search(jobs, m, 500, 0.05, 20, 100, 0.25, true, 5);
         // set false to ghost
         // schedule = tinder_search(jobs, m, 500, 0.05, 20, 100, 0.25, false, 5);
         // increase the number of messages
-        // schedule = tinder_search(jobs, m, 500, 0.05, 20, 100, 0.25, true, 15);
+        schedule = tinder_search(jobs, m, 500, 0.05, 20, 100, 0.25, true, 15);
         end = high_resolution_clock::now();
         duration<double> duration = duration_cast<chrono::duration<double>>(end - start);
 
