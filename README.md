@@ -212,6 +212,6 @@ Cabria destacar que, aunque la metaheurística de Tinder Search estuvo inspirada
 
 Tinder Search se sitúa en una posición única entre las metaheurísticas analizadas. En términos de precisión, sus resultados son menos favorables que la mayoría de las implementaciones de metaheuristicas. Sin embargo, supera consistentemente a los algoritmos genéticos.
 
-En cuanto al tiempo de ejecución, Tinder Search ocupa una posición intermedia. Es más rápido que las ejecuciones de las implementaciones de las metaheurísticas como Algoritmos Genéticos y algunas ejecuciones de Optimización de Colonia de Hormigas, pero más lento que Grasp, siendo este la mejor metaheuritica implementada para nuestro problema.
+En cuanto al tiempo de ejecución, Tinder Search ocupa una posición intermedia. Es más rápido que las ejecuciones de las implementaciones de las metaheurísticas como Algoritmos Genéticos y algunas ejecuciones de Optimización de Colonia de Hormigas, pero más lento que Grasp, siendo esta la mejor metaheurística implementada para nuestro problema.
 
 Por lo tanto, Tinder Search demuestra ser una metaheurística con características distintivas. Su precisión, aunque no es la mejor del grupo, se mantiene consistente al aumentar el tamaño del problema. Su tiempo de ejecución es competitivo y escala bien.
