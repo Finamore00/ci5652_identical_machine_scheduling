@@ -76,3 +76,142 @@ Ahora explicado el algoritmo, se procede a enumerar y describir los parámetros 
 * `delta`: Valor diferencial por el cual se incrementará el nivel de desesperación durante el proceso de exploración de perfiles.
 * `to_ghost`: Flag booleano indicando si los individuos tendrán permitido ghostear.
 * `nro_msgs`: Número de mensajes que deben ser exitosamente intercambiados entre dos individuos para proceder a cruzarse.
+
+### 📈 Resultados
+Los resultados obtenidos al ejecutar el programa con los casos de prueba en la carpeta `benchmarks` se encuentran en el directorio `results`, sin embargo, debido a la cantidad de datos obtenidos, se almacenó los datos más relevantes en el siguiente enlace: [Resultados](https://docs.google.com/spreadsheets/d/1yOY-Yu0Cx5R_WuQd0IXDCdnlSWItMLTNiqqjkom3DYk/edit?usp=sharing)
+
+A modo de resumen y para facilitar la visualización de los resultados, se presentan las siguentes imágenes comparativas resumidas a continuación:
+
+#### Promedio de diferencia entre la solución obtenida y la solución óptima cada n tareas y m máquinas
+- Resultados del primer corte:
+    - Solución heurística
+    
+    - Solución de búsqueda local partiendo de una solución heurística
+    
+    - Solución de búsqueda local partiendo de una solución aleatoria.
+
+![Diff Opt Corte1](./img/DiffOptCorte1.png)
+
+- Resultados del segundo corte:
+    - Iterated Local Search (ILS), Tabu Search (TS) y Simulated Annealing (SA) usando diferentes parámetros:
+
+    ![Diff Opt ILS &TS &SA](./img/DiffOptILS&TS&SA.png)
+
+    - GRASP usando diferentes parámetros:
+
+    ![Diff Opt GRASP](./img/DiffOptGRASP.png)
+
+    - Genetic Algorithm (GA) usando diferentes parámetros:
+
+    ![Diff Op tGA](./img/DiffOptGA.png)
+
+- Resultados del tercer corte: 
+
+    - Algoritmo Memético usando diferentes parámetros:
+
+    ![Diff Opt MA](./img/DiffOptMA.png)
+
+    - Búsqueda Dispersa usando diferentes parámetros:
+
+    ![Diff Opt SS](./img/DiffOptSS.png)
+
+    - Optimización de Colonia de Hormigas usando diferentes parámetros:
+
+    ![Diff Opt ACO](./img/DiffOptACO.png)
+
+- Resultados del cuarto corte:
+
+    - Tinder Search usando diferentes parámetros:
+
+    ![Diff Opt TS](./img/DiffOptTS.png)
+
+
+#### Resultados ordenados por promedio de diferencias entre la solución obtenida y la solución óptima por n = 20
+
+![Sorted Diff opt by n = 20](./img/SortedDiffn20Corte4.png)
+
+#### Resultados ordenados por promedio de diferencias entre la solución obtenida y la solución óptima por n = 25
+
+![Sorted Diff opt by n = 25](./img/SortedDiffn25Corte4.png)
+
+#### Promedio de tiempo en segundos para cada n tareas y m máquinas
+- Resultados del primer corte:
+    - Solución heurística
+    
+    - Solución de búsqueda local partiendo de una solución heurística
+    
+    - Solución de búsqueda local partiendo de una solución aleatoria.
+
+![Time Corte1](./img/TimeCorte1.png)
+
+- Resultados del segundo corte:
+
+    - Iterated Local Search (ILS), Tabu Search (TS) y Simulated Annealing (SA) usando diferentes parámetros:
+
+    ![Time ILS & TS & SA](./img/TimeILS&TS&SA.png)
+
+    - GRASP usando diferentes parámetros:
+
+    ![Time GRASP](./img/TimeGRASP.png)
+
+    - Genetic Algorithm (GA) usando diferentes parámetros:
+
+    ![Diff Op tGA](./img/TimeGA.png)
+
+
+- Resultados del tercer corte: 
+
+    - Algoritmo Memético usando diferentes parámetros:
+
+    ![Time MA](./img/TimeMA.png)
+
+    - Búsqueda Dispersa usando diferentes parámetros:
+
+    ![Time SS](./img/Time%20SS.png)
+
+    - Optimización de Colonia de Hormigas usando diferentes parámetros:
+
+    ![Time ACO](./img/TimeACO.png)
+
+- Resultados del cuarto corte:
+    
+    - Tinder Search usando diferentes parámetros:
+    
+        ![Time TS](./img/TimeTS.png)
+
+#### Resultados ordenados por promedio de tiempo por n = 20
+
+![Sorted Time by n = 20](./img/SortedTimen20Corte4.png)
+
+#### Resultados ordenados por promedio de tiempo por n = 25
+
+![Sorted Time by n = 25](./img/SortedTimen25Corte4.png)
+
+Aquí tienes una versión más lineal del texto en formato markdown:
+
+## 📌 Conclusiones
+
+- **Según el promedio de diferencias entre la solución óptima y la solución obtenida**:
+    - **Para n = 20** Para n=20, Tinder Search muestra resultados en un rango de 99.4897 a 101.2915 en términos de diferencia con la solución óptima. Estos valores son significativamente más altos que la mayoría de las otras metaheurísticas, con excepción de la búsqueda local con solución inicial aleatoria (LS) que tiene un valor de 117.2631 y las ejecuciones de los algoritmos genéticos los cuales tienen valores de 114.96 a 154.84. 
+
+    - **Para n = 25** Al aumentar a n=25, el rendimiento de Tinder Search en términos de precisión se deteriora , con valores que oscilan entre 188.7413 y 191.2044. Es notable que, a pesar de este empeoramiento, Tinder Search mantiene una posición relativa similar respecto a las otras metaheurísticas, superando a las ejecuciones de los algoritmos genéticos en términos de precisión.
+
+ Tinder Search se posiciona como una opción poco atractiva en términos de precisión, solo superando a la búsqueda local con solución inicial aleatoria (LS) y a los algoritmos genéticos, pero quedando por detrás de las otras metaheurísticas evaluadas, siendo Grasp el algoritmo más preciso en ambos casos alcanzando valores de 1.20 y 2.54 para n=20 y n=25 respectivamente en términos de diferencia con la solución óptima para su mejor ejecución.
+
+- **Según el tiempo promedio de ejecución**
+    - **Para n=20:** En cuanto al tiempo de ejecución, Tinder Search muestra un comportamiento interesante. Para n=20, sus tiempos varían entre 3.8923 y 9.7619 segundos, posicionándolo en un rango medio-alto en comparación con otras metaheurísticas. Algunos algoritmos como GA y ACO muestran tiempos significativamente más altos, mientras que otros como Grasp y SS son considerablemente más rápidos. 
+        
+    - **Para n=25:** Para n=25, los tiempos de ejecución de Tinder Search oscilan entre 4.7564 y 9.4350 segundos. Es notable que estos tiempos no aumentan drásticamente en comparación con n=20, lo que sugiere una buena escalabilidad en términos de tiempo de cómputo. 
+
+
+La escalabilidad de Tinder Search presenta un panorama mixto. En términos de precisión, hay un deterioro notable al pasar de n=20 a n=25, con la diferencia respecto a la solución óptima casi duplicándose. Sin embargo, este comportamiento es común en la mayoría de las metaheurísticas analizadas.
+
+En cuanto al tiempo de ejecución, Tinder Search muestra una escalabilidad favorable. El aumento en el tiempo de cómputo al pasar de n=20 a n=25 es relativamente modesto, especialmente en comparación con algunos otros algoritmos que experimentan incrementos más pronunciados.
+
+Cabria destacar que, aunque la metaheurística de Tinder Search estuvo inspirada en algunos elementos de los algoritmos genéticos, su desempeño en términos de precisión y tiempo de ejecución logra superar a los algoritmos genéticos en ambos casos, lo que sugiere que la implementación de Tinder Search tiene características distintivas que la hacen una opción particularmente interesante para este problema.
+
+Tinder Search se sitúa en una posición única entre las metaheurísticas analizadas. En términos de precisión, sus resultados son menos favorables que la mayoría de las implementaciones de metaheuristicas. Sin embargo, supera consistentemente a LS con solución inicial aleatoria.
+
+En cuanto al tiempo de ejecución, Tinder Search ocupa una posición intermedia. Es más rápido que algoritmos como GA y algunas implementaciones de ACO, pero más lento que Grasp, siendo este la mejor metaheuritica implementada para nuestro problema.
+
+Por lo tanto, Tinder Search demuestra ser una metaheurística con características distintivas. Su precisión, aunque no es la mejor del grupo, se mantiene consistente al aumentar el tamaño del problema. Su tiempo de ejecución es competitivo y escala bien.
