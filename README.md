@@ -210,7 +210,7 @@ En cuanto al tiempo de ejecución, Tinder Search muestra una escalabilidad favor
 
 Cabria destacar que, aunque la metaheurística de Tinder Search estuvo inspirada en algunos elementos de los algoritmos genéticos, su desempeño en términos de precisión y tiempo de ejecución logra superar a los algoritmos genéticos en ambos casos, lo que sugiere que la implementación de Tinder Search tiene características distintivas que la hacen una opción particularmente interesante para este problema.
 
-Tinder Search se sitúa en una posición única entre las metaheurísticas analizadas. En términos de precisión, sus resultados son menos favorables que la mayoría de las implementaciones de metaheuristicas. Sin embargo, supera consistentemente a LS con solución inicial aleatoria.
+Tinder Search se sitúa en una posición única entre las metaheurísticas analizadas. En términos de precisión, sus resultados son menos favorables que la mayoría de las implementaciones de metaheuristicas. Sin embargo, supera consistentemente a los algoritmos genéticos.
 
 En cuanto al tiempo de ejecución, Tinder Search ocupa una posición intermedia. Es más rápido que las ejecuciones de las implementaciones de las metaheurísticas como Algoritmos Genéticos y algunas ejecuciones de Optimización de Colonia de Hormigas, pero más lento que Grasp, siendo este la mejor metaheuritica implementada para nuestro problema.
 
