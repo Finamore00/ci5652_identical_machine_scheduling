@@ -192,16 +192,16 @@ Aquí tienes una versión más lineal del texto en formato markdown:
 ## 📌 Conclusiones
 
 - **Según el promedio de diferencias entre la solución óptima y la solución obtenida**:
-    - **Para n = 20** Para n=20, Tinder Search muestra resultados en un rango de 99.4897 a 101.2915 en términos de diferencia con la solución óptima. Estos valores son significativamente más altos que la mayoría de las otras metaheurísticas, con excepción de la búsqueda local con solución inicial aleatoria (LS) que tiene un valor de 117.2631 y las ejecuciones de los algoritmos genéticos los cuales tienen valores de 114.96 a 154.84. 
+    - **Para n = 20** Tinder Search muestra resultados en un rango de 99.4897 a 101.2915 en términos de diferencia con la solución óptima. Estos valores son significativamente más altos que la mayoría de las otras metaheurísticas, con excepción de la búsqueda local con solución inicial aleatoria (LS) que tiene un valor de 117.2631 y las ejecuciones de los algoritmos genéticos los cuales tienen valores de 114.96 a 154.84. 
 
-    - **Para n = 25** Al aumentar a n=25, el rendimiento de Tinder Search en términos de precisión se deteriora , con valores que oscilan entre 188.7413 y 191.2044. Es notable que, a pesar de este empeoramiento, Tinder Search mantiene una posición relativa similar respecto a las otras metaheurísticas, superando a las ejecuciones de los algoritmos genéticos en términos de precisión.
+    - **Para n = 25** El rendimiento de Tinder Search en términos de precisión se deteriora , con valores que oscilan entre 188.7413 y 191.2044. Es notable que, a pesar de este empeoramiento, Tinder Search mantiene una posición relativa similar respecto a las otras metaheurísticas, superando a las ejecuciones de los algoritmos genéticos en términos de precisión.
 
  Tinder Search se posiciona como una opción poco atractiva en términos de precisión, solo superando a la búsqueda local con solución inicial aleatoria (LS) y a los algoritmos genéticos, pero quedando por detrás de las otras metaheurísticas evaluadas, siendo Grasp el algoritmo más preciso en ambos casos alcanzando valores de 1.20 y 2.54 para n=20 y n=25 respectivamente en términos de diferencia con la solución óptima para su mejor ejecución.
 
 - **Según el tiempo promedio de ejecución**
-    - **Para n=20:** En cuanto al tiempo de ejecución, Tinder Search muestra un comportamiento interesante. Para n=20, sus tiempos varían entre 3.8923 y 9.7619 segundos, posicionándolo en un rango medio-alto en comparación con otras metaheurísticas. Algunos algoritmos como GA y ACO muestran tiempos significativamente más altos, mientras que otros como Grasp y SS son considerablemente más rápidos. 
+    - **Para n=20:** En cuanto al tiempo de ejecución, Tinder Search muestra un comportamiento interesante. Sus tiempos varían entre 3.8923 y 9.7619 segundos, posicionándolo en un rango medio-alto en comparación con otras metaheurísticas. Algunos algoritmos como la implementación de algoritmos genéticos y Optimización de Colonia de Hormigas muestran tiempos significativamente más altos, mientras que otros como Grasp y Búsqueda Dispersa son considerablemente más rápidos. 
         
-    - **Para n=25:** Para n=25, los tiempos de ejecución de Tinder Search oscilan entre 4.7564 y 9.4350 segundos. Es notable que estos tiempos no aumentan drásticamente en comparación con n=20, lo que sugiere una buena escalabilidad en términos de tiempo de cómputo. 
+    - **Para n=25:** Los tiempos de ejecución de Tinder Search oscilan entre 4.7564 y 9.4350 segundos. Es notable que estos tiempos no aumentan drásticamente en comparación con n=20, lo que sugiere una buena escalabilidad en términos de tiempo de cómputo. 
 
 
 La escalabilidad de Tinder Search presenta un panorama mixto. En términos de precisión, hay un deterioro notable al pasar de n=20 a n=25, con la diferencia respecto a la solución óptima casi duplicándose. Sin embargo, este comportamiento es común en la mayoría de las metaheurísticas analizadas.
@@ -212,6 +212,6 @@ Cabria destacar que, aunque la metaheurística de Tinder Search estuvo inspirada
 
 Tinder Search se sitúa en una posición única entre las metaheurísticas analizadas. En términos de precisión, sus resultados son menos favorables que la mayoría de las implementaciones de metaheuristicas. Sin embargo, supera consistentemente a LS con solución inicial aleatoria.
 
-En cuanto al tiempo de ejecución, Tinder Search ocupa una posición intermedia. Es más rápido que algoritmos como GA y algunas implementaciones de ACO, pero más lento que Grasp, siendo este la mejor metaheuritica implementada para nuestro problema.
+En cuanto al tiempo de ejecución, Tinder Search ocupa una posición intermedia. Es más rápido que las ejecuciones de las implementaciones de las metaheurísticas como Algoritmos Genéticos y algunas ejecuciones de Optimización de Colonia de Hormigas, pero más lento que Grasp, siendo este la mejor metaheuritica implementada para nuestro problema.
 
 Por lo tanto, Tinder Search demuestra ser una metaheurística con características distintivas. Su precisión, aunque no es la mejor del grupo, se mantiene consistente al aumentar el tamaño del problema. Su tiempo de ejecución es competitivo y escala bien.
